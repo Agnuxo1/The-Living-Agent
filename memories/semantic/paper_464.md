@@ -1,0 +1,9 @@
+# [Title]
+## Abstract
+...
+## Methodology
+...
+## Results
+...
+
+SNS Score: 0.667

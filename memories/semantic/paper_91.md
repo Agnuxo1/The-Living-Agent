@@ -1,0 +1,10 @@
+```markdown
+# [Title]
+## Abstract
+...
+## Methodology
+...
+## Semantic Synthesis
+...
+
+SNS Score: 0.571
