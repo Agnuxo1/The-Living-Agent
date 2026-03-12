@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -44,6 +45,10 @@ class Archive:
     entries: list[dict]
 
 
+def utc_now() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
 class Encoder:
     def __init__(self, model_name: str):
         SentenceTransformer = require_sentence_transformers()
@@ -67,6 +72,13 @@ def archive_paths(archive_dir: Path) -> tuple[Path, Path, Path]:
         archive_dir / "paper_embeddings.json",
         archive_dir / "sns_model_info.json",
     )
+
+
+def load_model_info(archive_dir: Path) -> dict | None:
+    _, _, model_info_path = archive_paths(archive_dir)
+    if not model_info_path.exists():
+        return None
+    return json.loads(model_info_path.read_text(encoding="utf-8"))
 
 
 def load_archive(archive_dir: Path) -> Archive:
@@ -96,12 +108,33 @@ def save_archive(
             "embedding_dim": embedding_dim,
             "normalized": True,
             "archive_count": len(archive.entries),
+            "updated_at": utc_now(),
         },
     )
 
 
 def prepare_text(text: str) -> str:
     return normalize_whitespace(text)
+
+
+def ensure_archive_compatibility(archive_dir: Path, encoder: Encoder) -> None:
+    model_info = load_model_info(archive_dir)
+    if not model_info:
+        return
+    archived_model = model_info.get("model_name")
+    archived_dim = int(model_info.get("embedding_dim", 0) or 0)
+    if archived_model and archived_model != encoder.model_name:
+        raise SystemExit(
+            "archive model mismatch: "
+            f"{archive_dir} was built with {archived_model}, not {encoder.model_name}"
+        )
+    if archived_dim and archived_dim != int(encoder.model.get_sentence_embedding_dimension()):
+        raise SystemExit(
+            "archive embedding dimension mismatch: "
+            f"{archive_dir} stores {archived_dim}, "
+            f"but {encoder.model_name} returns "
+            f"{encoder.model.get_sentence_embedding_dimension()}"
+        )
 
 
 def score_text(
@@ -114,6 +147,7 @@ def score_text(
     metadata: dict | None = None,
 ) -> dict:
     cleaned = prepare_text(text)
+    ensure_archive_compatibility(archive_dir, encoder)
     archive = load_archive(archive_dir)
     embedding = encoder.encode([cleaned])[0]
     if len(archive.entries) == 0:
@@ -153,6 +187,26 @@ def score_text(
     }
 
 
+def calculate_sns(
+    paper_text: str,
+    archive_dir: str | Path,
+    window: int = DEFAULT_WINDOW,
+    *,
+    model_name: str = DEFAULT_MODEL,
+    encoder: Encoder | None = None,
+) -> float:
+    archive_root = Path(archive_dir)
+    local_encoder = encoder or Encoder(model_name)
+    payload = score_text(
+        paper_text,
+        archive_dir=archive_root,
+        encoder=local_encoder,
+        window=window,
+        append=False,
+    )
+    return float(payload["sns"])
+
+
 def bootstrap_archive(
     source_dir: Path,
     *,
@@ -183,6 +237,8 @@ def bootstrap_archive(
         "accepted_count": len(accepted),
         "skipped_count": len(skipped),
         "archive_count": len(archive.entries),
+        "window": window,
+        "model_name": encoder.model_name,
     }
 
 

@@ -88,6 +88,23 @@ It emits:
 The vendored fallback copy under `heyting_bridge/living_agent_grid_builder.py` stays in sync
 with the upstream Heyting script for standalone deployments.
 
+The embedding SNS tool lives at:
+
+```bash
+$HEYTING_ROOT/scripts/living_agent_sns_embeddings.py
+```
+
+It maintains:
+- `artifacts/living_agent/paper_embeddings.npz`
+- `artifacts/living_agent/paper_embeddings.json`
+- `artifacts/living_agent/sns_model_info.json`
+
+Bootstrap the rolling archive from existing papers with:
+
+```bash
+$HEYTING_ROOT/scripts/living_agent_sns_embeddings.py bootstrap --json
+```
+
 ## 📁 Repository Structure
 ```
 agent_v2_production.py   ← Verified-grid execution engine (v3.0)
