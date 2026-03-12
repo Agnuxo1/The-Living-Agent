@@ -55,28 +55,6 @@ def dedup(log_path: Path, paper_hash: str) -> bool:
     return False
 
 
-def agenthalo_status(nucleusdb_root: Path) -> dict:
-    cmd = [
-        "cargo",
-        "run",
-        "--manifest-path",
-        str(nucleusdb_root / "Cargo.toml"),
-        "--bin",
-        "agenthalo",
-        "--",
-        "p2pclaw",
-        "bridge",
-        "status",
-    ]
-    proc = run(cmd, cwd=nucleusdb_root, check=False)
-    return {
-        "command": cmd,
-        "returncode": proc.returncode,
-        "stdout": proc.stdout.strip(),
-        "stderr": proc.stderr.strip(),
-    }
-
-
 def publish_via_agenthalo(
     *,
     nucleusdb_root: Path,
@@ -88,7 +66,6 @@ def publish_via_agenthalo(
     with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False, encoding="utf-8") as tmp:
         tmp.write(paper_text)
         temp_path = Path(tmp.name)
-    status = agenthalo_status(nucleusdb_root)
     cmd = [
         "cargo",
         "run",
@@ -115,11 +92,11 @@ def publish_via_agenthalo(
             parsed = json.loads(proc.stdout)
         except json.JSONDecodeError:
             parsed = None
-    if status["returncode"] != 0:
+    if proc.returncode != 0:
         return {
             "status": "pending_publication",
             "surface": "agenthalo-bridge",
-            "status_check": status,
+            "bridge_response": parsed,
             "publish_command": cmd,
             "publish_returncode": proc.returncode,
             "publish_stdout": proc.stdout.strip(),
@@ -131,14 +108,12 @@ def publish_via_agenthalo(
         return {
             "status": "rejected",
             "surface": "agenthalo-bridge",
-            "status_check": status,
             "bridge_response": parsed,
         }
     if dry_run or not live:
         return {
             "status": "dry_run",
             "surface": "agenthalo-bridge",
-            "status_check": status,
             "bridge_response": parsed,
         }
     publish_result = (bridge_result or {}).get("publish_result") if isinstance(bridge_result, dict) else None
@@ -149,7 +124,6 @@ def publish_via_agenthalo(
             else ("published" if proc.returncode == 0 else "pending_publication")
         ),
         "surface": "agenthalo-bridge",
-        "status_check": status,
         "bridge_response": parsed,
         "publish_command": cmd,
         "publish_returncode": proc.returncode,

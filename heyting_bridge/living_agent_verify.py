@@ -27,6 +27,7 @@ from living_agent_common import (
 from living_agent_sns_embeddings import Encoder, score_text
 
 ensure_module_runtime("sentence_transformers")
+SCHEMA_VERSION = "living-agent-verify-v1"
 TYPECHECK_TIMEOUT_SECS = int(os.environ.get("HEYTING_TYPECHECK_TIMEOUT_SECS", "45"))
 
 
@@ -245,15 +246,33 @@ def verify_paper(
     semantic = semantic_result(text, archive_dir=archive_dir, grid_root=grid_root, encoder=encoder)
     formal = formal_result(text)
     passed = structural.passed and semantic.passed and formal.passed
+    generated_at = utc_now()
+    composite_score = round(min(structural.score, semantic.score, formal.score), 4)
+    governing_tier = min(
+        (
+            ("structural", structural.score),
+            ("semantic", semantic.score),
+            ("formal", formal.score),
+        ),
+        key=lambda item: item[1],
+    )[0]
     report = {
         "paper_sha256": sha256_text(text),
-        "generated_at": utc_now(),
+        "generated_at": generated_at,
+        "schema_version": SCHEMA_VERSION,
         "structural": asdict(structural),
         "semantic": asdict(semantic),
         "formal": asdict(formal),
         "composite": {
-            "score": round(min(structural.score, semantic.score, formal.score), 4),
+            "score": composite_score,
             "passed": passed,
+            "details": {
+                "governing_tier": governing_tier,
+                "generated_at": generated_at,
+                "structural_passed": structural.passed,
+                "semantic_passed": semantic.passed,
+                "formal_passed": formal.passed,
+            },
         },
     }
     return report

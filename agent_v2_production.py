@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import hashlib
 import random
 import requests
 import subprocess
@@ -35,6 +36,8 @@ HEYTING_PYTHON = os.environ.get(
 if not os.path.exists(HEYTING_PYTHON):
     HEYTING_PYTHON = sys.executable
 
+_WARNED_BRIDGE_SCRIPTS = set()
+
 def load_file(filepath):
     path = os.path.join(BASE_DIR, filepath.replace('./', ''))
     if not os.path.exists(path):
@@ -53,12 +56,46 @@ def estimate_tokens(text):
     return int(len(text) * APPROX_TOKENS_PER_CHAR)
 
 
+def file_sha256(path):
+    digest = hashlib.sha256()
+    with open(path, "rb") as handle:
+        for chunk in iter(lambda: handle.read(65536), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def warn_bridge_copy_drift(script_name, upstream_script_path, local_script_path):
+    if script_name in _WARNED_BRIDGE_SCRIPTS:
+        return
+    if not (os.path.exists(upstream_script_path) and os.path.exists(local_script_path)):
+        return
+    try:
+        if file_sha256(upstream_script_path) == file_sha256(local_script_path):
+            return
+    except OSError as exc:
+        print(f"⚠️ Unable to compare bridge script copies for {script_name}: {exc}", file=sys.stderr)
+        _WARNED_BRIDGE_SCRIPTS.add(script_name)
+        return
+    print(
+        f"⚠️ Local bridge copy is stale for {script_name}; using upstream script at {upstream_script_path}",
+        file=sys.stderr,
+    )
+    _WARNED_BRIDGE_SCRIPTS.add(script_name)
+
+
 def run_heyting_json(script_name, args):
     upstream_script_path = os.path.join(HEYTING_ROOT, "scripts", script_name)
     local_script_path = os.path.join(LOCAL_BRIDGE_DIR, script_name)
     if os.path.exists(upstream_script_path):
+        warn_bridge_copy_drift(script_name, upstream_script_path, local_script_path)
         script_path = upstream_script_path
     elif os.path.exists(local_script_path):
+        if script_name not in _WARNED_BRIDGE_SCRIPTS:
+            print(
+                f"⚠️ Falling back to bundled bridge copy for {script_name}; upstream Heyting script not found.",
+                file=sys.stderr,
+            )
+            _WARNED_BRIDGE_SCRIPTS.add(script_name)
         script_path = local_script_path
     else:
         raise RuntimeError(f"missing bridge script: {script_name}")
