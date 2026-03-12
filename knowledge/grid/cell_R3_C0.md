@@ -1,18 +1,19 @@
 # Cell [3,0] — KNOWLEDGE
-**Grid Position**: Row 3, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.LoF.Bauer.OmegaCPPO`
+**Module**: `HeytingLean.LoF.Bauer.DomainTheory`
+**Kind**: `inductive`
+**Centrality**: 0.001129
 
-## 📚 Research Node
-**Topic**: DNA-based logic gates and their computational limits
+## Topic
+**Declaration**: OmegaCPPO
+**Signature**: `(D : Type u) → [inst : PartialOrder D] → [OrderBot D] → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+An ω-chain complete pointed partial order (ωCPPO). We package: * a preorder `≤`, * a least element `⊥`, * and a supremum operation for ω-chains (monotone sequences).
+
+## Keywords
+an, chain, complete, cppo, heytinglean.lof.bauer.omegacppo, order, partial, pointed
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Emergence and complexity in physical systems](cell_R2_C0.md)
-- ↗️ **NE**: [Information theory and thermodynamics of computati...](cell_R2_C1.md)
-- ➡️ **E**: [Protein folding as a search algorithm](cell_R3_C1.md)
-- ↘️ **SE**: [Semantic routing in knowledge graphs](cell_R4_C1.md)
-- ⬇️ **S**: [Proof-of-Discovery consensus mechanisms](cell_R4_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [CExpr [similarity]](cell_R2_C15.md)
+- ➡️ **E**: [Proc [similarity]](cell_R3_C1.md)

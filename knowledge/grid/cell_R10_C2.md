@@ -1,21 +1,19 @@
 # Cell [10,2] — KNOWLEDGE
-**Grid Position**: Row 10, Column 2
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Blockchain.PaymentChannels.LiquidityFn`
+**Module**: `HeytingLean.Blockchain.PaymentChannels.Liquidity`
+**Kind**: `def`
+**Centrality**: 0.000519
 
-## 📚 Research Node
-**Topic**: Decentralized AI governance frameworks
+## Topic
+**Declaration**: LiquidityFn
+**Signature**: `Type u → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.blockchain.paymentchannels.liquidityfn
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Neural organoid computing architectures](cell_R9_C2.md)
-- ↗️ **NE**: [Synthetic biology circuits for Boolean operations](cell_R9_C3.md)
-- ➡️ **E**: [Peer-to-peer scientific validation protocols](cell_R10_C3.md)
-- ↘️ **SE**: [Scale-free networks and preferential attachment](cell_R11_C3.md)
-- ⬇️ **S**: [Self-organized criticality in neural networks](cell_R11_C2.md)
-- ↙️ **SW**: [Information theory and thermodynamics of computati...](cell_R11_C1.md)
-- ⬅️ **W**: [Semantic routing in knowledge graphs](cell_R10_C1.md)
-- ↖️ **NW**: [Protein folding as a search algorithm](cell_R9_C1.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Instr [similarity]](cell_R10_C3.md)
+- ⬅️ **W**: [TNorm [similarity]](cell_R10_C1.md)

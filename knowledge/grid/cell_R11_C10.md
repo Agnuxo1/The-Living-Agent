@@ -1,21 +1,21 @@
 # Cell [11,10] — KNOWLEDGE
-**Grid Position**: Row 11, Column 10
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Numbers.Surreal.LoFProgram.Op`
+**Module**: `HeytingLean.Numbers.Surreal.LoFProgram`
+**Kind**: `inductive`
+**Centrality**: 0.000485
 
-## 📚 Research Node
-**Topic**: Neuromorphic hardware: memristors and beyond
+## Topic
+**Declaration**: Op
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A flat instruction set for constructing pre-games.
+
+## Keywords
+a, constructing, flat, for, heytinglean.numbers.surreal.lofprogram.op, instruction, pre-games., set
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Meta-learning and learning-to-learn paradigms](cell_R10_C10.md)
-- ↗️ **NE**: [Embodied cognition and situated AI](cell_R10_C11.md)
-- ➡️ **E**: [Evolutionary strategies for neural architecture se...](cell_R11_C11.md)
-- ↘️ **SE**: [Quantum error correction via surface codes](cell_R12_C11.md)
-- ⬇️ **S**: [Variational quantum eigensolvers for molecular sim...](cell_R12_C10.md)
-- ↙️ **SW**: [Quantum coherence in biological photosynthesis](cell_R12_C9.md)
-- ⬅️ **W**: [Morphogenetic computing: Turing patterns as progra...](cell_R11_C9.md)
-- ↖️ **NW**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R10_C9.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Brane [similarity]](cell_R11_C11.md)
+- ↘️ **SE**: [SpinVector [similarity]](cell_R12_C14.md)
+- ⬅️ **W**: [PDGraph [similarity]](cell_R11_C9.md)
+- ↖️ **NW**: [MeetQuantale [similarity]](cell_R10_C7.md)

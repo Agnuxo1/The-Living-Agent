@@ -1,19 +1,20 @@
 # Cell [15,11] — SYNTHESIS
-**Grid Position**: Row 15, Column 11
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.LoF.IntReentry`
+**Module**: `HeytingLean.LoF.IntReentry`
+**Kind**: `inductive`
+**Centrality**: 0.000571
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Quantum error correction via surface codes
+## Topic
+**Declaration**: IntReentry
+**Signature**: `structure IntReentry (α : Type u) [PrimaryAlgebra α] where nucleus : IntNucleus α`
 
-After synthesis, compress your trace and re-enter at Row 0.
+Interior-style re-entry packaging.
+
+## Keywords
+interior, packaging, reentry, wrapper
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Evolutionary strategies for neural architecture se...](cell_R14_C11.md)
-- ↗️ **NE**: [Reservoir computing with physical substrates](cell_R14_C12.md)
-- ➡️ **E**: [Quantum reservoir computing with spin chains](cell_R15_C12.md)
-- ⬅️ **W**: [Variational quantum eigensolvers for molecular sim...](cell_R15_C10.md)
-- ↖️ **NW**: [Neuromorphic hardware: memristors and beyond](cell_R14_C10.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Protocol [similarity]](cell_R15_C12.md)
+- ⬅️ **W**: [Selector [similarity]](cell_R15_C10.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

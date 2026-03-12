@@ -1,21 +1,23 @@
 # Cell [12,7] — KNOWLEDGE
-**Grid Position**: Row 12, Column 7
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Noneism.Tests.MPEx.W`
+**Module**: `HeytingLean.Noneism.Tests.ModalPriest`
+**Kind**: `inductive`
+**Centrality**: 0.000469
 
-## 📚 Research Node
-**Topic**: Epigenetic memory in cellular computing
+## Topic
+**Declaration**: W
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Inductive type W. Use when performing case analysis or recursion over this type.
+
+## Keywords
+case, heytinglean.noneism.tests.mpex.w, inductive, performing, type, use, w., when
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Renormalization group and multi-scale physics](cell_R11_C7.md)
-- ↗️ **NE**: [Bio-inspired optimization: ant colony and swarm in...](cell_R11_C8.md)
-- ➡️ **E**: [Topological qubits and fault-tolerant quantum comp...](cell_R12_C8.md)
-- ↘️ **SE**: [Autopoietic systems and self-organization](cell_R13_C8.md)
-- ⬇️ **S**: [Merkle DAG structures for versioned knowledge](cell_R13_C7.md)
-- ↙️ **SW**: [Knowledge graph embedding and link prediction](cell_R13_C6.md)
-- ⬅️ **W**: [Enzyme cascades as analog signal processors](cell_R12_C6.md)
-- ↖️ **NW**: [Cellular automata and computational universality](cell_R11_C6.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [Fun [similarity]](cell_R4_C7.md)
+- ➡️ **E**: [Rule [similarity]](cell_R12_C10.md)
+- ↘️ **SE**: [V3 [similarity]](cell_R12_C6.md)
+- ⬇️ **S**: [QubitCtor [similarity]](cell_R12_C8.md)
+- ⬅️ **W**: [Atom [similarity]](cell_R12_C2.md)
+- ↖️ **NW**: [Comb [similarity]](cell_R0_C1.md)

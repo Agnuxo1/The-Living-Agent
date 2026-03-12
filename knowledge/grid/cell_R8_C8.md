@@ -1,22 +1,19 @@
-# Cell [8,8] — MUTATION_CHAMBER
-**Grid Position**: Row 8, Column 8
-**Type**: MUTATION_CHAMBER
+# Cell [8,8] — KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.BridgeFlags`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `inductive`
+**Centrality**: 0.000580
 
-## 🧬 Mutation Chamber
-This is a special node. Analyze your recent performance.
-If your last 3 SNS scores were below 0.5, you should modify your research strategy.
-**Mutation Topic**: Bio-inspired optimization: ant colony and swarm intelligence
+## Topic
+**Declaration**: BridgeFlags
+**Signature**: `Type`
 
-[ACQUIRED: agent reads this node → adds 'self_mutation' to COMPETENCY_MAP]
+Feature toggles controlling which enriched bridge carriers are selected.
+
+## Keywords
+bridge, carriers, controlling, enriched, feature, heytinglean.contracts.examples.bridgeflags, toggles, which
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Autopoietic systems and self-organization](cell_R7_C8.md)
-- ↗️ **NE**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R7_C9.md)
-- ➡️ **E**: [Morphogenetic computing: Turing patterns as progra...](cell_R8_C9.md)
-- ↘️ **SE**: [Quantum coherence in biological photosynthesis](cell_R9_C9.md)
-- ⬇️ **S**: [Topological qubits and fault-tolerant quantum comp...](cell_R9_C8.md)
-- ↙️ **SW**: [Epigenetic memory in cellular computing](cell_R9_C7.md)
-- ⬅️ **W**: [Renormalization group and multi-scale physics](cell_R8_C7.md)
-- ↖️ **NW**: [Merkle DAG structures for versioned knowledge](cell_R7_C7.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [BB84Ctor [similarity]](cell_R8_C9.md)
+- ⬅️ **W**: [State [similarity]](cell_R8_C7.md)

@@ -1,18 +1,19 @@
 # Cell [13,15] — KNOWLEDGE
-**Grid Position**: Row 13, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Physics.String.Generator`
+**Module**: `HeytingLean.Physics.String.WorldsheetCobordism`
+**Kind**: `inductive`
+**Centrality**: 0.000434
 
-## 📚 Research Node
-**Topic**: Skill acquisition and procedural knowledge formation
+## Topic
+**Declaration**: Generator
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.physics.string.generator
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum machine learning kernel methods](cell_R12_C15.md)
-- ⬇️ **S**: [Synthetic ecosystems for emergent intelligence](cell_R14_C15.md)
-- ↙️ **SW**: [Molecular communication and nanonetworks](cell_R14_C14.md)
-- ⬅️ **W**: [Intrinsic motivation and curiosity-driven explorat...](cell_R13_C14.md)
-- ↖️ **NW**: [Entanglement-assisted classical communication](cell_R12_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↙️ **SW**: [Subshell [similarity]](cell_R14_C0.md)
+- ⬅️ **W**: [TotalStore [similarity]](cell_R13_C14.md)

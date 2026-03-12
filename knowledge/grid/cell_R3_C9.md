@@ -1,21 +1,19 @@
 # Cell [3,9] — KNOWLEDGE
-**Grid Position**: Row 3, Column 9
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.Lattice.GadgetSIS.Params`
+**Module**: `HeytingLean.Crypto.Lattice.FaithfulReductions`
+**Kind**: `inductive`
+**Centrality**: 0.000992
 
-## 📚 Research Node
-**Topic**: Quantum coherence in biological photosynthesis
+## Topic
+**Declaration**: Params
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.lattice.gadgetsis.params
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Morphogenetic computing: Turing patterns as progra...](cell_R2_C9.md)
-- ↗️ **NE**: [Neuromorphic hardware: memristors and beyond](cell_R2_C10.md)
-- ➡️ **E**: [Variational quantum eigensolvers for molecular sim...](cell_R3_C10.md)
-- ↘️ **SE**: [Meta-learning and learning-to-learn paradigms](cell_R4_C10.md)
-- ⬇️ **S**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R4_C9.md)
-- ↙️ **SW**: [Autopoietic systems and self-organization](cell_R4_C8.md)
-- ⬅️ **W**: [Topological qubits and fault-tolerant quantum comp...](cell_R3_C8.md)
-- ↖️ **NW**: [Bio-inspired optimization: ant colony and swarm in...](cell_R2_C8.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Interval [similarity]](cell_R3_C10.md)
+- ⬅️ **W**: [LoFState [similarity]](cell_R3_C8.md)

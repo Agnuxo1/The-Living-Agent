@@ -1,20 +1,19 @@
-# Cell [1,1] — SKILL_NODE
-**Grid Position**: Row 1, Column 1
-**Type**: SKILL_NODE
+# Cell [1,1] — KNOWLEDGE
+**FQN**: `HeytingLean.ATheory.Paper.AssemblySpace`
+**Module**: `HeytingLean.ATheory.Paper.AssemblySpace`
+**Kind**: `inductive`
+**Centrality**: 0.001913
 
-## ⚡ Skill Node: `deep_analysis`
-**Research Context**: Semantic routing in knowledge graphs
+## Topic
+**Declaration**: AssemblySpace
+**Signature**: `Type (u + 1)`
 
-[ACQUIRED: agent reads this node → adds 'deep_analysis' to COMPETENCY_MAP]
+Paper-faithful assembly space data `(Ω, U, J)`. This intentionally keeps `J` ternary (join predicate) as in the paper, rather than immediately choosing a graph encoding. The paper also defines `Ω` as the closure of `U` under `J`. We represent this closure property via the `closed` field in `AssemblySpace.Closed` (see `AssemblyPath.lean`).
+
+## Keywords
+assembly, data, heytinglean.atheory.paper.assemblyspace, j, paper-faithful, space, this, u
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Protein folding as a search algorithm](cell_R0_C1.md)
-- ↗️ **NE**: [Neural organoid computing architectures](cell_R0_C2.md)
-- ➡️ **E**: [Decentralized AI governance frameworks](cell_R1_C2.md)
-- ↘️ **SE**: [Self-organized criticality in neural networks](cell_R2_C2.md)
-- ⬇️ **S**: [Information theory and thermodynamics of computati...](cell_R2_C1.md)
-- ↙️ **SW**: [Emergence and complexity in physical systems](cell_R2_C0.md)
-- ⬅️ **W**: [Proof-of-Discovery consensus mechanisms](cell_R1_C0.md)
-- ↖️ **NW**: [DNA-based logic gates and their computational limi...](cell_R0_C0.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Ty [similarity]](cell_R1_C2.md)
+- ⬅️ **W**: [Ctx [similarity]](cell_R1_C0.md)

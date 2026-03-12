@@ -1,21 +1,19 @@
 # Cell [5,7] — KNOWLEDGE
-**Grid Position**: Row 5, Column 7
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Constraint`
+**Module**: `HeytingLean.Crypto.ZK.R1CS`
+**Kind**: `inductive`
+**Centrality**: 0.000748
 
-## 📚 Research Node
-**Topic**: Renormalization group and multi-scale physics
+## Topic
+**Declaration**: Constraint
+**Signature**: `structure Constraint where A : LinComb; B : LinComb; C : LinComb`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A single R1CS constraint (A, B, C) meaning (A*x) * (B*x) = (C*x).
+
+## Keywords
+constraint, gate, multiplication, quadratic, r1cs
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Merkle DAG structures for versioned knowledge](cell_R4_C7.md)
-- ↗️ **NE**: [Autopoietic systems and self-organization](cell_R4_C8.md)
-- ➡️ **E**: [Bio-inspired optimization: ant colony and swarm in...](cell_R5_C8.md)
-- ↘️ **SE**: [Topological qubits and fault-tolerant quantum comp...](cell_R6_C8.md)
-- ⬇️ **S**: [Epigenetic memory in cellular computing](cell_R6_C7.md)
-- ↙️ **SW**: [Enzyme cascades as analog signal processors](cell_R6_C6.md)
-- ⬅️ **W**: [Cellular automata and computational universality](cell_R5_C6.md)
-- ↖️ **NW**: [Knowledge graph embedding and link prediction](cell_R4_C6.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Builder [similarity]](cell_R5_C8.md)
+- ⬅️ **W**: [Relation [similarity]](cell_R5_C6.md)

@@ -1,18 +1,19 @@
 # Cell [9,15] — KNOWLEDGE
-**Grid Position**: Row 9, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.Hash.SHA256Primitives.Word32`
+**Module**: `HeytingLean.Crypto.Hash.SHA256Primitives`
+**Kind**: `def`
+**Centrality**: 0.000530
 
-## 📚 Research Node
-**Topic**: Quantum machine learning kernel methods
+## Topic
+**Declaration**: Word32
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A 32-bit word used in cryptographic hash functions like SHA-256. It is a fundamental data type in the implementation of SHA-256 and other cryptographic algorithms.
+
+## Keywords
+32-bit word, SHA-256, computer_science, cryptographic_algorithms, cryptographic_hash_function, cryptographic_hash_functions, cryptographic_primitives, cryptography, data_type
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic ecosystems for emergent intelligence](cell_R8_C15.md)
-- ⬇️ **S**: [Skill acquisition and procedural knowledge formati...](cell_R10_C15.md)
-- ↙️ **SW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R10_C14.md)
-- ⬅️ **W**: [Entanglement-assisted classical communication](cell_R9_C14.md)
-- ↖️ **NW**: [Molecular communication and nanonetworks](cell_R8_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↙️ **SW**: [RModal [similarity]](cell_R10_C0.md)
+- ⬅️ **W**: [HasMetric [similarity]](cell_R9_C14.md)

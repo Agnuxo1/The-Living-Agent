@@ -1,21 +1,20 @@
 # Cell [13,11] — KNOWLEDGE
-**Grid Position**: Row 13, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.ATheory.Rules`
+**Module**: `HeytingLean.ATheory.AssemblyCore`
+**Kind**: `inductive`
+**Centrality**: 0.000435
 
-## 📚 Research Node
-**Topic**: Embodied cognition and situated AI
+## Topic
+**Declaration**: Rules
+**Signature**: `structure Rules (α : Type u) where compose : α → α → Finset α`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Binary assembly rule set returning the admissible composites for two parts.
+
+## Keywords
+assembly, binary, given, heytinglean.atheory.rules, parts, rule, set, two
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum error correction via surface codes](cell_R12_C11.md)
-- ↗️ **NE**: [Quantum reservoir computing with spin chains](cell_R12_C12.md)
-- ➡️ **E**: [Compositional generalization in neural networks](cell_R13_C12.md)
-- ↘️ **SE**: [Reservoir computing with physical substrates](cell_R14_C12.md)
-- ⬇️ **S**: [Evolutionary strategies for neural architecture se...](cell_R14_C11.md)
-- ↙️ **SW**: [Neuromorphic hardware: memristors and beyond](cell_R14_C10.md)
-- ⬅️ **W**: [Meta-learning and learning-to-learn paradigms](cell_R13_C10.md)
-- ↖️ **NW**: [Variational quantum eigensolvers for molecular sim...](cell_R12_C10.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Part [similarity]](cell_R13_C12.md)
+- ⬅️ **W**: [SKYModel [similarity]](cell_R13_C10.md)
+- ↖️ **NW**: [Obj [similarity]](cell_R1_C8.md)

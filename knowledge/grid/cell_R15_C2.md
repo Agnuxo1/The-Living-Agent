@@ -1,19 +1,20 @@
 # Cell [15,2] — SYNTHESIS
-**Grid Position**: Row 15, Column 2
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.Chem.PeriodicTable.symbol`
+**Module**: `HeytingLean.Chem.PeriodicTable.CIAAW2024`
+**Kind**: `def`
+**Centrality**: 0.001191
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Neural organoid computing architectures
+## Topic
+**Declaration**: symbol
+**Signature**: `HeytingLean.Chem.PeriodicTable.Element → String`
 
-After synthesis, compress your trace and re-enter at Row 0.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.chem.periodictable.symbol
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Self-organized criticality in neural networks](cell_R14_C2.md)
-- ↗️ **NE**: [Scale-free networks and preferential attachment](cell_R14_C3.md)
-- ➡️ **E**: [Synthetic biology circuits for Boolean operations](cell_R15_C3.md)
-- ⬅️ **W**: [Protein folding as a search algorithm](cell_R15_C1.md)
-- ↖️ **NW**: [Information theory and thermodynamics of computati...](cell_R14_C1.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [Element [dependency]](cell_R0_C2.md)
+- ➡️ **E**: [Completion2Path [similarity]](cell_R15_C3.md)
+- ⬅️ **W**: [name [similarity]](cell_R15_C1.md)

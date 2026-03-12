@@ -1,21 +1,20 @@
 # Cell [9,14] — KNOWLEDGE
-**Grid Position**: Row 9, Column 14
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Chem.QED.HasMetric`
+**Module**: `HeytingLean.Chem.QED.Minkowski`
+**Kind**: `inductive`
+**Centrality**: 0.000530
 
-## 📚 Research Node
-**Topic**: Entanglement-assisted classical communication
+## Topic
+**Declaration**: HasMetric
+**Signature**: `Type u → Type u → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A minimal interface for a (possibly Minkowski) bilinear form `eta` on an index type `μ`.
+
+## Keywords
+a, for, heytinglean.chem.qed.hasmetric, interface, minimal, minkowski, possibly
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Molecular communication and nanonetworks](cell_R8_C14.md)
-- ↗️ **NE**: [Synthetic ecosystems for emergent intelligence](cell_R8_C15.md)
-- ➡️ **E**: [Quantum machine learning kernel methods](cell_R9_C15.md)
-- ↘️ **SE**: [Skill acquisition and procedural knowledge formati...](cell_R10_C15.md)
-- ⬇️ **S**: [Intrinsic motivation and curiosity-driven explorat...](cell_R10_C14.md)
-- ↙️ **SW**: [Neuro-symbolic integration approaches](cell_R10_C13.md)
-- ⬅️ **W**: [Quantum tunneling in enzyme catalysis](cell_R9_C13.md)
-- ↖️ **NW**: [DNA data storage and retrieval systems](cell_R8_C13.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Word32 [similarity]](cell_R9_C15.md)
+- ⬅️ **W**: [CStmt [similarity]](cell_R9_C13.md)
+- ↖️ **NW**: [LType [similarity]](cell_R8_C6.md)

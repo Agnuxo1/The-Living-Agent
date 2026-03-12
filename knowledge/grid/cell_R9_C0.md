@@ -1,18 +1,19 @@
 # Cell [9,0] — KNOWLEDGE
-**Grid Position**: Row 9, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Compiler.TensorLogic.Stage`
+**Module**: `HeytingLean.Compiler.TensorLogic.Regime`
+**Kind**: `inductive`
+**Centrality**: 0.000557
 
-## 📚 Research Node
-**Topic**: DNA-based logic gates and their computational limits
+## Topic
+**Declaration**: Stage
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Modal stages from the dial hierarchy. Mirrors `HeytingLean.Logic.Modal.Stage`.
+
+## Keywords
+dial, from, heytinglean.compiler.tensorlogic.stage, hierarchy., mirrors, modal, stages, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Emergence and complexity in physical systems](cell_R8_C0.md)
-- ↗️ **NE**: [Information theory and thermodynamics of computati...](cell_R8_C1.md)
-- ➡️ **E**: [Protein folding as a search algorithm](cell_R9_C1.md)
-- ↘️ **SE**: [Semantic routing in knowledge graphs](cell_R10_C1.md)
-- ⬇️ **S**: [Proof-of-Discovery consensus mechanisms](cell_R10_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Graph [similarity]](cell_R8_C15.md)
+- ➡️ **E**: [TropicalReal [similarity]](cell_R9_C1.md)

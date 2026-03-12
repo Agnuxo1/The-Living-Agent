@@ -1,21 +1,20 @@
 # Cell [1,11] — KNOWLEDGE
-**Grid Position**: Row 1, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.LoF.Comparison.CompSpec`
+**Module**: `HeytingLean.LoF.ComparisonNucleus.Spec`
+**Kind**: `inductive`
+**Centrality**: 0.001585
 
-## 📚 Research Node
-**Topic**: Embodied cognition and situated AI
+## Topic
+**Declaration**: CompSpec
+**Signature**: `(L : Type u) → (Ω : Type v) → [CompleteLattice L] → [CompleteLattice Ω] → Type (max u v)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Core data for the comparison nucleus: a Galois connection `f ⊣ g`.
+
+## Keywords
+a, comparison, core, data, for, heytinglean.lof.comparison.compspec, nucleus, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum error correction via surface codes](cell_R0_C11.md)
-- ↗️ **NE**: [Quantum reservoir computing with spin chains](cell_R0_C12.md)
-- ➡️ **E**: [Compositional generalization in neural networks](cell_R1_C12.md)
-- ↘️ **SE**: [Reservoir computing with physical substrates](cell_R2_C12.md)
-- ⬇️ **S**: [Evolutionary strategies for neural architecture se...](cell_R2_C11.md)
-- ↙️ **SW**: [Neuromorphic hardware: memristors and beyond](cell_R2_C10.md)
-- ⬅️ **W**: [Meta-learning and learning-to-learn paradigms](cell_R1_C10.md)
-- ↖️ **NW**: [Variational quantum eigensolvers for molecular sim...](cell_R0_C10.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [TaskCT [similarity]](cell_R1_C12.md)
+- ↙️ **SW**: [BitComparison [similarity]](cell_R13_C4.md)
+- ⬅️ **W**: [FormalSum [similarity]](cell_R1_C10.md)

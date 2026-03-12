@@ -1,21 +1,20 @@
 # Cell [2,7] — KNOWLEDGE
-**Grid Position**: Row 2, Column 7
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.IteratedVirtual.VirtualDoubleCategory`
+**Module**: `HeytingLean.IteratedVirtual.Basic`
+**Kind**: `inductive`
+**Centrality**: 0.001239
 
-## 📚 Research Node
-**Topic**: Renormalization group and multi-scale physics
+## Topic
+**Declaration**: VirtualDoubleCategory
+**Signature**: `Type (max (max (u + 1) (v + 1)) (w + 1))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A data-only virtual double category: * objects with a vertical category structure, * proarrows (`Horiz`), * multi-cells with a `Fin`-indexed horizontal source and `Fin`-indexed vertical frame. This matches the “string-of-proarrows → single-proarrow” shape used for virtual double categories.
+
+## Keywords
+a, category, data-only, double, heytinglean.iteratedvirtual.virtualdoublecategory, objects, virtual, with
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Merkle DAG structures for versioned knowledge](cell_R1_C7.md)
-- ↗️ **NE**: [Autopoietic systems and self-organization](cell_R1_C8.md)
-- ➡️ **E**: [Bio-inspired optimization: ant colony and swarm in...](cell_R2_C8.md)
-- ↘️ **SE**: [Topological qubits and fault-tolerant quantum comp...](cell_R3_C8.md)
-- ⬇️ **S**: [Epigenetic memory in cellular computing](cell_R3_C7.md)
-- ↙️ **SW**: [Enzyme cascades as analog signal processors](cell_R3_C6.md)
-- ⬅️ **W**: [Cellular automata and computational universality](cell_R2_C6.md)
-- ↖️ **NW**: [Knowledge graph embedding and link prediction](cell_R1_C6.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Form [similarity]](cell_R2_C8.md)
+- ↘️ **SE**: [Form [similarity]](cell_R2_C8.md)
+- ⬅️ **W**: [CExp [similarity]](cell_R2_C6.md)

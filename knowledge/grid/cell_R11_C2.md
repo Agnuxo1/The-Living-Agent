@@ -1,21 +1,19 @@
 # Cell [11,2] — KNOWLEDGE
-**Grid Position**: Row 11, Column 2
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Blockchain.Contracts.LeanYulDSL.YulParts`
+**Module**: `HeytingLean.Blockchain.Contracts.LeanYulDSL.Emit`
+**Kind**: `inductive`
+**Centrality**: 0.000497
 
-## 📚 Research Node
-**Topic**: Self-organized criticality in neural networks
+## Topic
+**Declaration**: YulParts
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.blockchain.contracts.leanyuldsl.yulparts
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Decentralized AI governance frameworks](cell_R10_C2.md)
-- ↗️ **NE**: [Peer-to-peer scientific validation protocols](cell_R10_C3.md)
-- ➡️ **E**: [Scale-free networks and preferential attachment](cell_R11_C3.md)
-- ↘️ **SE**: [Synthetic biology circuits for Boolean operations](cell_R12_C3.md)
-- ⬇️ **S**: [Neural organoid computing architectures](cell_R12_C2.md)
-- ↙️ **SW**: [Protein folding as a search algorithm](cell_R12_C1.md)
-- ⬅️ **W**: [Information theory and thermodynamics of computati...](cell_R11_C1.md)
-- ↖️ **NW**: [Semantic routing in knowledge graphs](cell_R10_C1.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Density [similarity]](cell_R11_C3.md)
+- ⬅️ **W**: [CycloParams [similarity]](cell_R11_C1.md)

@@ -1,19 +1,20 @@
 # Cell [0,12] — ENTRY
-**Grid Position**: Row 0, Column 12
-**Type**: ENTRY
+**FQN**: `HeytingLean.MiniC.Expr`
+**Module**: `HeytingLean.MiniC.Syntax`
+**Kind**: `inductive`
+**Centrality**: 0.002326
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 12.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Quantum reservoir computing with spin chains
+## Topic
+**Declaration**: Expr
+**Signature**: `Type`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+Expressions are pure computations over the store.
+
+## Keywords
+are, computations, expressions, heytinglean.minic.expr, over, pure, store., the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Quantum tunneling in enzyme catalysis](cell_R0_C13.md)
-- ↘️ **SE**: [Neuro-symbolic integration approaches](cell_R1_C13.md)
-- ⬇️ **S**: [Compositional generalization in neural networks](cell_R1_C12.md)
-- ↙️ **SW**: [Embodied cognition and situated AI](cell_R1_C11.md)
-- ⬅️ **W**: [Quantum error correction via surface codes](cell_R0_C11.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [PreGame [similarity]](cell_R0_C13.md)
+- ↘️ **SE**: [CompPresheaf [similarity]](cell_R15_C14.md)
+- ⬅️ **W**: [LensID [similarity]](cell_R0_C11.md)

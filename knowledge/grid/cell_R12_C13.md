@@ -1,21 +1,21 @@
 # Cell [12,13] — KNOWLEDGE
-**Grid Position**: Row 12, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Numbers.Surreal.IR.CoqOp`
+**Module**: `HeytingLean.Numbers.Surreal.IR.CoqExport`
+**Kind**: `inductive`
+**Centrality**: 0.000456
 
-## 📚 Research Node
-**Topic**: Quantum tunneling in enzyme catalysis
+## Topic
+**Declaration**: CoqOp
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Inductive type Coq Op. Use when performing case analysis or recursion over this type.
+
+## Keywords
+coq, heytinglean.numbers.surreal.ir.coqop, inductive, op., performing, type, use, when
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [DNA data storage and retrieval systems](cell_R11_C13.md)
-- ↗️ **NE**: [Molecular communication and nanonetworks](cell_R11_C14.md)
-- ➡️ **E**: [Entanglement-assisted classical communication](cell_R12_C14.md)
-- ↘️ **SE**: [Intrinsic motivation and curiosity-driven explorat...](cell_R13_C14.md)
-- ⬇️ **S**: [Neuro-symbolic integration approaches](cell_R13_C13.md)
-- ↙️ **SW**: [Compositional generalization in neural networks](cell_R13_C12.md)
-- ⬅️ **W**: [Quantum reservoir computing with spin chains](cell_R12_C12.md)
-- ↖️ **NW**: [Reservoir computing with physical substrates](cell_R11_C12.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [TemplateParams [similarity]](cell_R12_C12.md)
+- ↘️ **SE**: [SpinVector [similarity]](cell_R12_C14.md)
+- ⬅️ **W**: [Rule [similarity]](cell_R12_C10.md)
+- ↖️ **NW**: [Fun [similarity]](cell_R4_C7.md)

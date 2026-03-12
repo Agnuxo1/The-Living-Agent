@@ -1,18 +1,21 @@
 # Cell [5,0] — KNOWLEDGE
-**Grid Position**: Row 5, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.KEM.KEMScheme`
+**Module**: `HeytingLean.Crypto.KEM.HybridKEM`
+**Kind**: `inductive`
+**Centrality**: 0.000787
 
-## 📚 Research Node
-**Topic**: Emergence and complexity in physical systems
+## Topic
+**Declaration**: KEMScheme
+**Signature**: `Type 1`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Abstract KEM interface (shape only).
+
+## Keywords
+abstract, heytinglean.crypto.kem.kemscheme, interface, kem, only, shape
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Proof-of-Discovery consensus mechanisms](cell_R4_C0.md)
-- ↗️ **NE**: [Semantic routing in knowledge graphs](cell_R4_C1.md)
-- ➡️ **E**: [Information theory and thermodynamics of computati...](cell_R5_C1.md)
-- ↘️ **SE**: [Protein folding as a search algorithm](cell_R6_C1.md)
-- ⬇️ **S**: [DNA-based logic gates and their computational limi...](cell_R6_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [MLDSA204Params [similarity]](cell_R1_C13.md)
+- ➡️ **E**: [LindbladSpec [similarity]](cell_R4_C15.md)
+- ↘️ **SE**: [KEM [similarity]](cell_R6_C8.md)
+- ⬇️ **S**: [Tri [similarity]](cell_R5_C1.md)

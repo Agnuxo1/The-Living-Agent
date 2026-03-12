@@ -1,21 +1,19 @@
 # Cell [9,13] — KNOWLEDGE
-**Grid Position**: Row 9, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.C.CStmt`
+**Module**: `HeytingLean.C.Syntax`
+**Kind**: `inductive`
+**Centrality**: 0.000531
 
-## 📚 Research Node
-**Topic**: Quantum tunneling in enzyme catalysis
+## Topic
+**Declaration**: CStmt
+**Signature**: `inductive CStmt | return CExpr | assign Ident CExpr | seq CStmt CStmt | if_ CExpr CStmt CStmt | while CExpr CStmt`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Tiny‑C statements (return/assign/seq/if/while).
+
+## Keywords
+assign, c, heytinglean.c.cstmt, if, return, seq, statements, tiny
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [DNA data storage and retrieval systems](cell_R8_C13.md)
-- ↗️ **NE**: [Molecular communication and nanonetworks](cell_R8_C14.md)
-- ➡️ **E**: [Entanglement-assisted classical communication](cell_R9_C14.md)
-- ↘️ **SE**: [Intrinsic motivation and curiosity-driven explorat...](cell_R10_C14.md)
-- ⬇️ **S**: [Neuro-symbolic integration approaches](cell_R10_C13.md)
-- ↙️ **SW**: [Compositional generalization in neural networks](cell_R10_C12.md)
-- ⬅️ **W**: [Quantum reservoir computing with spin chains](cell_R9_C12.md)
-- ↖️ **NW**: [Reservoir computing with physical substrates](cell_R8_C12.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [HasMetric [similarity]](cell_R9_C14.md)
+- ⬅️ **W**: [AffineOpG [similarity]](cell_R9_C12.md)

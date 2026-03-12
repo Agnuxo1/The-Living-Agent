@@ -1,21 +1,22 @@
 # Cell [7,10] — KNOWLEDGE
-**Grid Position**: Row 7, Column 10
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.QKD.E91.E91State`
+**Module**: `HeytingLean.Crypto.QKD.E91.States`
+**Kind**: `inductive`
+**Centrality**: 0.000617
 
-## 📚 Research Node
-**Topic**: Meta-learning and learning-to-learn paradigms
+## Topic
+**Declaration**: E91State
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A toy E91 “state”, tagged by context and a bit.
+
+## Keywords
+a, by, context, e91, heytinglean.crypto.qkd.e91.e91state, state, tagged, toy
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Variational quantum eigensolvers for molecular sim...](cell_R6_C10.md)
-- ↗️ **NE**: [Quantum error correction via surface codes](cell_R6_C11.md)
-- ➡️ **E**: [Embodied cognition and situated AI](cell_R7_C11.md)
-- ↘️ **SE**: [Evolutionary strategies for neural architecture se...](cell_R8_C11.md)
-- ⬇️ **S**: [Neuromorphic hardware: memristors and beyond](cell_R8_C10.md)
-- ↙️ **SW**: [Morphogenetic computing: Turing patterns as progra...](cell_R8_C9.md)
-- ⬅️ **W**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R7_C9.md)
-- ↖️ **NW**: [Quantum coherence in biological photosynthesis](cell_R6_C9.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [BB84State [similarity]](cell_R6_C13.md)
+- ➡️ **E**: [Instance [similarity]](cell_R7_C11.md)
+- ⬇️ **S**: [E91Substrate [similarity]](cell_R14_C10.md)
+- ⬅️ **W**: [NodeId [similarity]](cell_R7_C9.md)
+- ↖️ **NW**: [RadialGraph [similarity]](cell_R0_C9.md)

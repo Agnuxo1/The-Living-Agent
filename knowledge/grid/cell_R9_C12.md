@@ -1,21 +1,19 @@
 # Cell [9,12] — KNOWLEDGE
-**Grid Position**: Row 9, Column 12
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Chem.Materials.Symmetry.AffineOpG`
+**Module**: `HeytingLean.Chem.Materials.Symmetry.AffineGroup`
+**Kind**: `inductive`
+**Centrality**: 0.000531
 
-## 📚 Research Node
-**Topic**: Quantum reservoir computing with spin chains
+## Topic
+**Declaration**: AffineOpG
+**Signature**: `Nat → Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.chem.materials.symmetry.affineopg
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Reservoir computing with physical substrates](cell_R8_C12.md)
-- ↗️ **NE**: [DNA data storage and retrieval systems](cell_R8_C13.md)
-- ➡️ **E**: [Quantum tunneling in enzyme catalysis](cell_R9_C13.md)
-- ↘️ **SE**: [Neuro-symbolic integration approaches](cell_R10_C13.md)
-- ⬇️ **S**: [Compositional generalization in neural networks](cell_R10_C12.md)
-- ↙️ **SW**: [Embodied cognition and situated AI](cell_R10_C11.md)
-- ⬅️ **W**: [Quantum error correction via surface codes](cell_R9_C11.md)
-- ↖️ **NW**: [Evolutionary strategies for neural architecture se...](cell_R8_C11.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [CStmt [similarity]](cell_R9_C13.md)
+- ⬅️ **W**: [LaurentPoly [similarity]](cell_R9_C11.md)

@@ -1,19 +1,20 @@
-# Cell [12,15] — EXPERIMENT_NODE
-**Grid Position**: Row 12, Column 15
-**Type**: EXPERIMENT_NODE
+# Cell [12,15] — KNOWLEDGE
+**FQN**: `HeytingLean.Representations.Radial.LoFRules.RuleType`
+**Module**: `HeytingLean.Representations.Radial.LoFRules`
+**Kind**: `inductive`
+**Centrality**: 0.000454
 
-## 🔬 Experiment Node
-**Hypothesis**: Quantum machine learning kernel methods
+## Topic
+**Declaration**: RuleType
+**Signature**: `Type`
 
-Design a mental experiment to test this hypothesis.
-Record your prediction, methodology, and expected outcome.
-The result will be stored in your episodic memory.
+LoF rule types with their ring effect.
+
+## Keywords
+effect., heytinglean.representations.radial.lofrules.ruletype, lof, ring, rule, their, types, with
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic ecosystems for emergent intelligence](cell_R11_C15.md)
-- ⬇️ **S**: [Skill acquisition and procedural knowledge formati...](cell_R13_C15.md)
-- ↙️ **SW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R13_C14.md)
-- ⬅️ **W**: [Entanglement-assisted classical communication](cell_R12_C14.md)
-- ↖️ **NW**: [Molecular communication and nanonetworks](cell_R11_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↙️ **SW**: [Atom [similarity]](cell_R13_C0.md)
+- ⬅️ **W**: [SpinVector [similarity]](cell_R12_C14.md)
+- ↖️ **NW**: [Expr [similarity]](cell_R3_C6.md)

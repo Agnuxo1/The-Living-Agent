@@ -1,21 +1,19 @@
 # Cell [3,12] — KNOWLEDGE
-**Grid Position**: Row 3, Column 12
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.Lattice.NTTIterative.F`
+**Module**: `HeytingLean.Crypto.Lattice.NTTIterative`
+**Kind**: `def`
+**Centrality**: 0.000947
 
-## 📚 Research Node
-**Topic**: Quantum reservoir computing with spin chains
+## Topic
+**Declaration**: F
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.lattice.nttiterative.f
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Reservoir computing with physical substrates](cell_R2_C12.md)
-- ↗️ **NE**: [DNA data storage and retrieval systems](cell_R2_C13.md)
-- ➡️ **E**: [Quantum tunneling in enzyme catalysis](cell_R3_C13.md)
-- ↘️ **SE**: [Neuro-symbolic integration approaches](cell_R4_C13.md)
-- ⬇️ **S**: [Compositional generalization in neural networks](cell_R4_C12.md)
-- ↙️ **SW**: [Embodied cognition and situated AI](cell_R4_C11.md)
-- ⬅️ **W**: [Quantum error correction via surface codes](cell_R3_C11.md)
-- ↖️ **NW**: [Evolutionary strategies for neural architecture se...](cell_R2_C11.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [LayoutAnnotation [similarity]](cell_R3_C13.md)
+- ⬅️ **W**: [MinEntropySpace [similarity]](cell_R3_C11.md)

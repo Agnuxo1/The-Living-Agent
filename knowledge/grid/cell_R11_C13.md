@@ -1,21 +1,19 @@
 # Cell [11,13] — KNOWLEDGE
-**Grid Position**: Row 11, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Chem.Bonding.BondOrder`
+**Module**: `HeytingLean.Chem.Bonding.BondTypes`
+**Kind**: `inductive`
+**Centrality**: 0.000484
 
-## 📚 Research Node
-**Topic**: DNA data storage and retrieval systems
+## Topic
+**Declaration**: BondOrder
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.chem.bonding.bondorder
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Neuro-symbolic integration approaches](cell_R10_C13.md)
-- ↗️ **NE**: [Intrinsic motivation and curiosity-driven explorat...](cell_R10_C14.md)
-- ➡️ **E**: [Molecular communication and nanonetworks](cell_R11_C14.md)
-- ↘️ **SE**: [Entanglement-assisted classical communication](cell_R12_C14.md)
-- ⬇️ **S**: [Quantum tunneling in enzyme catalysis](cell_R12_C13.md)
-- ↙️ **SW**: [Quantum reservoir computing with spin chains](cell_R12_C12.md)
-- ⬅️ **W**: [Reservoir computing with physical substrates](cell_R11_C12.md)
-- ↖️ **NW**: [Compositional generalization in neural networks](cell_R10_C12.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Scalar [similarity]](cell_R11_C14.md)
+- ⬅️ **W**: [BondKind [similarity]](cell_R11_C12.md)

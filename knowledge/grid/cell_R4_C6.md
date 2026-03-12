@@ -1,21 +1,19 @@
 # Cell [4,6] — KNOWLEDGE
-**Grid Position**: Row 4, Column 6
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Blockchain.PaymentChannels.Cap`
+**Module**: `HeytingLean.Blockchain.PaymentChannels.Basic`
+**Kind**: `def`
+**Centrality**: 0.000833
 
-## 📚 Research Node
-**Topic**: Knowledge graph embedding and link prediction
+## Topic
+**Declaration**: Cap
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.blockchain.paymentchannels.cap
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Enzyme cascades as analog signal processors](cell_R3_C6.md)
-- ↗️ **NE**: [Epigenetic memory in cellular computing](cell_R3_C7.md)
-- ➡️ **E**: [Merkle DAG structures for versioned knowledge](cell_R4_C7.md)
-- ↘️ **SE**: [Renormalization group and multi-scale physics](cell_R5_C7.md)
-- ⬇️ **S**: [Cellular automata and computational universality](cell_R5_C6.md)
-- ↙️ **SW**: [Holographic principle and information bounds](cell_R5_C5.md)
-- ⬅️ **W**: [Federated learning across heterogeneous agents](cell_R4_C5.md)
-- ↖️ **NW**: [Slime mold optimization and network design](cell_R3_C5.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Fun [similarity]](cell_R4_C7.md)
+- ⬅️ **W**: [SplitInput [similarity]](cell_R4_C5.md)

@@ -1,21 +1,20 @@
 # Cell [3,4] — KNOWLEDGE
-**Grid Position**: Row 3, Column 4
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.MiniC.Val`
+**Module**: `HeytingLean.MiniC.Semantics`
+**Kind**: `inductive`
+**Centrality**: 0.001079
 
-## 📚 Research Node
-**Topic**: Bacterial quorum sensing as distributed consensus
+## Topic
+**Declaration**: Val
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Runtime values for MiniC.
+
+## Keywords
+for, heytinglean.minic.val, minic., runtime, values
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Dissipative structures and non-equilibrium thermod...](cell_R2_C4.md)
-- ↗️ **NE**: [Holographic principle and information bounds](cell_R2_C5.md)
-- ➡️ **E**: [Slime mold optimization and network design](cell_R3_C5.md)
-- ↘️ **SE**: [Federated learning across heterogeneous agents](cell_R4_C5.md)
-- ⬇️ **S**: [Token-incentivized research contribution models](cell_R4_C4.md)
-- ↙️ **SW**: [Peer-to-peer scientific validation protocols](cell_R4_C3.md)
-- ⬅️ **W**: [Synthetic biology circuits for Boolean operations](cell_R3_C3.md)
-- ↖️ **NW**: [Scale-free networks and preferential attachment](cell_R2_C3.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [IteratedCellOver [similarity]](cell_R3_C5.md)
+- ↘️ **SE**: [Val [similarity]](cell_R4_C14.md)
+- ⬅️ **W**: [Obj [similarity]](cell_R3_C3.md)

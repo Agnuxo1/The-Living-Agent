@@ -1,18 +1,20 @@
 # Cell [14,15] — KNOWLEDGE
-**Grid Position**: Row 14, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.LoF.Combinators.Category.LSteps`
+**Module**: `HeytingLean.LoF.Combinators.Category.MultiwayCategory`
+**Kind**: `inductive`
+**Centrality**: 0.001484
 
-## 📚 Research Node
-**Topic**: Synthetic ecosystems for emergent intelligence
+## Topic
+**Declaration**: LSteps
+**Signature**: `HeytingLean.LoF.Comb → HeytingLean.LoF.Comb → Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Labeled multi-step paths, as a `Type` (so distinct label sequences are distinct morphisms).
+
+## Keywords
+a, as, heytinglean.lof.combinators.category.lsteps, labeled, multi-step, paths, so, type
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Skill acquisition and procedural knowledge formati...](cell_R13_C15.md)
-- ⬇️ **S**: [Quantum machine learning kernel methods](cell_R15_C15.md)
-- ↙️ **SW**: [Entanglement-assisted classical communication](cell_R15_C14.md)
-- ⬅️ **W**: [Molecular communication and nanonetworks](cell_R14_C14.md)
-- ↖️ **NW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R13_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↙️ **SW**: [atomicNumber [similarity]](cell_R15_C0.md)
+- ⬅️ **W**: [Term [similarity]](cell_R14_C14.md)
+- ↖️ **NW**: [Comb [dependency]](cell_R0_C1.md)

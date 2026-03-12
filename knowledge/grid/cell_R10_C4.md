@@ -1,21 +1,22 @@
 # Cell [10,4] — KNOWLEDGE
-**Grid Position**: Row 10, Column 4
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Physics.Photoemission.Stage`
+**Module**: `HeytingLean.Physics.Photoemission.CTBridge`
+**Kind**: `inductive`
+**Centrality**: 0.000516
 
-## 📚 Research Node
-**Topic**: Token-incentivized research contribution models
+## Topic
+**Declaration**: Stage
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Abstract “stage” substrate for the three-step photoemission pipeline.
+
+## Keywords
+abstract, for, heytinglean.physics.photoemission.stage, photoemission, stage, substrate, the, three-step
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Bacterial quorum sensing as distributed consensus](cell_R9_C4.md)
-- ↗️ **NE**: [Slime mold optimization and network design](cell_R9_C5.md)
-- ➡️ **E**: [Federated learning across heterogeneous agents](cell_R10_C5.md)
-- ↘️ **SE**: [Holographic principle and information bounds](cell_R11_C5.md)
-- ⬇️ **S**: [Dissipative structures and non-equilibrium thermod...](cell_R11_C4.md)
-- ↙️ **SW**: [Scale-free networks and preferential attachment](cell_R11_C3.md)
-- ⬅️ **W**: [Peer-to-peer scientific validation protocols](cell_R10_C3.md)
-- ↖️ **NW**: [Synthetic biology circuits for Boolean operations](cell_R9_C3.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [BB84Substrate [similarity]](cell_R9_C9.md)
+- ➡️ **E**: [Store [similarity]](cell_R10_C5.md)
+- ↘️ **SE**: [E91Substrate [similarity]](cell_R14_C10.md)
+- ⬅️ **W**: [Instr [similarity]](cell_R10_C3.md)
+- ↖️ **NW**: [Obj [similarity]](cell_R6_C3.md)

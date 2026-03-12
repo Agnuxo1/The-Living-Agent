@@ -1,21 +1,22 @@
 # Cell [1,6] — KNOWLEDGE
-**Grid Position**: Row 1, Column 6
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Constructor.CT.Task`
+**Module**: `HeytingLean.Constructor.CT.Core`
+**Kind**: `inductive`
+**Centrality**: 0.001738
 
-## 📚 Research Node
-**Topic**: Knowledge graph embedding and link prediction
+## Topic
+**Declaration**: Task
+**Signature**: `Type u → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A CT task over a substrate `σ`: a finite collection of input/output attribute pairs. Semantics are provided by substrate‑specific models.
+
+## Keywords
+a, ct, heytinglean.constructor.ct.task, over, substrate, task
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Enzyme cascades as analog signal processors](cell_R0_C6.md)
-- ↗️ **NE**: [Epigenetic memory in cellular computing](cell_R0_C7.md)
-- ➡️ **E**: [Merkle DAG structures for versioned knowledge](cell_R1_C7.md)
-- ↘️ **SE**: [Renormalization group and multi-scale physics](cell_R2_C7.md)
-- ⬇️ **S**: [Cellular automata and computational universality](cell_R2_C6.md)
-- ↙️ **SW**: [Holographic principle and information bounds](cell_R2_C5.md)
-- ⬅️ **W**: [Federated learning across heterogeneous agents](cell_R1_C5.md)
-- ↖️ **NW**: [Slime mold optimization and network design](cell_R0_C5.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [TaskCT [similarity]](cell_R1_C12.md)
+- ↘️ **SE**: [CompPresheaf [similarity]](cell_R15_C14.md)
+- ⬇️ **S**: [Expr [similarity]](cell_R1_C7.md)
+- ↙️ **SW**: [Attribute [similarity]](cell_R8_C0.md)
+- ⬅️ **W**: [Var [similarity]](cell_R1_C5.md)

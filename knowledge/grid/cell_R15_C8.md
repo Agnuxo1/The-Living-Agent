@@ -1,19 +1,20 @@
 # Cell [15,8] — SYNTHESIS
-**Grid Position**: Row 15, Column 8
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.ClosingTheLoop.MR.RightInverseAt`
+**Module**: `HeytingLean.ClosingTheLoop.MR.InverseEvaluation`
+**Kind**: `def`
+**Centrality**: 0.000668
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Topological qubits and fault-tolerant quantum computation
+## Topic
+**Declaration**: RightInverseAt
+**Signature**: `(S : HeytingLean.ClosingTheLoop.MR.MRSystem) → S.B → Type (max u v)`
 
-After synthesis, compress your trace and re-enter at Row 0.
+Defines/computes Right Inverse At. Use to construct or compute the corresponding value in proofs or definitions.
+
+## Keywords
+at., computes, defines, heytinglean.closingtheloop.mr.rightinverseat, inverse, right, to, use
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Bio-inspired optimization: ant colony and swarm in...](cell_R14_C8.md)
-- ↗️ **NE**: [Morphogenetic computing: Turing patterns as progra...](cell_R14_C9.md)
-- ➡️ **E**: [Quantum coherence in biological photosynthesis](cell_R15_C9.md)
-- ⬅️ **W**: [Epigenetic memory in cellular computing](cell_R15_C7.md)
-- ↖️ **NW**: [Renormalization group and multi-scale physics](cell_R14_C7.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Model [similarity]](cell_R15_C9.md)
+- ⬅️ **W**: [DialParam [similarity]](cell_R15_C7.md)
+- ↖️ **NW**: [MRSystem [dependency]](cell_R0_C4.md)

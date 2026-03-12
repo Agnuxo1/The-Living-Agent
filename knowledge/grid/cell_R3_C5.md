@@ -1,21 +1,21 @@
 # Cell [3,5] — KNOWLEDGE
-**Grid Position**: Row 3, Column 5
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.IteratedVirtual.IteratedCellOver`
+**Module**: `HeytingLean.IteratedVirtual.IteratedHom`
+**Kind**: `inductive`
+**Centrality**: 0.001064
 
-## 📚 Research Node
-**Topic**: Slime mold optimization and network design
+## Topic
+**Declaration**: IteratedCellOver
+**Signature**: `{C : Type u} → [CategoryTheory.Category C] → C → C → Nat → Type (max u v)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+An `n`-step chain from a fixed source `X` to a fixed target `Y`.
+
+## Keywords
+Heyting algebra, categorical logic, category theory, iterated cell over, iterated virtual object, n-step chain, virtual object
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Holographic principle and information bounds](cell_R2_C5.md)
-- ↗️ **NE**: [Cellular automata and computational universality](cell_R2_C6.md)
-- ➡️ **E**: [Enzyme cascades as analog signal processors](cell_R3_C6.md)
-- ↘️ **SE**: [Knowledge graph embedding and link prediction](cell_R4_C6.md)
-- ⬇️ **S**: [Federated learning across heterogeneous agents](cell_R4_C5.md)
-- ↙️ **SW**: [Token-incentivized research contribution models](cell_R4_C4.md)
-- ⬅️ **W**: [Bacterial quorum sensing as distributed consensus](cell_R3_C4.md)
-- ↖️ **NW**: [Dissipative structures and non-equilibrium thermod...](cell_R2_C4.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [ParaHom [similarity]](cell_R2_C14.md)
+- ➡️ **E**: [Expr [similarity]](cell_R3_C6.md)
+- ↙️ **SW**: [GlobularSet [similarity]](cell_R4_C4.md)
+- ⬅️ **W**: [Val [similarity]](cell_R3_C4.md)

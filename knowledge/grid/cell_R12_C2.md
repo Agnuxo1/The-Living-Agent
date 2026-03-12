@@ -1,21 +1,22 @@
 # Cell [12,2] — KNOWLEDGE
-**Grid Position**: Row 12, Column 2
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Noneism.Tests.RMEx.Atom`
+**Module**: `HeytingLean.Noneism.Tests.Paraconsistent`
+**Kind**: `inductive`
+**Centrality**: 0.000477
 
-## 📚 Research Node
-**Topic**: Neural organoid computing architectures
+## Topic
+**Declaration**: Atom
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Inductive type Atom. Use when performing case analysis or recursion over this type.
+
+## Keywords
+atom., case, heytinglean.noneism.tests.rmex.atom, inductive, performing, type, use, when
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Self-organized criticality in neural networks](cell_R11_C2.md)
-- ↗️ **NE**: [Scale-free networks and preferential attachment](cell_R11_C3.md)
-- ➡️ **E**: [Synthetic biology circuits for Boolean operations](cell_R12_C3.md)
-- ↘️ **SE**: [Peer-to-peer scientific validation protocols](cell_R13_C3.md)
-- ⬇️ **S**: [Decentralized AI governance frameworks](cell_R13_C2.md)
-- ↙️ **SW**: [Semantic routing in knowledge graphs](cell_R13_C1.md)
-- ⬅️ **W**: [Protein folding as a search algorithm](cell_R12_C1.md)
-- ↖️ **NW**: [Information theory and thermodynamics of computati...](cell_R11_C1.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Fun [similarity]](cell_R4_C7.md)
+- ➡️ **E**: [W [similarity]](cell_R12_C7.md)
+- ↘️ **SE**: [CertifiedNucleus [similarity]](cell_R12_C3.md)
+- ⬅️ **W**: [Kernel [similarity]](cell_R12_C1.md)
+- ↖️ **NW**: [Comb [similarity]](cell_R0_C1.md)

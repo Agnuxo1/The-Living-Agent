@@ -1,22 +1,19 @@
-# Cell [1,7] — EXPERIMENT_NODE
-**Grid Position**: Row 1, Column 7
-**Type**: EXPERIMENT_NODE
+# Cell [1,7] — KNOWLEDGE
+**FQN**: `HeytingLean.LoF.LeanKernel.Expr`
+**Module**: `HeytingLean.LoF.LeanKernel.Expression`
+**Kind**: `inductive`
+**Centrality**: 0.001724
 
-## 🔬 Experiment Node
-**Hypothesis**: Merkle DAG structures for versioned knowledge
+## Topic
+**Declaration**: Expr
+**Signature**: `Type u → Type u → Type u → Type u → Type u`
 
-Design a mental experiment to test this hypothesis.
-Record your prediction, methodology, and expected outcome.
-The result will be stored in your episodic memory.
+Kernel expression AST with a deliberately small 9-way constructor split. We parameterize universe levels separately from expression metavariables: - `Param` / `MetaLevel` appear inside `ULevel` values (Phase 7), - `MetaExpr` is used for expression metavariables. The chosen 9 constructors align with the “core” shapes used by kernels: `bvar`, `mvar`, `sort`, `const`, `app`, `lam`, `forallE`, `letE`, `lit`.
+
+## Keywords
+a, ast, deliberately, expression, heytinglean.lof.leankernel.expr, kernel, small, with
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Epigenetic memory in cellular computing](cell_R0_C7.md)
-- ↗️ **NE**: [Topological qubits and fault-tolerant quantum comp...](cell_R0_C8.md)
-- ➡️ **E**: [Autopoietic systems and self-organization](cell_R1_C8.md)
-- ↘️ **SE**: [Bio-inspired optimization: ant colony and swarm in...](cell_R2_C8.md)
-- ⬇️ **S**: [Renormalization group and multi-scale physics](cell_R2_C7.md)
-- ↙️ **SW**: [Cellular automata and computational universality](cell_R2_C6.md)
-- ⬅️ **W**: [Knowledge graph embedding and link prediction](cell_R1_C6.md)
-- ↖️ **NW**: [Enzyme cascades as analog signal processors](cell_R0_C6.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Obj [similarity]](cell_R1_C8.md)
+- ⬅️ **W**: [Task [similarity]](cell_R1_C6.md)

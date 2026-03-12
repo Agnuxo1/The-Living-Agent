@@ -1,21 +1,19 @@
 # Cell [8,3] — KNOWLEDGE
-**Grid Position**: Row 8, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.LoF.LoFPrimary.Optimize.BDD`
+**Module**: `HeytingLean.LoF.LoFPrimary.Optimize`
+**Kind**: `inductive`
+**Centrality**: 0.000590
 
-## 📚 Research Node
-**Topic**: Scale-free networks and preferential attachment
+## Topic
+**Declaration**: BDD
+**Signature**: `Nat → Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.lof.lofprimary.optimize.bdd
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Peer-to-peer scientific validation protocols](cell_R7_C3.md)
-- ↗️ **NE**: [Token-incentivized research contribution models](cell_R7_C4.md)
-- ➡️ **E**: [Dissipative structures and non-equilibrium thermod...](cell_R8_C4.md)
-- ↘️ **SE**: [Bacterial quorum sensing as distributed consensus](cell_R9_C4.md)
-- ⬇️ **S**: [Synthetic biology circuits for Boolean operations](cell_R9_C3.md)
-- ↙️ **SW**: [Neural organoid computing architectures](cell_R9_C2.md)
-- ⬅️ **W**: [Self-organized criticality in neural networks](cell_R8_C2.md)
-- ↖️ **NW**: [Decentralized AI governance frameworks](cell_R7_C2.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [CenteredCounts [similarity]](cell_R8_C4.md)
+- ⬅️ **W**: [Lam [similarity]](cell_R8_C2.md)

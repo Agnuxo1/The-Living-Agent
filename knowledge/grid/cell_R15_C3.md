@@ -1,19 +1,21 @@
 # Cell [15,3] — SYNTHESIS
-**Grid Position**: Row 15, Column 3
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.LoF.Combinators.Category.Completion2Path`
+**Module**: `HeytingLean.LoF.Combinators.Category.Completion2Path`
+**Kind**: `def`
+**Centrality**: 0.001147
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Synthetic biology circuits for Boolean operations
+## Topic
+**Declaration**: Completion2Path
+**Signature**: `{a b : HeytingLean.LoF.Combinators.Category.MWObj} → HeytingLean.LoF.Combinators.Category.instCategoryMWObj.Hom a b → HeytingLean.LoF.Combinators.Category.instCategoryMWObj.Hom a b → Type`
 
-After synthesis, compress your trace and re-enter at Row 0.
+Non-thin 2-cells between parallel paths: paths in the completion-rule generator quiver.
+
+## Keywords
+2-cells, between, heytinglean.lof.combinators.category.completion2path, in, non-thin, parallel, paths
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Scale-free networks and preferential attachment](cell_R14_C3.md)
-- ↗️ **NE**: [Dissipative structures and non-equilibrium thermod...](cell_R14_C4.md)
-- ➡️ **E**: [Bacterial quorum sensing as distributed consensus](cell_R15_C4.md)
-- ⬅️ **W**: [Neural organoid computing architectures](cell_R15_C2.md)
-- ↖️ **NW**: [Self-organized criticality in neural networks](cell_R14_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [MWObj [dependency]](cell_R0_C5.md)
+- ➡️ **E**: [Model [similarity]](cell_R15_C4.md)
+- ⬅️ **W**: [symbol [similarity]](cell_R15_C2.md)
+- ↖️ **NW**: [Basis [similarity]](cell_R13_C1.md)

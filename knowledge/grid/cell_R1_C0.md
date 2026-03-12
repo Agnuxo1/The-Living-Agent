@@ -1,18 +1,20 @@
 # Cell [1,0] — KNOWLEDGE
-**Grid Position**: Row 1, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.LambdaIR.Ctx`
+**Module**: `HeytingLean.LambdaIR.Syntax`
+**Kind**: `def`
+**Centrality**: 0.001970
 
-## 📚 Research Node
-**Topic**: Proof-of-Discovery consensus mechanisms
+## Topic
+**Declaration**: Ctx
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.lambdair.ctx
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [DNA-based logic gates and their computational limi...](cell_R0_C0.md)
-- ↗️ **NE**: [Protein folding as a search algorithm](cell_R0_C1.md)
-- ➡️ **E**: [Semantic routing in knowledge graphs](cell_R1_C1.md)
-- ↘️ **SE**: [Information theory and thermodynamics of computati...](cell_R2_C1.md)
-- ⬇️ **S**: [Emergence and complexity in physical systems](cell_R2_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Context [similarity]](cell_R0_C15.md)
+- ➡️ **E**: [AssemblySpace [similarity]](cell_R1_C1.md)
+- ↘️ **SE**: [Term [dependency]](cell_R14_C14.md)

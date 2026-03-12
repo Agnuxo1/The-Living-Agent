@@ -1,21 +1,19 @@
 # Cell [4,2] — KNOWLEDGE
-**Grid Position**: Row 4, Column 2
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Core.Ctx`
+**Module**: `HeytingLean.Core.Types`
+**Kind**: `def`
+**Centrality**: 0.000874
 
-## 📚 Research Node
-**Topic**: Decentralized AI governance frameworks
+## Topic
+**Declaration**: Ctx
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Contexts are lists of types.
+
+## Keywords
+are, contexts, heytinglean.core.ctx, lists, of, types.
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Neural organoid computing architectures](cell_R3_C2.md)
-- ↗️ **NE**: [Synthetic biology circuits for Boolean operations](cell_R3_C3.md)
-- ➡️ **E**: [Peer-to-peer scientific validation protocols](cell_R4_C3.md)
-- ↘️ **SE**: [Scale-free networks and preferential attachment](cell_R5_C3.md)
-- ⬇️ **S**: [Self-organized criticality in neural networks](cell_R5_C2.md)
-- ↙️ **SW**: [Information theory and thermodynamics of computati...](cell_R5_C1.md)
-- ⬅️ **W**: [Semantic routing in knowledge graphs](cell_R4_C1.md)
-- ↖️ **NW**: [Protein folding as a search algorithm](cell_R3_C1.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [L [similarity]](cell_R4_C3.md)
+- ⬅️ **W**: [Expr [similarity]](cell_R4_C1.md)

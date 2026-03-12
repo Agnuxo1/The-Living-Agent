@@ -1,19 +1,22 @@
 # Cell [0,6] — ENTRY
-**Grid Position**: Row 0, Column 6
-**Type**: ENTRY
+**FQN**: `HeytingLean.LoF.CryptoSheaf.PosetSite`
+**Module**: `HeytingLean.LoF.CryptoSheaf.Site`
+**Kind**: `inductive`
+**Centrality**: 0.002739
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 6.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Enzyme cascades as analog signal processors
+## Topic
+**Declaration**: PosetSite
+**Signature**: `(C : Type u_1) → [PartialOrder C] → Type (max u_1 (u_2 + 1))`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+A simplified site whose objects form a poset of contexts.
+
+## Keywords
+a, form, heytinglean.lof.cryptosheaf.posetsite, objects, simplified, site, whose
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Epigenetic memory in cellular computing](cell_R0_C7.md)
-- ↘️ **SE**: [Merkle DAG structures for versioned knowledge](cell_R1_C7.md)
-- ⬇️ **S**: [Knowledge graph embedding and link prediction](cell_R1_C6.md)
-- ↙️ **SW**: [Federated learning across heterogeneous agents](cell_R1_C5.md)
-- ⬅️ **W**: [Slime mold optimization and network design](cell_R0_C5.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Expr [similarity]](cell_R0_C7.md)
+- ↘️ **SE**: [CompPresheaf [dependency]](cell_R15_C14.md)
+- ⬇️ **S**: [ASpace [similarity]](cell_R10_C6.md)
+- ↙️ **SW**: [Obj [similarity]](cell_R2_C3.md)
+- ⬅️ **W**: [MWObj [similarity]](cell_R0_C5.md)

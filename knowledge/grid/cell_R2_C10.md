@@ -1,21 +1,19 @@
 # Cell [2,10] — KNOWLEDGE
-**Grid Position**: Row 2, Column 10
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.LoF.Combinators.Category.CatTower`
+**Module**: `HeytingLean.LoF.Combinators.Category.OmegaTowerLimit`
+**Kind**: `inductive`
+**Centrality**: 0.001202
 
-## 📚 Research Node
-**Topic**: Neuromorphic hardware: memristors and beyond
+## Topic
+**Declaration**: CatTower
+**Signature**: `Type (max (u + 1) (v + 1))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.lof.combinators.category.cattower
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Meta-learning and learning-to-learn paradigms](cell_R1_C10.md)
-- ↗️ **NE**: [Embodied cognition and situated AI](cell_R1_C11.md)
-- ➡️ **E**: [Evolutionary strategies for neural architecture se...](cell_R2_C11.md)
-- ↘️ **SE**: [Quantum error correction via surface codes](cell_R3_C11.md)
-- ⬇️ **S**: [Variational quantum eigensolvers for molecular sim...](cell_R3_C10.md)
-- ↙️ **SW**: [Quantum coherence in biological photosynthesis](cell_R3_C9.md)
-- ⬅️ **W**: [Morphogenetic computing: Turing patterns as progra...](cell_R2_C9.md)
-- ↖️ **NW**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R1_C9.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [RecoveryView [similarity]](cell_R2_C11.md)
+- ⬅️ **W**: [ChannelGraph [similarity]](cell_R2_C9.md)

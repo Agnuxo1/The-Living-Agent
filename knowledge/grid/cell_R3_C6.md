@@ -1,21 +1,21 @@
 # Cell [3,6] — KNOWLEDGE
-**Grid Position**: Row 3, Column 6
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.LoF.LoFSecond.Expr`
+**Module**: `HeytingLean.LoF.LoFSecond.Syntax`
+**Kind**: `inductive`
+**Centrality**: 0.001026
 
-## 📚 Research Node
-**Topic**: Enzyme cascades as analog signal processors
+## Topic
+**Declaration**: Expr
+**Signature**: `Nat → Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Second-degree LoF expressions with `n` free variables.
+
+## Keywords
+expressions, free, heytinglean.lof.lofsecond.expr, lof, n, second-degree, variables., with
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Cellular automata and computational universality](cell_R2_C6.md)
-- ↗️ **NE**: [Renormalization group and multi-scale physics](cell_R2_C7.md)
-- ➡️ **E**: [Epigenetic memory in cellular computing](cell_R3_C7.md)
-- ↘️ **SE**: [Merkle DAG structures for versioned knowledge](cell_R4_C7.md)
-- ⬇️ **S**: [Knowledge graph embedding and link prediction](cell_R4_C6.md)
-- ↙️ **SW**: [Federated learning across heterogeneous agents](cell_R4_C5.md)
-- ⬅️ **W**: [Slime mold optimization and network design](cell_R3_C5.md)
-- ↖️ **NW**: [Holographic principle and information bounds](cell_R2_C5.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Expr [similarity]](cell_R0_C7.md)
+- ➡️ **E**: [M3 [similarity]](cell_R3_C7.md)
+- ↘️ **SE**: [RuleType [similarity]](cell_R12_C15.md)
+- ⬅️ **W**: [IteratedCellOver [similarity]](cell_R3_C5.md)

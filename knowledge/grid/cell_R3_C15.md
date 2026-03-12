@@ -1,18 +1,19 @@
 # Cell [3,15] — KNOWLEDGE
-**Grid Position**: Row 3, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Stage.Bridge`
+**Module**: `HeytingLean.Logic.StageSemantics`
+**Kind**: `inductive`
+**Centrality**: 0.000924
 
-## 📚 Research Node
-**Topic**: Quantum machine learning kernel methods
+## Topic
+**Declaration**: Bridge
+**Signature**: `(α Ω : Type u) → [LE α] → [LE Ω] → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Bridges expose shadow/lift data satisfying a round-trip contract.
+
+## Keywords
+Bridge, HeytingLean.Logic.Stage.Bridge
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic ecosystems for emergent intelligence](cell_R2_C15.md)
-- ⬇️ **S**: [Skill acquisition and procedural knowledge formati...](cell_R4_C15.md)
-- ↙️ **SW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R4_C14.md)
-- ⬅️ **W**: [Entanglement-assisted classical communication](cell_R3_C14.md)
-- ↖️ **NW**: [Molecular communication and nanonetworks](cell_R2_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↙️ **SW**: [TrapdoorParams [similarity]](cell_R4_C0.md)
+- ⬅️ **W**: [SISParams [similarity]](cell_R3_C14.md)

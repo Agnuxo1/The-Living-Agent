@@ -1,21 +1,21 @@
 # Cell [14,1] — KNOWLEDGE
-**Grid Position**: Row 14, Column 1
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.System`
+**Module**: `HeytingLean.Crypto.ZK.R1CS`
+**Kind**: `inductive`
+**Centrality**: 0.000433
 
-## 📚 Research Node
-**Topic**: Information theory and thermodynamics of computation
+## Topic
+**Declaration**: System
+**Signature**: `structure System where constraints : List Constraint`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+An R1CS system is a finite list of constraints.
+
+## Keywords
+constraints, satisfiability, snark, system
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Semantic routing in knowledge graphs](cell_R13_C1.md)
-- ↗️ **NE**: [Decentralized AI governance frameworks](cell_R13_C2.md)
-- ➡️ **E**: [Self-organized criticality in neural networks](cell_R14_C2.md)
-- ↘️ **SE**: [Neural organoid computing architectures](cell_R15_C2.md)
-- ⬇️ **S**: [Protein folding as a search algorithm](cell_R15_C1.md)
-- ↙️ **SW**: [DNA-based logic gates and their computational limi...](cell_R15_C0.md)
-- ⬅️ **W**: [Emergence and complexity in physical systems](cell_R14_C0.md)
-- ↖️ **NW**: [Proof-of-Discovery consensus mechanisms](cell_R13_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [KrausChannel [similarity]](cell_R9_C5.md)
+- ➡️ **E**: [InterceptionRate [similarity]](cell_R14_C2.md)
+- ⬅️ **W**: [Subshell [similarity]](cell_R14_C0.md)
+- ↖️ **NW**: [Attribute [similarity]](cell_R8_C0.md)

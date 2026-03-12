@@ -1,21 +1,19 @@
 # Cell [13,5] — KNOWLEDGE
-**Grid Position**: Row 13, Column 5
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Blockchain.PaymentChannels.EVMAdapter.ChannelRecord`
+**Module**: `HeytingLean.Blockchain.PaymentChannels.EVMAdapter.State`
+**Kind**: `inductive`
+**Centrality**: 0.000443
 
-## 📚 Research Node
-**Topic**: Federated learning across heterogeneous agents
+## Topic
+**Declaration**: ChannelRecord
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.blockchain.paymentchannels.evmadapter.channelrecord
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Slime mold optimization and network design](cell_R12_C5.md)
-- ↗️ **NE**: [Enzyme cascades as analog signal processors](cell_R12_C6.md)
-- ➡️ **E**: [Knowledge graph embedding and link prediction](cell_R13_C6.md)
-- ↘️ **SE**: [Cellular automata and computational universality](cell_R14_C6.md)
-- ⬇️ **S**: [Holographic principle and information bounds](cell_R14_C5.md)
-- ↙️ **SW**: [Dissipative structures and non-equilibrium thermod...](cell_R14_C4.md)
-- ⬅️ **W**: [Token-incentivized research contribution models](cell_R13_C4.md)
-- ↖️ **NW**: [Bacterial quorum sensing as distributed consensus](cell_R12_C4.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [ParaMealy [similarity]](cell_R13_C6.md)
+- ⬅️ **W**: [BitComparison [similarity]](cell_R13_C4.md)

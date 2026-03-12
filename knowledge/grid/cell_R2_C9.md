@@ -1,21 +1,19 @@
 # Cell [2,9] — KNOWLEDGE
-**Grid Position**: Row 2, Column 9
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Blockchain.PaymentChannels.ChannelGraph`
+**Module**: `HeytingLean.Blockchain.PaymentChannels.Graph`
+**Kind**: `inductive`
+**Centrality**: 0.001229
 
-## 📚 Research Node
-**Topic**: Morphogenetic computing: Turing patterns as programs
+## Topic
+**Declaration**: ChannelGraph
+**Signature**: `(V : Type u) → [DecidableEq V] → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.blockchain.paymentchannels.channelgraph
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R1_C9.md)
-- ↗️ **NE**: [Meta-learning and learning-to-learn paradigms](cell_R1_C10.md)
-- ➡️ **E**: [Neuromorphic hardware: memristors and beyond](cell_R2_C10.md)
-- ↘️ **SE**: [Variational quantum eigensolvers for molecular sim...](cell_R3_C10.md)
-- ⬇️ **S**: [Quantum coherence in biological photosynthesis](cell_R3_C9.md)
-- ↙️ **SW**: [Topological qubits and fault-tolerant quantum comp...](cell_R3_C8.md)
-- ⬅️ **W**: [Bio-inspired optimization: ant colony and swarm in...](cell_R2_C8.md)
-- ↖️ **NW**: [Autopoietic systems and self-organization](cell_R1_C8.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [CatTower [similarity]](cell_R2_C10.md)
+- ⬅️ **W**: [Form [similarity]](cell_R2_C8.md)

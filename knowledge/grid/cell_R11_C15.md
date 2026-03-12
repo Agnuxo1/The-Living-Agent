@@ -1,18 +1,19 @@
 # Cell [11,15] — KNOWLEDGE
-**Grid Position**: Row 11, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Blockchain.PaymentChannels.EVMAdapter.EVMState`
+**Module**: `HeytingLean.Blockchain.PaymentChannels.EVMAdapter.State`
+**Kind**: `inductive`
+**Centrality**: 0.000482
 
-## 📚 Research Node
-**Topic**: Synthetic ecosystems for emergent intelligence
+## Topic
+**Declaration**: EVMState
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.blockchain.paymentchannels.evmadapter.evmstate
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Skill acquisition and procedural knowledge formati...](cell_R10_C15.md)
-- ⬇️ **S**: [Quantum machine learning kernel methods](cell_R12_C15.md)
-- ↙️ **SW**: [Entanglement-assisted classical communication](cell_R12_C14.md)
-- ⬅️ **W**: [Molecular communication and nanonetworks](cell_R11_C14.md)
-- ↖️ **NW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R10_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↙️ **SW**: [MolGraph [similarity]](cell_R12_C0.md)
+- ⬅️ **W**: [Scalar [similarity]](cell_R11_C14.md)

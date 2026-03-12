@@ -1,19 +1,20 @@
 # Cell [0,8] — ENTRY
-**Grid Position**: Row 0, Column 8
-**Type**: ENTRY
+**FQN**: `HeytingLean.Crypto.KEM.FIPS203.MLKEM203Params`
+**Module**: `HeytingLean.Crypto.KEM.MLKEM203Params`
+**Kind**: `inductive`
+**Centrality**: 0.002677
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 8.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Topological qubits and fault-tolerant quantum computation
+## Topic
+**Declaration**: MLKEM203Params
+**Signature**: `Type`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+FIPS 203 (ML-KEM) parameter set bundle.
+
+## Keywords
+203, bundle., fips, heytinglean.crypto.kem.fips203.mlkem203params, ml-kem, parameter, set
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Quantum coherence in biological photosynthesis](cell_R0_C9.md)
-- ↘️ **SE**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R1_C9.md)
-- ⬇️ **S**: [Autopoietic systems and self-organization](cell_R1_C8.md)
-- ↙️ **SW**: [Merkle DAG structures for versioned knowledge](cell_R1_C7.md)
-- ⬅️ **W**: [Epigenetic memory in cellular computing](cell_R0_C7.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [RadialGraph [similarity]](cell_R0_C9.md)
+- ↘️ **SE**: [MLDSA204Params [similarity]](cell_R1_C13.md)
+- ⬅️ **W**: [Expr [similarity]](cell_R0_C7.md)

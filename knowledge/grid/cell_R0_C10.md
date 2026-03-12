@@ -1,19 +1,20 @@
 # Cell [0,10] — ENTRY
-**Grid Position**: Row 0, Column 10
-**Type**: ENTRY
+**FQN**: `HeytingLean.Quantum.OML.OrthocomplementedLattice`
+**Module**: `HeytingLean.Quantum.OML.Core`
+**Kind**: `inductive`
+**Centrality**: 0.002395
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 10.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Variational quantum eigensolvers for molecular simulation
+## Topic
+**Declaration**: OrthocomplementedLattice
+**Signature**: `Type u_1 → Type u_1`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.quantum.oml.orthocomplementedlattice
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Quantum error correction via surface codes](cell_R0_C11.md)
-- ↘️ **SE**: [Embodied cognition and situated AI](cell_R1_C11.md)
-- ⬇️ **S**: [Meta-learning and learning-to-learn paradigms](cell_R1_C10.md)
-- ↙️ **SW**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R1_C9.md)
-- ⬅️ **W**: [Quantum coherence in biological photosynthesis](cell_R0_C9.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [LensID [similarity]](cell_R0_C11.md)
+- ↙️ **SW**: [OrthomodularLattice [dependency]](cell_R15_C5.md)
+- ⬅️ **W**: [RadialGraph [similarity]](cell_R0_C9.md)

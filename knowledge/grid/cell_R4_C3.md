@@ -1,21 +1,19 @@
 # Cell [4,3] — KNOWLEDGE
-**Grid Position**: Row 4, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.LoF.LeanKernel.WHNFSKY.L`
+**Module**: `HeytingLean.LoF.LeanKernel.WHNFSKY`
+**Kind**: `def`
+**Centrality**: 0.000865
 
-## 📚 Research Node
-**Topic**: Peer-to-peer scientific validation protocols
+## Topic
+**Declaration**: L
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.lof.leankernel.whnfsky.l
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic biology circuits for Boolean operations](cell_R3_C3.md)
-- ↗️ **NE**: [Bacterial quorum sensing as distributed consensus](cell_R3_C4.md)
-- ➡️ **E**: [Token-incentivized research contribution models](cell_R4_C4.md)
-- ↘️ **SE**: [Dissipative structures and non-equilibrium thermod...](cell_R5_C4.md)
-- ⬇️ **S**: [Scale-free networks and preferential attachment](cell_R5_C3.md)
-- ↙️ **SW**: [Self-organized criticality in neural networks](cell_R5_C2.md)
-- ⬅️ **W**: [Decentralized AI governance frameworks](cell_R4_C2.md)
-- ↖️ **NW**: [Neural organoid computing architectures](cell_R3_C2.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [GlobularSet [similarity]](cell_R4_C4.md)
+- ⬅️ **W**: [Ctx [similarity]](cell_R4_C2.md)

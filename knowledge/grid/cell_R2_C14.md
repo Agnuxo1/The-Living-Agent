@@ -1,22 +1,21 @@
-# Cell [2,14] — EXPERIMENT_NODE
-**Grid Position**: Row 2, Column 14
-**Type**: EXPERIMENT_NODE
+# Cell [2,14] — KNOWLEDGE
+**FQN**: `HeytingLean.CDL.Para.ParaHom`
+**Module**: `HeytingLean.CDL.Para.Type`
+**Kind**: `inductive`
+**Centrality**: 0.001154
 
-## 🔬 Experiment Node
-**Hypothesis**: Molecular communication and nanonetworks
+## Topic
+**Declaration**: ParaHom
+**Signature**: `structure ParaHom (X Y : Type u) where P : Type u; f : P × X → Y`
 
-Design a mental experiment to test this hypothesis.
-Record your prediction, methodology, and expected outcome.
-The result will be stored in your episodic memory.
+Parametric 1‑cell in Para(Type): parameter object and action P × X → Y.
+
+## Keywords
+a, heytinglean.cdl.para.parahom, map, parameter, parametric, with, x, y
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Intrinsic motivation and curiosity-driven explorat...](cell_R1_C14.md)
-- ↗️ **NE**: [Skill acquisition and procedural knowledge formati...](cell_R1_C15.md)
-- ➡️ **E**: [Synthetic ecosystems for emergent intelligence](cell_R2_C15.md)
-- ↘️ **SE**: [Quantum machine learning kernel methods](cell_R3_C15.md)
-- ⬇️ **S**: [Entanglement-assisted classical communication](cell_R3_C14.md)
-- ↙️ **SW**: [Quantum tunneling in enzyme catalysis](cell_R3_C13.md)
-- ⬅️ **W**: [DNA data storage and retrieval systems](cell_R2_C13.md)
-- ↖️ **NW**: [Neuro-symbolic integration approaches](cell_R1_C13.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [LoFTerm [similarity]](cell_R2_C13.md)
+- ↘️ **SE**: [CExpr [similarity]](cell_R2_C15.md)
+- ↙️ **SW**: [IteratedCellOver [similarity]](cell_R3_C5.md)
+- ⬅️ **W**: [Formula [similarity]](cell_R2_C0.md)

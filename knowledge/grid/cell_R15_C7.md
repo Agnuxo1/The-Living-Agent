@@ -1,19 +1,20 @@
 # Cell [15,7] — SYNTHESIS
-**Grid Position**: Row 15, Column 7
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.Logic.Modal.DialParam`
+**Module**: `HeytingLean.Logic.ModalDial`
+**Kind**: `inductive`
+**Centrality**: 0.000835
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Epigenetic memory in cellular computing
+## Topic
+**Declaration**: DialParam
+**Signature**: `structure DialParam where dimension : ℕ; dial : Dial α`
 
-After synthesis, compress your trace and re-enter at Row 0.
+Annotates breathing data with ladder dimension.
+
+## Keywords
+DialParam, dimension
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Renormalization group and multi-scale physics](cell_R14_C7.md)
-- ↗️ **NE**: [Bio-inspired optimization: ant colony and swarm in...](cell_R14_C8.md)
-- ➡️ **E**: [Topological qubits and fault-tolerant quantum comp...](cell_R15_C8.md)
-- ⬅️ **W**: [Enzyme cascades as analog signal processors](cell_R15_C6.md)
-- ↖️ **NW**: [Cellular automata and computational universality](cell_R14_C6.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [RightInverseAt [similarity]](cell_R15_C8.md)
+- ⬅️ **W**: [Model [similarity]](cell_R15_C6.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

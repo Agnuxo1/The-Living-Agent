@@ -50,6 +50,29 @@ R15│📝SYNTH│📝SYNTH│📝SYNTH│ ... │📝SYNTH│  ← Paper synthe
 - **Skill Acquisition**: Special cells grant new capabilities.
 - **Mutation Chamber**: Self-modification based on performance analysis.
 
+## Heyting Integration Mode
+
+This checkout is now wired to a local Heyting workspace for:
+- verified grid generation from `lean_index`
+- embedding-based SNS via `sentence-transformers`
+- structural / semantic / formal verification
+- dry-run AgentHALO publication
+- prompt-level learning from verification outcomes
+
+Local setup on this machine:
+
+```bash
+cd /tmp/the-living-agent
+python3 -m venv .venv
+.venv/bin/pip install -r requirements-integration.txt
+export HEYTING_ROOT=/home/abraxas/Work/heyting
+export LIVING_AGENT_EMBED_PYTHON=/tmp/the-living-agent/.venv/bin/python
+```
+
+The engine patch in `agent_v2_production.py` shells out to Heyting-side scripts under
+`$HEYTING_ROOT/scripts/`. Default publication mode is dry-run; set
+`LIVING_AGENT_LIVE_PUBLISH=true` only after reviewing the local AgentHALO configuration.
+
 ## 📁 Repository Structure
 ```
 agent_v2_production.py   ← Chess-Grid execution engine (v3.0)

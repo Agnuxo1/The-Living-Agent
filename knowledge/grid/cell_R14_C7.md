@@ -1,21 +1,19 @@
 # Cell [14,7] — KNOWLEDGE
-**Grid Position**: Row 14, Column 7
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.IR.Backend`
+**Module**: `HeytingLean.Crypto.ZK.IR`
+**Kind**: `inductive`
+**Centrality**: 0.000426
 
-## 📚 Research Node
-**Topic**: Renormalization group and multi-scale physics
+## Topic
+**Declaration**: Backend
+**Signature**: `Type → Type 1`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Lightweight interface that any ZK backend can implement. It is intentionally generic and compiled from the existing BoolLens VM in this codebase.
+
+## Keywords
+any, backend, can, heytinglean.crypto.zk.ir.backend, interface, lightweight, that, zk
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Merkle DAG structures for versioned knowledge](cell_R13_C7.md)
-- ↗️ **NE**: [Autopoietic systems and self-organization](cell_R13_C8.md)
-- ➡️ **E**: [Bio-inspired optimization: ant colony and swarm in...](cell_R14_C8.md)
-- ↘️ **SE**: [Topological qubits and fault-tolerant quantum comp...](cell_R15_C8.md)
-- ⬇️ **S**: [Epigenetic memory in cellular computing](cell_R15_C7.md)
-- ↙️ **SW**: [Enzyme cascades as analog signal processors](cell_R15_C6.md)
-- ⬅️ **W**: [Cellular automata and computational universality](cell_R14_C6.md)
-- ↖️ **NW**: [Knowledge graph embedding and link prediction](cell_R13_C6.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [DataValue [similarity]](cell_R14_C8.md)
+- ⬅️ **W**: [BondType [similarity]](cell_R14_C6.md)

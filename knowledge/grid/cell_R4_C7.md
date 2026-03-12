@@ -1,21 +1,23 @@
 # Cell [4,7] — KNOWLEDGE
-**Grid Position**: Row 4, Column 7
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.MiniC.Fun`
+**Module**: `HeytingLean.MiniC.Syntax`
+**Kind**: `inductive`
+**Centrality**: 0.000833
 
-## 📚 Research Node
-**Topic**: Merkle DAG structures for versioned knowledge
+## Topic
+**Declaration**: Fun
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Inductive type Fun. Use when performing case analysis or recursion over this type.
+
+## Keywords
+case, fun., heytinglean.minic.fun, inductive, performing, type, use, when
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Epigenetic memory in cellular computing](cell_R3_C7.md)
-- ↗️ **NE**: [Topological qubits and fault-tolerant quantum comp...](cell_R3_C8.md)
-- ➡️ **E**: [Autopoietic systems and self-organization](cell_R4_C8.md)
-- ↘️ **SE**: [Bio-inspired optimization: ant colony and swarm in...](cell_R5_C8.md)
-- ⬇️ **S**: [Renormalization group and multi-scale physics](cell_R5_C7.md)
-- ↙️ **SW**: [Cellular automata and computational universality](cell_R5_C6.md)
-- ⬅️ **W**: [Knowledge graph embedding and link prediction](cell_R4_C6.md)
-- ↖️ **NW**: [Enzyme cascades as analog signal processors](cell_R3_C6.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [LWEParams [similarity]](cell_R4_C8.md)
+- ↘️ **SE**: [Rule [similarity]](cell_R12_C10.md)
+- ⬇️ **S**: [W [similarity]](cell_R12_C7.md)
+- ↙️ **SW**: [Atom [similarity]](cell_R12_C2.md)
+- ⬅️ **W**: [Cap [similarity]](cell_R4_C6.md)
+- ↖️ **NW**: [Comb [similarity]](cell_R0_C1.md)

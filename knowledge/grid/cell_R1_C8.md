@@ -1,21 +1,21 @@
 # Cell [1,8] — KNOWLEDGE
-**Grid Position**: Row 1, Column 8
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.ATheory.Obj`
+**Module**: `HeytingLean.ATheory.AssemblyCore`
+**Kind**: `inductive`
+**Centrality**: 0.001715
 
-## 📚 Research Node
-**Topic**: Autopoietic systems and self-organization
+## Topic
+**Declaration**: Obj
+**Signature**: `inductive Obj (α : Type u) | base : α → Obj α | join : Obj α → Obj α → Obj α`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Syntax of assembly objects built from primitive parts and binary joins.
+
+## Keywords
+abstract, assembly, built, from, heytinglean.atheory.obj, objects, of, syntax
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Topological qubits and fault-tolerant quantum comp...](cell_R0_C8.md)
-- ↗️ **NE**: [Quantum coherence in biological photosynthesis](cell_R0_C9.md)
-- ➡️ **E**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R1_C9.md)
-- ↘️ **SE**: [Morphogenetic computing: Turing patterns as progra...](cell_R2_C9.md)
-- ⬇️ **S**: [Bio-inspired optimization: ant colony and swarm in...](cell_R2_C8.md)
-- ↙️ **SW**: [Renormalization group and multi-scale physics](cell_R2_C7.md)
-- ⬅️ **W**: [Merkle DAG structures for versioned knowledge](cell_R1_C7.md)
-- ↖️ **NW**: [Epigenetic memory in cellular computing](cell_R0_C7.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Ty [similarity]](cell_R1_C9.md)
+- ↘️ **SE**: [Rules [similarity]](cell_R13_C11.md)
+- ↙️ **SW**: [ASpace [similarity]](cell_R10_C6.md)
+- ⬅️ **W**: [Expr [similarity]](cell_R1_C7.md)

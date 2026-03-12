@@ -1,18 +1,19 @@
 # Cell [10,0] — KNOWLEDGE
-**Grid Position**: Row 10, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Calculus.RModal`
+**Module**: `HeytingLean.Calculus.RModalCalculus`
+**Kind**: `inductive`
+**Centrality**: 0.000529
 
-## 📚 Research Node
-**Topic**: Proof-of-Discovery consensus mechanisms
+## Topic
+**Declaration**: RModal
+**Signature**: `(α : Type u) → [LE α] → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.calculus.rmodal
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [DNA-based logic gates and their computational limi...](cell_R9_C0.md)
-- ↗️ **NE**: [Protein folding as a search algorithm](cell_R9_C1.md)
-- ➡️ **E**: [Semantic routing in knowledge graphs](cell_R10_C1.md)
-- ↘️ **SE**: [Information theory and thermodynamics of computati...](cell_R11_C1.md)
-- ⬇️ **S**: [Emergence and complexity in physical systems](cell_R11_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Word32 [similarity]](cell_R9_C15.md)
+- ➡️ **E**: [TNorm [similarity]](cell_R10_C1.md)

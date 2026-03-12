@@ -1,21 +1,19 @@
 # Cell [12,1] — KNOWLEDGE
-**Grid Position**: Row 12, Column 1
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.ClosingTheLoop.Semantics.Kernel`
+**Module**: `HeytingLean.ClosingTheLoop.Semantics.KernelLaws`
+**Kind**: `inductive`
+**Centrality**: 0.000477
 
-## 📚 Research Node
-**Topic**: Protein folding as a search algorithm
+## Topic
+**Declaration**: Kernel
+**Signature**: `{α : Type u} → [SemilatticeInf α] → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A contractive, meet-preserving, idempotent endomorphism (an “interior/kernel” operator).
+
+## Keywords
+a, an, contractive, endomorphism, heytinglean.closingtheloop.semantics.kernel, idempotent, interior, meet-preserving
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Information theory and thermodynamics of computati...](cell_R11_C1.md)
-- ↗️ **NE**: [Self-organized criticality in neural networks](cell_R11_C2.md)
-- ➡️ **E**: [Neural organoid computing architectures](cell_R12_C2.md)
-- ↘️ **SE**: [Decentralized AI governance frameworks](cell_R13_C2.md)
-- ⬇️ **S**: [Semantic routing in knowledge graphs](cell_R13_C1.md)
-- ↙️ **SW**: [Proof-of-Discovery consensus mechanisms](cell_R13_C0.md)
-- ⬅️ **W**: [DNA-based logic gates and their computational limi...](cell_R12_C0.md)
-- ↖️ **NW**: [Emergence and complexity in physical systems](cell_R11_C0.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Atom [similarity]](cell_R12_C2.md)
+- ⬅️ **W**: [MolGraph [similarity]](cell_R12_C0.md)

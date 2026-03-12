@@ -1,21 +1,20 @@
 # Cell [12,11] — KNOWLEDGE
-**Grid Position**: Row 12, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Compiler.TensorLogic.AtomPat`
+**Module**: `HeytingLean.Compiler.TensorLogic.AST`
+**Kind**: `inductive`
+**Centrality**: 0.000461
 
-## 📚 Research Node
-**Topic**: Quantum error correction via surface codes
+## Topic
+**Declaration**: AtomPat
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A pattern atom (may contain variables).
+
+## Keywords
+a, atom, contain, heytinglean.compiler.tensorlogic.atompat, may, pattern, variables
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Evolutionary strategies for neural architecture se...](cell_R11_C11.md)
-- ↗️ **NE**: [Reservoir computing with physical substrates](cell_R11_C12.md)
-- ➡️ **E**: [Quantum reservoir computing with spin chains](cell_R12_C12.md)
-- ↘️ **SE**: [Compositional generalization in neural networks](cell_R13_C12.md)
-- ⬇️ **S**: [Embodied cognition and situated AI](cell_R13_C11.md)
-- ↙️ **SW**: [Meta-learning and learning-to-learn paradigms](cell_R13_C10.md)
-- ⬅️ **W**: [Variational quantum eigensolvers for molecular sim...](cell_R12_C10.md)
-- ↖️ **NW**: [Neuromorphic hardware: memristors and beyond](cell_R11_C10.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [TemplateParams [similarity]](cell_R12_C12.md)
+- ⬅️ **W**: [Rule [similarity]](cell_R12_C10.md)
+- ↖️ **NW**: [Atom [similarity]](cell_R9_C7.md)

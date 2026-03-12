@@ -1,21 +1,20 @@
 # Cell [9,2] — KNOWLEDGE
-**Grid Position**: Row 9, Column 2
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.ClosingTheLoop.Semantics.ReachSystem`
+**Module**: `HeytingLean.ClosingTheLoop.Semantics.RelationalRealizability`
+**Kind**: `inductive`
+**Centrality**: 0.000553
 
-## 📚 Research Node
-**Topic**: Neural organoid computing architectures
+## Topic
+**Declaration**: ReachSystem
+**Signature**: `Type (u + 1)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A reachability-based computation model: a state space equipped with a reflexive/transitive reachability relation (think: multi-step reduction, time evolution, etc.).
+
+## Keywords
+a, computation, heytinglean.closingtheloop.semantics.reachsystem, model, reachability-based, space, state
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Self-organized criticality in neural networks](cell_R8_C2.md)
-- ↗️ **NE**: [Scale-free networks and preferential attachment](cell_R8_C3.md)
-- ➡️ **E**: [Synthetic biology circuits for Boolean operations](cell_R9_C3.md)
-- ↘️ **SE**: [Peer-to-peer scientific validation protocols](cell_R10_C3.md)
-- ⬇️ **S**: [Decentralized AI governance frameworks](cell_R10_C2.md)
-- ↙️ **SW**: [Semantic routing in knowledge graphs](cell_R10_C1.md)
-- ⬅️ **W**: [Protein folding as a search algorithm](cell_R9_C1.md)
-- ↖️ **NW**: [Information theory and thermodynamics of computati...](cell_R8_C1.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [OptionSet [similarity]](cell_R9_C3.md)
+- ⬅️ **W**: [TropicalReal [similarity]](cell_R9_C1.md)
+- ↖️ **NW**: [HaltSys [similarity]](cell_R6_C0.md)

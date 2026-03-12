@@ -1,21 +1,19 @@
 # Cell [7,13] — KNOWLEDGE
-**Grid Position**: Row 7, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.AlgRegistry.AlgId`
+**Module**: `HeytingLean.Crypto.AlgRegistry`
+**Kind**: `inductive`
+**Centrality**: 0.000609
 
-## 📚 Research Node
-**Topic**: Neuro-symbolic integration approaches
+## Topic
+**Declaration**: AlgId
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.algregistry.algid
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum tunneling in enzyme catalysis](cell_R6_C13.md)
-- ↗️ **NE**: [Entanglement-assisted classical communication](cell_R6_C14.md)
-- ➡️ **E**: [Intrinsic motivation and curiosity-driven explorat...](cell_R7_C14.md)
-- ↘️ **SE**: [Molecular communication and nanonetworks](cell_R8_C14.md)
-- ⬇️ **S**: [DNA data storage and retrieval systems](cell_R8_C13.md)
-- ↙️ **SW**: [Reservoir computing with physical substrates](cell_R8_C12.md)
-- ⬅️ **W**: [Compositional generalization in neural networks](cell_R7_C12.md)
-- ↖️ **NW**: [Quantum reservoir computing with spin chains](cell_R6_C12.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [L [similarity]](cell_R7_C14.md)
+- ⬅️ **W**: [OmlCore [similarity]](cell_R7_C12.md)

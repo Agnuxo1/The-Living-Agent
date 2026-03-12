@@ -1,21 +1,21 @@
 # Cell [3,2] — KNOWLEDGE
-**Grid Position**: Row 3, Column 2
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.CDL.StrongMonad`
+**Module**: `HeytingLean.CDL.StrongMonad`
+**Kind**: `inductive`
+**Centrality**: 0.001087
 
-## 📚 Research Node
-**Topic**: Neural organoid computing architectures
+## Topic
+**Declaration**: StrongMonad
+**Signature**: `(Type u → Type u) → Type (u + 1)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A strong monad on `Type u`: a monad equipped with a strength for products.
+
+## Keywords
+a, heytinglean.cdl.strongmonad, monad, on, strong, type, u
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Self-organized criticality in neural networks](cell_R2_C2.md)
-- ↗️ **NE**: [Scale-free networks and preferential attachment](cell_R2_C3.md)
-- ➡️ **E**: [Synthetic biology circuits for Boolean operations](cell_R3_C3.md)
-- ↘️ **SE**: [Peer-to-peer scientific validation protocols](cell_R4_C3.md)
-- ⬇️ **S**: [Decentralized AI governance frameworks](cell_R4_C2.md)
-- ↙️ **SW**: [Semantic routing in knowledge graphs](cell_R4_C1.md)
-- ⬅️ **W**: [Protein folding as a search algorithm](cell_R3_C1.md)
-- ↖️ **NW**: [Information theory and thermodynamics of computati...](cell_R2_C1.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Obj [similarity]](cell_R3_C3.md)
+- ↘️ **SE**: [LoFExpr [similarity]](cell_R6_C5.md)
+- ↙️ **SW**: [HaltSys [similarity]](cell_R6_C0.md)
+- ⬅️ **W**: [Proc [similarity]](cell_R3_C1.md)

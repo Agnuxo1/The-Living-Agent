@@ -1,21 +1,19 @@
 # Cell [9,4] — KNOWLEDGE
-**Grid Position**: Row 9, Column 4
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Blockchain.Facilitator.ChainView`
+**Module**: `HeytingLean.Blockchain.Facilitator.Core`
+**Kind**: `inductive`
+**Centrality**: 0.000552
 
-## 📚 Research Node
-**Topic**: Bacterial quorum sensing as distributed consensus
+## Topic
+**Declaration**: ChainView
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.blockchain.facilitator.chainview
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Dissipative structures and non-equilibrium thermod...](cell_R8_C4.md)
-- ↗️ **NE**: [Holographic principle and information bounds](cell_R8_C5.md)
-- ➡️ **E**: [Slime mold optimization and network design](cell_R9_C5.md)
-- ↘️ **SE**: [Federated learning across heterogeneous agents](cell_R10_C5.md)
-- ⬇️ **S**: [Token-incentivized research contribution models](cell_R10_C4.md)
-- ↙️ **SW**: [Peer-to-peer scientific validation protocols](cell_R10_C3.md)
-- ⬅️ **W**: [Synthetic biology circuits for Boolean operations](cell_R9_C3.md)
-- ↖️ **NW**: [Scale-free networks and preferential attachment](cell_R8_C3.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [KrausChannel [similarity]](cell_R9_C5.md)
+- ⬅️ **W**: [OptionSet [similarity]](cell_R9_C3.md)

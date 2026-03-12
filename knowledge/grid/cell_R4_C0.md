@@ -1,18 +1,19 @@
 # Cell [4,0] — KNOWLEDGE
-**Grid Position**: Row 4, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.Lattice.TrapdoorParams`
+**Module**: `HeytingLean.Crypto.Lattice.RecoveryViews`
+**Kind**: `inductive`
+**Centrality**: 0.000922
 
-## 📚 Research Node
-**Topic**: Proof-of-Discovery consensus mechanisms
+## Topic
+**Declaration**: TrapdoorParams
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+crypto, fhe, lattice, params, trapdoor
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [DNA-based logic gates and their computational limi...](cell_R3_C0.md)
-- ↗️ **NE**: [Protein folding as a search algorithm](cell_R3_C1.md)
-- ➡️ **E**: [Semantic routing in knowledge graphs](cell_R4_C1.md)
-- ↘️ **SE**: [Information theory and thermodynamics of computati...](cell_R5_C1.md)
-- ⬇️ **S**: [Emergence and complexity in physical systems](cell_R5_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Bridge [similarity]](cell_R3_C15.md)
+- ➡️ **E**: [Expr [similarity]](cell_R4_C1.md)

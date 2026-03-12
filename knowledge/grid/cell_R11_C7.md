@@ -1,21 +1,20 @@
 # Cell [11,7] — KNOWLEDGE
-**Grid Position**: Row 11, Column 7
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Computational.Homology.F2Matrix`
+**Module**: `HeytingLean.Computational.Homology.F2Matrix`
+**Kind**: `inductive`
+**Centrality**: 0.000487
 
-## 📚 Research Node
-**Topic**: Renormalization group and multi-scale physics
+## Topic
+**Declaration**: F2Matrix
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A small, executable matrix over `F₂`, represented row-major as `Bool`s.
+
+## Keywords
+a, executable, f, heytinglean.computational.homology.f2matrix, matrix, over, represented, small
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Merkle DAG structures for versioned knowledge](cell_R10_C7.md)
-- ↗️ **NE**: [Autopoietic systems and self-organization](cell_R10_C8.md)
-- ➡️ **E**: [Bio-inspired optimization: ant colony and swarm in...](cell_R11_C8.md)
-- ↘️ **SE**: [Topological qubits and fault-tolerant quantum comp...](cell_R12_C8.md)
-- ⬇️ **S**: [Epigenetic memory in cellular computing](cell_R12_C7.md)
-- ↙️ **SW**: [Enzyme cascades as analog signal processors](cell_R12_C6.md)
-- ⬅️ **W**: [Cellular automata and computational universality](cell_R11_C6.md)
-- ↖️ **NW**: [Knowledge graph embedding and link prediction](cell_R10_C6.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [LaurentPoly [similarity]](cell_R9_C11.md)
+- ➡️ **E**: [Crossing [similarity]](cell_R11_C8.md)
+- ⬅️ **W**: [ModMatrices [similarity]](cell_R11_C6.md)

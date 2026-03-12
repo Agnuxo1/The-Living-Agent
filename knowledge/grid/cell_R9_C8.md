@@ -1,21 +1,20 @@
 # Cell [9,8] — KNOWLEDGE
-**Grid Position**: Row 9, Column 8
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.LoF.LeanKernel.Literal`
+**Module**: `HeytingLean.LoF.LeanKernel.Expression`
+**Kind**: `inductive`
+**Centrality**: 0.000549
 
-## 📚 Research Node
-**Topic**: Topological qubits and fault-tolerant quantum computation
+## Topic
+**Declaration**: Literal
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Minimal literal payload (modeled on Lean's `Literal`).
+
+## Keywords
+heytinglean.lof.leankernel.literal, lean, literal, minimal, modeled, on, payload, s
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Bio-inspired optimization: ant colony and swarm in...](cell_R8_C8.md)
-- ↗️ **NE**: [Morphogenetic computing: Turing patterns as progra...](cell_R8_C9.md)
-- ➡️ **E**: [Quantum coherence in biological photosynthesis](cell_R9_C9.md)
-- ↘️ **SE**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R10_C9.md)
-- ⬇️ **S**: [Autopoietic systems and self-organization](cell_R10_C8.md)
-- ↙️ **SW**: [Merkle DAG structures for versioned knowledge](cell_R10_C7.md)
-- ⬅️ **W**: [Epigenetic memory in cellular computing](cell_R9_C7.md)
-- ↖️ **NW**: [Renormalization group and multi-scale physics](cell_R8_C7.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [BB84Substrate [similarity]](cell_R9_C9.md)
+- ⬅️ **W**: [Atom [similarity]](cell_R9_C7.md)
+- ↖️ **NW**: [BinderInfo [similarity]](cell_R7_C4.md)

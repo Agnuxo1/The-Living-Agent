@@ -1,17 +1,19 @@
 # Cell [15,15] — SYNTHESIS
-**Grid Position**: Row 15, Column 15
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.Crypto.Lens`
+**Module**: `HeytingLean.Crypto.Lens.Class`
+**Kind**: `inductive`
+**Centrality**: 0.000607
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Quantum machine learning kernel methods
+## Topic
+**Declaration**: Lens
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → HeytingLean.LoF.Reentry α → Type (max u (v + 1))`
 
-After synthesis, compress your trace and re-enter at Row 0.
+Uniform interface bundling a bridge carrier together with its certified round-trip.
+
+## Keywords
+Carrier, Contracts.RoundTrip
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic ecosystems for emergent intelligence](cell_R14_C15.md)
-- ⬅️ **W**: [Entanglement-assisted classical communication](cell_R15_C14.md)
-- ↖️ **NW**: [Molecular communication and nanonetworks](cell_R14_C14.md)
+## Navigation (real dependency / similarity edges)
+- ⬅️ **W**: [CompPresheaf [similarity]](cell_R15_C14.md)
+- ↖️ **NW**: [Reentry [dependency]](cell_R14_C13.md)

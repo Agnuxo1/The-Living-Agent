@@ -1,19 +1,21 @@
 # Cell [0,7] — ENTRY
-**Grid Position**: Row 0, Column 7
-**Type**: ENTRY
+**FQN**: `HeytingLean.LoF.LoFPrimary.Expr`
+**Module**: `HeytingLean.LoF.LoFPrimary.Syntax`
+**Kind**: `inductive`
+**Centrality**: 0.002731
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 7.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Epigenetic memory in cellular computing
+## Topic
+**Declaration**: Expr
+**Signature**: `Nat → Type`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+Primary LoF expressions with `n` free variables.
+
+## Keywords
+expressions, free, heytinglean.lof.lofprimary.expr, lof, n, primary, variables., with
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Topological qubits and fault-tolerant quantum comp...](cell_R0_C8.md)
-- ↘️ **SE**: [Autopoietic systems and self-organization](cell_R1_C8.md)
-- ⬇️ **S**: [Merkle DAG structures for versioned knowledge](cell_R1_C7.md)
-- ↙️ **SW**: [Knowledge graph embedding and link prediction](cell_R1_C6.md)
-- ⬅️ **W**: [Enzyme cascades as analog signal processors](cell_R0_C6.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [MLKEM203Params [similarity]](cell_R0_C8.md)
+- ↘️ **SE**: [CExpr [similarity]](cell_R2_C15.md)
+- ↙️ **SW**: [Expr [similarity]](cell_R3_C6.md)
+- ⬅️ **W**: [PosetSite [similarity]](cell_R0_C6.md)

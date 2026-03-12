@@ -1,21 +1,20 @@
 # Cell [7,11] — KNOWLEDGE
-**Grid Position**: Row 7, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ProofSystem.Instance`
+**Module**: `HeytingLean.Crypto.ProofSystem.NucleusZK`
+**Kind**: `inductive`
+**Centrality**: 0.000614
 
-## 📚 Research Node
-**Topic**: Embodied cognition and situated AI
+## Topic
+**Declaration**: Instance
+**Signature**: `Type u_2 → Type (max u_2 (u_3 + 1))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Problem instance: witness encoding and a nucleus context.
+
+## Keywords
+EncodableWitness, NucleusCtx
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum error correction via surface codes](cell_R6_C11.md)
-- ↗️ **NE**: [Quantum reservoir computing with spin chains](cell_R6_C12.md)
-- ➡️ **E**: [Compositional generalization in neural networks](cell_R7_C12.md)
-- ↘️ **SE**: [Reservoir computing with physical substrates](cell_R8_C12.md)
-- ⬇️ **S**: [Evolutionary strategies for neural architecture se...](cell_R8_C11.md)
-- ↙️ **SW**: [Neuromorphic hardware: memristors and beyond](cell_R8_C10.md)
-- ⬅️ **W**: [Meta-learning and learning-to-learn paradigms](cell_R7_C10.md)
-- ↖️ **NW**: [Variational quantum eigensolvers for molecular sim...](cell_R6_C10.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [OmlCore [similarity]](cell_R7_C12.md)
+- ↙️ **SW**: [Atom [similarity]](cell_R9_C7.md)
+- ⬅️ **W**: [E91State [similarity]](cell_R7_C10.md)

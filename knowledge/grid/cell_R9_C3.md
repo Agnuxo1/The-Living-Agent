@@ -1,21 +1,21 @@
 # Cell [9,3] — KNOWLEDGE
-**Grid Position**: Row 9, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Numbers.Surreal.TransfinitePreGame.OptionSet`
+**Module**: `HeytingLean.Numbers.Surreal.TransfinitePreGame`
+**Kind**: `inductive`
+**Centrality**: 0.000552
 
-## 📚 Research Node
-**Topic**: Synthetic biology circuits for Boolean operations
+## Topic
+**Declaration**: OptionSet
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A compact presentation of (possibly infinite) option sets.
+
+## Keywords
+a, compact, heytinglean.numbers.surreal.transfinitepregame.optionset, infinite, of, option, possibly, presentation
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Scale-free networks and preferential attachment](cell_R8_C3.md)
-- ↗️ **NE**: [Dissipative structures and non-equilibrium thermod...](cell_R8_C4.md)
-- ➡️ **E**: [Bacterial quorum sensing as distributed consensus](cell_R9_C4.md)
-- ↘️ **SE**: [Token-incentivized research contribution models](cell_R10_C4.md)
-- ⬇️ **S**: [Peer-to-peer scientific validation protocols](cell_R10_C3.md)
-- ↙️ **SW**: [Decentralized AI governance frameworks](cell_R10_C2.md)
-- ⬅️ **W**: [Neural organoid computing architectures](cell_R9_C2.md)
-- ↖️ **NW**: [Self-organized criticality in neural networks](cell_R8_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [System [similarity]](cell_R5_C9.md)
+- ➡️ **E**: [ChainView [similarity]](cell_R9_C4.md)
+- ↘️ **SE**: [PreGame [similarity]](cell_R10_C14.md)
+- ⬅️ **W**: [ReachSystem [similarity]](cell_R9_C2.md)

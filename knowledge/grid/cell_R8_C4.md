@@ -1,21 +1,20 @@
 # Cell [8,4] — KNOWLEDGE
-**Grid Position**: Row 8, Column 4
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.Lattice.CBDCounts.CenteredCounts`
+**Module**: `HeytingLean.Crypto.Lattice.CBDCounts`
+**Kind**: `inductive`
+**Centrality**: 0.000585
 
-## 📚 Research Node
-**Topic**: Dissipative structures and non-equilibrium thermodynamics
+## Topic
+**Declaration**: CenteredCounts
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A type representing centered counts, a generalization of binomial coefficients that are symmetric around a central value. This is used in the study of lattice paths and combinatorial designs.
+
+## Keywords
+Binomial Coefficients, Centered Counts, Combinatorial Designs, Generalization of Binomial Coefficients, Lattice Paths, Symmetric Around a Central Value, Used in Lattice Paths and Combinatorial Designs
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Token-incentivized research contribution models](cell_R7_C4.md)
-- ↗️ **NE**: [Federated learning across heterogeneous agents](cell_R7_C5.md)
-- ➡️ **E**: [Holographic principle and information bounds](cell_R8_C5.md)
-- ↘️ **SE**: [Slime mold optimization and network design](cell_R9_C5.md)
-- ⬇️ **S**: [Bacterial quorum sensing as distributed consensus](cell_R9_C4.md)
-- ↙️ **SW**: [Synthetic biology circuits for Boolean operations](cell_R9_C3.md)
-- ⬅️ **W**: [Scale-free networks and preferential attachment](cell_R8_C3.md)
-- ↖️ **NW**: [Peer-to-peer scientific validation protocols](cell_R7_C3.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [VChain [similarity]](cell_R5_C14.md)
+- ➡️ **E**: [ContractSpec [similarity]](cell_R8_C5.md)
+- ⬅️ **W**: [BDD [similarity]](cell_R8_C3.md)

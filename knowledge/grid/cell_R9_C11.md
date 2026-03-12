@@ -1,21 +1,21 @@
 # Cell [9,11] — KNOWLEDGE
-**Grid Position**: Row 9, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Topology.Knot.LaurentPoly`
+**Module**: `HeytingLean.Topology.Knot.LaurentPoly`
+**Kind**: `inductive`
+**Centrality**: 0.000536
 
-## 📚 Research Node
-**Topic**: Quantum error correction via surface codes
+## Topic
+**Declaration**: LaurentPoly
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Laurent polynomials over `Int`, represented as a canonical sorted list `exp ↦ coeff`.
+
+## Keywords
+a, as, heytinglean.topology.knot.laurentpoly, int, laurent, over, polynomials, represented
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Evolutionary strategies for neural architecture se...](cell_R8_C11.md)
-- ↗️ **NE**: [Reservoir computing with physical substrates](cell_R8_C12.md)
-- ➡️ **E**: [Quantum reservoir computing with spin chains](cell_R9_C12.md)
-- ↘️ **SE**: [Compositional generalization in neural networks](cell_R10_C12.md)
-- ⬇️ **S**: [Embodied cognition and situated AI](cell_R10_C11.md)
-- ↙️ **SW**: [Meta-learning and learning-to-learn paradigms](cell_R10_C10.md)
-- ⬅️ **W**: [Variational quantum eigensolvers for molecular sim...](cell_R9_C10.md)
-- ↖️ **NW**: [Neuromorphic hardware: memristors and beyond](cell_R8_C10.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [LinComb [similarity]](cell_R6_C14.md)
+- ➡️ **E**: [AffineOpG [similarity]](cell_R9_C12.md)
+- ↙️ **SW**: [F2Matrix [similarity]](cell_R11_C7.md)
+- ⬅️ **W**: [E91Ctor [similarity]](cell_R9_C10.md)

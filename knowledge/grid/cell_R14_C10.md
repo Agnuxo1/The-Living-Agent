@@ -1,21 +1,21 @@
 # Cell [14,10] — KNOWLEDGE
-**Grid Position**: Row 14, Column 10
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.QKD.E91.E91Substrate`
+**Module**: `HeytingLean.Crypto.QKD.E91.Tasks`
+**Kind**: `def`
+**Centrality**: 0.000424
 
-## 📚 Research Node
-**Topic**: Neuromorphic hardware: memristors and beyond
+## Topic
+**Declaration**: E91Substrate
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Substrate for the toy E91 formalization.
+
+## Keywords
+e91, for, formalization., heytinglean.crypto.qkd.e91.e91substrate, substrate, the, toy
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Meta-learning and learning-to-learn paradigms](cell_R13_C10.md)
-- ↗️ **NE**: [Embodied cognition and situated AI](cell_R13_C11.md)
-- ➡️ **E**: [Evolutionary strategies for neural architecture se...](cell_R14_C11.md)
-- ↘️ **SE**: [Quantum error correction via surface codes](cell_R15_C11.md)
-- ⬇️ **S**: [Variational quantum eigensolvers for molecular sim...](cell_R15_C10.md)
-- ↙️ **SW**: [Quantum coherence in biological photosynthesis](cell_R15_C9.md)
-- ⬅️ **W**: [Morphogenetic computing: Turing patterns as progra...](cell_R14_C9.md)
-- ↖️ **NW**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R13_C9.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [E91State [similarity]](cell_R7_C10.md)
+- ➡️ **E**: [LocalOperator [similarity]](cell_R14_C11.md)
+- ⬅️ **W**: [PosSemidef [similarity]](cell_R14_C9.md)
+- ↖️ **NW**: [BB84Substrate [similarity]](cell_R9_C9.md)

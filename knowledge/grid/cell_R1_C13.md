@@ -1,21 +1,21 @@
 # Cell [1,13] — KNOWLEDGE
-**Grid Position**: Row 1, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.DSA.FIPS204.MLDSA204Params`
+**Module**: `HeytingLean.Crypto.DSA.MLDSA204Params`
+**Kind**: `inductive`
+**Centrality**: 0.001496
 
-## 📚 Research Node
-**Topic**: Neuro-symbolic integration approaches
+## Topic
+**Declaration**: MLDSA204Params
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+FIPS 204 (ML-DSA) parameter bundle (shape only).
+
+## Keywords
+204, bundle, fips, heytinglean.crypto.dsa.fips204.mldsa204params, ml-dsa, only, parameter, shape
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum tunneling in enzyme catalysis](cell_R0_C13.md)
-- ↗️ **NE**: [Entanglement-assisted classical communication](cell_R0_C14.md)
-- ➡️ **E**: [Intrinsic motivation and curiosity-driven explorat...](cell_R1_C14.md)
-- ↘️ **SE**: [Molecular communication and nanonetworks](cell_R2_C14.md)
-- ⬇️ **S**: [DNA data storage and retrieval systems](cell_R2_C13.md)
-- ↙️ **SW**: [Reservoir computing with physical substrates](cell_R2_C12.md)
-- ⬅️ **W**: [Compositional generalization in neural networks](cell_R1_C12.md)
-- ↖️ **NW**: [Quantum reservoir computing with spin chains](cell_R0_C12.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Address [similarity]](cell_R1_C14.md)
+- ↙️ **SW**: [KEMScheme [similarity]](cell_R5_C0.md)
+- ⬅️ **W**: [TaskCT [similarity]](cell_R1_C12.md)
+- ↖️ **NW**: [MLKEM203Params [similarity]](cell_R0_C8.md)

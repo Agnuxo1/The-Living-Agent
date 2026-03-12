@@ -1,18 +1,20 @@
 # Cell [6,0] — KNOWLEDGE
-**Grid Position**: Row 6, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.MirandaDynamics.Computation.HaltSys`
+**Module**: `HeytingLean.MirandaDynamics.Computation.TuringMachine`
+**Kind**: `inductive`
+**Centrality**: 0.000711
 
-## 📚 Research Node
-**Topic**: DNA-based logic gates and their computational limits
+## Topic
+**Declaration**: HaltSys
+**Signature**: `Type u → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A deterministic system equipped with a halting predicate.
+
+## Keywords
+a, deterministic, equipped, halting, heytinglean.mirandadynamics.computation.haltsys, system, with
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Emergence and complexity in physical systems](cell_R5_C0.md)
-- ↗️ **NE**: [Information theory and thermodynamics of computati...](cell_R5_C1.md)
-- ➡️ **E**: [Protein folding as a search algorithm](cell_R6_C1.md)
-- ↘️ **SE**: [Semantic routing in knowledge graphs](cell_R7_C1.md)
-- ⬇️ **S**: [Proof-of-Discovery consensus mechanisms](cell_R7_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [StrongMonad [similarity]](cell_R3_C2.md)
+- ➡️ **E**: [ValTy [similarity]](cell_R5_C15.md)
+- ↘️ **SE**: [EmbVec [similarity]](cell_R6_C1.md)

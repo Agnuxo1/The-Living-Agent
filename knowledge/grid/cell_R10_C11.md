@@ -1,21 +1,22 @@
 # Cell [10,11] — KNOWLEDGE
-**Grid Position**: Row 10, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Util.VirtualChain`
+**Module**: `HeytingLean.Util.VirtualChain`
+**Kind**: `inductive`
+**Centrality**: 0.000508
 
-## 📚 Research Node
-**Topic**: Embodied cognition and situated AI
+## Topic
+**Declaration**: VirtualChain
+**Signature**: `{α : Type u} → (α → α → Sort v) → α → α → Type (max u v)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A formal composite of `Step`s from `a` to `b`. Always lives in `Type` (never `Prop`).
+
+## Keywords
+a, composite, formal, from, heytinglean.util.virtualchain, of, s, step
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum error correction via surface codes](cell_R9_C11.md)
-- ↗️ **NE**: [Quantum reservoir computing with spin chains](cell_R9_C12.md)
-- ➡️ **E**: [Compositional generalization in neural networks](cell_R10_C12.md)
-- ↘️ **SE**: [Reservoir computing with physical substrates](cell_R11_C12.md)
-- ⬇️ **S**: [Evolutionary strategies for neural architecture se...](cell_R11_C11.md)
-- ↙️ **SW**: [Neuromorphic hardware: memristors and beyond](cell_R11_C10.md)
-- ⬅️ **W**: [Meta-learning and learning-to-learn paradigms](cell_R10_C10.md)
-- ↖️ **NW**: [Variational quantum eigensolvers for molecular sim...](cell_R9_C10.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [VChain [similarity]](cell_R5_C14.md)
+- ➡️ **E**: [SelectorObj [similarity]](cell_R10_C12.md)
+- ↙️ **SW**: [ParaMealy [similarity]](cell_R13_C6.md)
+- ⬅️ **W**: [ShapeStridePair [similarity]](cell_R10_C10.md)
+- ↖️ **NW**: [Formula [similarity]](cell_R2_C0.md)

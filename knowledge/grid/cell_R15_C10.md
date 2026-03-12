@@ -1,19 +1,20 @@
 # Cell [15,10] — SYNTHESIS
-**Grid Position**: Row 15, Column 10
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.ClosingTheLoop.MR.Selector`
+**Module**: `HeytingLean.ClosingTheLoop.MR.Basic`
+**Kind**: `def`
+**Centrality**: 0.000573
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Variational quantum eigensolvers for molecular simulation
+## Topic
+**Declaration**: Selector
+**Signature**: `HeytingLean.ClosingTheLoop.MR.MRSystem → Type (max u v)`
 
-After synthesis, compress your trace and re-enter at Row 0.
+Replacement/repair selectors: admissible maps `B → H(A,B)` with their admissibility proof.
+
+## Keywords
+admissible, b, h, heytinglean.closingtheloop.mr.selector, maps, repair, replacement, selectors
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Neuromorphic hardware: memristors and beyond](cell_R14_C10.md)
-- ↗️ **NE**: [Evolutionary strategies for neural architecture se...](cell_R14_C11.md)
-- ➡️ **E**: [Quantum error correction via surface codes](cell_R15_C11.md)
-- ⬅️ **W**: [Quantum coherence in biological photosynthesis](cell_R15_C9.md)
-- ↖️ **NW**: [Morphogenetic computing: Turing patterns as progra...](cell_R14_C9.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [IntReentry [similarity]](cell_R15_C11.md)
+- ⬅️ **W**: [Model [similarity]](cell_R15_C9.md)
+- ↖️ **NW**: [MRSystem [dependency]](cell_R0_C4.md)

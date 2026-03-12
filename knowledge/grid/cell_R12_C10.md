@@ -1,21 +1,21 @@
 # Cell [12,10] — KNOWLEDGE
-**Grid Position**: Row 12, Column 10
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Reasoning.Rule`
+**Module**: `HeytingLean.Reasoning.Rules`
+**Kind**: `inductive`
+**Centrality**: 0.000462
 
-## 📚 Research Node
-**Topic**: Variational quantum eigensolvers for molecular simulation
+## Topic
+**Declaration**: Rule
+**Signature**: `Type u → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Inductive type Rule. Use when performing case analysis or recursion over this type.
+
+## Keywords
+case, heytinglean.reasoning.rule, inductive, performing, rule., type, use, when
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Neuromorphic hardware: memristors and beyond](cell_R11_C10.md)
-- ↗️ **NE**: [Evolutionary strategies for neural architecture se...](cell_R11_C11.md)
-- ➡️ **E**: [Quantum error correction via surface codes](cell_R12_C11.md)
-- ↘️ **SE**: [Embodied cognition and situated AI](cell_R13_C11.md)
-- ⬇️ **S**: [Meta-learning and learning-to-learn paradigms](cell_R13_C10.md)
-- ↙️ **SW**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R13_C9.md)
-- ⬅️ **W**: [Quantum coherence in biological photosynthesis](cell_R12_C9.md)
-- ↖️ **NW**: [Morphogenetic computing: Turing patterns as progra...](cell_R11_C9.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Side [similarity]](cell_R12_C9.md)
+- ↘️ **SE**: [AtomPat [similarity]](cell_R12_C11.md)
+- ⬅️ **W**: [W [similarity]](cell_R12_C7.md)
+- ↖️ **NW**: [Fun [similarity]](cell_R4_C7.md)

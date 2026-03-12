@@ -1,21 +1,19 @@
 # Cell [10,13] — KNOWLEDGE
-**Grid Position**: Row 10, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Compiler.TensorLogic.Mode`
+**Module**: `HeytingLean.Compiler.TensorLogic.Eval`
+**Kind**: `inductive`
+**Centrality**: 0.000504
 
-## 📚 Research Node
-**Topic**: Neuro-symbolic integration approaches
+## Topic
+**Declaration**: Mode
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.compiler.tensorlogic.mode
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum tunneling in enzyme catalysis](cell_R9_C13.md)
-- ↗️ **NE**: [Entanglement-assisted classical communication](cell_R9_C14.md)
-- ➡️ **E**: [Intrinsic motivation and curiosity-driven explorat...](cell_R10_C14.md)
-- ↘️ **SE**: [Molecular communication and nanonetworks](cell_R11_C14.md)
-- ⬇️ **S**: [DNA data storage and retrieval systems](cell_R11_C13.md)
-- ↙️ **SW**: [Reservoir computing with physical substrates](cell_R11_C12.md)
-- ⬅️ **W**: [Compositional generalization in neural networks](cell_R10_C12.md)
-- ↖️ **NW**: [Quantum reservoir computing with spin chains](cell_R9_C12.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [PreGame [similarity]](cell_R10_C14.md)
+- ⬅️ **W**: [SelectorObj [similarity]](cell_R10_C12.md)

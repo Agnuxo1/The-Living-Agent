@@ -1,20 +1,23 @@
-# Cell [3,3] — SKILL_NODE
-**Grid Position**: Row 3, Column 3
-**Type**: SKILL_NODE
+# Cell [3,3] — KNOWLEDGE
+**FQN**: `HeytingLean.LoF.Combinators.Category.SpanType.Obj`
+**Module**: `HeytingLean.LoF.Combinators.Category.SpanBicategoryType`
+**Kind**: `inductive`
+**Centrality**: 0.001085
 
-## ⚡ Skill Node: `pattern_recognition`
-**Research Context**: Synthetic biology circuits for Boolean operations
+## Topic
+**Declaration**: Obj
+**Signature**: `Type (u + 1)`
 
-[ACQUIRED: agent reads this node → adds 'pattern_recognition' to COMPETENCY_MAP]
+Wrapper to avoid instance clashes: `Type u` already carries a category instance.
+
+## Keywords
+avoid, clashes, heytinglean.lof.combinators.category.spantype.obj, instance, to, type, u, wrapper
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Scale-free networks and preferential attachment](cell_R2_C3.md)
-- ↗️ **NE**: [Dissipative structures and non-equilibrium thermod...](cell_R2_C4.md)
-- ➡️ **E**: [Bacterial quorum sensing as distributed consensus](cell_R3_C4.md)
-- ↘️ **SE**: [Token-incentivized research contribution models](cell_R4_C4.md)
-- ⬇️ **S**: [Peer-to-peer scientific validation protocols](cell_R4_C3.md)
-- ↙️ **SW**: [Decentralized AI governance frameworks](cell_R4_C2.md)
-- ⬅️ **W**: [Neural organoid computing architectures](cell_R3_C2.md)
-- ↖️ **NW**: [Self-organized criticality in neural networks](cell_R2_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [MWObj [similarity]](cell_R0_C5.md)
+- ➡️ **E**: [StrongMonad [similarity]](cell_R3_C2.md)
+- ↘️ **SE**: [MeetQuantale [similarity]](cell_R10_C7.md)
+- ⬇️ **S**: [Obj [similarity]](cell_R6_C3.md)
+- ↙️ **SW**: [Val [similarity]](cell_R3_C4.md)
+- ⬅️ **W**: [StrongMonad [similarity]](cell_R3_C2.md)

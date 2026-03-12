@@ -1,20 +1,23 @@
-# Cell [4,4] — SKILL_NODE
-**Grid Position**: Row 4, Column 4
-**Type**: SKILL_NODE
+# Cell [4,4] — KNOWLEDGE
+**FQN**: `HeytingLean.IteratedVirtual.GlobularSet`
+**Module**: `HeytingLean.IteratedVirtual.Globular`
+**Kind**: `inductive`
+**Centrality**: 0.000864
 
-## ⚡ Skill Node: `hypothesis_generator`
-**Research Context**: Token-incentivized research contribution models
+## Topic
+**Declaration**: GlobularSet
+**Signature**: `Type (u + 1)`
 
-[ACQUIRED: agent reads this node → adds 'hypothesis_generator' to COMPETENCY_MAP]
+A globular set presented as levels `Cell n` with source/target maps satisfying the globular identities.
+
+## Keywords
+a, as, cell, globular, heytinglean.iteratedvirtual.globularset, levels, presented, set
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Bacterial quorum sensing as distributed consensus](cell_R3_C4.md)
-- ↗️ **NE**: [Slime mold optimization and network design](cell_R3_C5.md)
-- ➡️ **E**: [Federated learning across heterogeneous agents](cell_R4_C5.md)
-- ↘️ **SE**: [Holographic principle and information bounds](cell_R5_C5.md)
-- ⬇️ **S**: [Dissipative structures and non-equilibrium thermod...](cell_R5_C4.md)
-- ↙️ **SW**: [Scale-free networks and preferential attachment](cell_R5_C3.md)
-- ⬅️ **W**: [Peer-to-peer scientific validation protocols](cell_R4_C3.md)
-- ↖️ **NW**: [Synthetic biology circuits for Boolean operations](cell_R3_C3.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [MRSystem [similarity]](cell_R0_C4.md)
+- ↗️ **NE**: [IteratedCellOver [similarity]](cell_R3_C5.md)
+- ➡️ **E**: [NGlobularSet [similarity]](cell_R4_C13.md)
+- ↘️ **SE**: [CertifiedLens [similarity]](cell_R7_C5.md)
+- ⬇️ **S**: [SplitInput [similarity]](cell_R4_C5.md)
+- ⬅️ **W**: [L [similarity]](cell_R4_C3.md)

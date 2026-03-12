@@ -1,21 +1,22 @@
 # Cell [12,3] — KNOWLEDGE
-**Grid Position**: Row 12, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Nucleus.CertifiedNucleus`
+**Module**: `HeytingLean.Nucleus.Certified`
+**Kind**: `def`
+**Centrality**: 0.000475
 
-## 📚 Research Node
-**Topic**: Synthetic biology circuits for Boolean operations
+## Topic
+**Declaration**: CertifiedNucleus
+**Signature**: `(X : Type u) → [SemilatticeInf X] → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A "certified nucleus" is exactly Mathlib's `Nucleus`.
+
+## Keywords
+a, certified, exactly, heytinglean.nucleus.certifiednucleus, is, mathlib, nucleus, s
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Scale-free networks and preferential attachment](cell_R11_C3.md)
-- ↗️ **NE**: [Dissipative structures and non-equilibrium thermod...](cell_R11_C4.md)
-- ➡️ **E**: [Bacterial quorum sensing as distributed consensus](cell_R12_C4.md)
-- ↘️ **SE**: [Token-incentivized research contribution models](cell_R13_C4.md)
-- ⬇️ **S**: [Peer-to-peer scientific validation protocols](cell_R13_C3.md)
-- ↙️ **SW**: [Decentralized AI governance frameworks](cell_R13_C2.md)
-- ⬅️ **W**: [Neural organoid computing architectures](cell_R12_C2.md)
-- ↖️ **NW**: [Self-organized criticality in neural networks](cell_R11_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [ShapeStridePair [similarity]](cell_R10_C10.md)
+- ➡️ **E**: [ContractTemplate [similarity]](cell_R12_C4.md)
+- ↙️ **SW**: [Atom [similarity]](cell_R13_C0.md)
+- ⬅️ **W**: [Atom [similarity]](cell_R12_C2.md)
+- ↖️ **NW**: [Attribute [similarity]](cell_R8_C0.md)

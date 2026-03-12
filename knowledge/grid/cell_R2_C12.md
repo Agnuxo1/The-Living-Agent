@@ -1,21 +1,19 @@
 # Cell [2,12] — KNOWLEDGE
-**Grid Position**: Row 2, Column 12
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Quantum.OML.H2`
+**Module**: `HeytingLean.Quantum.OML.Examples.Hilbert2`
+**Kind**: `inductive`
+**Centrality**: 0.001165
 
-## 📚 Research Node
-**Topic**: Reservoir computing with physical substrates
+## Topic
+**Declaration**: H2
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Finite Hilbert 2D subspace lattice (Boolean): {⊥, X, Y, ⊤} with Xᶜ=Y, Yᶜ=X.
+
+## Keywords
+2d, boolean, finite, heytinglean.quantum.oml.h2, hilbert, lattice, subspace, x
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Compositional generalization in neural networks](cell_R1_C12.md)
-- ↗️ **NE**: [Neuro-symbolic integration approaches](cell_R1_C13.md)
-- ➡️ **E**: [DNA data storage and retrieval systems](cell_R2_C13.md)
-- ↘️ **SE**: [Quantum tunneling in enzyme catalysis](cell_R3_C13.md)
-- ⬇️ **S**: [Quantum reservoir computing with spin chains](cell_R3_C12.md)
-- ↙️ **SW**: [Quantum error correction via surface codes](cell_R3_C11.md)
-- ⬅️ **W**: [Evolutionary strategies for neural architecture se...](cell_R2_C11.md)
-- ↖️ **NW**: [Embodied cognition and situated AI](cell_R1_C11.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [LoFTerm [similarity]](cell_R2_C13.md)
+- ⬅️ **W**: [RecoveryView [similarity]](cell_R2_C11.md)

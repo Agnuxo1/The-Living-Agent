@@ -3,6 +3,8 @@ import re
 import json
 import random
 import requests
+import subprocess
+import sys
 import time
 from datetime import datetime
 
@@ -19,6 +21,19 @@ MAX_RETRIES = 100
 RETRY_DELAY = 15
 CONTEXT_LIMIT_RATIO = 0.75
 APPROX_TOKENS_PER_CHAR = 0.25  # ~4 chars per token
+HEYTING_ROOT = os.environ.get("HEYTING_ROOT", "/home/abraxas/Work/heyting")
+LOCAL_BRIDGE_DIR = os.path.join(BASE_DIR, "heyting_bridge")
+LOCAL_ARTIFACT_DIR = os.path.join(BASE_DIR, "heyting_artifacts")
+HEYTING_ARTIFACT_DIR = os.environ.get(
+    "HEYTING_ARTIFACT_DIR",
+    LOCAL_ARTIFACT_DIR if os.path.isdir(LOCAL_ARTIFACT_DIR) else os.path.join(HEYTING_ROOT, "artifacts", "living_agent"),
+)
+HEYTING_PYTHON = os.environ.get(
+    "LIVING_AGENT_EMBED_PYTHON",
+    os.path.join(BASE_DIR, ".venv", "bin", "python"),
+)
+if not os.path.exists(HEYTING_PYTHON):
+    HEYTING_PYTHON = sys.executable
 
 def load_file(filepath):
     path = os.path.join(BASE_DIR, filepath.replace('./', ''))
@@ -36,6 +51,103 @@ def save_file(filepath, content):
 def estimate_tokens(text):
     """Approximate token count."""
     return int(len(text) * APPROX_TOKENS_PER_CHAR)
+
+
+def run_heyting_json(script_name, args):
+    local_script_path = os.path.join(LOCAL_BRIDGE_DIR, script_name)
+    script_path = local_script_path if os.path.exists(local_script_path) else os.path.join(HEYTING_ROOT, "scripts", script_name)
+    cmd = [HEYTING_PYTHON, script_path] + args
+    env = os.environ.copy()
+    env["HEYTING_ROOT"] = HEYTING_ROOT
+    env["HEYTING_ARTIFACT_DIR"] = HEYTING_ARTIFACT_DIR
+    env["LIVING_AGENT_ROOT"] = BASE_DIR
+    proc = subprocess.run(cmd, capture_output=True, text=True, env=env)
+    if proc.returncode != 0:
+        raise RuntimeError(f"{script_name} failed: {proc.stderr or proc.stdout}")
+    return json.loads(proc.stdout)
+
+
+def load_priority_fragment(options):
+    available_cells = []
+    for _, url in options:
+        match = re.search(r"cell_R(\d+)_C(\d+)\.md", url)
+        if match:
+            available_cells.append(f"R{match.group(1)}_C{match.group(2)}")
+    if not available_cells:
+        return ""
+    try:
+        payload = run_heyting_json(
+            "living_agent_learning_loop.py",
+            [
+                "prompt-fragment",
+                "--soul",
+                os.path.join(BASE_DIR, "soul.md"),
+                "--available-cells",
+                ",".join(available_cells),
+                "--json",
+            ],
+        )
+        return payload.get("fragment", "")
+    except Exception as exc:
+        print(f"⚠️ Learning loop unavailable: {exc}")
+        return ""
+def calculate_sns(new_paper_content):
+    """Calculate semantic novelty using the Heyting embedding archive."""
+    try:
+        payload = run_heyting_json(
+            "living_agent_sns_embeddings.py",
+            [
+                "score",
+                "--paper",
+                new_paper_content,
+                "--archive-dir",
+                HEYTING_ARTIFACT_DIR,
+                "--json",
+            ],
+        )
+        return float(payload.get("sns", 0.0))
+    except Exception as exc:
+        print(f"⚠️ SNS fallback-to-zero: {exc}")
+        return 0.0
+
+
+def publish_verified_paper(paper_text, cycle, trace):
+    args = [
+        "--text",
+        paper_text,
+        "--cycle",
+        str(cycle),
+        "--trace",
+        " -> ".join(trace),
+        "--archive-dir",
+        HEYTING_ARTIFACT_DIR,
+        "--grid-root",
+        os.path.join(HEYTING_ARTIFACT_DIR, "verified_grid"),
+        "--living-agent-root",
+        BASE_DIR,
+        "--json",
+    ]
+    if os.environ.get("LIVING_AGENT_LIVE_PUBLISH", "").lower() in {"1", "true", "yes"}:
+        args.append("--live")
+    return run_heyting_json("living_agent_hive_publisher.py", args)
+
+
+def update_learning_loop(trace_cells, verification_passed):
+    try:
+        run_heyting_json(
+            "living_agent_learning_loop.py",
+            [
+                "update",
+                "--soul",
+                os.path.join(BASE_DIR, "soul.md"),
+                "--cells-visited",
+                ",".join(trace_cells),
+                "--verification-passed",
+                "true" if verification_passed else "false",
+            ],
+        )
+    except Exception as exc:
+        print(f"⚠️ Learning update skipped: {exc}")
 
 def get_llm_response(prompt, max_tokens=512):
     """Calls the local KoboldCPP API"""
@@ -64,6 +176,7 @@ def get_llm_response(prompt, max_tokens=512):
 def conduct_reasoning(node_content, options, soul_content, trace):
     """Asks the LLM to choose the next direction on the chess-grid."""
     options_str = "\n".join([f"- [{i}] {label} ({url})" for i, (label, url) in enumerate(options)])
+    priority_fragment = load_priority_fragment(options)
     
     prompt = f"""### SYSTEM: P2PCLAW CHESS-GRID ENGINE v3.0
 You are navigating a Chess-Grid of knowledge. Each cell has 8 directions.
@@ -77,6 +190,11 @@ Your goal: Move SOUTH toward the Synthesis Edge while maximizing novelty.
 
 ### CURRENT CELL CONTENT
 {node_content}
+
+### LEARNED PRIORITIES (from verification outcomes)
+These priorities reflect which regions have led to verified papers in the past.
+Prefer HIGH PRIORITY directions. Avoid LOW PRIORITY unless the topic is novel.
+{priority_fragment or "  No learned priorities yet."}
 
 ### AVAILABLE DIRECTIONS
 {options_str}
@@ -134,29 +252,6 @@ Generate a professional paper in Markdown. Include:
     response = response.replace('</think>', '').strip()
     return response
 
-def calculate_sns(new_paper_content):
-    """Calculate Semantic Novelty Score against recent papers (sliding window of 50)."""
-    papers = []
-    semantic_dir = os.path.join(BASE_DIR, "memories/semantic")
-    if os.path.exists(semantic_dir):
-        files = sorted([f for f in os.listdir(semantic_dir) if f.endswith(".md")], 
-                       key=lambda x: os.path.getmtime(os.path.join(semantic_dir, x)),
-                       reverse=True)[:50]  # Sliding window: last 50 papers only
-        for fname in files:
-            with open(os.path.join(semantic_dir, fname), 'r', encoding='utf-8') as fh:
-                papers.append(fh.read().lower())
-    
-    if not papers: return 1.0
-    def get_words(text): return set(re.findall(r'\w+', text.lower()))
-    new_words = get_words(new_paper_content)
-    max_overlap = 0
-    for past in papers:
-        past_words = get_words(past)
-        if not past_words: continue
-        overlap = len(new_words.intersection(past_words)) / len(new_words.union(past_words))
-        max_overlap = max(max_overlap, overlap)
-    return round(1.0 - max_overlap, 3)
-
 def parse_grid_position(filename):
     """Extract (row, col) from a cell filename like cell_R3_C7.md."""
     match = re.search(r'cell_R(\d+)_C(\d+)', filename)
@@ -187,6 +282,7 @@ def run_production_cycle():
     print(f"\n🏁 CHESS-GRID CYCLE {cycle} | Entry: [{current_row},{current_col}]")
     
     trace = []
+    trace_cells = []
     full_trace_content = ""
     context_tokens = estimate_tokens(soul_content)
     max_context = 4096
@@ -199,6 +295,7 @@ def run_production_cycle():
         cell_name = f"R{current_row}_C{current_col}"
         visited_nodes.add(cell_name)
         trace.append(f"[{current_row},{current_col}]")
+        trace_cells.append(cell_name)
         
         # Skill acquisition
         if "[ACQUIRED:" in content:
@@ -246,26 +343,53 @@ def run_production_cycle():
     
     title_match = re.search(r'^#\s+(.*)', paper, re.MULTILINE)
     paper_title = title_match.group(1) if title_match else f"Grid_Cycle_{cycle}"
+    publish_result = publish_verified_paper(paper, cycle, trace)
+    verification_passed = bool(
+        publish_result.get("verification_report", {})
+        .get("composite", {})
+        .get("passed", False)
+    )
 
-    save_file(f"memories/semantic/paper_{cycle}.md", f"{paper}\n\nSNS Score: {sns}")
-    save_file(f"memories/episodic/cycle_{cycle}.md", f"Trace: {' -> '.join(trace)}\nSNS: {sns}")
+    save_file(
+        f"memories/episodic/cycle_{cycle}.md",
+        "\n".join(
+            [
+                f"Trace: {' -> '.join(trace)}",
+                f"SNS: {sns}",
+                f"Verification Passed: {verification_passed}",
+                f"Publish Status: {publish_result.get('publish_result', {}).get('status', 'unknown')}",
+                f"Paper Path: {publish_result.get('paper_path', 'n/a')}",
+            ]
+        ),
+    )
     
     # Update Episodic Index
     index_path = os.path.join(BASE_DIR, "memories/episodic/index.md")
+    os.makedirs(os.path.dirname(index_path), exist_ok=True)
+    if not os.path.exists(index_path):
+        with open(index_path, 'w', encoding='utf-8') as f:
+            f.write("| Cycle | Trace | Title | SNS | Verified | Publish Status |\n")
+            f.write("|---|---|---|---:|---|---|\n")
     with open(index_path, 'a', encoding='utf-8') as f:
-        f.write(f"| {cycle} | {' → '.join(trace)} | {paper_title} | {sns} |\n")
-    
-    # Update Hive Shared Discoveries (if SNS > 0.8)
-    if sns > 0.8:
-        hive_path = os.path.join(BASE_DIR, "memories/hive/shared_discoveries.md")
-        os.makedirs(os.path.dirname(hive_path), exist_ok=True)
-        with open(hive_path, 'a', encoding='utf-8') as f:
-            f.write(f"| {cycle} | {paper_title} | {sns} | {' → '.join(trace)} |\n")
-        print(f"🐝 HIVE: Discovery shared (SNS {sns})")
-    
+        f.write(
+            f"| {cycle} | {' → '.join(trace)} | {paper_title} | {sns} | "
+            f"{'yes' if verification_passed else 'no'} | "
+            f"{publish_result.get('publish_result', {}).get('status', 'unknown')} |\n"
+        )
+
+    update_learning_loop(trace_cells, verification_passed)
+
     # Update SOUL
+    soul_content = load_file("soul.md")
     updated_soul = re.sub(r'Current Cycle: \d+', f"Current Cycle: {cycle+1}", soul_content)
-    updated_soul = re.sub(r'Total Papers Published: \d+', f"Total Papers Published: {cycle}", updated_soul)
+    total_papers_match = re.search(r'Total Papers Published: (\d+)', soul_content)
+    prior_published = int(total_papers_match.group(1)) if total_papers_match else 0
+    new_total_published = prior_published + (1 if verification_passed else 0)
+    updated_soul = re.sub(
+        r'Total Papers Published: \d+',
+        f"Total Papers Published: {new_total_published}",
+        updated_soul,
+    )
     
     def replace_map(pattern, replacement, text):
         return re.sub(pattern, replacement, text, flags=re.MULTILINE)
@@ -284,7 +408,11 @@ def run_production_cycle():
 
     save_file("soul.md", updated_soul)
     print(f"💓 HEARTBEAT: Gen {cycle+1} | Grid [{current_row},{current_col}] | Cells: {len(visited_nodes)}/{GRID_ROWS*GRID_COLS}")
-    print(f"✅ Paper {cycle} Published. SNS: {sns}")
+    print(
+        f"✅ Cycle {cycle} complete. SNS: {sns} | "
+        f"Verified: {verification_passed} | "
+        f"Publish: {publish_result.get('publish_result', {}).get('status', 'unknown')}"
+    )
 
 if __name__ == "__main__":
     print("=" * 50)

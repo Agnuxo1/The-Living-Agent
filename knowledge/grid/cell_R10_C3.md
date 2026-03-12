@@ -1,21 +1,20 @@
 # Cell [10,3] — KNOWLEDGE
-**Grid Position**: Row 10, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.Instr`
+**Module**: `HeytingLean.Crypto.Prog`
+**Kind**: `inductive`
+**Centrality**: 0.000518
 
-## 📚 Research Node
-**Topic**: Peer-to-peer scientific validation protocols
+## Topic
+**Declaration**: Instr
+**Signature**: `Nat → Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Postfix instructions for the multi-lens VM.
+
+## Keywords
+applyAnd, applyImp, push
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic biology circuits for Boolean operations](cell_R9_C3.md)
-- ↗️ **NE**: [Bacterial quorum sensing as distributed consensus](cell_R9_C4.md)
-- ➡️ **E**: [Token-incentivized research contribution models](cell_R10_C4.md)
-- ↘️ **SE**: [Dissipative structures and non-equilibrium thermod...](cell_R11_C4.md)
-- ⬇️ **S**: [Scale-free networks and preferential attachment](cell_R11_C3.md)
-- ↙️ **SW**: [Self-organized criticality in neural networks](cell_R11_C2.md)
-- ⬅️ **W**: [Decentralized AI governance frameworks](cell_R10_C2.md)
-- ↖️ **NW**: [Neural organoid computing architectures](cell_R9_C2.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Stage [similarity]](cell_R10_C4.md)
+- ↘️ **SE**: [E91Substrate [similarity]](cell_R14_C10.md)
+- ⬅️ **W**: [LiquidityFn [similarity]](cell_R10_C2.md)

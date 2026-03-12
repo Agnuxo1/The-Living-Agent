@@ -1,20 +1,22 @@
-# Cell [9,9] — SKILL_NODE
-**Grid Position**: Row 9, Column 9
-**Type**: SKILL_NODE
+# Cell [9,9] — KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.QKD.BB84.BB84Substrate`
+**Module**: `HeytingLean.Crypto.QKD.BB84.Tasks`
+**Kind**: `def`
+**Centrality**: 0.000544
 
-## ⚡ Skill Node: `cross_reference`
-**Research Context**: Quantum coherence in biological photosynthesis
+## Topic
+**Declaration**: BB84Substrate
+**Signature**: `Type`
 
-[ACQUIRED: agent reads this node → adds 'cross_reference' to COMPETENCY_MAP]
+The substrate for BB84 tasks is the finite type of BB84 states.
+
+## Keywords
+bb84, for, heytinglean.crypto.qkd.bb84.bb84substrate, is, substrate, tasks, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Morphogenetic computing: Turing patterns as progra...](cell_R8_C9.md)
-- ↗️ **NE**: [Neuromorphic hardware: memristors and beyond](cell_R8_C10.md)
-- ➡️ **E**: [Variational quantum eigensolvers for molecular sim...](cell_R9_C10.md)
-- ↘️ **SE**: [Meta-learning and learning-to-learn paradigms](cell_R10_C10.md)
-- ⬇️ **S**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R10_C9.md)
-- ↙️ **SW**: [Autopoietic systems and self-organization](cell_R10_C8.md)
-- ⬅️ **W**: [Topological qubits and fault-tolerant quantum comp...](cell_R9_C8.md)
-- ↖️ **NW**: [Bio-inspired optimization: ant colony and swarm in...](cell_R8_C8.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [E91Ctor [similarity]](cell_R9_C10.md)
+- ↘️ **SE**: [E91Substrate [similarity]](cell_R14_C10.md)
+- ↙️ **SW**: [Stage [similarity]](cell_R10_C4.md)
+- ⬅️ **W**: [Literal [similarity]](cell_R9_C8.md)
+- ↖️ **NW**: [Obj [similarity]](cell_R6_C3.md)

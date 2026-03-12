@@ -1,19 +1,20 @@
 # Cell [15,12] — SYNTHESIS
-**Grid Position**: Row 15, Column 12
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.Security.Composable.Protocol`
+**Module**: `HeytingLean.Security.Composable.IdealFunctionality`
+**Kind**: `inductive`
+**Centrality**: 0.000550
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Quantum reservoir computing with spin chains
+## Topic
+**Declaration**: Protocol
+**Signature**: `HeytingLean.Security.Composable.IdealFunctionality → Type (max (max 1 u) v)`
 
-After synthesis, compress your trace and re-enter at Row 0.
+A (single-shot) protocol in the real world, attempting to realize an ideal functionality.
+
+## Keywords
+a, heytinglean.security.composable.protocol, in, protocol, real, single-shot, the, world
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Reservoir computing with physical substrates](cell_R14_C12.md)
-- ↗️ **NE**: [DNA data storage and retrieval systems](cell_R14_C13.md)
-- ➡️ **E**: [Quantum tunneling in enzyme catalysis](cell_R15_C13.md)
-- ⬅️ **W**: [Quantum error correction via surface codes](cell_R15_C11.md)
-- ↖️ **NW**: [Evolutionary strategies for neural architecture se...](cell_R14_C11.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Model [similarity]](cell_R15_C13.md)
+- ⬅️ **W**: [IntReentry [similarity]](cell_R15_C11.md)
+- ↖️ **NW**: [MolGraph [similarity]](cell_R12_C0.md)

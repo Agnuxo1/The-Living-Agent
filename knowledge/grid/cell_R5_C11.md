@@ -1,21 +1,19 @@
 # Cell [5,11] — KNOWLEDGE
-**Grid Position**: Row 5, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Information.InfoState`
+**Module**: `HeytingLean.Information.Dynamics`
+**Kind**: `inductive`
+**Centrality**: 0.000733
 
-## 📚 Research Node
-**Topic**: Evolutionary strategies for neural architecture search
+## Topic
+**Declaration**: InfoState
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A two-state “information oscillation”.
+
+## Keywords
+a, heytinglean.information.infostate, information, oscillation, two-state
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Embodied cognition and situated AI](cell_R4_C11.md)
-- ↗️ **NE**: [Compositional generalization in neural networks](cell_R4_C12.md)
-- ➡️ **E**: [Reservoir computing with physical substrates](cell_R5_C12.md)
-- ↘️ **SE**: [Quantum reservoir computing with spin chains](cell_R6_C12.md)
-- ⬇️ **S**: [Quantum error correction via surface codes](cell_R6_C11.md)
-- ↙️ **SW**: [Variational quantum eigensolvers for molecular sim...](cell_R6_C10.md)
-- ⬅️ **W**: [Neuromorphic hardware: memristors and beyond](cell_R5_C10.md)
-- ↖️ **NW**: [Meta-learning and learning-to-learn paradigms](cell_R4_C10.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [HGraph [similarity]](cell_R5_C12.md)
+- ⬅️ **W**: [LExpr [similarity]](cell_R5_C10.md)

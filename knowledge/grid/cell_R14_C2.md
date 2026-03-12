@@ -1,21 +1,19 @@
 # Cell [14,2] — KNOWLEDGE
-**Grid Position**: Row 14, Column 2
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.QKD.BB84.ErrorRate.InterceptionRate`
+**Module**: `HeytingLean.Crypto.QKD.BB84.ErrorRate.InterceptResend`
+**Kind**: `inductive`
+**Centrality**: 0.000433
 
-## 📚 Research Node
-**Topic**: Self-organized criticality in neural networks
+## Topic
+**Declaration**: InterceptionRate
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Eve's interception rate `p ∈ [0,1]`.
+
+## Keywords
+0, 1, eve, heytinglean.crypto.qkd.bb84.errorrate.interceptionrate, interception, p, rate, s
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Decentralized AI governance frameworks](cell_R13_C2.md)
-- ↗️ **NE**: [Peer-to-peer scientific validation protocols](cell_R13_C3.md)
-- ➡️ **E**: [Scale-free networks and preferential attachment](cell_R14_C3.md)
-- ↘️ **SE**: [Synthetic biology circuits for Boolean operations](cell_R15_C3.md)
-- ⬇️ **S**: [Neural organoid computing architectures](cell_R15_C2.md)
-- ↙️ **SW**: [Protein folding as a search algorithm](cell_R15_C1.md)
-- ⬅️ **W**: [Information theory and thermodynamics of computati...](cell_R14_C1.md)
-- ↖️ **NW**: [Semantic routing in knowledge graphs](cell_R13_C1.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Var [similarity]](cell_R14_C3.md)
+- ⬅️ **W**: [System [similarity]](cell_R14_C1.md)

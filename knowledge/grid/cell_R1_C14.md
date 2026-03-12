@@ -1,21 +1,20 @@
 # Cell [1,14] — KNOWLEDGE
-**Grid Position**: Row 1, Column 14
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Blockchain.Contracts.Model.Address`
+**Module**: `HeytingLean.Blockchain.Contracts.Model`
+**Kind**: `def`
+**Centrality**: 0.001493
 
-## 📚 Research Node
-**Topic**: Intrinsic motivation and curiosity-driven exploration
+## Topic
+**Declaration**: Address
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Abstract address type for the ERC20-style model.
+
+## Keywords
+address, blockchain, contract, erc20, smart_contract, token, token_standard, token_standard_implementation, token_standard_implementation_for_erc20, token_standard_implementation_for_erc20_contract
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Entanglement-assisted classical communication](cell_R0_C14.md)
-- ↗️ **NE**: [Quantum machine learning kernel methods](cell_R0_C15.md)
-- ➡️ **E**: [Skill acquisition and procedural knowledge formati...](cell_R1_C15.md)
-- ↘️ **SE**: [Synthetic ecosystems for emergent intelligence](cell_R2_C15.md)
-- ⬇️ **S**: [Molecular communication and nanonetworks](cell_R2_C14.md)
-- ↙️ **SW**: [DNA data storage and retrieval systems](cell_R2_C13.md)
-- ⬅️ **W**: [Neuro-symbolic integration approaches](cell_R1_C13.md)
-- ↖️ **NW**: [Quantum tunneling in enzyme catalysis](cell_R0_C13.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [ULevel [similarity]](cell_R1_C15.md)
+- ↙️ **SW**: [BB84Substrate [similarity]](cell_R9_C9.md)
+- ⬅️ **W**: [MLDSA204Params [similarity]](cell_R1_C13.md)

@@ -1,18 +1,20 @@
 # Cell [2,0] — KNOWLEDGE
-**Grid Position**: Row 2, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Noneism.Formula`
+**Module**: `HeytingLean.Noneism.Syntax`
+**Kind**: `inductive`
+**Centrality**: 0.001397
 
-## 📚 Research Node
-**Topic**: Emergence and complexity in physical systems
+## Topic
+**Declaration**: Formula
+**Signature**: `Type → Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Object-language formulas over a parameter type `σ` of predicate symbols.
+
+## Keywords
+a, formulas, heytinglean.noneism.formula, object-language, of, over, parameter, type
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Proof-of-Discovery consensus mechanisms](cell_R1_C0.md)
-- ↗️ **NE**: [Semantic routing in knowledge graphs](cell_R1_C1.md)
-- ➡️ **E**: [Information theory and thermodynamics of computati...](cell_R2_C1.md)
-- ↘️ **SE**: [Protein folding as a search algorithm](cell_R3_C1.md)
-- ⬇️ **S**: [DNA-based logic gates and their computational limi...](cell_R3_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [ULevel [similarity]](cell_R1_C15.md)
+- ➡️ **E**: [FinDist [similarity]](cell_R2_C1.md)
+- ↘️ **SE**: [Coalg [similarity]](cell_R6_C6.md)

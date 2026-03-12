@@ -1,21 +1,20 @@
 # Cell [8,14] — KNOWLEDGE
-**Grid Position**: Row 8, Column 14
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.MirandaDynamics.TKFT.ReachingRel`
+**Module**: `HeytingLean.MirandaDynamics.TKFT.Reaching`
+**Kind**: `inductive`
+**Centrality**: 0.000562
 
-## 📚 Research Node
-**Topic**: Molecular communication and nanonetworks
+## Topic
+**Declaration**: ReachingRel
+**Signature**: `Type u → Type v → Type (max u v)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A TKFT-style reaching relation between “input boundary” `α` and “output boundary” `β`.
+
+## Keywords
+a, between, boundary, heytinglean.mirandadynamics.tkft.reachingrel, input, reaching, relation, tkft-style
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Intrinsic motivation and curiosity-driven explorat...](cell_R7_C14.md)
-- ↗️ **NE**: [Skill acquisition and procedural knowledge formati...](cell_R7_C15.md)
-- ➡️ **E**: [Synthetic ecosystems for emergent intelligence](cell_R8_C15.md)
-- ↘️ **SE**: [Quantum machine learning kernel methods](cell_R9_C15.md)
-- ⬇️ **S**: [Entanglement-assisted classical communication](cell_R9_C14.md)
-- ↙️ **SW**: [Quantum tunneling in enzyme catalysis](cell_R9_C13.md)
-- ⬅️ **W**: [DNA data storage and retrieval systems](cell_R8_C13.md)
-- ↖️ **NW**: [Neuro-symbolic integration approaches](cell_R7_C13.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Graph [similarity]](cell_R8_C15.md)
+- ⬅️ **W**: [Sym [similarity]](cell_R8_C13.md)
+- ↖️ **NW**: [SplitInput [similarity]](cell_R4_C5.md)

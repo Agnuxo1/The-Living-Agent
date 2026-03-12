@@ -1,17 +1,20 @@
 # Cell [15,0] — SYNTHESIS
-**Grid Position**: Row 15, Column 0
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.Chem.PeriodicTable.atomicNumber`
+**Module**: `HeytingLean.Chem.PeriodicTable.CIAAW2024`
+**Kind**: `def`
+**Centrality**: 0.001208
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: DNA-based logic gates and their computational limits
+## Topic
+**Declaration**: atomicNumber
+**Signature**: `HeytingLean.Chem.PeriodicTable.Element → Nat`
 
-After synthesis, compress your trace and re-enter at Row 0.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.chem.periodictable.atomicnumber
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Emergence and complexity in physical systems](cell_R14_C0.md)
-- ↗️ **NE**: [Information theory and thermodynamics of computati...](cell_R14_C1.md)
-- ➡️ **E**: [Protein folding as a search algorithm](cell_R15_C1.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Element [dependency]](cell_R0_C2.md)
+- ➡️ **E**: [LSteps [similarity]](cell_R14_C15.md)
+- ↘️ **SE**: [name [similarity]](cell_R15_C1.md)

@@ -1,21 +1,20 @@
 # Cell [10,5] — KNOWLEDGE
-**Grid Position**: Row 10, Column 5
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.MiniC.Store`
+**Module**: `HeytingLean.MiniC.Semantics`
+**Kind**: `def`
+**Centrality**: 0.000516
 
-## 📚 Research Node
-**Topic**: Federated learning across heterogeneous agents
+## Topic
+**Declaration**: Store
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Stores map variable names to optional values.
+
+## Keywords
+heytinglean.minic.store, map, names, optional, stores, to, values., variable
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Slime mold optimization and network design](cell_R9_C5.md)
-- ↗️ **NE**: [Enzyme cascades as analog signal processors](cell_R9_C6.md)
-- ➡️ **E**: [Knowledge graph embedding and link prediction](cell_R10_C6.md)
-- ↘️ **SE**: [Cellular automata and computational universality](cell_R11_C6.md)
-- ⬇️ **S**: [Holographic principle and information bounds](cell_R11_C5.md)
-- ↙️ **SW**: [Dissipative structures and non-equilibrium thermod...](cell_R11_C4.md)
-- ⬅️ **W**: [Token-incentivized research contribution models](cell_R10_C4.md)
-- ↖️ **NW**: [Bacterial quorum sensing as distributed consensus](cell_R9_C4.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [ASpace [similarity]](cell_R10_C6.md)
+- ↘️ **SE**: [TotalStore [similarity]](cell_R13_C14.md)
+- ⬅️ **W**: [Stage [similarity]](cell_R10_C4.md)

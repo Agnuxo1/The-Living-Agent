@@ -1,22 +1,21 @@
-# Cell [5,12] — EXPERIMENT_NODE
-**Grid Position**: Row 5, Column 12
-**Type**: EXPERIMENT_NODE
+# Cell [5,12] — KNOWLEDGE
+**FQN**: `HeytingLean.WPP.Wolfram.HGraph`
+**Module**: `HeytingLean.WPP.Wolfram.Hypergraph`
+**Kind**: `def`
+**Centrality**: 0.000731
 
-## 🔬 Experiment Node
-**Hypothesis**: Reservoir computing with physical substrates
+## Topic
+**Declaration**: HGraph
+**Signature**: `Type u → Type u`
 
-Design a mental experiment to test this hypothesis.
-Record your prediction, methodology, and expected outcome.
-The result will be stored in your episodic memory.
+A hypergraph state: multiset of expressions (edge multiplicity matters).
+
+## Keywords
+a, edge, expressions, heytinglean.wpp.wolfram.hgraph, hypergraph, multiset, of, state
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Compositional generalization in neural networks](cell_R4_C12.md)
-- ↗️ **NE**: [Neuro-symbolic integration approaches](cell_R4_C13.md)
-- ➡️ **E**: [DNA data storage and retrieval systems](cell_R5_C13.md)
-- ↘️ **SE**: [Quantum tunneling in enzyme catalysis](cell_R6_C13.md)
-- ⬇️ **S**: [Quantum reservoir computing with spin chains](cell_R6_C12.md)
-- ↙️ **SW**: [Quantum error correction via surface codes](cell_R6_C11.md)
-- ⬅️ **W**: [Evolutionary strategies for neural architecture se...](cell_R5_C11.md)
-- ↖️ **NW**: [Embodied cognition and situated AI](cell_R4_C11.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [Net [similarity]](cell_R5_C13.md)
+- ↘️ **SE**: [BB84State [similarity]](cell_R6_C13.md)
+- ⬅️ **W**: [InfoState [similarity]](cell_R5_C11.md)
+- ↖️ **NW**: [RadialGraph [similarity]](cell_R0_C9.md)

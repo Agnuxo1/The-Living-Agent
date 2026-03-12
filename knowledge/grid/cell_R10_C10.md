@@ -1,20 +1,21 @@
-# Cell [10,10] — SKILL_NODE
-**Grid Position**: Row 10, Column 10
-**Type**: SKILL_NODE
+# Cell [10,10] — KNOWLEDGE
+**FQN**: `HeytingLean.Layouts.Flat.ShapeStridePair`
+**Module**: `HeytingLean.Layouts.Flat.Basic`
+**Kind**: `inductive`
+**Centrality**: 0.000509
 
-## ⚡ Skill Node: `pattern_recognition`
-**Research Context**: Meta-learning and learning-to-learn paradigms
+## Topic
+**Declaration**: ShapeStridePair
+**Signature**: `Type`
 
-[ACQUIRED: agent reads this node → adds 'pattern_recognition' to COMPETENCY_MAP]
+A shape/stride pair `(s, d)` where `s : ℕ+` is a positive shape and `d : ℕ` is a stride.
+
+## Keywords
+pair, positive, positive shape, shape, stride
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Variational quantum eigensolvers for molecular sim...](cell_R9_C10.md)
-- ↗️ **NE**: [Quantum error correction via surface codes](cell_R9_C11.md)
-- ➡️ **E**: [Embodied cognition and situated AI](cell_R10_C11.md)
-- ↘️ **SE**: [Evolutionary strategies for neural architecture se...](cell_R11_C11.md)
-- ⬇️ **S**: [Neuromorphic hardware: memristors and beyond](cell_R11_C10.md)
-- ↙️ **SW**: [Morphogenetic computing: Turing patterns as progra...](cell_R11_C9.md)
-- ⬅️ **W**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R10_C9.md)
-- ↖️ **NW**: [Quantum coherence in biological photosynthesis](cell_R9_C9.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [VirtualChain [similarity]](cell_R10_C11.md)
+- ↙️ **SW**: [ParaMealy [similarity]](cell_R13_C6.md)
+- ⬅️ **W**: [CellularSheaf [similarity]](cell_R10_C9.md)
+- ↖️ **NW**: [FlatLayout [similarity]](cell_R6_C2.md)

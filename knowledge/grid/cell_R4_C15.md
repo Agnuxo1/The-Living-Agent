@@ -1,18 +1,19 @@
 # Cell [4,15] — KNOWLEDGE
-**Grid Position**: Row 4, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Quantum.TWA.LindbladSpec`
+**Module**: `HeytingLean.Quantum.TWA.Core`
+**Kind**: `inductive`
+**Centrality**: 0.000790
 
-## 📚 Research Node
-**Topic**: Skill acquisition and procedural knowledge formation
+## Topic
+**Declaration**: LindbladSpec
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+A Lindblad/TWA specification: a Hamiltonian on spin configurations, a jump family, and a PSD rate/correlation matrix `Γ` (indexed by jump labels).
+
+## Keywords
+lindblad_equation, open_quantum_systems, quantum_dynamics, quantum_information_theory, quantum_jump_master_equation, quantum_jump_process, quantum_jump_process_theory, quantum_jump_process_theory_lindblad_spec, quantum_jump_process_theory_lindblad_spec_hamiltonian_jumps_rate_matrix, quantum_master_equation, quantum_mechanics, quantum_stochastic_master_equation
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum machine learning kernel methods](cell_R3_C15.md)
-- ⬇️ **S**: [Synthetic ecosystems for emergent intelligence](cell_R5_C15.md)
-- ↙️ **SW**: [Molecular communication and nanonetworks](cell_R5_C14.md)
-- ⬅️ **W**: [Intrinsic motivation and curiosity-driven explorat...](cell_R4_C14.md)
-- ↖️ **NW**: [Entanglement-assisted classical communication](cell_R3_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↙️ **SW**: [KEMScheme [similarity]](cell_R5_C0.md)
+- ⬅️ **W**: [Val [similarity]](cell_R4_C14.md)

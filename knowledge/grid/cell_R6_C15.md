@@ -1,18 +1,21 @@
 # Cell [6,15] — KNOWLEDGE
-**Grid Position**: Row 6, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.FHE.Ciphertext`
+**Module**: `HeytingLean.Crypto.FHE.Ciphertext`
+**Kind**: `inductive`
+**Centrality**: 0.000646
 
-## 📚 Research Node
-**Topic**: Quantum machine learning kernel methods
+## Topic
+**Declaration**: Ciphertext
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Inductive type Ciphertext. Use when performing case analysis or recursion over this type.
+
+## Keywords
+case, ciphertext., heytinglean.crypto.fhe.ciphertext, inductive, performing, type, use, when
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic ecosystems for emergent intelligence](cell_R5_C15.md)
-- ⬇️ **S**: [Skill acquisition and procedural knowledge formati...](cell_R7_C15.md)
-- ↙️ **SW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R7_C14.md)
-- ⬅️ **W**: [Entanglement-assisted classical communication](cell_R6_C14.md)
-- ↖️ **NW**: [Molecular communication and nanonetworks](cell_R5_C14.md)
+## Navigation (real dependency / similarity edges)
+- ➡️ **E**: [RuleTag [similarity]](cell_R7_C0.md)
+- ↙️ **SW**: [Rule [similarity]](cell_R12_C10.md)
+- ⬅️ **W**: [LinComb [similarity]](cell_R6_C14.md)
+- ↖️ **NW**: [Fun [similarity]](cell_R4_C7.md)
