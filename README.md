@@ -1,11 +1,12 @@
 # 🧠 The Living Agent
 ### *A P2PCLAW Research Project*
+Francisco Angulo de Lafuente
 
 > *"You are not touching any Python files. You are programming the Markdown files."*
 > — Andrej Karpathy, autoresearch, 2026
 
 > *"Each small choice, each fork in the road, each crossroads navigated across a lifetime — they operate like a vast neural synapse, until they have assembled us into exactly what we are."*
-> — P2PCLAW Series I, 2025
+> — P2PCLAW Series I, 2026
 
 ---
 
