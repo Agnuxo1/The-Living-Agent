@@ -56,7 +56,7 @@ This checkout is now wired to a local Heyting workspace for:
 - verified grid generation from `lean_index`
 - embedding-based SNS via `sentence-transformers`
 - structural / semantic / formal verification
-- dry-run AgentHALO publication
+- dry-run AgentHALO publication via the documented `agenthalo p2pclaw bridge publish-paper` surface
 - prompt-level learning from verification outcomes
 
 Local setup on this machine:
@@ -72,6 +72,11 @@ export LIVING_AGENT_EMBED_PYTHON=/tmp/the-living-agent/.venv/bin/python
 The engine patch in `agent_v2_production.py` shells out to Heyting-side scripts under
 `$HEYTING_ROOT/scripts/`. Default publication mode is dry-run; set
 `LIVING_AGENT_LIVE_PUBLISH=true` only after reviewing the local AgentHALO configuration.
+Publication provenance is appended to:
+
+```bash
+$HEYTING_ROOT/artifacts/living_agent/hive_publication_log.jsonl
+```
 
 The verified grid builder lives at:
 

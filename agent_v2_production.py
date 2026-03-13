@@ -154,7 +154,7 @@ def calculate_sns(new_paper_content):
         return 0.0
 
 
-def publish_verified_paper(paper_text, cycle, trace):
+def publish_verified_paper(paper_text, cycle, trace, trace_cells):
     args = [
         "--text",
         paper_text,
@@ -162,6 +162,8 @@ def publish_verified_paper(paper_text, cycle, trace):
         str(cycle),
         "--trace",
         " -> ".join(trace),
+        "--trace-cells",
+        ",".join(trace_cells),
         "--archive-dir",
         HEYTING_ARTIFACT_DIR,
         "--grid-root",
@@ -386,7 +388,7 @@ def run_production_cycle():
     
     title_match = re.search(r'^#\s+(.*)', paper, re.MULTILINE)
     paper_title = title_match.group(1) if title_match else f"Grid_Cycle_{cycle}"
-    publish_result = publish_verified_paper(paper, cycle, trace)
+    publish_result = publish_verified_paper(paper, cycle, trace, trace_cells)
     verification_passed = bool(
         publish_result.get("verification_report", {})
         .get("composite", {})
