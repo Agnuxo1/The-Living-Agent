@@ -5,6 +5,7 @@ import argparse
 import json
 import os
 import re
+import shlex
 import subprocess
 import tempfile
 from functools import lru_cache
@@ -28,11 +29,17 @@ from living_agent_sns_embeddings import Encoder, score_text
 
 ensure_module_runtime("sentence_transformers")
 SCHEMA_VERSION = "living-agent-verify-v1"
-TYPECHECK_TIMEOUT_SECS = int(os.environ.get("HEYTING_TYPECHECK_TIMEOUT_SECS", "45"))
+TYPECHECK_TIMEOUT_SECS = int(os.environ.get("HEYTING_TYPECHECK_TIMEOUT_SECS", "30"))
 
 
-CLAIM_RE = re.compile(r"\b(proves?|demonstrates?|shows?|establishes?|argues?)\b", re.I)
-SECTION_RE = re.compile(r"^#+\s*(abstract|methodology|results|discussion|conclusion|introduction)\b", re.I | re.M)
+CLAIM_RE = re.compile(
+    r"\b(proves?|demonstrates?|shows?|establishes?|argues?|proposes?|introduces?|suggests?|finds?)\b",
+    re.I,
+)
+SECTION_RE = re.compile(
+    r"^(?:#+\s*|\*\*)(abstract|methodology|results|discussion|conclusion|introduction|semantic synthesis|novelty discussion)(?:\*\*)?\s*:?",
+    re.I | re.M,
+)
 CELL_RE = re.compile(r"cell_R\d+_C\d+\.md")
 CODE_BLOCK_RE = re.compile(r"```(?:lean|lean4|theorem)\s*\n(.*?)```", re.S | re.I)
 
@@ -46,6 +53,12 @@ class TierResult:
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat()
+
+
+def extract_claim_sentences(text: str) -> list[str]:
+    sentences = re.split(r"(?<=[.!?])\s+", normalize_whitespace(text))
+    claims = [sentence.strip() for sentence in sentences if CLAIM_RE.search(sentence)]
+    return claims[:8]
 
 
 def candidate_typecheck_roots() -> list[Path]:
@@ -102,7 +115,11 @@ def typecheck_block(root: Path, block: str) -> subprocess.CompletedProcess[str]:
         temp_path = Path(tmp.name)
     try:
         return run(
-            ["bash", "-lc", f"cd {root / 'lean'} && lake env lean {temp_path}"],
+            [
+                "bash",
+                "-lc",
+                f"cd {shlex.quote(str(root / 'lean'))} && lake env lean {shlex.quote(str(temp_path))}",
+            ],
             cwd=root,
             check=False,
             timeout_secs=TYPECHECK_TIMEOUT_SECS,
@@ -114,7 +131,7 @@ def typecheck_block(root: Path, block: str) -> subprocess.CompletedProcess[str]:
 def structural_result(text: str, living_agent_root: Path) -> TierResult:
     word_count = len(text.split())
     sections = SECTION_RE.findall(text)
-    claims = CLAIM_RE.findall(text)
+    claim_sentences = extract_claim_sentences(text)
     refs = CELL_RE.findall(text)
     valid_refs = 0
     for ref in refs:
@@ -122,9 +139,12 @@ def structural_result(text: str, living_agent_root: Path) -> TierResult:
             valid_refs += 1
     score = 0.0
     score += 0.25 if word_count >= 120 else min(0.25, word_count / 480.0)
-    score += 0.25 if len(sections) >= 2 else 0.0
-    score += 0.25 if len(claims) >= 1 else 0.0
-    score += 0.25 if (not refs or valid_refs == len(refs)) else 0.0
+    score += 0.25 if len(sections) >= 2 else (0.125 if len(sections) == 1 else 0.0)
+    score += 0.25 if len(claim_sentences) >= 1 else 0.0
+    if refs:
+        score += 0.25 if valid_refs == len(refs) else 0.0
+    else:
+        score += 0.125
     score = round(score, 4)
     return TierResult(
         score=score,
@@ -132,7 +152,9 @@ def structural_result(text: str, living_agent_root: Path) -> TierResult:
         details={
             "word_count": word_count,
             "section_count": len(sections),
-            "claim_count": len(claims),
+            "sections": sections,
+            "claim_count": len(claim_sentences),
+            "claim_sentences": claim_sentences,
             "references": refs,
             "valid_references": valid_refs,
         },
@@ -142,6 +164,22 @@ def structural_result(text: str, living_agent_root: Path) -> TierResult:
 def load_grid_cells(grid_root: Path) -> list[dict]:
     payload = json.loads(read_text(grid_root / "verified_grid_index.json"))
     return payload["cells"]
+
+
+def cell_semantic_tokens(cell: dict) -> set[str]:
+    return set(
+        tokenize(
+            " ".join(
+                [
+                    cell["fqn"],
+                    cell.get("signature", ""),
+                    cell.get("docstring", ""),
+                    cell.get("overlay_summary", ""),
+                    " ".join(cell.get("keywords", [])),
+                ]
+            )
+        )
+    )
 
 
 def semantic_result(
@@ -156,8 +194,10 @@ def semantic_result(
         archive_dir=archive_dir,
         encoder=encoder,
         append=False,
+        exclude_sha256=sha256_text(normalize_whitespace(text)),
     )
     cells = load_grid_cells(grid_root)
+    paper_tokens = set(tokenize(text))
     paper_embedding = encoder.encode([normalize_whitespace(text)])[0]
     cell_texts = [
         normalize_whitespace(
@@ -168,18 +208,25 @@ def semantic_result(
     cell_embeddings = encoder.encode(cell_texts)
     similarities = cell_embeddings @ paper_embedding
     top_similarity = float(similarities.max()) if len(similarities) else 0.0
-    coverage = max(0.0, min(1.0, (top_similarity + 1.0) / 2.0))
-    score = round((coverage + float(novelty_payload["sns"])) / 2.0, 4)
     top_idx = int(similarities.argmax()) if len(similarities) else -1
-    top_cell = cells[top_idx]["fqn"] if top_idx >= 0 else None
+    top_cell = cells[top_idx] if top_idx >= 0 else None
+    anchor_overlap = 0.0
+    if top_cell is not None:
+        cell_tokens = cell_semantic_tokens(top_cell)
+        if cell_tokens:
+            anchor_overlap = len(paper_tokens & cell_tokens) / len(cell_tokens)
+    coverage = max(0.0, min(1.0, max(0.0, top_similarity) * 0.4 + anchor_overlap * 0.6))
+    score = round((coverage + float(novelty_payload["sns"])) / 2.0, 4)
+    top_cell_fqn = top_cell["fqn"] if top_cell is not None else None
     return TierResult(
         score=score,
-        passed=score >= 0.45,
+        passed=score >= 0.45 and coverage >= 0.25,
         details={
             "novelty": novelty_payload["sns"],
             "max_similarity": novelty_payload["max_similarity"],
             "coverage": round(coverage, 4),
-            "top_grid_match": top_cell,
+            "anchor_overlap": round(anchor_overlap, 4),
+            "top_grid_match": top_cell_fqn,
         },
     )
 
@@ -191,12 +238,13 @@ def formal_result(text: str) -> TierResult:
     typecheck_root, degraded_reason = resolve_typecheck_root()
     if typecheck_root is None:
         return TierResult(
-            score=1.0,
-            passed=True,
+            score=0.0,
+            passed=False,
             details={
-                "checked": 0,
+                "checked": len(blocks),
                 "successes": 0,
-                "degraded": True,
+                "degraded": False,
+                "fail_closed": True,
                 "reason": degraded_reason,
             },
         )
@@ -206,16 +254,8 @@ def formal_result(text: str) -> TierResult:
         try:
             proc = typecheck_block(typecheck_root, block)
         except subprocess.TimeoutExpired:
-            return TierResult(
-                score=1.0,
-                passed=True,
-                details={
-                    "checked": 0,
-                    "successes": 0,
-                    "degraded": True,
-                    "reason": f"typecheck timeout after {TYPECHECK_TIMEOUT_SECS}s",
-                },
-            )
+            errors.append(f"typecheck timeout after {TYPECHECK_TIMEOUT_SECS}s")
+            continue
         if proc.returncode == 0:
             successes += 1
         else:
@@ -278,6 +318,13 @@ def verify_paper(
     return report
 
 
+def write_report_payload(archive_dir: Path, payload: dict) -> Path:
+    report_dir = archive_dir / "verification_reports"
+    report_path = report_dir / f"{payload['paper_sha256']}.json"
+    write_json(report_path, payload)
+    return report_path
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Verify Living Agent paper output")
     parser.add_argument("--text")
@@ -298,17 +345,18 @@ def main() -> int:
     if not args.text and not args.paper_file:
         raise SystemExit("pass --text or --paper-file")
     text = args.text or read_text(Path(args.paper_file))
-    encoder = Encoder(args.model)
     archive_dir = Path(args.archive_dir)
     grid_root = Path(args.grid_root)
     living_agent_root = Path(args.living_agent_root)
     if args.tier == "structural":
         payload = asdict(structural_result(text, living_agent_root))
     elif args.tier == "semantic":
+        encoder = Encoder(args.model)
         payload = asdict(semantic_result(text, archive_dir=archive_dir, grid_root=grid_root, encoder=encoder))
     elif args.tier == "formal":
         payload = asdict(formal_result(text))
     else:
+        encoder = Encoder(args.model)
         payload = verify_paper(
             text,
             archive_dir=archive_dir,
@@ -317,9 +365,7 @@ def main() -> int:
             encoder=encoder,
         )
         if args.write_report or args.paper_file:
-            report_dir = archive_dir / "verification_reports"
-            report_path = report_dir / f"{payload['paper_sha256']}.json"
-            write_json(report_path, payload)
+            report_path = write_report_payload(archive_dir, payload)
             payload["report_path"] = str(report_path)
     if args.json:
         print(json.dumps(payload, indent=2))

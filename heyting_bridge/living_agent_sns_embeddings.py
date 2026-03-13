@@ -156,8 +156,10 @@ def score_text(
     window: int = DEFAULT_WINDOW,
     append: bool = False,
     metadata: dict | None = None,
+    exclude_sha256: str | None = None,
 ) -> dict:
     cleaned = prepare_text(text)
+    cleaned_sha = sha256_text(cleaned)
     ensure_archive_compatibility(archive_dir, encoder)
     archive = load_archive(archive_dir, embedding_dim=encoder_embedding_dim(encoder))
     embedding = encoder.encode([cleaned])[0]
@@ -165,11 +167,20 @@ def score_text(
         novelty = 1.0
         max_similarity = 0.0
     else:
-        similarities = archive.embeddings @ embedding
-        max_similarity = float(np.max(similarities))
-        novelty = max(0.0, round(1.0 - max_similarity, 4))
+        candidate_indices = list(range(len(archive.entries)))
+        if exclude_sha256:
+            candidate_indices = [
+                idx for idx, entry in enumerate(archive.entries) if entry.get("sha256") != exclude_sha256
+            ]
+        if candidate_indices:
+            similarities = archive.embeddings[candidate_indices] @ embedding
+            max_similarity = float(np.max(similarities))
+            novelty = max(0.0, round(1.0 - max_similarity, 4))
+        else:
+            max_similarity = 0.0
+            novelty = 1.0
     entry = {
-        "sha256": sha256_text(cleaned),
+        "sha256": cleaned_sha,
         "word_count": len(cleaned.split()),
         "token_count": len(tokenize(cleaned)),
         "preview": cleaned[:160],

@@ -18,7 +18,7 @@ from living_agent_common import (
     write_text,
 )
 from living_agent_sns_embeddings import DEFAULT_MODEL, Encoder, score_text
-from living_agent_verify import verify_paper
+from living_agent_verify import verify_paper, write_report_payload
 
 ensure_module_runtime("sentence_transformers")
 
@@ -221,6 +221,8 @@ def main() -> int:
         living_agent_root=living_agent_root,
         encoder=encoder,
     )
+    report_path = write_report_payload(archive_dir, report)
+    report["report_path"] = str(report_path)
     paper_hash = sha256_text(paper_text)
     log_path = archive_dir / "hive_publication_log.jsonl"
     if dedup(log_path, paper_hash):
@@ -287,6 +289,7 @@ def main() -> int:
         "paper_path": stored_path,
         "trace": args.trace,
         "sns_score": sns_payload["sns"],
+        "report_path": str(report_path),
         "verification_report": report,
         "publish_result": publish,
     }
