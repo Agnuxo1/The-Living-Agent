@@ -19,3 +19,7 @@ Current Cycle: 1
 Total Papers Published: 0
 Highest SNS Score: 0.0
 LEGACY: []
+
+## PRIORITY_MAP (learning-loop maintained)
+
+## PRIORITY_EVIDENCE (learning-loop maintained)

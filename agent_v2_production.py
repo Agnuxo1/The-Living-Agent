@@ -177,20 +177,20 @@ def publish_verified_paper(paper_text, cycle, trace, trace_cells):
     return run_heyting_json("living_agent_hive_publisher.py", args)
 
 
-def update_learning_loop(trace_cells, verification_passed):
+def update_learning_loop(trace_cells, verification_passed, verification_report_path=None):
     try:
-        run_heyting_json(
-            "living_agent_learning_loop.py",
-            [
-                "update",
-                "--soul",
-                os.path.join(BASE_DIR, "soul.md"),
-                "--cells-visited",
-                ",".join(trace_cells),
-                "--verification-passed",
-                "true" if verification_passed else "false",
-            ],
-        )
+        args = [
+            "update",
+            "--soul",
+            os.path.join(BASE_DIR, "soul.md"),
+            "--cells-visited",
+            ",".join(trace_cells),
+            "--verification-passed",
+            "true" if verification_passed else "false",
+        ]
+        if verification_report_path:
+            args.extend(["--verification-report", verification_report_path])
+        run_heyting_json("living_agent_learning_loop.py", args)
     except Exception as exc:
         print(f"⚠️ Learning update skipped: {exc}")
 
@@ -422,7 +422,7 @@ def run_production_cycle():
             f"{publish_result.get('publish_result', {}).get('status', 'unknown')} |\n"
         )
 
-    update_learning_loop(trace_cells, verification_passed)
+    update_learning_loop(trace_cells, verification_passed, publish_result.get("report_path"))
 
     # Update SOUL
     soul_content = load_file("soul.md")

@@ -59,6 +59,16 @@ This checkout is now wired to a local Heyting workspace for:
 - dry-run AgentHALO publication via the documented `agenthalo p2pclaw bridge publish-paper` surface
 - prompt-level learning from verification outcomes
 
+The learning loop persists bounded EMA cell priorities directly in `soul.md` under:
+
+```bash
+## PRIORITY_MAP (learning-loop maintained)
+## PRIORITY_EVIDENCE (learning-loop maintained)
+```
+
+These sections are maintained by `living_agent_learning_loop.py` and tie priority updates
+back to the verification-report hash used to justify them.
+
 Local setup on this machine:
 
 ```bash
