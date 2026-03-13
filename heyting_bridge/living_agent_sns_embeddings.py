@@ -24,6 +24,7 @@ from living_agent_common import (
 
 DEFAULT_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 DEFAULT_WINDOW = 100
+DEFAULT_EMBEDDING_DIM = 384
 
 ensure_module_runtime("sentence_transformers")
 
@@ -43,6 +44,10 @@ def require_sentence_transformers():
 class Archive:
     embeddings: np.ndarray
     entries: list[dict]
+
+
+def encoder_embedding_dim(encoder: Encoder) -> int:
+    return int(encoder.model.get_sentence_embedding_dimension())
 
 
 def utc_now() -> str:
@@ -81,10 +86,16 @@ def load_model_info(archive_dir: Path) -> dict | None:
     return json.loads(model_info_path.read_text(encoding="utf-8"))
 
 
-def load_archive(archive_dir: Path) -> Archive:
+def load_archive(archive_dir: Path, *, embedding_dim: int | None = None) -> Archive:
     npz_path, json_path, _ = archive_paths(archive_dir)
     if not npz_path.exists() or not json_path.exists():
-        return Archive(np.zeros((0, 384), dtype=np.float32), [])
+        dim = embedding_dim
+        if dim is None:
+            model_info = load_model_info(archive_dir)
+            dim = int(model_info.get("embedding_dim", 0) or 0) if model_info else 0
+        if dim <= 0:
+            dim = DEFAULT_EMBEDDING_DIM
+        return Archive(np.zeros((0, dim), dtype=np.float32), [])
     with np.load(npz_path) as payload:
         embeddings = np.asarray(payload["embeddings"], dtype=np.float32)
     entries = json.loads(json_path.read_text(encoding="utf-8"))
@@ -133,7 +144,7 @@ def ensure_archive_compatibility(archive_dir: Path, encoder: Encoder) -> None:
             "archive embedding dimension mismatch: "
             f"{archive_dir} stores {archived_dim}, "
             f"but {encoder.model_name} returns "
-            f"{encoder.model.get_sentence_embedding_dimension()}"
+            f"{encoder_embedding_dim(encoder)}"
         )
 
 
@@ -148,7 +159,7 @@ def score_text(
 ) -> dict:
     cleaned = prepare_text(text)
     ensure_archive_compatibility(archive_dir, encoder)
-    archive = load_archive(archive_dir)
+    archive = load_archive(archive_dir, embedding_dim=encoder_embedding_dim(encoder))
     embedding = encoder.encode([cleaned])[0]
     if len(archive.entries) == 0:
         novelty = 1.0
@@ -228,9 +239,9 @@ def bootstrap_archive(
     if texts:
         embeddings = encoder.encode(texts)
     else:
-        embeddings = np.zeros((0, 384), dtype=np.float32)
+        embeddings = np.zeros((0, encoder_embedding_dim(encoder)), dtype=np.float32)
     archive = Archive(embeddings=embeddings[-window:], entries=accepted[-window:])
-    dim = int(archive.embeddings.shape[1]) if archive.embeddings.size else 384
+    dim = int(archive.embeddings.shape[1]) if archive.embeddings.size else encoder_embedding_dim(encoder)
     save_archive(archive_dir, archive, model_name=encoder.model_name, embedding_dim=dim)
     return {
         "source_count": len(files),
