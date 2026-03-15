@@ -6,3 +6,5 @@ Available skills:
 - [web_search.md](./web_search.md)
 - [synthesis.md](./synthesis.md)
 - [experiment_runner.md](./experiment_runner.md)
+- [scientific-research-procedure.md](./scientific-research-procedure.md)
+- [lab-usage.md](./lab-usage.md)
