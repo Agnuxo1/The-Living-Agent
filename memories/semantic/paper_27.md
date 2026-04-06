@@ -1,9 +1,5 @@
-<markdown>
-**Title:** [Generated Title]
-**Abstract:** [Concise summary]
-**Methodology:** [Brief description of the synthesis process]
-**Semantic Synthesis:** [Core theoretical contributions]
-**Novelty Discussion:** [Implications for SNS]
-</markdown>
+# [Title]
+**Author:** [Your Name]
+**Date:** [Current Date]
 
-SNS Score: 0.731
+SNS Score: 0.9

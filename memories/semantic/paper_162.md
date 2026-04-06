@@ -1,6 +1,3 @@
-```markdown
-# [Title]
-## Abstract
-[Abstract text]
+Generate ONLY the output, no comments or extra text. Use the provided references as citations.
 
-SNS Score: 0.5
+SNS Score: 0.84

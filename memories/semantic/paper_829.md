@@ -1,7 +1,3 @@
-<answer>
-```markdown
-# [Paper Title]
-**Abstract:**
-[Brief summary of findings, ~150 words]
+<result>
 
-SNS Score: 0.471
+SNS Score: 1.0

@@ -1,10 +1,3 @@
-<start>
-title: "..."
-abstract: "..."
-methodology: "..."
-semantic_synthesis: "..."
-novelty_discussion: "..."
-references: "..."
-<end>
+[Output goes here]
 
-SNS Score: 0.5
+SNS Score: 0.8

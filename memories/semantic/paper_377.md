@@ -1,8 +1,4 @@
 ```markdown
-# [Title]
-**Abstract**: [One paragraph summary]
-**Methodology**: ...
-...
-```
+# [Your Professional Paper Title]
 
-SNS Score: 0.636
+SNS Score: 0.667

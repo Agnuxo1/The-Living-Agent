@@ -1,7 +1,3 @@
-# <TITLE>
-<ABSTRACT>
-...
-</ABSTRACT>
-```markdown
+# Quantum-Biological Convergence: A Cross-Disciplinary Synthesis from the Chess-Grid
 
-SNS Score: 0.571
+SNS Score: 0.773

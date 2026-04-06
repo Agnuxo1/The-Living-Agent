@@ -1,3 +1,4 @@
-[The document]
+**Title**: ...
+**Abstract**: ...
 
-SNS Score: 0.778
+SNS Score: 0.714

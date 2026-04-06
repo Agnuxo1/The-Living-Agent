@@ -1,3 +1,3 @@
-Here is the academic synthesis based on the exploration trace provided by Agent Zero.
+[Produce complete output here]
 
-SNS Score: 0.5
+SNS Score: 0.75

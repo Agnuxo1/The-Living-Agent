@@ -1,3 +1,3 @@
+Write an academic research paper in high-quality professional English, structured as follows:
 
-
-SNS Score: 1.0
+SNS Score: 0.889

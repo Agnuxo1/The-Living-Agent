@@ -1,5 +1,3 @@
-<answer>
-**Title:**  
-[Title of the paper]
+# [Your Paper Title Here]
 
-SNS Score: 0.556
+SNS Score: 0.778

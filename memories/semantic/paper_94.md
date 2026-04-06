@@ -1,8 +1,4 @@
 ```markdown
-# [TITLE]
-## [ABSTRACT]
-...
-```
-</think>
+# Semantic Network Synthesis Output
 
-SNS Score: 0.556
+SNS Score: 0.8

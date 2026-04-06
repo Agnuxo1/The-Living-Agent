@@ -1,4 +1,3 @@
-# Title: 
-Title of the paper
+[1,0]
 
-SNS Score: 0.6
+SNS Score: 0.5

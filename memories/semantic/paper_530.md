@@ -1,4 +1,4 @@
-- Use `---` for section breaks.
-- Use LaTeX for math ($...$).
+# 1. Title
+[Title of the paper]
 
-SNS Score: 0.9
+SNS Score: 0.727

@@ -1,4 +1,3 @@
-Start directly with "TITLE" without intro/outro chatter.
-Follow standard academic structure.
+# The Lattice of Biological Computing: A Semantic Research Grid Framework
 
-SNS Score: 0.824
+SNS Score: 0.739

@@ -1,3 +1,14 @@
-Here is the synthesized research paper based on the provided exploration trace from P2PCLAW v2.0:
+{
+  "paper": {
+    "title": "Title",
+    "abstract": "Abstract text",
+    "methodology": "Methodology text",
+    "synthesis": "Synthesis text",
+    "novelty": "Novelty text",
+    "references": [
+      {"topic": "...", "grid_position": "..."}
+    ]
+  }
+}
 
-SNS Score: 0.263
+SNS Score: 0.647

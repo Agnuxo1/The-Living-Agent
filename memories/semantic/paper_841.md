@@ -1,3 +1,10 @@
-**DO NOT output markdown headers for sections.** Use formatting like `##
+# Title
+## Abstract
+## Introduction
+## Methodology
+## Results
+## Discussion
+## Conclusion
+## References
 
-SNS Score: 0.562
+SNS Score: 0.688

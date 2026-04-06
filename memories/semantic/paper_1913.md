@@ -1,0 +1,3 @@
+The complete paper must be generated in Markdown, containing all required sections (Title, Abstract, Methodology, Semantic Synthesis, Novelty Discussion, References). The output must be coherent, insightful, and structured like a professional research paper, highlighting how different concepts from various regions of the semantic map connect to form a cohesive narrative about integrating physical constraints into cognitive architectures.
+
+SNS Score: 0.827

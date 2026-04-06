@@ -1,3 +1,3 @@
-[Start with TITLE immediately]
 
-SNS Score: 0.75
+
+SNS Score: 1.0

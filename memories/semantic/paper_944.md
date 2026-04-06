@@ -1,3 +1,17 @@
-**TITLE:** Topological Qubit Resonances in Silicon Nanowires: A Cross-Disciplinary Analysis of Biological Computing Interfaces
+# [TITLE]
+## Abstract
+[Abstract text]
+## Introduction
+[Introduction text]
+## Methodology
+[Methodology text]
+## Semantic Synthesis
+[Synthesis text]
+## Discussion (Novelty)
+[Discussion text]
+## Conclusion
+[Conclusion text]
+## References
+[References section]
 
-SNS Score: 0.704
+SNS Score: 0.529

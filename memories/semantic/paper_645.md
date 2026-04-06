@@ -1,4 +1,3 @@
-<|BEGIN_PAPER_OUTPUT|>
-# TITLE
+[output]
 
-SNS Score: 0.833
+SNS Score: 0.966

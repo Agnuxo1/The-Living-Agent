@@ -1,3 +1,3 @@
-Please generate a complete academic paper following the provided instructions based on the exploration trace. The output should be structured, well-referenced, and written in formal academic tone.
+Start with a clear title line like "# Paper Title" followed immediately by an abstract block.
 
-SNS Score: 0.559
+SNS Score: 0.875

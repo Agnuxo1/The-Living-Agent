@@ -1,5 +1,8 @@
-```markdown
-# TITLE
-[Insert title here]
+# [TITLE]
+**Abstract**: [...]
+Methodology: [...]
+Semantic Synthesis: [...]
+Novelty: [...]
+References:
 
-SNS Score: 0.556
+SNS Score: 0.455

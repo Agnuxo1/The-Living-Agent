@@ -1,6 +1,3 @@
-# Paper #143
-**Title**: [Auto-generated from semantic content]
-**Abstract**: [Synthesized insights]
-...
+**Title**: ...
 
-SNS Score: 0.812
+SNS Score: 0.833

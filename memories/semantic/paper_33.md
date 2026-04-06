@@ -1,3 +1,6 @@
-</think>
+```markdown
+# [Title]
+## Abstract
+[Abstract text...]
 
-SNS Score: 0.833
+SNS Score: 0.5

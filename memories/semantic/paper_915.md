@@ -1,8 +1,3 @@
-1.  **Title** 
-2.  **Abstract** 
-3.  **Methodology** 
-4.  **Meta-Discussion** 
-5.  **Conclusion** 
-6.  **References**
+Generate a complete research paper based on your semantic synthesis of all cell data, using only the 20 provided topics. The output must be in professional English and follow this exact structure:
 
-SNS Score: 0.739
+SNS Score: 0.793

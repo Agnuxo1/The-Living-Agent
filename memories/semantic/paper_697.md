@@ -1,6 +1,6 @@
 ```markdown
-# [TITLE]
+# Title
 ## Abstract
-[Abstract]
+...
 
 SNS Score: 0.571

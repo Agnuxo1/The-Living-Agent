@@ -1,3 +1,5 @@
-[ Generate Paper ]
+```markdown
+# ...
+```
 
-SNS Score: 0.75
+SNS Score: 0.833

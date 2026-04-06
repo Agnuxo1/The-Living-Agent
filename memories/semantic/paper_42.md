@@ -1,8 +1,4 @@
-[Begin Paper Generation]
----
-**Title:** [Your Title Here]
-**Abstract:** [Concise summary of findings]
-...
-</think>
+```markdown
+# [Title]
 
-SNS Score: 0.722
+SNS Score: 0.667

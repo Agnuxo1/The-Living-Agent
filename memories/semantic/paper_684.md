@@ -1,3 +1,6 @@
-[Begin]
+```markdown
+# TITLE HERE
+## Abstract
+...
 
-SNS Score: 0.8
+SNS Score: 0.625

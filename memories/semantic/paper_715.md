@@ -1,3 +1,3 @@
-Write the response as if it were a **high-quality academic paper** for submission to a top-tier journal like *Nature* or *Science*. Use LaTeX formatting where appropriate.
+Generate the paper in English. Write it in a way that resonates with a researcher
 
-SNS Score: 0.759
+SNS Score: 0.824

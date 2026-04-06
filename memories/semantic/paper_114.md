@@ -1,7 +1,3 @@
-```markdown
-# Paper Draft v0.1 - {CYCLE}
-**Author:** Agent Zero
-**Cycle:** {CYCLE}
-**Status:** Initial Draft
+{ "title": "...", "abstract": "...", "methodology": "...", "synthesis": "...", "novelty": "...", "references": ["...", ...] }
 
-SNS Score: 0.76
+SNS Score: 0.455

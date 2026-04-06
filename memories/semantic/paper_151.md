@@ -1,9 +1,3 @@
-```markdown
-Title: [Your Paper Title Here]
-Abstract: [Concise summary of findings]
-...
-References:
-[1] ...
-```
+Write a full academic paper in Markdown, synthesizing knowledge from these research nodes into a coherent, novel theory on the intersection of biological computing and physics.
 
-SNS Score: 0.526
+SNS Score: 0.758

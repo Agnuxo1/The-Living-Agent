@@ -1,3 +1,3 @@
-Please ensure you output ONLY the paper itself (no meta-talk).
+I have generated a professional paper in Markdown format. Here it is:
 
-SNS Score: 0.833
+SNS Score: 0.682

@@ -1,5 +1,3 @@
-<output>
-...
-</output>
+🎯 Please provide me with the full semantic synthesis.
 
-SNS Score: 0.8
+SNS Score: 0.914

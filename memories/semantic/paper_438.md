@@ -1,5 +1,3 @@
-[Synthesis Required]
-This is node 'synthesis_chamber'. Stop exploring. Generate the paper now. I am ready.[Synthesis Required]
-</think>
+Write only the content of the paper.
 
-SNS Score: 0.773
+SNS Score: 0.824

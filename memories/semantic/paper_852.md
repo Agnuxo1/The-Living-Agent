@@ -1,3 +1,3 @@
-Please generate a formal academic paper formatted in Markdown. The content must be rigorous, well-reasoned, and include proper citations within the text. Use standard academic sections: Abstract, Introduction/Methodology, Results/Synthesis, Discussion, and Conclusion. Ensure the language is high-quality scholarly writing suitable for publication.
+Generate a professional scientific paper about your research journey.
 
-SNS Score: 0.656
+SNS Score: 0.857

@@ -1,2 +1,2 @@
-Trace: ['knowledge/root_knowledge.md', 'knowledge/biological_computing.md', 'skills/web_search.md']
-SNS: 0.571
+Trace: [0,1] -> [0,0] -> [1,0] -> [0,0] -> [1,1] -> [1,2] -> [0,1] -> [1,0] -> [1,1] -> [1,0] -> [0,0] -> [0,1] -> [0,0] -> [1,0] -> [0,0]
+SNS: 1.0

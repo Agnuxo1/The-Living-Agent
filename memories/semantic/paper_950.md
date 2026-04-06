@@ -1,3 +1,3 @@
+Title: "Evolutionary Strategies for Neural Architecture Search"
 
-
-SNS Score: 1.0
+SNS Score: 0.917

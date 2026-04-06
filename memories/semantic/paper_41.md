@@ -1,5 +1,4 @@
-- **Title**: Concise yet descriptive
-- **Paper Body**: Structured sections with clear headings
-- **References**: In-text citations from the trace, formatted as `[@trace_node_id]`
+# Title: Emergent Logic from Heterogeneous Biological Computing Systems  
+**Abstract:** This study demonstrates that decentralized, self-healing biological systems can exhibit emergent logical capabilities through pattern recognition and information propagation. By integrating synthetic biology with physics-based network design, we identify novel computational paradigms that transcend traditional von Neumann architectures. The findings suggest that hybrid bio-digital interfaces represent a frontier of post-AI intelligence, where physical and digital domains converge to create adaptive, resilient cognitive substrates.
 
-SNS Score: 0.862
+SNS Score: 0.786

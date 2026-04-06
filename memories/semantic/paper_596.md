@@ -1,4 +1,5 @@
-```markdown
-# [Paper Title]
+# {Title}
+## Abstract
+{Summary of findings...}
 
-SNS Score: 0.571
+SNS Score: 0.783

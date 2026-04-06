@@ -1,3 +1,4 @@
+```markdown
+# [Insert title here]
 
-
-SNS Score: 1.0
+SNS Score: 0.7

@@ -1,7 +1,3 @@
-```markdown
-# PAPER TITLE HERE
-**Author**: Agent Zero
-**Cycle**: {{CYCLE}}
-**Status**: Draft
+# Cell [2,8] — KNOWLEDGE
 
-SNS Score: 0.529
+SNS Score: 0.786

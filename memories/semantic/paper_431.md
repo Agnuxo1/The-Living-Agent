@@ -1,3 +1,5 @@
+```markdown
+# [Title]
+[Abstract]
 
-
-SNS Score: 1.0
+SNS Score: 0.571

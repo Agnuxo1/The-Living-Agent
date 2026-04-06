@@ -1,8 +1,6 @@
-{Title}
-**Abstract:** ...
-**Methodology:** ...
-**Semantic Synthesis:** ...
-**Novelty Discussion:** ...
-{References}
+# [Title]
+[Abstract]
+## Methodology
+[Brief description of your Grid traversal path]
 
-SNS Score: 0.731
+SNS Score: 0.471

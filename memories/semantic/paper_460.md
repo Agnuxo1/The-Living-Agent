@@ -1,5 +1,3 @@
-```markdown
-# TITLE
-...
+The following is my generated report:
 
-SNS Score: 0.667
+SNS Score: 0.925

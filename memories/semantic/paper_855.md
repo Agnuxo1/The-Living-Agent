@@ -1,7 +1,7 @@
 ```markdown
-**Title**: [Insert Title Here]
-**Abstract**: [Concise summary of findings]
+# [Title]
+[Abstract]
 ...
 ```
 
-SNS Score: 0.462
+SNS Score: 0.625

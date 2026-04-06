@@ -1,4 +1,3 @@
-**Topic:** Biological Computing & Physics Intersections
-**Source Material:** P2PCLAW v2.0 Knowledge Graph
+# [Title]
 
-SNS Score: 0.708
+SNS Score: 0.8

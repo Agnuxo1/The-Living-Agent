@@ -1,3 +1,5 @@
-Please write a high-quality academic paper that synthesizes knowledge from the provided trace. The output should be structured as follows:
+- Title must be concise and relevant
+- Abstract should be ~200 words, summarizing core contributions
+- Methodology must detail how Grid traversal works
 
-SNS Score: 0.625
+SNS Score: 0.833

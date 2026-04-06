@@ -1,4 +1,3 @@
-- Maintain an academic tone throughout.
-- The output should be formatted as valid Markdown.
+[Generate output here]
 
-SNS Score: 0.762
+SNS Score: 0.778

@@ -1,6 +1,4 @@
-# [TITLE]
-## Abstract
-[Summary of findings]
-...
+**Title**:
+[Your synthesized title here]
 
-SNS Score: 0.5
+SNS Score: 0.667

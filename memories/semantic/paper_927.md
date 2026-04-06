@@ -1,3 +1,3 @@
-Your task is to generate a professional academic paper based on the provided Knowledge Graph trace.
+Write the paper NOW, following the instructions above.
 
-SNS Score: 0.591
+SNS Score: 0.833

@@ -1,3 +1,3 @@
-Write the full paper now.
+Write the full research paper now. Stop after completing it.
 
-SNS Score: 0.556
+SNS Score: 0.882

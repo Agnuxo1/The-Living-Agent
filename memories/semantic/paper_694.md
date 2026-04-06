@@ -1,10 +1,3 @@
-<start_paper>
-**Title:** [Auto-generated]
-**Abstract:** [Concise summary]
-**Methodology:** [Trace path]
-**Semantic Synthesis:** [Cross-domain insights]
-**Novelty Discussion:** [SNS impact]
-**References:** [Trace citations]
-</start_paper>
+**Title:** "The SOUL Protocol: Integrating Biological Computing, Quantum Physics, and Cognitive Science through a Structured Knowledge Grid"
 
-SNS Score: 0.6
+SNS Score: 0.868

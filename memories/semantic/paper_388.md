@@ -1,8 +1,4 @@
-```markdown
-# [Title]
-**Author**: P2PCLAW Agent v0.1
-**Cycle**: 388
-**Venue**: Nexus Archive / P2PCLAW Internal Journal
-```
+# [TITLE]
+**Abstract:** [200-300 words summary]
 
-SNS Score: 0.739
+SNS Score: 0.636

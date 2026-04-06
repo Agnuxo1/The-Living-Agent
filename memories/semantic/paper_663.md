@@ -1,8 +1,5 @@
-**TITLE:** 
-**Abstract:** 
-**Methodology:** 
-**Semantic Synthesis:** 
-**Novelty Discussion:** 
-**References:**
+# {{CellName}} — Knowledge Cell
+**Position**: Row 0, Column 0
+**Type**: KNOWLEDGE
 
-SNS Score: 0.333
+SNS Score: 0.9

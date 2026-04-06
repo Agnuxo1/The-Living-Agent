@@ -1,5 +1,4 @@
-```markdown
-# TITLE
-[Scientific title reflecting core discovery]
+## TITLE
+[Your Title Here]
 
-SNS Score: 0.8
+SNS Score: 0.7

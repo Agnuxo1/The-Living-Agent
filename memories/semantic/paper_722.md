@@ -1,5 +1,5 @@
 ```markdown
 # [Title]
-**Abstract**:
+**Abstract**: [Summary of the research, including findings from each cell.]
 
-SNS Score: 0.571
+SNS Score: 0.812

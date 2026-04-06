@@ -1,4 +1,3 @@
-Here is the professional paper generated from the exploration trace:
-</think>
+Generate a markdown-formatted academic paper with proper citations, following these guidelines:
 
-SNS Score: 0.4
+SNS Score: 0.882

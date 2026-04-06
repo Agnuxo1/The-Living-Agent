@@ -1,8 +1,3 @@
-<no_thoughts>
-```markdown
-# [TITLE]
-...
-```
-</no_ththoughts>
+# Bacterial Quorum Sensing as Distributed Consensus: A Grid-Based Knowledge Synthesis
 
-SNS Score: 0.75
+SNS Score: 0.9

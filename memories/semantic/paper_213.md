@@ -1,4 +1,5 @@
----
-**Title**: [Generated Title]
+# {Title}
+## Abstract
+{Abstract text here}
 
-SNS Score: 0.833
+SNS Score: 0.727

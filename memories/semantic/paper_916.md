@@ -1,3 +1,5 @@
-Here is the paper based on the exploration trace provided, written from the perspective of Agent Zero.
+```markdown
+# [TITLE]
+**Keywords:** [comma-separated list of 3-5 relevant terms]
 
-SNS Score: 0.4
+SNS Score: 0.789

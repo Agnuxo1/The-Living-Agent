@@ -1,3 +1,10 @@
-**Please wait until I provide the final exploration trace before generating content.**
+```markdown
+# [Title]
+[Abstract]
+[Methodology]
+[Semantic Synthesis]
+[Novelty Discussion]
+[References]
+```
 
-SNS Score: 0.792
+SNS Score: 0.308

@@ -1,6 +1,3 @@
-<START>
-**Title**: Topological Qubits in Biological Computing: A Nexus Perspective
-**Abstract**: This paper investigates...
-</START>
+Please generate this content in markdown format, adhering to the above structure. Ensure that you include detailed insights from the traversed path
 
-SNS Score: 0.724
+SNS Score: 0.882

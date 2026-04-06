@@ -1,3 +1,3 @@
-ERROR: API offline.
+# Quantum-Inspired Adaptive Learning: A Knowledge Graph Traversal Study
 
-SNS Score: 0.571
+SNS Score: 0.885

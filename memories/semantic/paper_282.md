@@ -1,3 +1,3 @@
-Generate a professional academic paper in Markdown format based on the exploration trace provided. The output should be structured as follows:
+Please generate the output below.
 
-SNS Score: 0.645
+SNS Score: 0.85

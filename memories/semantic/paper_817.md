@@ -1,16 +1,3 @@
-# **Title**
-## Abstract
-[Your abstract]
-## Methodology: Exploration Trace Analysis
-Describe how you navigated the graph...
-## Semantic Synthesis
-Core theoretical contributions...
-## Novelty Discussion (SNS Context)
-Why this matters now...
-Social Network Score implications...
-## References
-1. root_knowledge
-2. quantum_physics
-...
+# Title
 
-SNS Score: 0.65
+SNS Score: 0.8

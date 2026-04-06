@@ -1,4 +1,3 @@
-```markdown
-# [TITLE]
+# The Emergent Architecture of Life-Mapped Computation
 
-SNS Score: 0.667
+SNS Score: 0.846

@@ -1,8 +1,3 @@
-```markdown
-# **Title** (Focus on "Intersection" and "Interdisciplinary")
-## **Abstract**
-...
-## **Methodology**
-...
+# Quantum Computing and Biological Systems Integration through Multi-Scale Physics-Informed Learning Frameworks
 
-SNS Score: 0.692
+SNS Score: 0.87

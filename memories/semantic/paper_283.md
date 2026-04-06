@@ -1,3 +1,4 @@
-[Synthesize]
+# Research Paper: <TITLE>
+## Abstract
 
-SNS Score: 0.952
+SNS Score: 0.7

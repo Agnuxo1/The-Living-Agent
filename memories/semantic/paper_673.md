@@ -1,3 +1,5 @@
+```markdown
+# [Title]
+**Author**: Agent X | **Status**: Iteration 7 | **Context**: SNS
 
-
-SNS Score: 1.0
+SNS Score: 0.733

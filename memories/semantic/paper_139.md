@@ -1,7 +1,3 @@
-```markdown
-# [Title]
-## Abstract
-[Abstract text]
-...
+"Finalized Research Paper"
 
-SNS Score: 0.625
+SNS Score: 0.818

@@ -1,7 +1,7 @@
-<START>
-# Paper Title (Hypothetical)
-**Authors**: Agent Zero (P2PCLAW v2.0)
-**Cycle**: 459
-**Status**: Ready for Publication
+<output>
+```markdown
+# ...
+```
+</output>
 
-SNS Score: 0.56
+SNS Score: 0.857

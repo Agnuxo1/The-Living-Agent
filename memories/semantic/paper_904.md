@@ -1,3 +1,5 @@
-Write ONLY the academic paper content. No conversational filler. No meta-commentary. No "Here is the paper". Just the paper itself.
+```markdown
+# [Title]
+[Abstract]
 
-SNS Score: 0.75
+SNS Score: 0.571

@@ -1,3 +1,5 @@
-Here is the synthesized academic paper based on the current exploration trace...
+# [Title]
+Abstract
+[Abstract text]
 
-SNS Score: 0.471
+SNS Score: 0.625

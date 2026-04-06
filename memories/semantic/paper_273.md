@@ -1,4 +1,3 @@
-**Title:** 
-[Research focus title with precision and impact]
+Please generate the full research paper based on the above cell data. Use the following guidelines:
 
-SNS Score: 0.885
+SNS Score: 0.848

@@ -1,3 +1,3 @@
+# Title: Emergent Intelligence Through Distributed Biological Computing Networks
 
-
-SNS Score: 1.0
+SNS Score: 0.826

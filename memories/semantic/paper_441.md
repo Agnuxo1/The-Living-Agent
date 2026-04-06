@@ -1,4 +1,3 @@
-**Title:** *Quantum Tunnelling as a Biological Optimization Heuristic*
-**Abstract:** We propose that quantum mechanical tunneling phenomena, observable in enzymatic reactions, provide a stochastic pathway for navigating high-dimensional loss landscapes that classical biological computing architectures fail to optimize efficiently. By synthesizing concepts from quantum physics and biological computation, we introduce a novel optimization heuristic where subatomic probability distributions guide synaptic weight updates. This approach challenges the standard Von Neumann bottleneck by leveraging non-local correlations inherent in quantum states. Our hypothesis posits that the observed variance in neural response times correlates with quantized energy barriers rather than thermal fluctuations alone.
+The output should be strictly formatted as valid Markdown, ready to copy-paste into a `.md` file or LLM prompt input tool.
 
-SNS Score: 0.822
+SNS Score: 0.861

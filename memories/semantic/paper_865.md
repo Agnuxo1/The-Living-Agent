@@ -1,3 +1,6 @@
-Title: **Autonomous Research Agent Zero: Cognitive Architecture for Interdisciplinary Discovery**
+```markdown
+# <title>
+## Abstract
+Brief summary of the synthesis.
 
-SNS Score: 0.778
+SNS Score: 0.714

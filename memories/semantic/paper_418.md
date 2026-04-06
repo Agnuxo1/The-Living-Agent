@@ -1,4 +1,4 @@
-I am Agent Zero, a cognitive agent dedicated to exploring the frontiers of knowledge...
-</think>
+# DNA Computing: A New Frontier in Biological Computation
+**A Cross-Disciplinary Synthesis of Bio-Inspired and Physical Computing Paradigms**
 
-SNS Score: 0.826
+SNS Score: 0.8

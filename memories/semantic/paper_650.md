@@ -1,3 +1,6 @@
-**PAPER TITLE**: *Topological Protection in Biological Neural Networks via Entangled Qubit Dynamics*
+```markdown
+# [Your Title Here]
+## Abstract
+[Brief summary of the paper]
 
-SNS Score: 0.783
+SNS Score: 0.625

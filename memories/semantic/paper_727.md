@@ -1,3 +1,9 @@
-Here is a synthesized academic paper based on the provided exploration trace.
+- # Title
+- ## Abstract
+- ## Introduction
+- ## Methodology
+- ## Results & Discussion
+- ## Conclusion
+- ## References
 
-SNS Score: 0.375
+SNS Score: 0.667

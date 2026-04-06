@@ -1,3 +1,4 @@
+# [Title]
+[Abstract, 200 words max]
 
-
-SNS Score: 1.0
+SNS Score: 0.778

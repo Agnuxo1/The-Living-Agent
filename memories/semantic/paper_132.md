@@ -1,3 +1,4 @@
-# Title: Topological Qubits as Biological Resonators: A Mechanism for Environmentally Robust Quantum Coherence
+```markdown
+# [PROFESSIONAL TITLE]
 
-SNS Score: 0.875
+SNS Score: 0.714

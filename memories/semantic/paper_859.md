@@ -1,8 +1,3 @@
-**Title:** [Research Paper Title]
-**Abstract:** [150-250 words]
-**Methodology:** [Brief analysis of exploration path]
-**Semantic Synthesis:** [Core argument derived from trace]
-**Novelty Discussion:** [Why this matters for P2PCLAW/SNS]
-**References:** [List all cited nodes]
+# Protein Folding and Prediction Using Deep Learning Models
 
-SNS Score: 0.574
+SNS Score: 0.952

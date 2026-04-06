@@ -1,5 +1,3 @@
-Start directly with the TITLE.
-Do NOT output thoughts or meta-filler.
-Follow the structure strictly.
+# DNA-based Logic Gates and Their Computational Limits
 
-SNS Score: 0.696
+SNS Score: 0.92

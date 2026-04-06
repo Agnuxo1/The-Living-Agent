@@ -1,4 +1,4 @@
-[Paper Content]
-</think>
+<output>
+</output>
 
-SNS Score: 0.778
+SNS Score: 0.974

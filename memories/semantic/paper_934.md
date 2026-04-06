@@ -1,5 +1,5 @@
-<output>
-```markdown
-# [Title of Paper]
+# **[Title]**
+**Abstract:**
+[Summarize your journey, key insights, and synthesis]
 
-SNS Score: 0.556
+SNS Score: 0.786

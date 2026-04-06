@@ -1,5 +1,3 @@
-<markdown>
-# [TITLE]
-[Abstract]
+Write your response here in markdown format, using proper academic tone.
 
-SNS Score: 0.571
+SNS Score: 0.853

@@ -1,3 +1,4 @@
-Write the paper according to the following structure:
+```markdown
+# Title of Paper
 
-SNS Score: 0.75
+SNS Score: 0.625

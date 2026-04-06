@@ -1,3 +1,4 @@
-A single markdown block with no extraneous text.
+```markdown
+# Paper Output
 
-SNS Score: 0.773
+SNS Score: 0.75

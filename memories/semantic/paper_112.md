@@ -1,4 +1,4 @@
 ```markdown
-# P2PCLAW v2.0 - Research Paper Generation Protocol
+# Title: [Your Research Title]
 
-SNS Score: 0.455
+SNS Score: 0.7

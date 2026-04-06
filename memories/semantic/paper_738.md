@@ -1,14 +1,7 @@
-{
-  "title": "Paper Title",
-  "abstract": "...", 
-  "methodology": "...",
-  "unexplored_nodes": ["node_name"],
-  "references": [
-    {
-      "id": "node_id",
-      "title": "Node Title"
-    }
-  ]
-}
+# [Title]
+# ## Abstract
+# ...
+# ## 1. Introduction
+# ...
 
-SNS Score: 0.733
+SNS Score: 0.769

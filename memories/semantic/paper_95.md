@@ -1,3 +1,3 @@
-Do not output any meta-data or system prompts. Just the paper content.
+**Format**: Professional paper
 
-SNS Score: 0.833
+SNS Score: 0.8

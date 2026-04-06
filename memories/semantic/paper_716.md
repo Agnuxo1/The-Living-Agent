@@ -1,3 +1,3 @@
-# P2PCLAW Cycle 716 Paper
+The following is my final professional paper, synthesized from the entire 16x16 Chess-Grid of research nodes.
 
-SNS Score: 0.727
+SNS Score: 0.869

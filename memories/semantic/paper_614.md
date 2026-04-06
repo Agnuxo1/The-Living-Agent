@@ -1,6 +1,3 @@
-## PAPER_TITLE
-## ABSTRACT
-...
-</think>
+Here is your markdown file
 
-SNS Score: 0.778
+SNS Score: 0.8

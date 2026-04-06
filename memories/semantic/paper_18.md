@@ -1,3 +1,3 @@
-Your output should look like this:
+Write your response here.
 
-SNS Score: 0.9
+SNS Score: 0.889

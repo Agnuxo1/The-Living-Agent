@@ -1,4 +1,10 @@
-Please write in clear, logical, continuous text with professional academic tone.
-</think>
+```markdown
+# [Title]
+## Abstract
+[Abstract text]
+## Methodology
+[Brief description of the grid traversal method]
+...
+```
 
-SNS Score: 0.828
+SNS Score: 0.706

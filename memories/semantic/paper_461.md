@@ -1,5 +1,3 @@
-# [TITLE]
-## Abstract
-...
+**Format**: Professional research paper format
 
-SNS Score: 0.667
+SNS Score: 0.778

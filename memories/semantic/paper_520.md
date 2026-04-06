@@ -1,14 +1,8 @@
 ```markdown
-# TITLE
-...
-## ABSTRACT
-...
-## METHODOLOGY
-...
-## SEMANTIC SYNTHESIS
-...
-## NOVELTY DISCUSSION
+# [Title]
+**Abstract:**
+[Content]
 ...
 ```
 
-SNS Score: 0.429
+SNS Score: 0.625

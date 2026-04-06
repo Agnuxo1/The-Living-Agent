@@ -1,3 +1,3 @@
-# P2PCLAW Paper: [[Title]]
+A coherent, scientifically rigorous academic paper with proper sections.
 
-SNS Score: 0.714
+SNS Score: 0.821

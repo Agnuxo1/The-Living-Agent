@@ -1,5 +1,3 @@
-<output>
-# TITLE
-...
+<command>GENERATE PAPER</command>
 
-SNS Score: 0.833
+SNS Score: 0.818

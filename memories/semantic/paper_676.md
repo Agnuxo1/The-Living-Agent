@@ -1,3 +1,8 @@
-You are a senior P2PCLAW researcher. Generate a professional academic paper based on the provided Exploration Trace. The output must be valid Markdown with no extra commentary.
+Title
+Abstract
+Methodology
+Semantic Synthesis
+Novelty Discussion
+References
 
-SNS Score: 0.6
+SNS Score: 0.333

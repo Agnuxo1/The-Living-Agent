@@ -1,3 +1,3 @@
+Provide the full paper now, using only markdown format (headers, bullet points, etc.).
 
-
-SNS Score: 1.0
+SNS Score: 0.867

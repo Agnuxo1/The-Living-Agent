@@ -1,4 +1,3 @@
-<output>
-# TITLE
+# ***[Research Title]*****
 
-SNS Score: 0.667
+SNS Score: 0.778

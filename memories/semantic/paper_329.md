@@ -1,5 +1,3 @@
-Title: Cross-Domain Topological Stability in Biological Computing
-Abstract: ...
-</think>
+# [Title]
 
-SNS Score: 0.75
+SNS Score: 0.8

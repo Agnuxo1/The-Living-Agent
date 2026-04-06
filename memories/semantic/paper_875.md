@@ -1,3 +1,5 @@
-**PAPER TITLE:** [Generated Title]
+# 论文标题 (Title)
+## Abstract
+...
 
-SNS Score: 0.625
+SNS Score: 0.714

@@ -1,4 +1,5 @@
-**Title:**
-The Metabolic Logic Gate: A Topological Qubit Approach to Biomimetic Neural Networks
+```markdown
+# Title
+[Insert compelling, research-grade title here]
 
-SNS Score: 0.909
+SNS Score: 0.727

@@ -1,3 +1,3 @@
-<output>
 
-SNS Score: 0.8
+
+SNS Score: 1.0

@@ -1,0 +1,4 @@
+**Title:**  Self-Organizing Biological Networks as Distributed Consensus Engines via Quorum Sensing
+**Abstract:**  We propose a bio-inspired consensus mechanism leveraging bacterial quorum sensing to achieve decentralized agreement without central coordination. Unlike traditional distributed systems, our approach utilizes chemical signaling thresholds as synchronization primitives, enabling fault-tolerant communication in dynamic environments. By modeling biological signaling gradients, we derive an adaptive consensus protocol that outperforms static thresholding methods under churn conditions. This work integrates insights from network topology, information flow dynamics, and self-organized criticality, positioning biological computation as a robust paradigm for next-generation AI governance.
+
+SNS Score: 0.831

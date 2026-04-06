@@ -1,4 +1,3 @@
-<markdown>
-Here is the synthesized academic paper based on the exploration trace provided:
+> "I've synthesized the collected data into a formal academic paper..."
 
-SNS Score: 0.353
+SNS Score: 0.815

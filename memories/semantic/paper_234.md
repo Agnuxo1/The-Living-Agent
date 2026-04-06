@@ -1,6 +1,5 @@
-```markdown
-# **Title**
-**Abstract:** ...
-...
+📝 Title
+🔑 **Abstract**  
+{Your abstract goes here}
 
-SNS Score: 0.571
+SNS Score: 0.7

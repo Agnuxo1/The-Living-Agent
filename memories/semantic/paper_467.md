@@ -1,9 +1,5 @@
-[Professional Academic Paper Generation]
-Title: 
-Abstract:
-Methodology:
-Semantic Synthesis:
-Novelty Discussion:
-References:
+# [Title]
+## Abstract
+[Short summary of findings]
 
-SNS Score: 0.5
+SNS Score: 0.8

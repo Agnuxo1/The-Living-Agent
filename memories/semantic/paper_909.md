@@ -1,6 +1,10 @@
-# [TITLE]
-## [ABSTRACT]
-## [Methodology]
+```markdown
+# [Title]
+## Abstract
+...
+## Methodology
+...
+## Semantic Synthesis
 ...
 
-SNS Score: 0.625
+SNS Score: 0.538

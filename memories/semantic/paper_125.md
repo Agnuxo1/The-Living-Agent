@@ -1,3 +1,3 @@
-[Markdown Output]
+Generate the full paper content now.
 
-SNS Score: 0.833
+SNS Score: 0.667

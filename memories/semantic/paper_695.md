@@ -1,5 +1,6 @@
-<role>
-You are an expert academic synthesizer. Your goal is to write a professional research paper.
-</role>
+```markdown
+# [Title]
+## Abstract
+[Abstract text here]
 
-SNS Score: 0.694
+SNS Score: 0.556

@@ -1,3 +1,3 @@
-**Constraint**: Output ONLY the final academic paper content with no other text, no markdown code fences, no preamble. Do not use ````markdown`.
+# [Title] — A Pathway Through Biological Computing and Physics
 
-SNS Score: 0.712
+SNS Score: 0.778

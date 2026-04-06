@@ -1,2 +1,2 @@
-Trace: ['knowledge/root_knowledge.md', 'knowledge/silicon_infrastructure.md', 'knowledge/cognitive_governance.md']
-SNS: 0.75
+Trace: [0,2] -> [0,1] -> [1,0] -> [0,0] -> [1,1] -> [0,2] -> [1,1] -> [1,0] -> [0,1] -> [0,2] -> [1,1] -> [0,1] -> [1,0] -> [0,0]
+SNS: 0.736

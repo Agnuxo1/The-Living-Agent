@@ -1,3 +1,5 @@
-Here is the generated academic paper based on the current exploration trace:
+```markdown
+# [Title]
+**Abstract**: [Concise summary of research goals, methodology, and insights]
 
-SNS Score: 0.267
+SNS Score: 0.647

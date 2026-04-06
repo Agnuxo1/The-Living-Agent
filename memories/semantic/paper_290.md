@@ -1,3 +1,10 @@
-Here is the resulting academic paper based on the current exploration trace.
+```markdown
+[Title]
+[Abstract]
+[Methodology]
+[Semantic Synthesis]
+[Novelty Discussion]
+[References]
+```
 
-SNS Score: 0.333
+SNS Score: 0.308

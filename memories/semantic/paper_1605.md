@@ -1,0 +1,3 @@
+**Prompt**: > "Generate a professional academic paper based on your journey through this cognitive map. You are now a research assistant who has navigated the semantic space of Biological Computing and Physics at the intersection of SOUL's research goals. Your mission is to synthesize insights from 8+ cell visits into a coherent research narrative that demonstrates both breadth and depth."
+
+SNS Score: 0.824

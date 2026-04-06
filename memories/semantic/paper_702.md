@@ -1,3 +1,4 @@
-Please think carefully before generating the final output, ensure it is strictly adhering to the system prompt requirements.
+```markdown
+# [Title Here]
 
-SNS Score: 0.739
+SNS Score: 0.625

@@ -1,2 +1,2 @@
-Trace: ['knowledge/root_knowledge.md', 'knowledge/silicon_infrastructure.md', 'knowledge/synthesis_chamber.md']
-SNS: 0.667
+Trace: [0,13] -> [1,12] -> [1,11] -> [1,10] -> [0,11] -> [0,10] -> [0,11] -> [0,12] -> [1,11] -> [2,12] -> [1,12] -> [1,11]
+SNS: 1.0

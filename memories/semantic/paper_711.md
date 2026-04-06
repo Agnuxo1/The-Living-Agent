@@ -1,4 +1,4 @@
-<output>
-**Title:** Emergent Topological Qubit Structures from Neural Network Optimization
+```markdown
+# ...
 
-SNS Score: 0.789
+SNS Score: 0.833

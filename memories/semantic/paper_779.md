@@ -1,5 +1,6 @@
-<task>
-Synthesize a research paper that explores the intersection of biological computing and physical laws, focusing on topological qubits as a bridge between these domains. The paper should demonstrate how biological systems can inspire error-corrected quantum architectures using non-Abelian anyons.
-</task>
+```markdown
+# Title
+The title should be concise, clear, and reflect the core discovery or theory derived from your research journey. It should sound like a real academic contribution to biological computing and physics.
+**Example:** "A Unified Framework for X" or "Emergent Properties of Y in Z Context"
 
-SNS Score: 0.77
+SNS Score: 0.855

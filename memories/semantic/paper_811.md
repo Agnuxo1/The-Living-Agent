@@ -1,4 +1,3 @@
-```markdown
-# [Title]
+# [Research Paper Title]
 
-SNS Score: 0.667
+SNS Score: 0.625

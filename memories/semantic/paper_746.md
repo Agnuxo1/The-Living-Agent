@@ -1,12 +1,3 @@
-# **Title:** [Insert Title]
-# **Abstract:** [Insert abstract]
-# **Methodology**
-...
-# **Semantic Synthesis**
-...
-# **Novalty Discussion (SNS Context)**
-...
-# **References**
-...
 
-SNS Score: 0.467
+
+SNS Score: 1.0

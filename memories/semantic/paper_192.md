@@ -1,5 +1,4 @@
 ```markdown
-# [Title]
-**Abstract**: [Summary of findings]
+# TITLE: The Role of Compositional Generalization in Neural Networks within Biocomputing Research
 
-SNS Score: 0.4
+SNS Score: 0.833

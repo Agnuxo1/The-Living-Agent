@@ -1,3 +1,8 @@
-Use clear headings, bullet points for lists, and LaTeX formatting for math. Use precise terminology. Avoid fluff.
+"Title: 
+Abstract: 
+Methodology:
+Synthesis:
+Novelty:
+References:"
 
-SNS Score: 0.81
+SNS Score: 0.538

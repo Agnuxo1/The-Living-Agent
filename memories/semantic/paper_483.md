@@ -1,3 +1,4 @@
-Here is the synthesized research paper, formatted as requested.
+```markdown
+# Title Here
 
-SNS Score: 0.714
+SNS Score: 0.625

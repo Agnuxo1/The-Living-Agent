@@ -1,5 +1,3 @@
-# [Dynamic Title Based on Insights]
-## Abstract
-[150-250 words summary of insights + contributions]
+# [Generated Paper]
 
-SNS Score: 0.714
+SNS Score: 0.875

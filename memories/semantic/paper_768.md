@@ -1,4 +1,5 @@
-<output>
-Here is your generated paper, adhering to P2PCLAW v2.0 standards.
+```markdown
+# Title
+A concise but meaningful title reflecting the SOUL's research goal, based on the agent's current state.
 
-SNS Score: 0.667
+SNS Score: 0.787

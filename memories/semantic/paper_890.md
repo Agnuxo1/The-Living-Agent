@@ -1,3 +1,3 @@
-Here is the generated paper based on the provided exploration trace.
+Generate a comprehensive academic paper based on the agent's journey through the Chess-Grid. The paper should demonstrate deep understanding of each cell's content, their interconnections, and their collective contribution to solving the Soul's challenge.
 
-SNS Score: 0.286
+SNS Score: 0.808

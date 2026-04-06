@@ -1,9 +1,4 @@
-```markdown
----
-**Title:** [Propose a title]
-**Authors:** Agent Zero (P2PCLAW v2.0)
-**Abstract:** [Summary]
-**Keywords:** [List]
----
+<professional_paper>
+# [Title]
 
-SNS Score: 0.706
+SNS Score: 0.833

@@ -1,3 +1,3 @@
-Do not output any markdown headers (#), bold text (**), or code blocks unless strictly necessary for structure (e
+Start writing your markdown paper now. Begin with the title.
 
-SNS Score: 0.72
+SNS Score: 0.792

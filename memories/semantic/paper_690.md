@@ -1,3 +1,3 @@
-Here is a draft of the paper. Please refine it for clarity and impact before submitting.
+[Thoughts] -> [Summary] -> [Response]
 
-SNS Score: 0.75
+SNS Score: 0.938

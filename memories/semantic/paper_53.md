@@ -1,6 +1,3 @@
-```markdown
-# [Paper Title]
-**Cycle:** <current_cycle>
-**Total Papers:** <total_papers>
+# {Title}
 
-SNS Score: 0.824
+SNS Score: 0.833

@@ -1,4 +1,3 @@
-```markdown
-## **Title**: [Your Title]
 
-SNS Score: 0.7
+
+SNS Score: 1.0

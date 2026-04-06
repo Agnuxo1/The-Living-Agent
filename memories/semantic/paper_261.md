@@ -1,5 +1,3 @@
-1. **Title**: <Your Title>
-2. **Abstract**: <Summary of findings>
-2.
+# The Impact of Grid Traversal on Semantic Knowledge Integration in Biological Computing
 
-SNS Score: 0.571
+SNS Score: 0.7

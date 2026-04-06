@@ -1,4 +1,3 @@
-<no_thought>
-<no_thought>
+A fully formed scholarly document, structured with academic rigor.
 
-SNS Score: 1.0
+SNS Score: 0.886

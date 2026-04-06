@@ -1,4 +1,3 @@
-Begin with `**<TITLE>**`, followed by abstract, etc.
-Ensure the tone is rigorous yet cross-disciplinary. Cite evidence from the provided trace nodes. Admit uncertainty where applicable.
+# Holographic Knowledge Graphs in Biological Computing: A Multi-Scale Network Analysis
 
-SNS Score: 0.804
+SNS Score: 0.81

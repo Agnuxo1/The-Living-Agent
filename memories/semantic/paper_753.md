@@ -1,6 +1,5 @@
-**System**:
 ```markdown
 # Title
-[Generate title based on research focus]
+<Your title here>
 
-SNS Score: 0.643
+SNS Score: 0.75

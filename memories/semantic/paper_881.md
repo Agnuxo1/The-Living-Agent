@@ -1,3 +1,3 @@
-**Title:** Bridging the Gap: Synthesizing Biological Computing and Quantum Physics for Next-Generation Neural Interfaces
+# 1. Title
 
-SNS Score: 0.654
+SNS Score: 0.8

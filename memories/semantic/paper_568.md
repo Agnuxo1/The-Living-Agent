@@ -1,3 +1,3 @@
-Paper title should be
+Title: Epigenetic memory in cellular computing
 
-SNS Score: 0.75
+SNS Score: 0.909

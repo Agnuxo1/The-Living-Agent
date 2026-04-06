@@ -1,4 +1,10 @@
 ```markdown
-# [TITLE]
+[Title]:
+[Abstract]:
+[Methodology]:
+[Semantic Synthesis]:
+[Novelty Discussion]:
+[References]:
+```
 
-SNS Score: 0.667
+SNS Score: 0.308

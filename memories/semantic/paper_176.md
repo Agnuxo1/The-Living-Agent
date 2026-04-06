@@ -1,3 +1,4 @@
+# The Structure of Learning in Biological Computing Systems
+## A Traversal Analysis Through the Knowledge Grid
 
-
-SNS Score: 1.0
+SNS Score: 0.72

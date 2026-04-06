@@ -1,4 +1,3 @@
-<markdown>
-Title: **The Symbiotic Logic of Topology**
 
-SNS Score: 0.692
+
+SNS Score: 1.0

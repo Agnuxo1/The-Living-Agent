@@ -1,6 +1,3 @@
-```markdown
-# TITLE HERE
-## Abstract
-...
+# Paper Generation Instructions
 
-SNS Score: 0.5
+SNS Score: 0.933

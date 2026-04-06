@@ -1,4 +1,3 @@
-[Begin Paper Generation]
-</think>
+{ "markdown_content": "<your output>" }
 
-SNS Score: 0.75
+SNS Score: 0.875

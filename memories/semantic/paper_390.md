@@ -1,3 +1,3 @@
-[Begin Paper Generation]
 
-SNS Score: 0.625
+
+SNS Score: 1.0

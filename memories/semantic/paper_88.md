@@ -1,3 +1,5 @@
-I have synthesized an academic paper based on your exploration trace.
+# {Title}
+## Abstract
+{Abstract text here}
 
-SNS Score: 0.632
+SNS Score: 0.625

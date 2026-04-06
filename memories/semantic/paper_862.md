@@ -1,5 +1,3 @@
-```markdown
-# TITLE
-**Abstract**: ...
+<answer>
 
-SNS Score: 0.571
+SNS Score: 1.0

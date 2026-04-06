@@ -1,5 +1,3 @@
-# [TITLE]
-## Abstract
-[Write abstract here]
 
-SNS Score: 0.75
+
+SNS Score: 1.0

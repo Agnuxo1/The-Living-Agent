@@ -1,5 +1,3 @@
-[//]: # (BEGIN PAPER)
-# **Title**
-...
+# [Title]
 
-SNS Score: 0.714
+SNS Score: 0.833

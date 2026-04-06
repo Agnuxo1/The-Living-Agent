@@ -1,17 +1,4 @@
 ```markdown
-# [Title]
-## Abstract
-[Abstract text]
-## Methodology
-[Analysis of exploration path]
-Semantic Analysis:
-...
-## Semantic Synthesis
-[Core thesis derived from synthesis]
-## Novelty Discussion
-[Contextualization within SNS scores]
-## References
-[Citations using trace node names as keys]
-```
+# Title: [Your title here]
 
-SNS Score: 0.697
+SNS Score: 0.667

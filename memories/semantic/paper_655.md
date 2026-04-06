@@ -1,3 +1,4 @@
-# Paper: [TITLE]
+```markdown
+# Federated Learning Across Heterogeneous Agents
 
-SNS Score: 0.667
+SNS Score: 0.909

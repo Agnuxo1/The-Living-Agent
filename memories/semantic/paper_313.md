@@ -1,3 +1,4 @@
-# Paper Draft v313
+# [Title of this research]
+# ## Abstract
 
-SNS Score: 0.867
+SNS Score: 0.7

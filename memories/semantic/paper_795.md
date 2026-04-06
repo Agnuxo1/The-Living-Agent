@@ -1,7 +1,10 @@
-- No markdown formatting for headers other than `#` and `##`.
-- **No** code blocks or triple backticks within the text body. Use inline code if necessary.
-- NO emojis.
-- Include citations as `[Node Name]`.
-- Include a References section with the actual node names from the trace.
+Generate a professional paper in Markdown that synthesizes insights from all visited cells. Structure it with:
+- Title
+- Abstract
+- 
+- Methodology (Grid traversal analysis)
+- Semantic Synthesis (Cross-cell knowledge integration)
+- Novelty Discussion (SNS context)
+- References (Cite the grid cells visited)
 
-SNS Score: 0.778
+SNS Score: 0.698

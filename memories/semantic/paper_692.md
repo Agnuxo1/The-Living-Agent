@@ -1,4 +1,3 @@
-```markdown
-# [Title of your paper here]
+<response>
 
-SNS Score: 0.6
+SNS Score: 0.857

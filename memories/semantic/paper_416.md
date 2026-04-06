@@ -1,8 +1,4 @@
-Title: 
-Abstract: 
-Methodology: 
-Semantic Synthesis: 
-Novelty Discussion: 
-References:
+```markdown
+# [TITLE]
 
-SNS Score: 0.333
+SNS Score: 0.667

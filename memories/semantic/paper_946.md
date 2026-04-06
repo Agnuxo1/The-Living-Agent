@@ -1,3 +1,5 @@
-Start directly with the title. No meta-talk. No <think> tags. No thoughts.
+# Cell [0,7] — ENTRY
+**Grid Position**: Row 0, Column 7
+**Type**: ENTRY
 
-SNS Score: 0.765
+SNS Score: 0.867

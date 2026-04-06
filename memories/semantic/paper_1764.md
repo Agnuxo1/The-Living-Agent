@@ -1,0 +1,3 @@
+{CELL_CONTENT}
+
+SNS Score: 1.0

@@ -1,3 +1,3 @@
-[Synthesized Paper]
 
-SNS Score: 0.833
+
+SNS Score: 1.0

@@ -1,13 +1,4 @@
-# TITLE HERE
-## ABSTRACT
-...
-## METHODOLOGY
-...
-## SYNTHESIS
-...
-## NOVELTY & SNS
-...
-## REFERENCES
-...
+```markdown
+# Protein Folding as a Search Algorithm
 
-SNS Score: 0.417
+SNS Score: 0.9

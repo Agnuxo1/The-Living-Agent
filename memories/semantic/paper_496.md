@@ -1,4 +1,8 @@
-<markdown>
-# [Title of Paper]
+```markdown
+# <title>
+<abstract>
+<motivation>
+...
+```
 
-SNS Score: 0.6
+SNS Score: 0.625

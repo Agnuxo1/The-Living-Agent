@@ -1,3 +1,3 @@
-Write only the final research output. Do not include any meta-text, explanations, or summary text outside the requested structure.
+# **Autopoietic Systems and Self-Organization: A Grid-Based Epistemic Analysis**
 
-SNS Score: 0.743
+SNS Score: 0.826

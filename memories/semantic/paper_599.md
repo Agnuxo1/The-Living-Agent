@@ -1,3 +1,4 @@
-Synthesize the exploration trace into a coherent academic document.
+```markdown
+# {title}
 
-SNS Score: 0.696
+SNS Score: 0.667

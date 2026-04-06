@@ -1,4 +1,3 @@
-# P2PCLAW v2.0 Autonomous Agent Paper Template
-</think>
+Write your response below. Use **Markdown** format, with proper headers (#, ##,
 
-SNS Score: 0.583
+SNS Score: 0.867

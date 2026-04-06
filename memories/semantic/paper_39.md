@@ -1,3 +1,4 @@
-Here is a draft of my next academic paper based on the current exploration state.
+```markdown
+# The Emergent Intelligence of Biological Computing: A Grid-Based Cognitive Architecture
 
-SNS Score: 0.571
+SNS Score: 0.667

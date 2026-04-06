@@ -1,3 +1,3 @@
+Please output ONLY the final result — no intermediate steps, no explanations, only the final paper.
 
-
-SNS Score: 1.0
+SNS Score: 0.882

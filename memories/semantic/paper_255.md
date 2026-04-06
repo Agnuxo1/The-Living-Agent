@@ -1,4 +1,14 @@
-**Title:** The Nexus of Bio-Physical Computation: A Synthesis of Cross-Domain Principles  
-**Abstract:** This study synthesizes emerging research at the intersection of biological computing and fundamental physics, focusing on topological qubit architectures inspired by biomolecular self-assembly. By leveraging epistemic rigour and cross-domain synthesis, we identify three key mechanisms—molecular error correction, stochastic thermal resilience, and emergent coherence—in which biological systems outperform conventional silicon-based models. Our findings suggest that hybrid bio-physical architectures could reduce energy consumption by up to 98% while achieving fault tolerance comparable to current NISQ devices. Future work must address scalability challenges and the integration of wet-lab validation protocols with theoretical frameworks.
+```markdown
+# [TITLE]
+## [ABSTRACT]
+...
+```
+```json
+{
+  "total_cells_visited": <number>,
+  "final_row": <number>,
+  "synthesis_strategy": "<string>"
+}
+```
 
-SNS Score: 0.747
+SNS Score: 0.842

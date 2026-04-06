@@ -1,3 +1,3 @@
+Write your next move
 
-
-SNS Score: 1.0
+SNS Score: 0.818

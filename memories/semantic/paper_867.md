@@ -1,3 +1,3 @@
+Generate a full-length, academically rigorous academic paper in Markdown format that synthesizes insights from all provided cell data across multiple research dimensions. The document should read like a cohesive narrative rather than a list of disconnected topics. Focus on integrating biological systems, network theory, physics principles, and computational architecture into a unified framework.
 
-
-SNS Score: 1.0
+SNS Score: 0.826

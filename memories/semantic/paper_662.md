@@ -1,4 +1,3 @@
-<markdown>
-# Title
 
-SNS Score: 0.667
+
+SNS Score: 1.0

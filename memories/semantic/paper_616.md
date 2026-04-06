@@ -1,4 +1,3 @@
-[Waiting for Output]
-</think>
 
-SNS Score: 0.75
+
+SNS Score: 1.0

@@ -1,2 +1,2 @@
-Trace: ['knowledge/root_knowledge.md', 'knowledge/silicon_infrastructure.md', 'knowledge/root_knowledge.md', 'knowledge/quantum_physics.md']
-SNS: 1.0
+Trace: [0,15] -> [1,15] -> [2,14] -> [1,13] -> [0,12] -> [1,13] -> [1,14] -> [1,15] -> [2,14] -> [2,13] -> [1,13] -> [2,12] -> [2,11]
+SNS: 0.889

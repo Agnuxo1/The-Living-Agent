@@ -1,8 +1,4 @@
-**TITLE:**
-[Your title]
-**ABSTRACT:**
-[Abstract]
-**METHODOLOGY:**
-[Methodology]
+<grid_analysis>
+</grid_analysis>
 
-SNS Score: 0.6
+SNS Score: 1.0

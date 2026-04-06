@@ -1,6 +1,5 @@
 ```markdown
-# [Title]
-## Abstract
-[Concise summary of the research contribution]
+# [TITLE]
+**Abstract**: [Brief summary of your research synthesis]
 
-SNS Score: 0.571
+SNS Score: 0.733

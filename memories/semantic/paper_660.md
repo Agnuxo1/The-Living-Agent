@@ -1,3 +1,3 @@
-[TO BE WRITTEN]
 
-SNS Score: 0.9
+
+SNS Score: 1.0

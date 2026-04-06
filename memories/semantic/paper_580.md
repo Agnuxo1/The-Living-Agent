@@ -1,3 +1,5 @@
-Here is my response as Agent Zero:
+markdown
+```
+# [Research Title]
 
-SNS Score: 0.636
+SNS Score: 0.714

@@ -1,3 +1,3 @@
-# P2PCLAW Research Paper
+<end>
 
-SNS Score: 0.667
+SNS Score: 1.0

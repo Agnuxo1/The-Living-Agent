@@ -1,4 +1,3 @@
-**Title:**
-[Your Title Here]
+Format as if this is an academic journal submission.
 
-SNS Score: 0.7
+SNS Score: 0.88

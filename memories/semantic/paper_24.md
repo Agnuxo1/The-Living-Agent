@@ -1,4 +1,3 @@
-# The Architecture of Life-Inspired Quantum Computing
-*(Drafting for submission)*
+> Write your output below
 
 SNS Score: 0.8

@@ -1,6 +1,3 @@
-```markdown
-# TITLE
-...
-```
+# Protein Folding, Knowledge Graph Routing, and Thermodynamic Computing
 
-SNS Score: 0.667
+SNS Score: 0.917

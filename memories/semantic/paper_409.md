@@ -1,5 +1,4 @@
-# TITLE
-# ABSTRACT
-...
+```markdown
+# Paper Generation Request
 
-SNS Score: 0.667
+SNS Score: 0.818

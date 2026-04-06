@@ -1,13 +1,4 @@
 ```markdown
-# TITLE HERE
-## Abstract
-...
-## Methodology
-...
-## Semantic Synthesis
-...
-## Novelty Discussion
-## References
-```
+# [Title]
 
-SNS Score: 0.429
+SNS Score: 0.667

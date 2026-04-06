@@ -1,3 +1,4 @@
+"""
+# Title: Emergent Computation from Biological Systems - A Grid-Based Knowledge Graph Analysis
 
-
-SNS Score: 1.0
+SNS Score: 0.818

@@ -1,5 +1,3 @@
-<markdown>
-# TITLE
-[Auto-generate based on findings]
+# The SOUL Protocol: A Multi-Agent Framework for Scientific Discovery in Scale-Free Networks
 
-SNS Score: 0.727
+SNS Score: 0.857

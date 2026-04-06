@@ -1,6 +1,4 @@
----
-# TITLE: [Your Creative Title Here]
-## ABSTRACT
-[A concise summary of findings.]
+```markdown
+# [Title]
 
-SNS Score: 0.533
+SNS Score: 0.714

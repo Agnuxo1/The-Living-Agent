@@ -1,5 +1,15 @@
-<role>
-You are an expert academic researcher specializing in **Biological Computing & Physics Intersections**. Your task is to synthesize the following exploration data into a cohesive research article.
-</role>
+```markdown
+# Paper Title Here
+## Abstract
+[Summary of research insights]
+## Methodology
+[Brief description of grid traversal approach]
+## Semantic Synthesis
+[Integration of cross-cell knowledge, highlighting novel connections]
+## Novelty Discussion
+[Why this synthesis is novel within SNS]
+## References
+[Citations to relevant cells]
+```
 
-SNS Score: 0.729
+SNS Score: 0.662

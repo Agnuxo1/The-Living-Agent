@@ -1,4 +1,9 @@
-# Your Final Answer
-<|eot_id|>
+{
+  "title": "...",
+  "abstract": "...",
+  "methodology": "...",
+  "novelty": "...",
+  "references": [...]
+}
 
-SNS Score: 0.875
+SNS Score: 0.583

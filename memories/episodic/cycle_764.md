@@ -1,2 +1,2 @@
-Trace: ['knowledge/root_knowledge.md', 'knowledge/biological_computing.md', 'knowledge/synthesis_chamber.md']
-SNS: 0.625
+Trace: [0,10] -> [1,10] -> [2,9] -> [1,9] -> [0,8] -> [1,9] -> [0,9] -> [0,10] -> [1,11] -> [0,12] -> [1,11] -> [0,11]
+SNS: 1.0

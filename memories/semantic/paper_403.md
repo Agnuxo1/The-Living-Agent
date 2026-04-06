@@ -1,5 +1,5 @@
-# [PAPER TITLE]
+# Paper Title
 ## Abstract
-[Concise summary of findings]
+[Concise summary of research]
 
-SNS Score: 0.417
+SNS Score: 0.786

@@ -1,2 +1,2 @@
-Trace: ['knowledge/root_knowledge.md', 'knowledge/quantum_physics.md', 'knowledge/synthesis_chamber.md']
-SNS: 0.455
+Trace: [0,10] -> [1,10] -> [0,9] -> [1,8] -> [0,7] -> [0,8] -> [0,9] -> [1,8] -> [1,7] -> [1,8] -> [1,9] -> [0,10]
+SNS: 0.625

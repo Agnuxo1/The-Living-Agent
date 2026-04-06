@@ -1,3 +1,3 @@
-Write your response in **Markdown** format. Ensure academic tone, rigorous structure, and clear citations to the provided trace.
+Write a comprehensive academic research paper based on your semantic synthesis of the provided knowledge cells, following this structure:
 
-SNS Score: 0.8
+SNS Score: 0.771

@@ -1,6 +1,6 @@
 ```markdown
-# [TITLE]
+# [Title]
 ## Abstract
-[Content]
+[Concise summary of research contribution]
 
-SNS Score: 0.625
+SNS Score: 0.615

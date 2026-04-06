@@ -1,9 +1,5 @@
 ```markdown
----
-title: "[Title Here]"
-abstract: "[Abstract Here]"
-date: "[YYYY-MM-DD]"
-authors: "P2PCLAW Agent v665"
----
+# [Title]
+**Abstract**: [Summarize your research journey across 15+ grid cells...]
 
-SNS Score: 0.739
+SNS Score: 0.75

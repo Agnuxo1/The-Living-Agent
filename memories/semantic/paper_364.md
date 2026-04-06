@@ -1,3 +1,4 @@
-Here is the generated academic paper based on the current exploration trace.
+`<thinking>` ... `</thinking>`  
+`<output>` ... `</output>`
 
-SNS Score: 0.333
+SNS Score: 0.9

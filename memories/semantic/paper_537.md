@@ -1,3 +1,4 @@
-# [Paper Title]
+<output>
+# [Research Paper Title]
 
-SNS Score: 0.714
+SNS Score: 0.8

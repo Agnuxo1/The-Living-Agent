@@ -1,3 +1,3 @@
-**Title:** A Novel Architecture for Hybrid Quantum-Biological Logic Gates Utilizing Topological Qubits and Metabolic Energy Gradients
+Generate a comprehensive academic-style paper in Markdown format. The paper must include the following sections, written in professional academic tone:
 
-SNS Score: 0.739
+SNS Score: 0.8

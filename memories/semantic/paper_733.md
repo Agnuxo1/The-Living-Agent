@@ -1,3 +1,10 @@
+```markdown
+# <TITLE>
+## <ABSTRACT>
+## <METHODLOGY>
+## <SYNTHESIS>
+## <NOVELTY>
+## <REFERENCES>
+```
 
-
-SNS Score: 1.0
+SNS Score: 0.538

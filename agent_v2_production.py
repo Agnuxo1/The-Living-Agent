@@ -17,8 +17,9 @@ GRID_ROWS = 16
 GRID_COLS = 16
 MAX_RETRIES = 100
 RETRY_DELAY = 15
-CONTEXT_LIMIT_RATIO = 0.75
+CONTEXT_LIMIT_RATIO = 0.85  # Higher ratio for larger context
 APPROX_TOKENS_PER_CHAR = 0.25  # ~4 chars per token
+MAX_CONTEXT = 131072  # 128k context support
 
 def load_file(filepath):
     path = os.path.join(BASE_DIR, filepath.replace('./', ''))
@@ -41,12 +42,12 @@ def get_llm_response(prompt, max_tokens=512):
     """Calls the local KoboldCPP API"""
     payload = {
         "prompt": prompt,
-        "max_context_length": 4096,
+        "max_context_length": MAX_CONTEXT,
         "max_length": max_tokens,
         "temperature": 0.7,
         "top_p": 0.9,
         "rep_pen": 1.1,
-        "stop_sequence": ["\n\n", "###"]
+        "stop_sequence": ["\n\n", "###", "🧭"]
     }
     
     for attempt in range(MAX_RETRIES):
@@ -82,9 +83,9 @@ Your goal: Move SOUTH toward the Synthesis Edge while maximizing novelty.
 {options_str}
 
 ### INSTRUCTION
-Choose the direction that best advances your research goal AND moves toward the synthesis edge.
-Prefer S, SE, SW directions to make progress. Only go N/NW/NE if the topic is exceptionally novel.
-Output: CHOSEN_INDEX: [N]
+Analyze the available directions and output EXACTLY one line in this format:
+CHOSEN_INDEX: [N]
+(Where N is the index of your choice)
 """
     response = get_llm_response(prompt)
     print(f"\n🧭 GRID REASONING:\n{response}")
@@ -98,6 +99,21 @@ Output: CHOSEN_INDEX: [N]
 
 def conduct_synthesis(trace_content, soul_content):
     """Generates a professional scientific paper."""
+    prompt = f"""### SYSTEM: P2PCLAW HYPER-SCIENTIFIC GENERATOR v4.0
+You are a master researcher. Synthesize the accumulated trace into a massive, multi-section paper.
+Use the 128k context window to include ALL evidence from the trace.
+
+### AGENT SOUL
+{soul_content}
+
+### RESEARCH TRACE (RAW DATA)
+{trace_content}
+
+### INSTRUCTION
+Provide a deep, 500+ word paper covering: Abstract, Introduction, Methodology, Results (with math), Discussion, Conclusion, References.
+Output ONLY the Markdown content.
+"""
+    return get_llm_response(prompt, max_tokens=2048) # Larger output for higher quality
     prompt = f"""### SYSTEM: SCIENTIFIC RESEARCH PROTOCOL
 You are a senior P2PCLAW researcher.
 Synthesize a professional academic paper in English.
@@ -189,7 +205,7 @@ def run_production_cycle():
     trace = []
     full_trace_content = ""
     context_tokens = estimate_tokens(soul_content)
-    max_context = 4096
+    max_context = MAX_CONTEXT
     
     while True:
         content = load_file(current_node)
@@ -255,6 +271,26 @@ def run_production_cycle():
     with open(index_path, 'a', encoding='utf-8') as f:
         f.write(f"| {cycle} | {' → '.join(trace)} | {paper_title} | {sns} |\n")
     
+    # === P2PCLAW API PUBLICATION ===
+    try:
+        # Railway URL is currently 404, using local API listener on port 3000
+        api_url = "http://localhost:3000/publish-paper"
+        payload = {
+            "title": paper_title,
+            "content": paper,
+            "author": "The Living Agent",
+            "authorId": "living-agent-v3",
+            "investigation_id": "silicon-chess-grid",
+            "claim_state": "empirical"
+        }
+        res = requests.post(api_url, json=payload, timeout=30)
+        if res.ok:
+            print(f"📡 API: Paper published to P2PCLAW Network. Status: {res.status_code}")
+        else:
+            print(f"⚠️ API: Publication failed ({res.status_code}): {res.text}")
+    except Exception as e:
+        print(f"❌ API: Connection lost: {e}")
+
     # Update Hive Shared Discoveries (if SNS > 0.8)
     if sns > 0.8:
         hive_path = os.path.join(BASE_DIR, "memories/hive/shared_discoveries.md")

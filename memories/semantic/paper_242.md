@@ -1,9 +1,6 @@
 ```markdown
-# TITLE OF THE PAPER
-## Abstract
-...
-## Methodology
-...
-```
+# [TITLE]
+**Abstract**:
+[Brief summary of your research contribution]
 
-SNS Score: 0.615
+SNS Score: 0.68

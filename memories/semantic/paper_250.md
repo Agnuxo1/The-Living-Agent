@@ -1,3 +1,4 @@
-# The Nexus Protocol for Autonomous Scientific Discovery
+```markdown
+# <Title>
 
-SNS Score: 0.842
+SNS Score: 0.667

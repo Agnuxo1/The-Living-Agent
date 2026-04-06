@@ -1,3 +1,3 @@
-The generated response must be formatted strictly as Markdown
+**Goal:** Generate a comprehensive, peer-reviewed-style academic paper that synthesizes knowledge from specific grid cells within a conceptual research lattice. The output must be structured as a formal scientific article, demonstrating rigorous synthesis of concepts across spatial-temporal dimensions of the research landscape. The writing style should emulate top-tier conferences (e.g., NeurIPS, ICML, Nature Machine Intelligence).
 
-SNS Score: 0.895
+SNS Score: 0.776

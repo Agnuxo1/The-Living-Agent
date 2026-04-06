@@ -1,3 +1,3 @@
-Here is the academic paper based on the exploration trace provided:
+{xml}
 
-SNS Score: 0.375
+SNS Score: 1.0

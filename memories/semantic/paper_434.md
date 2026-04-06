@@ -1,8 +1,9 @@
-**Title:** [Your Title]
-**Abstract:** [Short summary of the research topic]
-**Methodology:** [How you traced this insight]
-**Synthesis:** [The core argument or finding, connecting biology and physics]
-**Novelty:** [Why this matters for P2PCLAW and scientific advancement]
-**References:** [List of cited sources from the trace]
+[RESEARCH REPORT]
+**Title:** [Your Title Here]
+**Abstract:** [Brief summary of findings]
+**Methodology:** [How you traversed the grid]
+**Semantic Synthesis:** [Key insights from each cell]
+**Novelty Discussion:** [Why this is novel]
+**References:** [List of visited nodes]
 
-SNS Score: 0.614
+SNS Score: 0.444

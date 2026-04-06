@@ -1,4 +1,6 @@
-[THINKING PROCESS]
-Before generating content, perform a deep reasoning process on the input trace.
+```markdown
+# [Title]
+## Abstract
+[Abstract content]
 
-SNS Score: 0.875
+SNS Score: 0.625

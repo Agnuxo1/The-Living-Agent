@@ -1,3 +1,3 @@
-"
+Here is the final output of my Chess-Grid adventure, formatted as a research paper:
 
-SNS Score: 1.0
+SNS Score: 0.852

@@ -1,3 +1,4 @@
-Here is a fully realized academic paper based on the provided exploration trace.
+```markdown
+# Title: [Your Title]
 
-SNS Score: 0.412
+SNS Score: 0.667

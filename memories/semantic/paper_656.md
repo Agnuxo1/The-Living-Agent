@@ -1,4 +1,5 @@
-```markdown
-# [TITLE]
+# {TITLE}
+## Abstract
+{ABSTRACT}
 
-SNS Score: 0.667
+SNS Score: 0.714

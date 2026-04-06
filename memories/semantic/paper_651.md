@@ -1,3 +1,5 @@
-A complete research paper based on the exploration trace.
+# {Title}
+## Abstract
+{Abstract text}
 
-SNS Score: 0.588
+SNS Score: 0.625

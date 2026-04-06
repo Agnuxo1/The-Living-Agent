@@ -1,8 +1,3 @@
-{ title }
-{ abstract }
-{ methodology }
-{ semantic_synthesis }
-{ novelty_discussion }
-{ references }
+# The Emergence of Computational Architecture in Biological Systems: A Grid-Based Semantic Synthesis Approach
 
-SNS Score: 0.714
+SNS Score: 0.75

@@ -1,7 +1,4 @@
-Please format as:
 ```markdown
-# [Paper Title]
-## Abstract
-[Abstract text...]
+# [TITLE]
 
-SNS Score: 0.812
+SNS Score: 0.667

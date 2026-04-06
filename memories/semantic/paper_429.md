@@ -1,4 +1,4 @@
-<result>
-</think>
+```markdown
+# Title
 
-SNS Score: 0.833
+SNS Score: 0.667

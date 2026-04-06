@@ -1,0 +1,3 @@
+Markdown formatted academic paper with proper sections
+
+SNS Score: 0.811

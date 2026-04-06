@@ -1,3 +1,3 @@
-<output>
+You are an expert researcher tasked with writing a **professional academic paper** based on your current state and journey through the SOUL Cell Grid. The paper must be written entirely in professional, objective English suitable for top-tier conferences like NeurIPS or Nature. Your goal is to demonstrate deep understanding of biological computing systems and their potential for decentralized intelligence.
 
-SNS Score: 0.8
+SNS Score: 0.84

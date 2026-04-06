@@ -1,6 +1,3 @@
-```markdown
-# [Paper Title]
-## Abstract
-[Concise summary of findings... 100-150 words]
+# The Integrated Framework of Neuro-Synthetic Distributed Intelligence
 
-SNS Score: 0.625
+SNS Score: 0.905

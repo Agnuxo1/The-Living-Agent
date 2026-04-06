@@ -1,9 +1,3 @@
-```markdown
-# [Title]
-## Abstract
-...
-## Methodology
-...
-```
 
-SNS Score: 0.556
+
+SNS Score: 1.0

@@ -1,3 +1,3 @@
-Here is the academic paper generated based on the provided Exploration Trace.
+Write a full research paper integrating all 8 cell topics, citing them as references.
 
-SNS Score: 0.267
+SNS Score: 0.842

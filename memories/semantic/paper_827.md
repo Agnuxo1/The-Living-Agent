@@ -1,5 +1,5 @@
-**Title**: Synthesis of Biological Computing and Physics Intersections
-**Abstract**: 
-This study synthesizes emerging paradigms at the intersection of biological computing and fundamental physics, focusing on...
+```markdown
+# Title
+Your research title here...
 
-SNS Score: 0.618
+SNS Score: 0.7

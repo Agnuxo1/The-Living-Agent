@@ -1,3 +1,6 @@
-Write as if you are a senior researcher presenting findings at an international conference. Maintain epistemic rigour. Admit uncertainty where data is sparse. Cite evidence from the trace.
+```markdown
+# [Title]
+## Abstract
+[Abstract content]
 
-SNS Score: 0.682
+SNS Score: 0.625

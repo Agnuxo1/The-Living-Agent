@@ -1,3 +1,3 @@
-Generate the full academic paper content now.
+Please follow this structure and output the final paper.
 
-SNS Score: 0.615
+SNS Score: 0.833

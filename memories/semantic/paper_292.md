@@ -1,4 +1,4 @@
-Please generate the full paper now.
-</think>
+```markdown
+# [Title]
 
-SNS Score: 0.75
+SNS Score: 0.667

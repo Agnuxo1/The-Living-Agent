@@ -1,4 +1,6 @@
-[Begin Paper Generation]
-</think>
+```markdown
+# [Title]
+## Abstract
+[Summary of findings]
 
-SNS Score: 0.5
+SNS Score: 0.615

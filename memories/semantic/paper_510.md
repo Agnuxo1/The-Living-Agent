@@ -1,3 +1,3 @@
-Generate a professional academic paper in Markdown format
+{your_markdown_response}
 
-SNS Score: 0.667
+SNS Score: 1.0

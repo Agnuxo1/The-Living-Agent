@@ -1,3 +1,5 @@
-Please ensure that your output is formatted as a professional academic paper in Markdown format with clear headings, bullet points for lists, and LaTeX-style equations where appropriate. Use formal tone and avoid colloquialisms.
+```markdown
+# [Title]
+**Abstract**: [Concise summary of research findings]
 
-SNS Score: 0.762
+SNS Score: 0.5

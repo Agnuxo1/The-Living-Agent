@@ -1,3 +1,3 @@
-[begin]
+[Output the full paper here]
 
-SNS Score: 0.8
+SNS Score: 0.846

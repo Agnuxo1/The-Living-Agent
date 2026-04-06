@@ -1,3 +1,3 @@
-A rigorous academic paper in English, incorporating evidence from the exploration trace. Admit uncertainty where appropriate.
+# Title:
 
-SNS Score: 0.652
+SNS Score: 0.833

@@ -1,4 +1,3 @@
-**Title:** A New Paradigm for Biocomputing
-**Abstract:** This paper explores the convergence of biological systems and physical principles...
+# Cellular Automata Research Protocol v1.8 — Final Report
 
-SNS Score: 0.676
+SNS Score: 0.917

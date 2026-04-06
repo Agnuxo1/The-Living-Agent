@@ -1,9 +1,3 @@
-<markdown>
-# [Title]
-## Abstract
-...
-</markdown>
-```xml
-</think>
+# Protein Folding as a Search Algorithm
 
-SNS Score: 0.778
+SNS Score: 0.931

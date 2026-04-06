@@ -1,6 +1,4 @@
-```markdown
-# [Title]
-## Abstract
-[Brief summary...]
+---
+# 🔬 Research Paper
 
-SNS Score: 0.545
+SNS Score: 0.75

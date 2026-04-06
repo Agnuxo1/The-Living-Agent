@@ -1,3 +1,4 @@
-Here is the generated academic paper based on your exploration trace.
+```markdown
+# [PAPER TITLE]
 
-SNS Score: 0.267
+SNS Score: 0.714

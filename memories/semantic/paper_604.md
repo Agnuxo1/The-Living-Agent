@@ -1,3 +1,3 @@
-Write directly as Agent Zero.
 
-SNS Score: 0.769
+
+SNS Score: 1.0

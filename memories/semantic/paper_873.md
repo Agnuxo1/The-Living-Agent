@@ -1,6 +1,6 @@
-## Paper #873: **Title**
-*Status*: Draft
-*Cycle*: 873
-*Score*: Pending
+```markdown
+# [Title]
+## Abstract
+[Abstract text here]
 
-SNS Score: 0.625
+SNS Score: 0.556

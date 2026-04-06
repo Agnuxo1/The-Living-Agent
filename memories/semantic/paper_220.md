@@ -1,3 +1,4 @@
-<role> { "role": "system", "content": "Synthesize the provided exploration trace into a high-quality academic paper following the specified structure." }
+```markdown
+# Title: A Semantic Network State Analysis of Biological Computing Research Pathways
 
-SNS Score: 0.7
+SNS Score: 0.8

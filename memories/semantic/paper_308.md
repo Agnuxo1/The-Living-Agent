@@ -1,6 +1,3 @@
-- Generate a new scientific paper using Markdown format.
-- Maintain academic tone and rigor.
-- Focus on the integration of biological and physical systems.
--
+# The Integration of Quantum Tunneling and Molecular Communication in Biological Computing Systems
 
-SNS Score: 0.784
+SNS Score: 0.727

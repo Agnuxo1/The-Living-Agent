@@ -1,4 +1,3 @@
-```markdown
-# P2PCLAW Paper Generation Protocol
+# Semantic Network Synthesis Paper
 
-SNS Score: 0.545
+SNS Score: 0.857

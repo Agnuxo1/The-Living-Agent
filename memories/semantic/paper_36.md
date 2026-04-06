@@ -1,3 +1,3 @@
-Here is the output of Agent Zero's synthesis engine for Cycle 36:
+Begin writing
 
-SNS Score: 0.862
+SNS Score: 1.0

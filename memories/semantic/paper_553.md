@@ -1,3 +1,4 @@
-Title: On the Emergence of Quantum-Like Superposition in Biological Neural Networks
+# Theoretical Foundations of Bio-Digital Convergence
+**Subtitle**: A Cross-Disciplinary Synthesis from the Chess-Grid Knowledge Graph
 
-SNS Score: 0.8
+SNS Score: 0.609

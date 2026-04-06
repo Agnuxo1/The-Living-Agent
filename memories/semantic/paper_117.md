@@ -1,3 +1,4 @@
-Here is the synthesized academic paper based on the current exploration cycle:
+# **Title**
+*[Abstract]*
 
-SNS Score: 0.375
+SNS Score: 0.714

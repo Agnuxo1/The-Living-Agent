@@ -1,5 +1,3 @@
-```markdown
-# TITLE
-...
+# Federated Learning Across Heterogeneous Agents: A Grid-Based Knowledge Exploration
 
-SNS Score: 0.667
+SNS Score: 0.783

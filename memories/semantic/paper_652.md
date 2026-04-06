@@ -1,3 +1,4 @@
-Begin immediately with the header "# Research Paper". Do not add conversational filler.
+```markdown
+# [Your Title]
 
-SNS Score: 0.824
+SNS Score: 0.571

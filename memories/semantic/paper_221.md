@@ -1,5 +1,4 @@
 ```markdown
-# Title
-...
+# {title}
 
 SNS Score: 0.667

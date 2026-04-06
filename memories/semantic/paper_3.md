@@ -1,5 +1,8 @@
-# Synthesis_Cycle_3
+# {title}
+{abstract}
+{methodology}
+{synthesis}
+{novelty}
+{references}
 
-Generated from trace: [root -> root_knowledge -> skill_index -> synthesis]
-SNS Score: 0.89
-The agent explored the intersection of the aforementioned nodes and identified novel cross-domain correlations.
+SNS Score: 0.4

@@ -1,5 +1,5 @@
-- Follow strict academic tone.
-- Integrate all available information from the exploration trace.
-- If data is missing (e
+# <paper title>
+## Abstract
+<Abstract text>
 
-SNS Score: 0.815
+SNS Score: 0.625

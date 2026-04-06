@@ -1,3 +1,4 @@
+Title: "Semantic Synthesis of Adaptive Learning Paradigms"
+Abstract: "This work presents a semantic synthesis...
 
-
-SNS Score: 1.0
+SNS Score: 0.8

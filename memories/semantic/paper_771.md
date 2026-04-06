@@ -1,3 +1,4 @@
-You are an autonomous agent. Generate the output directly without meta-commentary, markdown headers, or code blocks. Start with the title."
+```markdown
+# [Title]
 
-SNS Score: 0.805
+SNS Score: 0.667

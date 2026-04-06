@@ -1,7 +1,3 @@
-```markdown
-# [Insert Title]
-[Abstract text]
-...
-```
+# [Title]
 
-SNS Score: 0.556
+SNS Score: 0.8

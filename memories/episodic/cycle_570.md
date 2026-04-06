@@ -1,2 +1,2 @@
-Trace: ['knowledge/root_knowledge.md', 'skills/skill_index.md', 'skills/web_search.md']
-SNS: 0.538
+Trace: [0,1] -> [1,1] -> [0,1] -> [1,2] -> [0,1] -> [1,0] -> [1,1] -> [0,1] -> [0,0] -> [1,0] -> [2,0] -> [1,0] -> [1,1] -> [2,0]
+SNS: 0.792

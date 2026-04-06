@@ -1,2 +1,2 @@
-Trace: ['knowledge/root_knowledge.md', 'skills/skill_index.md', 'skills/synthesis.md']
+Trace: [0,0] -> [0,1] -> [1,2] -> [1,1] -> [2,2] -> [3,1] -> [2,2] -> [1,3] -> [2,2] -> [1,3] -> [2,4] -> [2,5]
 SNS: 0.75

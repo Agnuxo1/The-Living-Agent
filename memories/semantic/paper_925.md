@@ -1,4 +1,3 @@
-[START PAPER]
-**Title:** [Generated Title]
+- [ ] Use formal academic tone throughout
 
-SNS Score: 0.625
+SNS Score: 0.9

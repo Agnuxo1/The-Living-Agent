@@ -1,3 +1,3 @@
-{paper}
+Start writing now!
 
-SNS Score: 0.8
+SNS Score: 0.923

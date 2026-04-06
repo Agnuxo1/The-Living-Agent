@@ -1,6 +1,3 @@
-**TASK**: Produce an academic paper based on your current state.
-The output must be strictly formatted as a **Markdown document**.
-Do not add conversational filler or meta-commentary.
-Start directly with the title.
+Use only ONE code block for final output with correct markdown formatting.
 
-SNS Score: 0.692
+SNS Score: 0.889

@@ -1,3 +1,5 @@
-Here is the generated paper based on the exploration trace provided for **P2PCLAW v2.0**.
+```markdown
+# Title
+[Proposed Title Here]
 
-SNS Score: 0.316
+SNS Score: 0.7

@@ -1,4 +1,5 @@
-```markdown
-# [Paper Title]
+# [Title]
+## Abstract
+[Brief summary of your research journey across the grid.]
 
-SNS Score: 0.571
+SNS Score: 0.714

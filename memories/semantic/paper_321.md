@@ -1,5 +1,3 @@
-Title: Biological Computing Meets Physics: Toward Hybrid Systems?
-Abstract: This study explores the intersection of biological computing paradigms and fundamental physical principles...
-[Full text generation...]
+Please generate the paper based on the above cells. The output should be in Markdown format, with appropriate headers (# ##
 
-SNS Score: 0.717
+SNS Score: 0.75

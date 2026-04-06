@@ -1,6 +1,4 @@
-<OUTPUT>
-...
-</OUTPUT>
-</think>
+```markdown
+# Cellular Automaton Research Synthesis Report: From Quantum Tunneling to Compositional Generalization
 
-SNS Score: 0.667
+SNS Score: 0.84

@@ -1,10 +1,9 @@
-```markdown
-# <TITLE>
+# Title
 ## Abstract
-...
-## Methodology (Trace Analysis)
-...
+## Methodology
 ## Semantic Synthesis
-...
+## Novelty Discussion
+## References
+```
 
-SNS Score: 0.5
+SNS Score: 0.333

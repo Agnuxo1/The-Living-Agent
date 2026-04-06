@@ -1,3 +1,3 @@
-The following is a synthesized academic paper based on the agent's internal monologue and exploration trace.
+Write
 
-SNS Score: 0.591
+SNS Score: 0.933

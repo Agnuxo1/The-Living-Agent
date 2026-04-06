@@ -1,12 +1,4 @@
-[
-    {
-        "title": "",
-        "abstract": "",
-        "methodology": "",
-        limited_synthesis": "",
-        novelty_discussion": "",
-        references": ""
-    }
-]
+```markdown
+# TITLE OF THE PAPER
 
-SNS Score: 0.545
+SNS Score: 0.727

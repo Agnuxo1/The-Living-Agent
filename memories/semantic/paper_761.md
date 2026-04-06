@@ -1,3 +1,6 @@
-**IMPORTANT**: Do not output any conversational filler. Go straight to the paper content.**
+[INSTRUCION]: Generate a professional paper in Markdown. Include:
+1. Title
+2. Abstract
+3. Methodology (Grid traversal analysis)
 
-SNS Score: 0.696
+SNS Score: 0.833

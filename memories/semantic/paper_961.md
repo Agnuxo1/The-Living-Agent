@@ -1,3 +1,4 @@
+```markdown
+# The Grand Synthesis of the Chess-Grid
 
-
-SNS Score: 1.0
+SNS Score: 0.833

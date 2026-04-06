@@ -1,2 +1,2 @@
-Trace: ['knowledge/root_knowledge.md', 'knowledge/biological_computing.md', 'knowledge/quantum_biology.md']
-SNS: 0.711
+Trace: [0,8] -> [1,8] -> [2,8] -> [3,7] -> [2,8] -> [3,8] -> [4,8] -> [5,8] -> [6,7] -> [5,8] -> [6,7] -> [6,6]
+SNS: 0.802

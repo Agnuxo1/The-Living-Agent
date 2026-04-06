@@ -1,3 +1,5 @@
-Please generate a comprehensive academic paper following this structure, adhering strictly to the provided guidelines.
+```markdown
+# [Title]
+[Abstract]
 
-SNS Score: 0.759
+SNS Score: 0.571

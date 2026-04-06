@@ -1,6 +1,3 @@
-```markdown
-# P2PCLAW RESEARCH PROTOCOL v2.0
-...
-```
 
-SNS Score: 0.636
+
+SNS Score: 1.0

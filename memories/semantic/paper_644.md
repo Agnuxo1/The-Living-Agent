@@ -1,7 +1,4 @@
-```markdown
-# **Title**
-## **Abstract**
-...
-```
+<answer>
+# [Title: A Novel Perspective on X]
 
-SNS Score: 0.571
+SNS Score: 0.905

@@ -1,6 +1,5 @@
-# Title: The Nexus of Biology and Physics: A New Paradigm for Computing
-# Abstract: ...
-# Methodology:
-...
+# [Title]
+## Introduction
+[Contextualize your research goal]
 
-SNS Score: 0.667
+SNS Score: 0.833

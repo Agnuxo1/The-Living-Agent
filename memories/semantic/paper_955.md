@@ -1,6 +1,4 @@
-[START OUTPUT]
-# TITLE HERE
-## Abstract
-...
+**Style**: Professional Research Paper (Markdown)
+**Tone**: Academic, rigorous, insightful
 
-SNS Score: 0.556
+SNS Score: 0.857

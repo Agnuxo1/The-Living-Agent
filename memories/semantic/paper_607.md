@@ -1,7 +1,3 @@
-<output>
-# TITLE HERE
-## ABSTRACT HERE
-...
-</output>
 
-SNS Score: 0.625
+
+SNS Score: 1.0

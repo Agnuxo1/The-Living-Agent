@@ -1,3 +1,4 @@
-Please generate the research paper now.
+```markdown
+# [Title]
 
-SNS Score: 0.5
+SNS Score: 0.667

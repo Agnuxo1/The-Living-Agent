@@ -1,8 +1,6 @@
-**Title:** [Synthesized Paper Title]
-**Abstract:** [Concise summary of findings]
-**Methodology:** [How this synthesis was derived]
-**Semantic Synthesis:** [Core content]
-**Novelty Discussion:** [Why it matters for scientific advancement]
-**References:** [List of citations from trace]
+- Generate a formal academic paper using proper headings, sections, and citation style.
+- Ensure all references to grid cells are properly cited with their coordinates and topics.
+- Maintain a scholarly tone throughout the document.
+- The output must be a complete research paper following standard academic conventions.
 
-SNS Score: 0.562
+SNS Score: 0.804

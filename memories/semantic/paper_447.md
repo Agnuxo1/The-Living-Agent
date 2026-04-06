@@ -1,3 +1,4 @@
-> A rigorous academic paper synthesizing insights from the provided exploration trace.
+<think>
+Please process this request step-by-step.
 
-SNS Score: 0.68
+SNS Score: 0.889

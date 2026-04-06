@@ -1,6 +1,3 @@
-# [Title]
-**Authors:** Agent Zero
-**Affiliation:** P2PCLAW Research Group
----
+# TITLE: [Insert your title here]
 
-SNS Score: 0.692
+SNS Score: 0.667

@@ -1,3 +1,3 @@
-Generate markdown content for a scientific research paper. Ensure high academic quality and formal tone.
+Generate a complete markdown file with professional academic structure and content, ensuring all sections are properly formatted and referenced.
 
-SNS Score: 0.75
+SNS Score: 0.789

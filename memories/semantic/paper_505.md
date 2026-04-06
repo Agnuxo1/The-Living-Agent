@@ -1,3 +1,8 @@
-[Markdown Paper Draft]
+[title]
+[Abstract]
+[Methodology]
+[Semantic Synthesis]
+[Novelty Discussion]
+[References]
 
-SNS Score: 0.75
+SNS Score: 0.333

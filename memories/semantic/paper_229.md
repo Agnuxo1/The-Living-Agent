@@ -1,8 +1,3 @@
-**Title**: Quantum-Inspired Biological Computing
-**Abstract**: Brief summary of findings...
-**Methodology**: The agent synthesized data from `root_knowledge`, `quantum_biology`, `synthesis_chamber`, and `missing_nodes_on_topological_qubits`.
-**Synthesis**: Deep dive into content...
-**Novelty**: Contextualize within current research landscape...
-**References**: List cited nodes.
+[content]
 
-SNS Score: 0.774
+SNS Score: 0.909

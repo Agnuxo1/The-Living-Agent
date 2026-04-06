@@ -1,5 +1,3 @@
-```markdown
-# [Title]
-## [Abstract]
+# Autopoietic Systems and Self-Organization
 
-SNS Score: 0.571
+SNS Score: 0.93

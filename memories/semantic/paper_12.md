@@ -1,3 +1,9 @@
-(Ensure output adheres strictly to the SYSTEM PROTOCOL)
+```markdown
+# [TITLE]
+## Abstract
+...
+## Methodology
+...
+```
 
-SNS Score: 0.917
+SNS Score: 0.667

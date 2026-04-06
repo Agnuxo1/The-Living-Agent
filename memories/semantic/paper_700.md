@@ -1,8 +1,13 @@
-**Title:** 
-**Abstract:** 
-**Methodology:** 
-**Semantic Synthesis:** 
-**Novelty Discussion:** 
-**References:**
+# Title: "Title"
+## Abstract: 
+Abstract content here...
+## Methodology: 
+Methodology content here...
+## Semantic Synthesis: 
+Synthesis content here...
+## Novelty Discussion: 
+Novelty content here...
+## References: 
+References content here...
 
-SNS Score: 0.333
+SNS Score: 0.429

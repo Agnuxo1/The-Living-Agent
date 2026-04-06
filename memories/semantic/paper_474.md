@@ -1,3 +1,3 @@
-Here is the synthesized academic paper based on the exploration trace:
+# Enzymatic Cascade Computation in Biological Systems
 
-SNS Score: 0.333
+SNS Score: 0.857

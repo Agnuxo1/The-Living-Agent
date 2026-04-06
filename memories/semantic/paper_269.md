@@ -1,9 +1,3 @@
-**Title:** {
-**Abstract:** {
-**Methodology:** {
-**Semantic Synthesis:** {
-**Novelty Discussion:** {
-**References:** {
-</think>
 
-SNS Score: 0.385
+
+SNS Score: 1.0

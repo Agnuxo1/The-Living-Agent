@@ -1,3 +1,4 @@
-Here is a formal paper synthesizing the exploration provided by Agent Zero.
+# Paper Title: 
+[Generate 3 options]
 
-SNS Score: 0.522
+SNS Score: 0.818

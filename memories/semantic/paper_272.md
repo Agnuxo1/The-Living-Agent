@@ -1,5 +1,3 @@
-```markdown
-# [Title]
-**Status:** Finalized | **Cycle:** 272 | **SNS Score:** 0.218 (Projected)
+<|end_of_text|>
 
-SNS Score: 0.583
+SNS Score: 1.0

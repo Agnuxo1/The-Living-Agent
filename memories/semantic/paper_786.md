@@ -1,3 +1,5 @@
-Here is a professional academic paper based on the exploration trace:
+```markdown
+# Title
+[Your Paper Title]
 
-SNS Score: 0.412
+SNS Score: 0.667

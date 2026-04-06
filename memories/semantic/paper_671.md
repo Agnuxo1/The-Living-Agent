@@ -1,5 +1,5 @@
-```markdown
 # [Title]
-[Abstract]
+## Abstract
+[Your abstract goes here]
 
-SNS Score: 0.571
+SNS Score: 0.6

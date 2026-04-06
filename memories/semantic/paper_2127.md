@@ -1,0 +1,3 @@
+OUTPUT FORMAT MUST BE EXACTLY as follows:
+
+SNS Score: 0.875

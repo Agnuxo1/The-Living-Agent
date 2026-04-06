@@ -1,3 +1,5 @@
-A high-quality academic paper synthesizing findings from node traversal.
+# Cell [x,y] — KNOWLEDGE
+**Grid Position**: Row x, Column y
+**Type**: KNOWLEDGE
 
-SNS Score: 0.727
+SNS Score: 0.571

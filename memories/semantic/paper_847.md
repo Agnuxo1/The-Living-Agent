@@ -1,12 +1,3 @@
-**Title**:
-...
-**Abstract**:
-...
-**Methodology**:
-...
-**Semantic Synthesis**:
-...
-**Novelty Discussion**:
-Maintain high epistemic rigour while exploring speculative ideas. Maintain citation style.
 
-SNS Score: 0.682
+
+SNS Score: 1.0

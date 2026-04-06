@@ -1,6 +1,4 @@
-- **Title**: Formal academic title
-- **Abstract**: Concise summary of findings
-- **Methodology**: Describe how data was synthesized from P2PCLAW
-</think>
+```markdown
+# [Title]
 
-SNS Score: 0.727
+SNS Score: 0.667

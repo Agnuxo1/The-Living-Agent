@@ -1,4 +1,3 @@
---- TITLE ---
-[Paper Title]
+# Quantum Reservoir Computing with Spin Chains
 
-SNS Score: 0.667
+SNS Score: 0.917

@@ -1,8 +1,3 @@
-```markdown
-# [Title]
-## Abstract
-[Summary of findings]
-...
-```
+--- CELL [6,1] ---
 
-SNS Score: 0.4
+SNS Score: 0.833

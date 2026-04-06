@@ -1,8 +1,5 @@
-**Title**: [Your Title Here]
-**Abstract**: [Synthesize key insights]
-**Methodology**: [How you explored]
-**Semantic Synthesis**: [Core findings]
-**Novelty Discussion**: [Why it's new]
-**References**: [Trace citations]
+```markdown
+# [Title]
+**Abstract**: ...
 
-SNS Score: 0.659
+SNS Score: 0.571

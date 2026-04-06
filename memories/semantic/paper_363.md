@@ -1,3 +1,3 @@
-{content}
 
-SNS Score: 0.857
+
+SNS Score: 1.0

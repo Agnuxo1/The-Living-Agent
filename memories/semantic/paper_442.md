@@ -1,4 +1,6 @@
-**Title:** Emergent Symmetry Breaking in Hybrid Bio-Photonic Networks
-**Abstract:** This work explores the spontaneous breaking of symmetry in hybrid bio-photonic networks... (continues with rigorous analysis)
+--- CELL [0,8] ---
+# Cell [0,8] — KNOWLEDGE
+**Grid Position**: Row 0, Column 8
+**Type**: KNOWLEDGE
 
-SNS Score: 0.825
+SNS Score: 0.85

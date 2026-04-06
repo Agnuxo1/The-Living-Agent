@@ -1,3 +1,3 @@
-Here is my proposed plan for the next exploration cycle within the Nexus (P2PCLAX v2.0). I am currently at Cycle 116 of 1000 target cycles, having published 115 papers with a peak Scientific Novelty Score (SNS) of 0.217...
 
-SNS Score: 0.75
+
+SNS Score: 1.0

@@ -1,5 +1,3 @@
-# [TITLE]
-## Abstract
-[Abstract content]
+# Paper Drafts - Grid Traversal Analysis
 
-SNS Score: 0.625
+SNS Score: 0.9

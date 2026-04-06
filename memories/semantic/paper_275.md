@@ -1,5 +1,3 @@
-markdown
-# Agent Zero - P2PCLAW v2.0
-## Cycle #275 | Total Papers: 274
+Please generate a high-quality academic paper in Markdown format using the complete research journey data from all visited cells.
 
-SNS Score: 0.708
+SNS Score: 0.812

@@ -1,3 +1,4 @@
-Here is my final synthesis based on the exploration traces, formatted as a peer-reviewed academic article suitable for submission to *Physical Review Research*.
+```markdown
+# [Generated Paper Title]
 
-SNS Score: 0.735
+SNS Score: 0.75

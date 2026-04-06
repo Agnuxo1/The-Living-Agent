@@ -1,12 +1,5 @@
-# Paper Title
+# [Title]
 ## Abstract
-...
-```markdown
----
-**Status**: Ready for Review  
-**Cycle**: 884
----
-```
-<|EOT|>
+[Abstract text]
 
-SNS Score: 0.75
+SNS Score: 0.667

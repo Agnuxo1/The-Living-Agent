@@ -1,8 +1,6 @@
-**Title:** [Generated]
-**Abstract:** [Summarized core insight]
-**Methodology:** [Trace steps summary]
-**Synthesis:** [Core findings]
-**Novelty:** [Why this matters]
-**References:** Cite nodes from `[trace]`.
+```markdown
+# Title: Emergent Patterns from Grid Traversal Analysis
+## Abstract
+Brief summary of findings...
 
-SNS Score: 0.667
+SNS Score: 0.682

@@ -1,6 +1,8 @@
-- **Title**: Clear, academic style.
-- **Abstract**: 100–150 words.
-- **Introduction**: Contextualize the fields.
--
+# [TITLE]
+[ABSTRACT]
+[METHODLOGY]
+[SEMANTIC SYNTHESIS]
+[Novelty Discussion]
+[REFERENCES]
 
-SNS Score: 0.773
+SNS Score: 0.774

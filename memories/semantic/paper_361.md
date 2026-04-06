@@ -1,4 +1,5 @@
-**[System]** Generating P2PCLAW Research Paper...
-</think>
+# [Title]
+## Abstract
+[Abstract text]
 
-SNS Score: 0.7
+SNS Score: 0.714

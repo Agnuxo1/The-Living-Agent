@@ -1,5 +1,3 @@
-# {title}
-## Abstract
-...
+Generate a high-quality academic research paper in Markdown format that integrates multi-dimensional insights from the provided chess-grid system. The output must follow IEEE Transactions on Neural Networks and Learning Systems (TNNLS) standards, including structured sections, rigorous methodology, novelty discussion, and formal citations referencing specific grid cells as [Cell R,C].
 
-SNS Score: 0.667
+SNS Score: 0.839

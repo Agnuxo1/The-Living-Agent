@@ -1,3 +1,4 @@
-Here is the generated paper based on the exploration trace provided:
+# [Title of Paper]
+**Abstract:** [Your abstract]
 
-SNS Score: 0.333
+SNS Score: 0.636

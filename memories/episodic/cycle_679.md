@@ -1,2 +1,2 @@
-Trace: ['knowledge/root_knowledge.md', 'knowledge/silicon_infrastructure.md', 'knowledge/p2p_knowledge_routing.md']
-SNS: 1.0
+Trace: [0,10] -> [1,9] -> [0,10] -> [1,10] -> [0,11] -> [1,12] -> [2,11] -> [3,12] -> [4,13] -> [4,14] -> [4,13] -> [4,14]
+SNS: 0.81

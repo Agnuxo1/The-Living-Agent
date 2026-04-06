@@ -1,4 +1,6 @@
-[Begin Paper Generation]
-</think>
+```markdown
+# [TITLE]
+## Abstract
+[Your abstract here]
 
-SNS Score: 0.5
+SNS Score: 0.667

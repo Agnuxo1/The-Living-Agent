@@ -1,10 +1,3 @@
-```markdown
-# [Title]
-## Abstract
-...
-## Methodology
-...
-## Semantic Synthesis
-...
+Write your response directly below, following all constraints:
 
-SNS Score: 0.571
+SNS Score: 0.893

@@ -1,3 +1,3 @@
-Markdown format with clean hierarchy.
 
-SNS Score: 0.8
+
+SNS Score: 1.0

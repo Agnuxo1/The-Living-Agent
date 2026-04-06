@@ -1,3 +1,11 @@
+```markdown
+# Title: ...
+## Abstract: ...
+## Methodology: ...
+## Semantic Synthesis: ...
+## Novelty Discussion:
+## References:
+[1] Cell R,C - Topic
+```
 
-
-SNS Score: 1.0
+SNS Score: 0.5

@@ -1,3 +1,5 @@
+```markdown
+# Title Here
+**Abstract:** <Write abstract here>
 
-
-SNS Score: 1.0
+SNS Score: 0.6

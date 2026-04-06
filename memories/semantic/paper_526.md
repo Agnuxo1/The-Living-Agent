@@ -1,4 +1,4 @@
 ```markdown
-# [PAPER TITLE]
+# Title: [Your Research Title]
 
-SNS Score: 0.571
+SNS Score: 0.692

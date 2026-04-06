@@ -1,3 +1,3 @@
-Write the final research paper based on the provided exploration trace. Follow strict academic conventions for formatting and tone.
+# Title: Emergent Intelligence Patterns Across Multi-Scale Physical Systems
 
-SNS Score: 0.667
+SNS Score: 0.833

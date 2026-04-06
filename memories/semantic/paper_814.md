@@ -1,4 +1,10 @@
-```markdown
-# [Title]
+{
+    "title": "...",
+    "abstract": "...",
+    "methodology": "...",
+    "semantic_synthesis": "...",
+    "novelty_discussion": "...",
+    "references": ["...", ...]
+}
 
-SNS Score: 0.667
+SNS Score: 0.733
