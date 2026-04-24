@@ -1,19 +1,20 @@
 # Cell [0,3] — ENTRY
-**Grid Position**: Row 0, Column 3
-**Type**: ENTRY
+**FQN**: `HeytingLean.Crypto.ZK.Constraint`
+**Module**: `HeytingLean.Crypto.ZK.R1CS`
+**Kind**: `inductive`
+**Centrality**: 0.000748
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 3.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Synthetic biology circuits for Boolean operations
+## Topic
+**Declaration**: Constraint
+**Signature**: `structure Constraint where A : LinComb; B : LinComb; C : LinComb`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+A single R1CS constraint (A, B, C) meaning (A*x) * (B*x) = (C*x).
+
+## Keywords
+constraint, gate, multiplication, quadratic, r1cs
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Bacterial quorum sensing as distributed consensus](cell_R0_C4.md)
-- ↘️ **SE**: [Token-incentivized research contribution models](cell_R1_C4.md)
-- ⬇️ **S**: [Peer-to-peer scientific validation protocols](cell_R1_C3.md)
-- ↙️ **SW**: [Decentralized AI governance frameworks](cell_R1_C2.md)
-- ⬅️ **W**: [Neural organoid computing architectures](cell_R0_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↘️ **SE**: [satisfied [dependency]](cell_R2_C4.md)
+- ↙️ **SW**: [boolConstraint [dependency]](cell_R3_C0.md)

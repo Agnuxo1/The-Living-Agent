@@ -1,21 +1,21 @@
 # Cell [3,8] — KNOWLEDGE
-**Grid Position**: Row 3, Column 8
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.eqConstraint`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `def`
+**Centrality**: 0.000047
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Topological qubits and fault-tolerant quantum computation
+## Topic
+**Declaration**: eqConstraint
+**Signature**: `HeytingLean.Crypto.ZK.LinComb → HeytingLean.Crypto.ZK.LinComb → HeytingLean.Crypto.ZK.Constraint`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Constraint enforcing `lhs = rhs` using a single multiplicative slot.
+
+## Keywords
+a, constraint, enforcing, heytinglean.crypto.zk.r1csbool.eqconstraint, lhs, rhs, single, using
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Bio-inspired optimization: ant colony and swarm in...](cell_R2_C8.md)
-- ↗️ **NE**: [Morphogenetic computing: Turing patterns as progra...](cell_R2_C9.md)
-- ➡️ **E**: [Quantum coherence in biological photosynthesis](cell_R3_C9.md)
-- ↘️ **SE**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R4_C9.md)
-- ⬇️ **S**: [Autopoietic systems and self-organization](cell_R4_C8.md)
-- ↙️ **SW**: [Merkle DAG structures for versioned knowledge](cell_R4_C7.md)
-- ⬅️ **W**: [Epigenetic memory in cellular computing](cell_R3_C7.md)
-- ↖️ **NW**: [Renormalization group and multi-scale physics](cell_R2_C7.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [Constraint [dependency]](cell_R0_C3.md)
+- ↘️ **SE**: [eq_1 [dependency]](cell_R8_C15.md)
+- ↙️ **SW**: [applyImp_strong [dependency]](cell_R8_C5.md)

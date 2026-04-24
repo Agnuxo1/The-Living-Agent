@@ -1,21 +1,20 @@
 # Cell [13,2] — KNOWLEDGE
-**Grid Position**: Row 13, Column 2
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Stage.DialParam.collapseAtOmega_coe`
+**Module**: `HeytingLean.Logic.StageSemantics`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Decentralized AI governance frameworks
+## Topic
+**Declaration**: collapseAtOmega_coe
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (n : Nat) (a : R.Omega), Eq (HeytingLean.Logic.Stage.DialParam.collapseAtOmega R n a).val (HeytingLean.Logic.Modal.DialParam.collapseAt R n a.val)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States collapse At Omega coe. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+at, coe., collapse, heytinglean.logic.stage.dialparam.collapseatomega_coe, omega, states, use, when
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Neural organoid computing architectures](cell_R12_C2.md)
-- ↗️ **NE**: [Synthetic biology circuits for Boolean operations](cell_R12_C3.md)
-- ➡️ **E**: [Peer-to-peer scientific validation protocols](cell_R13_C3.md)
-- ↘️ **SE**: [Scale-free networks and preferential attachment](cell_R14_C3.md)
-- ⬇️ **S**: [Self-organized criticality in neural networks](cell_R14_C2.md)
-- ↙️ **SW**: [Information theory and thermodynamics of computati...](cell_R14_C1.md)
-- ⬅️ **W**: [Semantic routing in knowledge graphs](cell_R13_C1.md)
-- ↖️ **NW**: [Protein folding as a search algorithm](cell_R12_C1.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [collapseAtOmega [dependency]](cell_R5_C9.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

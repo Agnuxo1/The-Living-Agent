@@ -1,21 +1,23 @@
 # Cell [2,11] — KNOWLEDGE
-**Grid Position**: Row 2, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.Matches`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `def`
+**Centrality**: 0.000084
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Evolutionary strategies for neural architecture search
+## Topic
+**Declaration**: Matches
+**Signature**: `HeytingLean.Crypto.ZK.R1CSBool.Builder → HeytingLean.Crypto.BoolLens.Stack → List HeytingLean.Crypto.ZK.Var → Prop`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Relation connecting a Boolean stack with its assigned R1CS variables.
+
+## Keywords
+a, boolean, connecting, heytinglean.crypto.zk.r1csbool.matches, its, relation, stack, with
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Embodied cognition and situated AI](cell_R1_C11.md)
-- ↗️ **NE**: [Compositional generalization in neural networks](cell_R1_C12.md)
-- ➡️ **E**: [Reservoir computing with physical substrates](cell_R2_C12.md)
-- ↘️ **SE**: [Quantum reservoir computing with spin chains](cell_R3_C12.md)
-- ⬇️ **S**: [Quantum error correction via surface codes](cell_R3_C11.md)
-- ↙️ **SW**: [Variational quantum eigensolvers for molecular sim...](cell_R3_C10.md)
-- ⬅️ **W**: [Neuromorphic hardware: memristors and beyond](cell_R2_C10.md)
-- ↖️ **NW**: [Meta-learning and learning-to-learn paradigms](cell_R1_C10.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Stack [dependency]](cell_R0_C12.md)
+- ↖️ **NW**: [Builder [dependency]](cell_R0_C4.md)
+- ⬇️ **S**: [compileTraceToR1CSFromEmpty_matches [dependency]](cell_R8_C11.md)
+- ↘️ **SE**: [eq_1 [dependency]](cell_R7_C15.md)
+- ↙️ **SW**: [matches_cons_head [dependency]](cell_R9_C6.md)

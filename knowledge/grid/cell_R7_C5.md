@@ -1,21 +1,20 @@
 # Cell [7,5] — KNOWLEDGE
-**Grid Position**: Row 7, Column 5
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.BoolLens.traceFrom_cons`
+**Module**: `HeytingLean.Crypto.BoolLens`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Federated learning across heterogeneous agents
+## Topic
+**Declaration**: traceFrom_cons
+**Signature**: `∀ {n : Nat} (ρ : HeytingLean.Crypto.BoolLens.Env n) (instr : HeytingLean.Crypto.Instr n) (prog : HeytingLean.Crypto.Program n) (stk : HeytingLean.Crypto.BoolLens.Stack), Eq (HeytingLean.Crypto.BoolLens.traceFrom ρ (List.cons instr prog) stk) (List.cons stk (HeytingLean.Crypto.BoolLens.traceFrom ρ prog (HeytingLean.Crypto.BoolLens.step ρ instr stk)))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.boollens.tracefrom_cons
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Slime mold optimization and network design](cell_R6_C5.md)
-- ↗️ **NE**: [Enzyme cascades as analog signal processors](cell_R6_C6.md)
-- ➡️ **E**: [Knowledge graph embedding and link prediction](cell_R7_C6.md)
-- ↘️ **SE**: [Cellular automata and computational universality](cell_R8_C6.md)
-- ⬇️ **S**: [Holographic principle and information bounds](cell_R8_C5.md)
-- ↙️ **SW**: [Dissipative structures and non-equilibrium thermod...](cell_R8_C4.md)
-- ⬅️ **W**: [Token-incentivized research contribution models](cell_R7_C4.md)
-- ↖️ **NW**: [Bacterial quorum sensing as distributed consensus](cell_R6_C4.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Instr [dependency]](cell_R0_C7.md)
+- ↖️ **NW**: [Program [dependency]](cell_R1_C1.md)

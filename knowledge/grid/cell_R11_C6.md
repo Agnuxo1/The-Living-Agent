@@ -1,21 +1,21 @@
 # Cell [11,6] — KNOWLEDGE
-**Grid Position**: Row 11, Column 6
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Clifford.Projector.Model.Carrier.fromPair.eq_1`
+**Module**: `HeytingLean.Bridges.Clifford.Projector`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Cellular automata and computational universality
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {α : Type v} [inst : HeytingLean.LoF.PrimaryAlgebra α] {β : Type u} [inst_1 : Mul β] [inst_2 : Star β] {M : HeytingLean.Bridges.Clifford.Projector.Model} (p : HeytingLean.Bridges.Clifford.Pair α), Eq (HeytingLean.Bridges.Clifford.Projector.Model.Carrier.fromPair p) { bivector := p }`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.bridges.clifford.projector.model.carrier.frompair.eq_1
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Knowledge graph embedding and link prediction](cell_R10_C6.md)
-- ↗️ **NE**: [Merkle DAG structures for versioned knowledge](cell_R10_C7.md)
-- ➡️ **E**: [Renormalization group and multi-scale physics](cell_R11_C7.md)
-- ↘️ **SE**: [Epigenetic memory in cellular computing](cell_R12_C7.md)
-- ⬇️ **S**: [Enzyme cascades as analog signal processors](cell_R12_C6.md)
-- ↙️ **SW**: [Slime mold optimization and network design](cell_R12_C5.md)
-- ⬅️ **W**: [Holographic principle and information bounds](cell_R11_C5.md)
-- ↖️ **NW**: [Federated learning across heterogeneous agents](cell_R10_C5.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [fromPair [dependency]](cell_R6_C6.md)
+- ↗️ **NE**: [Model [dependency]](cell_R1_C14.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

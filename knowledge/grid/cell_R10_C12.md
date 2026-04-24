@@ -1,21 +1,20 @@
 # Cell [10,12] — KNOWLEDGE
-**Grid Position**: Row 10, Column 12
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.tensorPack`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `def`
+**Centrality**: 0.000032
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Compositional generalization in neural networks
+## Topic
+**Declaration**: tensorPack
+**Signature**: `(α : Type u) → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (R : HeytingLean.LoF.Reentry α) → optParam HeytingLean.Contracts.Examples.BridgeFlags HeytingLean.Contracts.Examples.BridgeFlags.default → HeytingLean.Contracts.Examples.BridgePack α R`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Select the tensor bridge based on feature flags.
+
+## Keywords
+based, bridge, feature, heytinglean.contracts.examples.tensorpack, on, select, tensor, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum reservoir computing with spin chains](cell_R9_C12.md)
-- ↗️ **NE**: [Quantum tunneling in enzyme catalysis](cell_R9_C13.md)
-- ➡️ **E**: [Neuro-symbolic integration approaches](cell_R10_C13.md)
-- ↘️ **SE**: [DNA data storage and retrieval systems](cell_R11_C13.md)
-- ⬇️ **S**: [Reservoir computing with physical substrates](cell_R11_C12.md)
-- ↙️ **SW**: [Evolutionary strategies for neural architecture se...](cell_R11_C11.md)
-- ⬅️ **W**: [Embodied cognition and situated AI](cell_R10_C11.md)
-- ↖️ **NW**: [Quantum error correction via surface codes](cell_R9_C11.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [BridgePack [dependency]](cell_R5_C5.md)
+- ↙️ **SW**: [eq_1 [dependency]](cell_R14_C11.md)

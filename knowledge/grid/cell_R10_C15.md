@@ -1,18 +1,19 @@
 # Cell [10,15] — KNOWLEDGE
-**Grid Position**: Row 10, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Assembly.ASpace.setBirth.eq_1`
+**Module**: `HeytingLean.Bridges.Assembly.AssemblyBirth`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Skill acquisition and procedural knowledge formation
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {α : Type u} (G : HeytingLean.ATheory.ASpace α) (U : Set G.V), Eq (HeytingLean.Bridges.Assembly.ASpace.setBirth G U) (HeytingLean.Generative.IntNucleusKit.ibirth (HeytingLean.Bridges.Assembly.ASpace.intReentry G) U)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.bridges.assembly.aspace.setbirth.eq_1
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum machine learning kernel methods](cell_R9_C15.md)
-- ⬇️ **S**: [Synthetic ecosystems for emergent intelligence](cell_R11_C15.md)
-- ↙️ **SW**: [Molecular communication and nanonetworks](cell_R11_C14.md)
-- ⬅️ **W**: [Intrinsic motivation and curiosity-driven explorat...](cell_R10_C14.md)
-- ↖️ **NW**: [Entanglement-assisted classical communication](cell_R9_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [ASpace [dependency]](cell_R0_C8.md)

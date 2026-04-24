@@ -1,21 +1,21 @@
 # Cell [2,1] — KNOWLEDGE
-**Grid Position**: Row 2, Column 1
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.LoF.IntNucleus`
+**Module**: `HeytingLean.LoF.IntReentry`
+**Kind**: `inductive`
+**Centrality**: 0.000216
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Information theory and thermodynamics of computation
+## Topic
+**Declaration**: IntNucleus
+**Signature**: `structure IntNucleus (α : Type u) [PrimaryAlgebra α] where act : α → α; monotone : Monotone act; idempotent : ∀ a, act (act a) = act a; apply_le : ∀ a, act a ≤ a; map_inf : ∀ a b, act (a ⊓ b) = act a ⊓ act b`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Interior-style nucleus on a primary algebra. R as logic-extraction (domain-specific interior): act plays the role of a stabilization operator that extracts the domain's self-consistent core.
+
+## Keywords
+deflationary, idempotent, interior, meet-preserving, nucleus, stabilization
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Semantic routing in knowledge graphs](cell_R1_C1.md)
-- ↗️ **NE**: [Decentralized AI governance frameworks](cell_R1_C2.md)
-- ➡️ **E**: [Self-organized criticality in neural networks](cell_R2_C2.md)
-- ↘️ **SE**: [Neural organoid computing architectures](cell_R3_C2.md)
-- ⬇️ **S**: [Protein folding as a search algorithm](cell_R3_C1.md)
-- ↙️ **SW**: [DNA-based logic gates and their computational limi...](cell_R3_C0.md)
-- ⬅️ **W**: [Emergence and complexity in physical systems](cell_R2_C0.md)
-- ↖️ **NW**: [Proof-of-Discovery consensus mechanisms](cell_R1_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ⬇️ **S**: [nucleus [dependency]](cell_R10_C1.md)
+- ↘️ **SE**: [intNucleus [dependency]](cell_R6_C10.md)

@@ -1,21 +1,19 @@
 # Cell [12,13] — KNOWLEDGE
-**Grid Position**: Row 12, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Modal.DialParam.collapseAt.eq_1`
+**Module**: `HeytingLean.Logic.ModalDial`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Quantum tunneling in enzyme catalysis
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (n : Nat), Eq (HeytingLean.Logic.Modal.DialParam.collapseAt R n) (HeytingLean.Logic.Modal.DialParam.ladder R n).collapse`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States eq 1. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+1., eq, goal, heytinglean.logic.modal.dialparam.collapseat.eq_1, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [DNA data storage and retrieval systems](cell_R11_C13.md)
-- ↗️ **NE**: [Molecular communication and nanonetworks](cell_R11_C14.md)
-- ➡️ **E**: [Entanglement-assisted classical communication](cell_R12_C14.md)
-- ↘️ **SE**: [Intrinsic motivation and curiosity-driven explorat...](cell_R13_C14.md)
-- ⬇️ **S**: [Neuro-symbolic integration approaches](cell_R13_C13.md)
-- ↙️ **SW**: [Compositional generalization in neural networks](cell_R13_C12.md)
-- ⬅️ **W**: [Quantum reservoir computing with spin chains](cell_R12_C12.md)
-- ↖️ **NW**: [Reservoir computing with physical substrates](cell_R11_C12.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [collapseAt [dependency]](cell_R5_C11.md)

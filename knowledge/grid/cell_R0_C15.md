@@ -1,17 +1,19 @@
 # Cell [0,15] — ENTRY
-**Grid Position**: Row 0, Column 15
-**Type**: ENTRY
+**FQN**: `HeytingLean.Bridges.Clifford.Pair`
+**Module**: `HeytingLean.Bridges.Clifford`
+**Kind**: `inductive`
+**Centrality**: 0.000335
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 15.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Quantum machine learning kernel methods
+## Topic
+**Declaration**: Pair
+**Signature**: `structure Pair (α : Type u) where fst : α; snd : α`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+Bivector carrier for the Clifford bridge, storing two components of α.
+
+## Keywords
+bivector, carrier, pair, two-component
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬇️ **S**: [Skill acquisition and procedural knowledge formati...](cell_R1_C15.md)
-- ↙️ **SW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R1_C14.md)
-- ⬅️ **W**: [Entanglement-assisted classical communication](cell_R0_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↙️ **SW**: [fromPair [dependency]](cell_R6_C6.md)

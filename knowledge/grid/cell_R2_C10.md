@@ -1,21 +1,22 @@
 # Cell [2,10] — KNOWLEDGE
-**Grid Position**: Row 2, Column 10
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Spec.Plonk.Rel`
+**Module**: `HeytingLean.Crypto.ZK.Spec.Plonk`
+**Kind**: `def`
+**Centrality**: 0.000085
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Neuromorphic hardware: memristors and beyond
+## Topic
+**Declaration**: Rel
+**Signature**: `HeytingLean.Crypto.ZK.Plonk.System → (HeytingLean.Crypto.ZK.Var → Rat) → Prop`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Spec-level satisfaction relation for a PLONK system: we take the native semantics as the intended relation for now.
+
+## Keywords
+cryptography, plonk, zero-knowledge proofs
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Meta-learning and learning-to-learn paradigms](cell_R1_C10.md)
-- ↗️ **NE**: [Embodied cognition and situated AI](cell_R1_C11.md)
-- ➡️ **E**: [Evolutionary strategies for neural architecture se...](cell_R2_C11.md)
-- ↘️ **SE**: [Quantum error correction via surface codes](cell_R3_C11.md)
-- ⬇️ **S**: [Variational quantum eigensolvers for molecular sim...](cell_R3_C10.md)
-- ↙️ **SW**: [Quantum coherence in biological photosynthesis](cell_R3_C9.md)
-- ⬅️ **W**: [Morphogenetic computing: Turing patterns as progra...](cell_R2_C9.md)
-- ↖️ **NW**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R1_C9.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [System [dependency]](cell_R0_C13.md)
+- ↖️ **NW**: [Var [dependency]](cell_R0_C1.md)
+- ⬇️ **S**: [eq_1 [dependency]](cell_R9_C10.md)
+- ↘️ **SE**: [Rel_iff_renamed_sigma_of_gateBounds [dependency]](cell_R9_C13.md)

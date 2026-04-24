@@ -1,21 +1,21 @@
 # Cell [10,9] — KNOWLEDGE
-**Grid Position**: Row 10, Column 9
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.selectSuite`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `def`
+**Centrality**: 0.000036
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Cognitive architectures: SOAR vs ACT-R vs S²FSM
+## Topic
+**Declaration**: selectSuite
+**Signature**: `(α : Type u) → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (R : HeytingLean.LoF.Reentry α) → optParam HeytingLean.Contracts.Examples.BridgeFlags HeytingLean.Contracts.Examples.BridgeFlags.default → HeytingLean.Contracts.Examples.BridgeSuite α R`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Assemble bridge packs according to the requested feature flags.
+
+## Keywords
+according, assemble, bridge, heytinglean.contracts.examples.selectsuite, packs, requested, the, to
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum coherence in biological photosynthesis](cell_R9_C9.md)
-- ↗️ **NE**: [Variational quantum eigensolvers for molecular sim...](cell_R9_C10.md)
-- ➡️ **E**: [Meta-learning and learning-to-learn paradigms](cell_R10_C10.md)
-- ↘️ **SE**: [Neuromorphic hardware: memristors and beyond](cell_R11_C10.md)
-- ⬇️ **S**: [Morphogenetic computing: Turing patterns as progra...](cell_R11_C9.md)
-- ↙️ **SW**: [Bio-inspired optimization: ant colony and swarm in...](cell_R11_C8.md)
-- ⬅️ **W**: [Autopoietic systems and self-organization](cell_R10_C8.md)
-- ↖️ **NW**: [Topological qubits and fault-tolerant quantum comp...](cell_R9_C8.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [BridgeSuite [dependency]](cell_R4_C11.md)
+- ↖️ **NW**: [default [dependency]](cell_R3_C3.md)
+- ↘️ **SE**: [bridge_tensor_graph_commute [dependency]](cell_R15_C13.md)

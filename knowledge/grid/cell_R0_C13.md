@@ -1,19 +1,20 @@
 # Cell [0,13] — ENTRY
-**Grid Position**: Row 0, Column 13
-**Type**: ENTRY
+**FQN**: `HeytingLean.Crypto.ZK.Plonk.System`
+**Module**: `HeytingLean.Crypto.ZK.PlonkIR`
+**Kind**: `inductive`
+**Centrality**: 0.000358
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 13.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Quantum tunneling in enzyme catalysis
+## Topic
+**Declaration**: System
+**Signature**: `Type`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+A simplified PLONK system with a list of gates and a copy permutation.
+
+## Keywords
+copyPermutation, gates
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Entanglement-assisted classical communication](cell_R0_C14.md)
-- ↘️ **SE**: [Intrinsic motivation and curiosity-driven explorat...](cell_R1_C14.md)
-- ⬇️ **S**: [Neuro-symbolic integration approaches](cell_R1_C13.md)
-- ↙️ **SW**: [Compositional generalization in neural networks](cell_R1_C12.md)
-- ⬅️ **W**: [Quantum reservoir computing with spin chains](cell_R0_C12.md)
+## Navigation (real dependency / similarity edges)
+- ⬇️ **S**: [satisfiedNative_iff_r1cs_of_pairs [dependency]](cell_R7_C13.md)
+- ↙️ **SW**: [Rel [dependency]](cell_R2_C10.md)

@@ -1,19 +1,20 @@
 # Cell [0,11] — ENTRY
-**Grid Position**: Row 0, Column 11
-**Type**: ENTRY
+**FQN**: `HeytingLean.Crypto.ZK.System`
+**Module**: `HeytingLean.Crypto.ZK.R1CS`
+**Kind**: `inductive`
+**Centrality**: 0.000433
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 11.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Quantum error correction via surface codes
+## Topic
+**Declaration**: System
+**Signature**: `structure System where constraints : List Constraint`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+An R1CS system is a finite list of constraints.
+
+## Keywords
+constraints, satisfiability, snark, system
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Quantum reservoir computing with spin chains](cell_R0_C12.md)
-- ↘️ **SE**: [Compositional generalization in neural networks](cell_R1_C12.md)
-- ⬇️ **S**: [Embodied cognition and situated AI](cell_R1_C11.md)
-- ↙️ **SW**: [Meta-learning and learning-to-learn paradigms](cell_R1_C10.md)
-- ⬅️ **W**: [Variational quantum eigensolvers for molecular sim...](cell_R0_C10.md)
+## Navigation (real dependency / similarity edges)
+- ↘️ **SE**: [system [dependency]](cell_R3_C14.md)
+- ↙️ **SW**: [copyConstraintSystem [dependency]](cell_R3_C5.md)

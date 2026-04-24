@@ -1,21 +1,21 @@
 # Cell [9,2] — KNOWLEDGE
-**Grid Position**: Row 9, Column 2
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.head_satisfied_or`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Neural organoid computing architectures
+## Topic
+**Declaration**: head_satisfied_or
+**Signature**: `∀ (a : HeytingLean.Crypto.ZK.Var → Rat) {vx vy vmul vz : HeytingLean.Crypto.ZK.Var}, Eq (a vmul) (instHMul.hMul (a vx) (a vy)) → Eq (a vz) (instHSub.hSub (instHAdd.hAdd (a vx) (a vy)) (instHMul.hMul (a vx) (a vy))) → HeytingLean.Crypto.ZK.Constraint.satisfied a (HeytingLean.Crypto.ZK.R1CSBool.eqConstraint (HeytingLean.Crypto.ZK.R1CSBool.linhead_or vz vx vy vmul) (HeytingLean.Crypto.ZK.LinComb.ofConst 0))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+algebra, boolean, expression, function, logic, operation, polynomial, ring, value, variable
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Self-organized criticality in neural networks](cell_R8_C2.md)
-- ↗️ **NE**: [Scale-free networks and preferential attachment](cell_R8_C3.md)
-- ➡️ **E**: [Synthetic biology circuits for Boolean operations](cell_R9_C3.md)
-- ↘️ **SE**: [Peer-to-peer scientific validation protocols](cell_R10_C3.md)
-- ⬇️ **S**: [Decentralized AI governance frameworks](cell_R10_C2.md)
-- ↙️ **SW**: [Semantic routing in knowledge graphs](cell_R10_C1.md)
-- ⬅️ **W**: [Protein folding as a search algorithm](cell_R9_C1.md)
-- ↖️ **NW**: [Information theory and thermodynamics of computati...](cell_R8_C1.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [linhead_or [dependency]](cell_R3_C2.md)
+- ↗️ **NE**: [eqConstraint [dependency]](cell_R3_C8.md)
+- ↖️ **NW**: [Var [dependency]](cell_R0_C1.md)

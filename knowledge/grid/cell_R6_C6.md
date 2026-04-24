@@ -1,20 +1,22 @@
-# Cell [6,6] — SKILL_NODE
-**Grid Position**: Row 6, Column 6
-**Type**: SKILL_NODE
+# Cell [6,6] — KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Clifford.Projector.Model.Carrier.fromPair`
+**Module**: `HeytingLean.Bridges.Clifford.Projector`
+**Kind**: `def`
+**Centrality**: 0.000053
+**Dependency Depth**: 2
 
-## ⚡ Skill Node: `hypothesis_generator`
-**Research Context**: Enzyme cascades as analog signal processors
+## Topic
+**Declaration**: fromPair
+**Signature**: `{α : Type v} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → {β : Type u} → [inst_1 : Mul β] → [inst_2 : Star β] → {M : HeytingLean.Bridges.Clifford.Projector.Model} → HeytingLean.Bridges.Clifford.Pair α → M.Carrier`
 
-[ACQUIRED: agent reads this node → adds 'hypothesis_generator' to COMPETENCY_MAP]
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+carrier, clifford, frompair, model
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Cellular automata and computational universality](cell_R5_C6.md)
-- ↗️ **NE**: [Renormalization group and multi-scale physics](cell_R5_C7.md)
-- ➡️ **E**: [Epigenetic memory in cellular computing](cell_R6_C7.md)
-- ↘️ **SE**: [Merkle DAG structures for versioned knowledge](cell_R7_C7.md)
-- ⬇️ **S**: [Knowledge graph embedding and link prediction](cell_R7_C6.md)
-- ↙️ **SW**: [Federated learning across heterogeneous agents](cell_R7_C5.md)
-- ⬅️ **W**: [Slime mold optimization and network design](cell_R6_C5.md)
-- ↖️ **NW**: [Holographic principle and information bounds](cell_R5_C5.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Model [dependency]](cell_R1_C14.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ⬇️ **S**: [eq_1 [dependency]](cell_R11_C6.md)
+- ↘️ **SE**: [eq_1 [dependency]](cell_R11_C8.md)

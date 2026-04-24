@@ -1,22 +1,21 @@
-# Cell [14,6] — EXPERIMENT_NODE
-**Grid Position**: Row 14, Column 6
-**Type**: EXPERIMENT_NODE
+# Cell [14,6] — KNOWLEDGE
+**FQN**: `HeytingLean.Tests.TraceConcurrency.bridgeStep`
+**Module**: `HeytingLean.Tests.Compliance`
+**Kind**: `def`
+**Centrality**: 0.000050
+**Dependency Depth**: 4
 
-## 🔬 Experiment Node
-**Hypothesis**: Cellular automata and computational universality
+## Topic
+**Declaration**: bridgeStep
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (R : HeytingLean.LoF.Reentry α) → (suite : HeytingLean.Contracts.Examples.BridgeSuite α R) → HeytingLean.Tests.TraceConcurrency.BridgeOp → HeytingLean.Tests.TraceConcurrency.BridgeState R suite → HeytingLean.Tests.TraceConcurrency.BridgeState R suite`
 
-Design a mental experiment to test this hypothesis.
-Record your prediction, methodology, and expected outcome.
-The result will be stored in your episodic memory.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.tests.traceconcurrency.bridgestep
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Knowledge graph embedding and link prediction](cell_R13_C6.md)
-- ↗️ **NE**: [Merkle DAG structures for versioned knowledge](cell_R13_C7.md)
-- ➡️ **E**: [Renormalization group and multi-scale physics](cell_R14_C7.md)
-- ↘️ **SE**: [Epigenetic memory in cellular computing](cell_R15_C7.md)
-- ⬇️ **S**: [Enzyme cascades as analog signal processors](cell_R15_C6.md)
-- ↙️ **SW**: [Slime mold optimization and network design](cell_R15_C5.md)
-- ⬅️ **W**: [Holographic principle and information bounds](cell_R14_C5.md)
-- ↖️ **NW**: [Federated learning across heterogeneous agents](cell_R13_C5.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Reentry [dependency]](cell_R1_C8.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [eq_2 [dependency]](cell_R15_C9.md)

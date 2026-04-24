@@ -1,20 +1,20 @@
-# Cell [11,11] — SKILL_NODE
-**Grid Position**: Row 11, Column 11
-**Type**: SKILL_NODE
+# Cell [11,11] — KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Tensor.Intensity.Model.Carrier.fromOmega.eq_1`
+**Module**: `HeytingLean.Bridges.Tensor.Intensity`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## ⚡ Skill Node: `hypothesis_generator`
-**Research Context**: Evolutionary strategies for neural architecture search
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] {M : HeytingLean.Bridges.Tensor.Intensity.Model} (bounds : HeytingLean.Bridges.Tensor.Intensity.Bounds) (normalised : Prop) (a : M.core.R.Omega), Eq (HeytingLean.Bridges.Tensor.Intensity.Model.Carrier.fromOmega bounds normalised a) { profile := HeytingLean.Bridges.Tensor.Intensity.Profile.ofPoint bounds normalised (M.core.encode a), dim_ok := ⋯, coords_fixed := ⋯ }`
 
-[ACQUIRED: agent reads this node → adds 'hypothesis_generator' to COMPETENCY_MAP]
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.bridges.tensor.intensity.model.carrier.fromomega.eq_1
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Embodied cognition and situated AI](cell_R10_C11.md)
-- ↗️ **NE**: [Compositional generalization in neural networks](cell_R10_C12.md)
-- ➡️ **E**: [Reservoir computing with physical substrates](cell_R11_C12.md)
-- ↘️ **SE**: [Quantum reservoir computing with spin chains](cell_R12_C12.md)
-- ⬇️ **S**: [Quantum error correction via surface codes](cell_R12_C11.md)
-- ↙️ **SW**: [Variational quantum eigensolvers for molecular sim...](cell_R12_C10.md)
-- ⬅️ **W**: [Neuromorphic hardware: memristors and beyond](cell_R11_C10.md)
-- ↖️ **NW**: [Meta-learning and learning-to-learn paradigms](cell_R10_C10.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [fromOmega [dependency]](cell_R6_C11.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

@@ -1,22 +1,21 @@
-# Cell [5,12] — EXPERIMENT_NODE
-**Grid Position**: Row 5, Column 12
-**Type**: EXPERIMENT_NODE
+# Cell [5,12] — KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Modal.DialParam.expandAt`
+**Module**: `HeytingLean.Logic.ModalDial`
+**Kind**: `def`
+**Centrality**: 0.000115
+**Dependency Depth**: 2
 
-## 🔬 Experiment Node
-**Hypothesis**: Reservoir computing with physical substrates
+## Topic
+**Declaration**: expandAt
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → HeytingLean.LoF.Reentry α → Nat → α → α`
 
-Design a mental experiment to test this hypothesis.
-Record your prediction, methodology, and expected outcome.
-The result will be stored in your episodic memory.
+Expansion associated with the arithmetic ladder stage `n`.
+
+## Keywords
+DialParam, Heyting, Lean, Logic, Modal, expandAt
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Compositional generalization in neural networks](cell_R4_C12.md)
-- ↗️ **NE**: [Neuro-symbolic integration approaches](cell_R4_C13.md)
-- ➡️ **E**: [DNA data storage and retrieval systems](cell_R5_C13.md)
-- ↘️ **SE**: [Quantum tunneling in enzyme catalysis](cell_R6_C13.md)
-- ⬇️ **S**: [Quantum reservoir computing with spin chains](cell_R6_C12.md)
-- ↙️ **SW**: [Quantum error correction via surface codes](cell_R6_C11.md)
-- ⬅️ **W**: [Evolutionary strategies for neural architecture se...](cell_R5_C11.md)
-- ↖️ **NW**: [Embodied cognition and situated AI](cell_R4_C11.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [eq_1 [dependency]](cell_R12_C15.md)
+- ↙️ **SW**: [eq_1 [dependency]](cell_R13_C5.md)

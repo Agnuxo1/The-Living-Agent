@@ -1,21 +1,20 @@
 # Cell [7,10] — KNOWLEDGE
-**Grid Position**: Row 7, Column 10
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Plonk.native_iff_renamed_sigma_of_bounds`
+**Module**: `HeytingLean.Crypto.ZK.PlonkIR`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Meta-learning and learning-to-learn paradigms
+## Topic
+**Declaration**: native_iff_renamed_sigma_of_bounds
+**Signature**: `∀ (sys : HeytingLean.Crypto.ZK.Plonk.System) (a : HeytingLean.Crypto.ZK.Var → Rat), HeytingLean.Crypto.ZK.System.satisfied a (HeytingLean.Crypto.ZK.Plonk.copyConstraintSystem sys.copyPermutation) → (∀ (v : HeytingLean.Crypto.ZK.Var), Finset.instMembership.mem sys.toR1CS.support v → instLTNat.lt v sys.copyPermutation.length) → Exists fun σ => Iff (HeytingLean.Crypto.ZK.Plonk.System.satisfiedNative a sys) (HeytingLean.Crypto.ZK.System.satisfied a (HeytingLean.Crypto.ZK.Rename.system σ sys.toR1CS))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Combine copy-satisfaction and a bound on support to obtain a σ‑renamed view. At this abstraction level we simply choose `σ := id`. Using `satisfiedNative_iff_r1cs_of_copySatisfied` and the renaming lemma specialised to `σ = id`, we obtain the desired equivalence. The `hBound` hypothesis is recorded for future refinements but not used in the proof.
+
+## Keywords
+a, and, bound, combine, copy-satisfaction, heytinglean.crypto.zk.plonk.native_iff_renamed_sigma_of_bounds, on, support
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Variational quantum eigensolvers for molecular sim...](cell_R6_C10.md)
-- ↗️ **NE**: [Quantum error correction via surface codes](cell_R6_C11.md)
-- ➡️ **E**: [Embodied cognition and situated AI](cell_R7_C11.md)
-- ↘️ **SE**: [Evolutionary strategies for neural architecture se...](cell_R8_C11.md)
-- ⬇️ **S**: [Neuromorphic hardware: memristors and beyond](cell_R8_C10.md)
-- ↙️ **SW**: [Morphogenetic computing: Turing patterns as progra...](cell_R8_C9.md)
-- ⬅️ **W**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R7_C9.md)
-- ↖️ **NW**: [Quantum coherence in biological photosynthesis](cell_R6_C9.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [system [dependency]](cell_R3_C14.md)
+- ↖️ **NW**: [satisfiedNative [dependency]](cell_R3_C9.md)

@@ -1,21 +1,20 @@
 # Cell [11,7] — KNOWLEDGE
-**Grid Position**: Row 11, Column 7
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Clifford.Projector.Model.Carrier.toPair_fromPair`
+**Module**: `HeytingLean.Bridges.Clifford.Projector`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Renormalization group and multi-scale physics
+## Topic
+**Declaration**: toPair_fromPair
+**Signature**: `∀ {α : Type v} [inst : HeytingLean.LoF.PrimaryAlgebra α] {β : Type u} [inst_1 : Mul β] [inst_2 : Star β] {M : HeytingLean.Bridges.Clifford.Projector.Model} (p : HeytingLean.Bridges.Clifford.Pair α), Eq (HeytingLean.Bridges.Clifford.Projector.Model.Carrier.fromPair p).toPair p`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.bridges.clifford.projector.model.carrier.topair_frompair
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Merkle DAG structures for versioned knowledge](cell_R10_C7.md)
-- ↗️ **NE**: [Autopoietic systems and self-organization](cell_R10_C8.md)
-- ➡️ **E**: [Bio-inspired optimization: ant colony and swarm in...](cell_R11_C8.md)
-- ↘️ **SE**: [Topological qubits and fault-tolerant quantum comp...](cell_R12_C8.md)
-- ⬇️ **S**: [Epigenetic memory in cellular computing](cell_R12_C7.md)
-- ↙️ **SW**: [Enzyme cascades as analog signal processors](cell_R12_C6.md)
-- ⬅️ **W**: [Cellular automata and computational universality](cell_R11_C6.md)
-- ↖️ **NW**: [Knowledge graph embedding and link prediction](cell_R10_C6.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Model [dependency]](cell_R1_C14.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

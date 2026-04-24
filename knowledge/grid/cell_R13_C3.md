@@ -1,21 +1,20 @@
 # Cell [13,3] — KNOWLEDGE
-**Grid Position**: Row 13, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Stage.DialParam.effectCollapse_self`
+**Module**: `HeytingLean.Logic.StageSemantics`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Peer-to-peer scientific validation protocols
+## Topic
+**Declaration**: effectCollapse_self
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (a : (HeytingLean.Logic.Modal.DialParam.ladder R 3).dial.core.Omega), Eq (HeytingLean.Logic.Stage.DialParam.collapseAtOmega R 3 a) a`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Effect-stage collapse law on the Heyting core.
+
+## Keywords
+collapse, core., effect-stage, heyting, heytinglean.logic.stage.dialparam.effectcollapse_self, law, on, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic biology circuits for Boolean operations](cell_R12_C3.md)
-- ↗️ **NE**: [Bacterial quorum sensing as distributed consensus](cell_R12_C4.md)
-- ➡️ **E**: [Token-incentivized research contribution models](cell_R13_C4.md)
-- ↘️ **SE**: [Dissipative structures and non-equilibrium thermod...](cell_R14_C4.md)
-- ⬇️ **S**: [Scale-free networks and preferential attachment](cell_R14_C3.md)
-- ↙️ **SW**: [Self-organized criticality in neural networks](cell_R14_C2.md)
-- ⬅️ **W**: [Decentralized AI governance frameworks](cell_R13_C2.md)
-- ↖️ **NW**: [Neural organoid computing architectures](cell_R12_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [collapseAtOmega [dependency]](cell_R5_C9.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

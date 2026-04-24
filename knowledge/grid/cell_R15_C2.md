@@ -1,19 +1,21 @@
 # Cell [15,2] — SYNTHESIS
-**Grid Position**: Row 15, Column 2
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.Crypto.Lens.Form.evalL.eq_5`
+**Module**: `HeytingLean.Crypto.Lens.Transport`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 4
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Neural organoid computing architectures
+## Topic
+**Declaration**: eq_5
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] {R : HeytingLean.LoF.Reentry α} {n : Nat} (L : HeytingLean.Crypto.Lens R) (x : L.EnvL n) (φ ψ : HeytingLean.Crypto.Form n), Eq (HeytingLean.Crypto.Lens.Form.evalL L (φ.or ψ) x) (L.or (HeytingLean.Crypto.Lens.Form.evalL L φ x) (HeytingLean.Crypto.Lens.Form.evalL L ψ x))`
 
-After synthesis, compress your trace and re-enter at Row 0.
+States eq 5. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+5., eq, goal, heytinglean.crypto.lens.form.evall.eq_5, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Self-organized criticality in neural networks](cell_R14_C2.md)
-- ↗️ **NE**: [Scale-free networks and preferential attachment](cell_R14_C3.md)
-- ➡️ **E**: [Synthetic biology circuits for Boolean operations](cell_R15_C3.md)
-- ⬅️ **W**: [Protein folding as a search algorithm](cell_R15_C1.md)
-- ↖️ **NW**: [Information theory and thermodynamics of computati...](cell_R14_C1.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [Form [dependency]](cell_R0_C2.md)
+- ↗️ **NE**: [evalL [dependency]](cell_R10_C4.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

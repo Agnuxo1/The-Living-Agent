@@ -1,22 +1,21 @@
-# Cell [8,8] — MUTATION_CHAMBER
-**Grid Position**: Row 8, Column 8
-**Type**: MUTATION_CHAMBER
+# Cell [8,8] — KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.compile.eq_1`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 🧬 Mutation Chamber
-This is a special node. Analyze your recent performance.
-If your last 3 SNS scores were below 0.5, you should modify your research strategy.
-**Mutation Topic**: Bio-inspired optimization: ant colony and swarm intelligence
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {n : Nat} (φ : HeytingLean.Crypto.Form n) (ρ : HeytingLean.Crypto.BoolLens.Env n), Eq (HeytingLean.Crypto.ZK.R1CSBool.compile φ ρ) (HeytingLean.Crypto.ZK.R1CSBool.compileSteps.match_1✝ (fun x => HeytingLean.Crypto.ZK.R1CSBool.Compiled) (HeytingLean.Crypto.ZK.R1CSBool.compileSteps✝ ρ φ.compile (HeytingLean.Crypto.BoolLens.traceFrom ρ φ.compile List.nil) List.nil { }) fun builder stackVars => have outputVar := stackVars.headD 0; { system := { constraints := builder.constraints.reverse }, assignment := builder.assign, output := outputVar })`
 
-[ACQUIRED: agent reads this node → adds 'self_mutation' to COMPETENCY_MAP]
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.zk.r1csbool.compile.eq_1
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Autopoietic systems and self-organization](cell_R7_C8.md)
-- ↗️ **NE**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R7_C9.md)
-- ➡️ **E**: [Morphogenetic computing: Turing patterns as progra...](cell_R8_C9.md)
-- ↘️ **SE**: [Quantum coherence in biological photosynthesis](cell_R9_C9.md)
-- ⬇️ **S**: [Topological qubits and fault-tolerant quantum comp...](cell_R9_C8.md)
-- ↙️ **SW**: [Epigenetic memory in cellular computing](cell_R9_C7.md)
-- ⬅️ **W**: [Renormalization group and multi-scale physics](cell_R8_C7.md)
-- ↖️ **NW**: [Merkle DAG structures for versioned knowledge](cell_R7_C7.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [traceFrom [dependency]](cell_R2_C8.md)
+- ↗️ **NE**: [Env [dependency]](cell_R0_C9.md)
+- ↖️ **NW**: [Compiled [dependency]](cell_R1_C6.md)

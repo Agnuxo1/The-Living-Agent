@@ -1,19 +1,20 @@
 # Cell [0,8] — ENTRY
-**Grid Position**: Row 0, Column 8
-**Type**: ENTRY
+**FQN**: `HeytingLean.ATheory.ASpace`
+**Module**: `HeytingLean.ATheory.AssemblySpace`
+**Kind**: `inductive`
+**Centrality**: 0.000516
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 8.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Topological qubits and fault-tolerant quantum computation
+## Topic
+**Declaration**: ASpace
+**Signature**: `structure ASpace (α : Type u) where V : Type u; E : V → V → Prop`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+Directed assembly space over objects with edges capturing allowed transitions.
+
+## Keywords
+a, assembly, directed, heytinglean.atheory.aspace, objects, of, over, space
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Quantum coherence in biological photosynthesis](cell_R0_C9.md)
-- ↘️ **SE**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R1_C9.md)
-- ⬇️ **S**: [Autopoietic systems and self-organization](cell_R1_C8.md)
-- ↙️ **SW**: [Merkle DAG structures for versioned knowledge](cell_R1_C7.md)
-- ⬅️ **W**: [Epigenetic memory in cellular computing](cell_R0_C7.md)
+## Navigation (real dependency / similarity edges)
+- ↘️ **SE**: [setBirth [dependency]](cell_R3_C11.md)
+- ↙️ **SW**: [opens [dependency]](cell_R3_C6.md)

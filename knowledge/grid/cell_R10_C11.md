@@ -1,21 +1,20 @@
 # Cell [10,11] — KNOWLEDGE
-**Grid Position**: Row 10, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.graphPack`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `def`
+**Centrality**: 0.000032
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Embodied cognition and situated AI
+## Topic
+**Declaration**: graphPack
+**Signature**: `(α : Type u) → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (R : HeytingLean.LoF.Reentry α) → optParam HeytingLean.Contracts.Examples.BridgeFlags HeytingLean.Contracts.Examples.BridgeFlags.default → HeytingLean.Contracts.Examples.BridgePack α R`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Select the graph bridge based on feature flags.
+
+## Keywords
+based, bridge, feature, graph, heytinglean.contracts.examples.graphpack, on, select, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum error correction via surface codes](cell_R9_C11.md)
-- ↗️ **NE**: [Quantum reservoir computing with spin chains](cell_R9_C12.md)
-- ➡️ **E**: [Compositional generalization in neural networks](cell_R10_C12.md)
-- ↘️ **SE**: [Reservoir computing with physical substrates](cell_R11_C12.md)
-- ⬇️ **S**: [Evolutionary strategies for neural architecture se...](cell_R11_C11.md)
-- ↙️ **SW**: [Neuromorphic hardware: memristors and beyond](cell_R11_C10.md)
-- ⬅️ **W**: [Meta-learning and learning-to-learn paradigms](cell_R10_C10.md)
-- ↖️ **NW**: [Variational quantum eigensolvers for molecular sim...](cell_R9_C10.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [BridgePack [dependency]](cell_R5_C5.md)
+- ↙️ **SW**: [eq_1 [dependency]](cell_R14_C8.md)

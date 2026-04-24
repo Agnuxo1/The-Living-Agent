@@ -1,21 +1,21 @@
 # Cell [3,4] — KNOWLEDGE
-**Grid Position**: Row 3, Column 4
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.compile`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `def`
+**Centrality**: 0.000056
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Bacterial quorum sensing as distributed consensus
+## Topic
+**Declaration**: compile
+**Signature**: `{n : Nat} → HeytingLean.Crypto.Form n → HeytingLean.Crypto.BoolLens.Env n → HeytingLean.Crypto.ZK.R1CSBool.Compiled`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Compile a Boolean form/environment pair into R1CS constraints and witness.
+
+## Keywords
+a, boolean, compile, environment, form, heytinglean.crypto.zk.r1csbool.compile, into, pair
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Dissipative structures and non-equilibrium thermod...](cell_R2_C4.md)
-- ↗️ **NE**: [Holographic principle and information bounds](cell_R2_C5.md)
-- ➡️ **E**: [Slime mold optimization and network design](cell_R3_C5.md)
-- ↘️ **SE**: [Federated learning across heterogeneous agents](cell_R4_C5.md)
-- ⬇️ **S**: [Token-incentivized research contribution models](cell_R4_C4.md)
-- ↙️ **SW**: [Peer-to-peer scientific validation protocols](cell_R4_C3.md)
-- ⬅️ **W**: [Synthetic biology circuits for Boolean operations](cell_R3_C3.md)
-- ↖️ **NW**: [Scale-free networks and preferential attachment](cell_R2_C3.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Compiled [dependency]](cell_R1_C6.md)
+- ↖️ **NW**: [Form [dependency]](cell_R0_C2.md)
+- ↘️ **SE**: [eq_1 [dependency]](cell_R8_C8.md)

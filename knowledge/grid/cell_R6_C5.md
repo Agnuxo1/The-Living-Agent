@@ -1,21 +1,21 @@
 # Cell [6,5] — KNOWLEDGE
-**Grid Position**: Row 6, Column 5
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Graph.Alexandroff.Model.processUpper`
+**Module**: `HeytingLean.Bridges.Graph.Alexandroff`
+**Kind**: `def`
+**Centrality**: 0.000058
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Slime mold optimization and network design
+## Topic
+**Declaration**: processUpper
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → HeytingLean.Bridges.Graph.Model α → HeytingLean.Bridges.Graph.Alexandroff.Model`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Defines/computes process Upper. Use to construct or compute the corresponding value in proofs or definitions.
+
+## Keywords
+computes, construct, defines, heytinglean.bridges.graph.alexandroff.model.processupper, process, to, upper., use
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Holographic principle and information bounds](cell_R5_C5.md)
-- ↗️ **NE**: [Cellular automata and computational universality](cell_R5_C6.md)
-- ➡️ **E**: [Enzyme cascades as analog signal processors](cell_R6_C6.md)
-- ↘️ **SE**: [Knowledge graph embedding and link prediction](cell_R7_C6.md)
-- ⬇️ **S**: [Federated learning across heterogeneous agents](cell_R7_C5.md)
-- ↙️ **SW**: [Token-incentivized research contribution models](cell_R7_C4.md)
-- ⬅️ **W**: [Bacterial quorum sensing as distributed consensus](cell_R6_C4.md)
-- ↖️ **NW**: [Dissipative structures and non-equilibrium thermod...](cell_R5_C4.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Model [dependency]](cell_R1_C10.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [graph_alexandroff_process_expand [dependency]](cell_R13_C9.md)

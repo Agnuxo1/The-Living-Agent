@@ -1,19 +1,20 @@
 # Cell [0,6] — ENTRY
-**Grid Position**: Row 0, Column 6
-**Type**: ENTRY
+**FQN**: `HeytingLean.Contracts.Examples.BridgeFlags`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `inductive`
+**Centrality**: 0.000580
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 6.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Enzyme cascades as analog signal processors
+## Topic
+**Declaration**: BridgeFlags
+**Signature**: `Type`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+Feature toggles controlling which enriched bridge carriers are selected.
+
+## Keywords
+bridge, carriers, controlling, enriched, feature, heytinglean.contracts.examples.bridgeflags, toggles, which
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Epigenetic memory in cellular computing](cell_R0_C7.md)
-- ↘️ **SE**: [Merkle DAG structures for versioned knowledge](cell_R1_C7.md)
-- ⬇️ **S**: [Knowledge graph embedding and link prediction](cell_R1_C6.md)
-- ↙️ **SW**: [Federated learning across heterogeneous agents](cell_R1_C5.md)
-- ⬅️ **W**: [Slime mold optimization and network design](cell_R0_C5.md)
+## Navigation (real dependency / similarity edges)
+- ↘️ **SE**: [runtime [dependency]](cell_R3_C13.md)
+- ↙️ **SW**: [default [dependency]](cell_R3_C3.md)

@@ -1,19 +1,21 @@
 # Cell [0,4] — ENTRY
-**Grid Position**: Row 0, Column 4
-**Type**: ENTRY
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.Builder`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `inductive`
+**Centrality**: 0.000739
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 4.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Bacterial quorum sensing as distributed consensus
+## Topic
+**Declaration**: Builder
+**Signature**: `Type`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+Builder state used while translating a boolean trace to R1CS.
+
+## Keywords
+a, boolean, builder, heytinglean.crypto.zk.r1csbool.builder, state, translating, used, while
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Slime mold optimization and network design](cell_R0_C5.md)
-- ↘️ **SE**: [Federated learning across heterogeneous agents](cell_R1_C5.md)
-- ⬇️ **S**: [Token-incentivized research contribution models](cell_R1_C4.md)
-- ↙️ **SW**: [Peer-to-peer scientific validation protocols](cell_R1_C3.md)
-- ⬅️ **W**: [Synthetic biology circuits for Boolean operations](cell_R0_C3.md)
+## Navigation (real dependency / similarity edges)
+- ⬇️ **S**: [applyAnd_strong [dependency]](cell_R8_C4.md)
+- ↘️ **SE**: [StrongInvariant [dependency]](cell_R2_C7.md)
+- ↙️ **SW**: [bounded_ [dependency]](cell_R8_C0.md)

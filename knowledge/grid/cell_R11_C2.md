@@ -1,21 +1,20 @@
 # Cell [11,2] — KNOWLEDGE
-**Grid Position**: Row 11, Column 2
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Clifford.Model.stageEffectCompatible.eq_1`
+**Module**: `HeytingLean.Bridges.Clifford`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Self-organized criticality in neural networks
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (M : HeytingLean.Bridges.Clifford.Model α) (p q : M.Carrier), Eq (M.stageEffectCompatible p q) (HeytingLean.Logic.Stage.DialParam.effectCompatible (HeytingLean.Logic.Modal.DialParam.base M.R) (M.decode p) (M.decode q))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States eq 1. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+1., eq, goal, heytinglean.bridges.clifford.model.stageeffectcompatible.eq_1, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Decentralized AI governance frameworks](cell_R10_C2.md)
-- ↗️ **NE**: [Peer-to-peer scientific validation protocols](cell_R10_C3.md)
-- ➡️ **E**: [Scale-free networks and preferential attachment](cell_R11_C3.md)
-- ↘️ **SE**: [Synthetic biology circuits for Boolean operations](cell_R12_C3.md)
-- ⬇️ **S**: [Neural organoid computing architectures](cell_R12_C2.md)
-- ↙️ **SW**: [Protein folding as a search algorithm](cell_R12_C1.md)
-- ⬅️ **W**: [Information theory and thermodynamics of computati...](cell_R11_C1.md)
-- ↖️ **NW**: [Semantic routing in knowledge graphs](cell_R10_C1.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Model [dependency]](cell_R1_C9.md)
+- ↖️ **NW**: [effectCompatible [dependency]](cell_R6_C1.md)

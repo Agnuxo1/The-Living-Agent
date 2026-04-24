@@ -1,21 +1,21 @@
 # Cell [5,13] — KNOWLEDGE
-**Grid Position**: Row 5, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Epistemic.occam`
+**Module**: `HeytingLean.Epistemic.Occam`
+**Kind**: `def`
+**Centrality**: 0.000113
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: DNA data storage and retrieval systems
+## Topic
+**Declaration**: occam
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → HeytingLean.LoF.Reentry α → α → α`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+The Occam reduction closes the minimal-birthday explanations back via `R`.
+
+## Keywords
+closes, explanations, heytinglean.epistemic.occam, minimal-birthday, occam, reduction, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Neuro-symbolic integration approaches](cell_R4_C13.md)
-- ↗️ **NE**: [Intrinsic motivation and curiosity-driven explorat...](cell_R4_C14.md)
-- ➡️ **E**: [Molecular communication and nanonetworks](cell_R5_C14.md)
-- ↘️ **SE**: [Entanglement-assisted classical communication](cell_R6_C14.md)
-- ⬇️ **S**: [Quantum tunneling in enzyme catalysis](cell_R6_C13.md)
-- ↙️ **SW**: [Quantum reservoir computing with spin chains](cell_R6_C12.md)
-- ⬅️ **W**: [Reservoir computing with physical substrates](cell_R5_C12.md)
-- ↖️ **NW**: [Compositional generalization in neural networks](cell_R4_C12.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [stageOccam_encode [dependency]](cell_R11_C15.md)
+- ↙️ **SW**: [stageOccam_encode [dependency]](cell_R11_C9.md)

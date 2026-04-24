@@ -1,21 +1,20 @@
 # Cell [8,13] — KNOWLEDGE
-**Grid Position**: Row 8, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.compileTraceToR1CSFromEmpty_supportOK`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: DNA data storage and retrieval systems
+## Topic
+**Declaration**: compileTraceToR1CSFromEmpty_supportOK
+**Signature**: `∀ {n : Nat} (ρ : HeytingLean.Crypto.BoolLens.Env n) {prog : HeytingLean.Crypto.Program n}, HeytingLean.Crypto.ZK.R1CSBool.SupportOK (HeytingLean.Crypto.ZK.R1CSBool.compileTraceToR1CSFromEmpty ρ prog).fst`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.zk.r1csbool.compiletracetor1csfromempty_supportok
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Neuro-symbolic integration approaches](cell_R7_C13.md)
-- ↗️ **NE**: [Intrinsic motivation and curiosity-driven explorat...](cell_R7_C14.md)
-- ➡️ **E**: [Molecular communication and nanonetworks](cell_R8_C14.md)
-- ↘️ **SE**: [Entanglement-assisted classical communication](cell_R9_C14.md)
-- ⬇️ **S**: [Quantum tunneling in enzyme catalysis](cell_R9_C13.md)
-- ↙️ **SW**: [Quantum reservoir computing with spin chains](cell_R9_C12.md)
-- ⬅️ **W**: [Reservoir computing with physical substrates](cell_R8_C12.md)
-- ↖️ **NW**: [Compositional generalization in neural networks](cell_R7_C12.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [SupportOK [dependency]](cell_R2_C14.md)
+- ↖️ **NW**: [Env [dependency]](cell_R0_C9.md)

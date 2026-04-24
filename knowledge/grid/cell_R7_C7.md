@@ -1,20 +1,20 @@
-# Cell [7,7] — SKILL_NODE
-**Grid Position**: Row 7, Column 7
-**Type**: SKILL_NODE
+# Cell [7,7] — KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Plonk.copySatisfied_of_pairs`
+**Module**: `HeytingLean.Crypto.ZK.PlonkIR`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## ⚡ Skill Node: `hypothesis_generator`
-**Research Context**: Merkle DAG structures for versioned knowledge
+## Topic
+**Declaration**: copySatisfied_of_pairs
+**Signature**: `∀ (a : HeytingLean.Crypto.ZK.Var → Rat) {perm : List Nat}, (∀ {i j : Nat}, List.instMembership.mem (HeytingLean.Crypto.ZK.Plonk.copyPairs perm) { fst := i, snd := j } → Eq (a i) (a j)) → HeytingLean.Crypto.ZK.System.satisfied a (HeytingLean.Crypto.ZK.Plonk.copyConstraintSystem perm)`
 
-[ACQUIRED: agent reads this node → adds 'hypothesis_generator' to COMPETENCY_MAP]
+Alternative formulation of copy-satisfaction starting from a quantified equality hypothesis.
+
+## Keywords
+a, alternative, copy-satisfaction, formulation, from, heytinglean.crypto.zk.plonk.copysatisfied_of_pairs, of, starting
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Epigenetic memory in cellular computing](cell_R6_C7.md)
-- ↗️ **NE**: [Topological qubits and fault-tolerant quantum comp...](cell_R6_C8.md)
-- ➡️ **E**: [Autopoietic systems and self-organization](cell_R7_C8.md)
-- ↘️ **SE**: [Bio-inspired optimization: ant colony and swarm in...](cell_R8_C8.md)
-- ⬇️ **S**: [Renormalization group and multi-scale physics](cell_R8_C7.md)
-- ↙️ **SW**: [Cellular automata and computational universality](cell_R8_C6.md)
-- ⬅️ **W**: [Knowledge graph embedding and link prediction](cell_R7_C6.md)
-- ↖️ **NW**: [Enzyme cascades as analog signal processors](cell_R6_C6.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [copyPairs [dependency]](cell_R1_C7.md)
+- ↖️ **NW**: [Var [dependency]](cell_R0_C1.md)

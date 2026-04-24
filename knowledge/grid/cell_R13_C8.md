@@ -1,21 +1,20 @@
 # Cell [13,8] — KNOWLEDGE
-**Grid Position**: Row 13, Column 8
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Tests.graph_alexandroff_process_collapse`
+**Module**: `HeytingLean.Tests.Compliance`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Autopoietic systems and self-organization
+## Topic
+**Declaration**: graph_alexandroff_process_collapse
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (n : Nat) (x : α), (HeytingLean.Bridges.Graph.Alexandroff.Model.processUpper (HeytingLean.Contracts.Examples.graph α R)).memOpen x → (HeytingLean.Bridges.Graph.Alexandroff.Model.processUpper (HeytingLean.Contracts.Examples.graph α R)).memOpen ((HeytingLean.Contracts.Examples.graph α R).stageCollapseAt n x)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Collapsing a stage in the Alexandroff process keeps the point inside the open process region.
+
+## Keywords
+a, alexandroff, collapsing, heytinglean.tests.graph_alexandroff_process_collapse, in, process, stage, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Topological qubits and fault-tolerant quantum comp...](cell_R12_C8.md)
-- ↗️ **NE**: [Quantum coherence in biological photosynthesis](cell_R12_C9.md)
-- ➡️ **E**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R13_C9.md)
-- ↘️ **SE**: [Morphogenetic computing: Turing patterns as progra...](cell_R14_C9.md)
-- ⬇️ **S**: [Bio-inspired optimization: ant colony and swarm in...](cell_R14_C8.md)
-- ↙️ **SW**: [Renormalization group and multi-scale physics](cell_R14_C7.md)
-- ⬅️ **W**: [Merkle DAG structures for versioned knowledge](cell_R13_C7.md)
-- ↖️ **NW**: [Epigenetic memory in cellular computing](cell_R12_C7.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [Reentry [dependency]](cell_R1_C8.md)
+- ↖️ **NW**: [processUpper [dependency]](cell_R6_C5.md)

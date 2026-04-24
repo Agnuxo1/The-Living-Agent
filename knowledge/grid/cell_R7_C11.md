@@ -1,21 +1,20 @@
 # Cell [7,11] — KNOWLEDGE
-**Grid Position**: Row 7, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Plonk.native_iff_renamed_sigma_of_gateBounds`
+**Module**: `HeytingLean.Crypto.ZK.PlonkIR`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Embodied cognition and situated AI
+## Topic
+**Declaration**: native_iff_renamed_sigma_of_gateBounds
+**Signature**: `∀ (sys : HeytingLean.Crypto.ZK.Plonk.System) (a : HeytingLean.Crypto.ZK.Var → Rat), HeytingLean.Crypto.ZK.System.satisfied a (HeytingLean.Crypto.ZK.Plonk.copyConstraintSystem sys.copyPermutation) → (∀ (g : HeytingLean.Crypto.ZK.Plonk.Gate), List.instMembership.mem sys.gates g → HeytingLean.Crypto.ZK.Plonk.gateBound g sys.copyPermutation.length) → Exists fun σ => Iff (HeytingLean.Crypto.ZK.Plonk.System.satisfiedNative a sys) (HeytingLean.Crypto.ZK.System.satisfied a (HeytingLean.Crypto.ZK.Rename.system σ sys.toR1CS))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Convenience corollary: under gate-bounds we obtain the same σ-equivalence. In the current model the gate-bound hypothesis is recorded but not used.
+
+## Keywords
+convenience, corollary, gate-bounds, heytinglean.crypto.zk.plonk.native_iff_renamed_sigma_of_gatebounds, obtain, the, under, we
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum error correction via surface codes](cell_R6_C11.md)
-- ↗️ **NE**: [Quantum reservoir computing with spin chains](cell_R6_C12.md)
-- ➡️ **E**: [Compositional generalization in neural networks](cell_R7_C12.md)
-- ↘️ **SE**: [Reservoir computing with physical substrates](cell_R8_C12.md)
-- ⬇️ **S**: [Evolutionary strategies for neural architecture se...](cell_R8_C11.md)
-- ↙️ **SW**: [Neuromorphic hardware: memristors and beyond](cell_R8_C10.md)
-- ⬅️ **W**: [Meta-learning and learning-to-learn paradigms](cell_R7_C10.md)
-- ↖️ **NW**: [Variational quantum eigensolvers for molecular sim...](cell_R6_C10.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [system [dependency]](cell_R3_C14.md)
+- ↖️ **NW**: [copyConstraintSystem [dependency]](cell_R3_C5.md)

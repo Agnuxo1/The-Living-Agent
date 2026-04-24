@@ -1,21 +1,21 @@
 # Cell [5,2] — KNOWLEDGE
-**Grid Position**: Row 5, Column 2
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.graph`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `def`
+**Centrality**: 0.000138
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Self-organized criticality in neural networks
+## Topic
+**Declaration**: graph
+**Signature**: `(α : Type u) → [inst : HeytingLean.LoF.PrimaryAlgebra α] → HeytingLean.LoF.Reentry α → HeytingLean.Bridges.Graph.Model α`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.contracts.examples.graph
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Decentralized AI governance frameworks](cell_R4_C2.md)
-- ↗️ **NE**: [Peer-to-peer scientific validation protocols](cell_R4_C3.md)
-- ➡️ **E**: [Scale-free networks and preferential attachment](cell_R5_C3.md)
-- ↘️ **SE**: [Synthetic biology circuits for Boolean operations](cell_R6_C3.md)
-- ⬇️ **S**: [Neural organoid computing architectures](cell_R6_C2.md)
-- ↙️ **SW**: [Protein folding as a search algorithm](cell_R6_C1.md)
-- ⬅️ **W**: [Information theory and thermodynamics of computati...](cell_R5_C1.md)
-- ↖️ **NW**: [Semantic routing in knowledge graphs](cell_R4_C1.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Reentry [dependency]](cell_R1_C8.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [graph_shadow_mv_add [dependency]](cell_R13_C11.md)

@@ -1,21 +1,20 @@
 # Cell [1,10] — KNOWLEDGE
-**Grid Position**: Row 1, Column 10
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Graph.Model`
+**Module**: `HeytingLean.Bridges.Graph`
+**Kind**: `inductive`
+**Centrality**: 0.000910
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Meta-learning and learning-to-learn paradigms
+## Topic
+**Declaration**: Model
+**Signature**: `structure Model where R : Reentry α`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Graph bridge model: adjacency inherits the order on α.
+
+## Keywords
+Model, adjacency, carrier, graph bridge
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Variational quantum eigensolvers for molecular sim...](cell_R0_C10.md)
-- ↗️ **NE**: [Quantum error correction via surface codes](cell_R0_C11.md)
-- ➡️ **E**: [Embodied cognition and situated AI](cell_R1_C11.md)
-- ↘️ **SE**: [Evolutionary strategies for neural architecture se...](cell_R2_C11.md)
-- ⬇️ **S**: [Neuromorphic hardware: memristors and beyond](cell_R2_C10.md)
-- ↙️ **SW**: [Morphogenetic computing: Turing patterns as progra...](cell_R2_C9.md)
-- ⬅️ **W**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R1_C9.md)
-- ↖️ **NW**: [Quantum coherence in biological photosynthesis](cell_R0_C9.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↙️ **SW**: [graph [dependency]](cell_R5_C2.md)

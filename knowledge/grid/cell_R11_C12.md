@@ -1,21 +1,19 @@
 # Cell [11,12] — KNOWLEDGE
-**Grid Position**: Row 11, Column 12
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Tensor.Intensity.Model.Carrier.toPoint_fromOmega`
+**Module**: `HeytingLean.Bridges.Tensor.Intensity`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Reservoir computing with physical substrates
+## Topic
+**Declaration**: toPoint_fromOmega
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] {M : HeytingLean.Bridges.Tensor.Intensity.Model} (bounds : optParam HeytingLean.Bridges.Tensor.Intensity.Bounds M.profile.bounds) (normalised : optParam Prop True) (a : M.core.R.Omega), Eq (HeytingLean.Bridges.Tensor.Intensity.Model.Carrier.fromOmega bounds normalised a).toPoint (M.core.encode a)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.bridges.tensor.intensity.model.carrier.topoint_fromomega
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Compositional generalization in neural networks](cell_R10_C12.md)
-- ↗️ **NE**: [Neuro-symbolic integration approaches](cell_R10_C13.md)
-- ➡️ **E**: [DNA data storage and retrieval systems](cell_R11_C13.md)
-- ↘️ **SE**: [Quantum tunneling in enzyme catalysis](cell_R12_C13.md)
-- ⬇️ **S**: [Quantum reservoir computing with spin chains](cell_R12_C12.md)
-- ↙️ **SW**: [Quantum error correction via surface codes](cell_R12_C11.md)
-- ⬅️ **W**: [Evolutionary strategies for neural architecture se...](cell_R11_C11.md)
-- ↖️ **NW**: [Embodied cognition and situated AI](cell_R10_C11.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [fromOmega [dependency]](cell_R6_C11.md)

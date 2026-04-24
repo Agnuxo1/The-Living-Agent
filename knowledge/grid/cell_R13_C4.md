@@ -1,21 +1,20 @@
 # Cell [13,4] — KNOWLEDGE
-**Grid Position**: Row 13, Column 4
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Stage.DialParam.effectExpand_self`
+**Module**: `HeytingLean.Logic.StageSemantics`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Token-incentivized research contribution models
+## Topic
+**Declaration**: effectExpand_self
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (a : (HeytingLean.Logic.Modal.DialParam.ladder R 3).dial.core.Omega), Eq (HeytingLean.Logic.Stage.DialParam.expandAtOmega R 3 a) a`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Effect-stage expansion law on the Heyting core.
+
+## Keywords
+core., effect-stage, expansion, heyting, heytinglean.logic.stage.dialparam.effectexpand_self, law, on, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Bacterial quorum sensing as distributed consensus](cell_R12_C4.md)
-- ↗️ **NE**: [Slime mold optimization and network design](cell_R12_C5.md)
-- ➡️ **E**: [Federated learning across heterogeneous agents](cell_R13_C5.md)
-- ↘️ **SE**: [Holographic principle and information bounds](cell_R14_C5.md)
-- ⬇️ **S**: [Dissipative structures and non-equilibrium thermod...](cell_R14_C4.md)
-- ↙️ **SW**: [Scale-free networks and preferential attachment](cell_R14_C3.md)
-- ⬅️ **W**: [Peer-to-peer scientific validation protocols](cell_R13_C3.md)
-- ↖️ **NW**: [Synthetic biology circuits for Boolean operations](cell_R12_C3.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [expandAtOmega [dependency]](cell_R5_C10.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

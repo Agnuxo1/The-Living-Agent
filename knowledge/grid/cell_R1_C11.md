@@ -1,21 +1,21 @@
 # Cell [1,11] — KNOWLEDGE
-**Grid Position**: Row 1, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Modal.DialParam`
+**Module**: `HeytingLean.Logic.ModalDial`
+**Kind**: `inductive`
+**Centrality**: 0.000835
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Embodied cognition and situated AI
+## Topic
+**Declaration**: DialParam
+**Signature**: `structure DialParam where dimension : ℕ; dial : Dial α`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Annotates breathing data with ladder dimension.
+
+## Keywords
+DialParam, dimension
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum error correction via surface codes](cell_R0_C11.md)
-- ↗️ **NE**: [Quantum reservoir computing with spin chains](cell_R0_C12.md)
-- ➡️ **E**: [Compositional generalization in neural networks](cell_R1_C12.md)
-- ↘️ **SE**: [Reservoir computing with physical substrates](cell_R2_C12.md)
-- ⬇️ **S**: [Evolutionary strategies for neural architecture se...](cell_R2_C11.md)
-- ↙️ **SW**: [Neuromorphic hardware: memristors and beyond](cell_R2_C10.md)
-- ⬅️ **W**: [Meta-learning and learning-to-learn paradigms](cell_R1_C10.md)
-- ↖️ **NW**: [Variational quantum eigensolvers for molecular sim...](cell_R0_C10.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [base [dependency]](cell_R4_C13.md)
+- ↙️ **SW**: [mvAdd [dependency]](cell_R5_C3.md)

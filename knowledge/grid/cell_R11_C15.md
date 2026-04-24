@@ -1,18 +1,19 @@
 # Cell [11,15] — KNOWLEDGE
-**Grid Position**: Row 11, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Tensor.Intensity.Model.stageOccam_encode`
+**Module**: `HeytingLean.Bridges.Tensor.Intensity`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Synthetic ecosystems for emergent intelligence
+## Topic
+**Declaration**: stageOccam_encode
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (M : HeytingLean.Bridges.Tensor.Intensity.Model) (bounds : optParam HeytingLean.Bridges.Tensor.Intensity.Bounds M.profile.bounds) (normalised : optParam Prop True) (a : M.core.R.Omega), Eq (M.stageOccam bounds normalised (M.encode bounds normalised a)) (M.encode bounds normalised (HeytingLean.LoF.Reentry.Omega.mk M.core.R (HeytingLean.Epistemic.occam M.core.R a.val) ⋯))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Occam reduction on the intensity carrier reduces to the core Occam operation on Ω.
+
+## Keywords
+carrier, heytinglean.bridges.tensor.intensity.model.stageoccam_encode, intensity, occam, on, reduces, reduction, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Skill acquisition and procedural knowledge formati...](cell_R10_C15.md)
-- ⬇️ **S**: [Quantum machine learning kernel methods](cell_R12_C15.md)
-- ↙️ **SW**: [Entanglement-assisted classical communication](cell_R12_C14.md)
-- ⬅️ **W**: [Molecular communication and nanonetworks](cell_R11_C14.md)
-- ↖️ **NW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R10_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [Bounds [dependency]](cell_R0_C10.md)

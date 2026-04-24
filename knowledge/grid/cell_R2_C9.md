@@ -1,21 +1,21 @@
 # Cell [2,9] — KNOWLEDGE
-**Grid Position**: Row 2, Column 9
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.BoolLens.eval`
+**Module**: `HeytingLean.Crypto.BoolLens`
+**Kind**: `def`
+**Centrality**: 0.000091
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Morphogenetic computing: Turing patterns as programs
+## Topic
+**Declaration**: eval
+**Signature**: `{n : Nat} → HeytingLean.Crypto.Form n → HeytingLean.Crypto.BoolLens.Env n → Bool`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Interpret a `Form` in the two-valued Heyting algebra (`Bool`).
+
+## Keywords
+Bool, Boolean algebra, Form, Heyting algebra, Interpretation, Two-valued logic
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R1_C9.md)
-- ↗️ **NE**: [Meta-learning and learning-to-learn paradigms](cell_R1_C10.md)
-- ➡️ **E**: [Neuromorphic hardware: memristors and beyond](cell_R2_C10.md)
-- ↘️ **SE**: [Variational quantum eigensolvers for molecular sim...](cell_R3_C10.md)
-- ⬇️ **S**: [Quantum coherence in biological photosynthesis](cell_R3_C9.md)
-- ↙️ **SW**: [Topological qubits and fault-tolerant quantum comp...](cell_R3_C8.md)
-- ⬅️ **W**: [Bio-inspired optimization: ant colony and swarm in...](cell_R2_C8.md)
-- ↖️ **NW**: [Autopoietic systems and self-organization](cell_R1_C8.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [Env [dependency]](cell_R0_C9.md)
+- ↖️ **NW**: [Form [dependency]](cell_R0_C2.md)
+- ↙️ **SW**: [exec_compile_aux [dependency]](cell_R7_C3.md)

@@ -1,21 +1,22 @@
 # Cell [3,1] — KNOWLEDGE
-**Grid Position**: Row 3, Column 1
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.linhead_imp`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `def`
+**Centrality**: 0.000059
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Protein folding as a search algorithm
+## Topic
+**Declaration**: linhead_imp
+**Signature**: `HeytingLean.Crypto.ZK.Var → HeytingLean.Crypto.ZK.Var → HeytingLean.Crypto.ZK.Var → HeytingLean.Crypto.ZK.Var → HeytingLean.Crypto.ZK.LinComb`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.zk.r1csbool.linhead_imp
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Information theory and thermodynamics of computati...](cell_R2_C1.md)
-- ↗️ **NE**: [Self-organized criticality in neural networks](cell_R2_C2.md)
-- ➡️ **E**: [Neural organoid computing architectures](cell_R3_C2.md)
-- ↘️ **SE**: [Decentralized AI governance frameworks](cell_R4_C2.md)
-- ⬇️ **S**: [Semantic routing in knowledge graphs](cell_R4_C1.md)
-- ↙️ **SW**: [Proof-of-Discovery consensus mechanisms](cell_R4_C0.md)
-- ⬅️ **W**: [DNA-based logic gates and their computational limi...](cell_R3_C0.md)
-- ↖️ **NW**: [Emergence and complexity in physical systems](cell_R2_C0.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [Var [dependency]](cell_R0_C1.md)
+- ↗️ **NE**: [LinComb [dependency]](cell_R0_C5.md)
+- ⬇️ **S**: [head_satisfied_imp [dependency]](cell_R9_C1.md)
+- ↘️ **SE**: [applyImp_strong [dependency]](cell_R8_C5.md)

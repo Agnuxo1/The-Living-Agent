@@ -1,18 +1,21 @@
 # Cell [5,0] — KNOWLEDGE
-**Grid Position**: Row 5, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Modal.DialParam.ladder`
+**Module**: `HeytingLean.Logic.ModalDial`
+**Kind**: `def`
+**Centrality**: 0.000165
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Emergence and complexity in physical systems
+## Topic
+**Declaration**: ladder
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → HeytingLean.LoF.Reentry α → Nat → HeytingLean.Logic.Modal.DialParam α`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.logic.modal.dialparam.ladder
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Proof-of-Discovery consensus mechanisms](cell_R4_C0.md)
-- ↗️ **NE**: [Semantic routing in knowledge graphs](cell_R4_C1.md)
-- ➡️ **E**: [Information theory and thermodynamics of computati...](cell_R5_C1.md)
-- ↘️ **SE**: [Protein folding as a search algorithm](cell_R6_C1.md)
-- ⬇️ **S**: [DNA-based logic gates and their computational limi...](cell_R6_C0.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↗️ **NE**: [Reentry [dependency]](cell_R1_C8.md)
+- ↘️ **SE**: [ladder_effect_add_orthocomplement [dependency]](cell_R13_C12.md)

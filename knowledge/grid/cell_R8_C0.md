@@ -1,18 +1,19 @@
 # Cell [8,0] — KNOWLEDGE
-**Grid Position**: Row 8, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.StrongInvariant.bounded_`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Emergence and complexity in physical systems
+## Topic
+**Declaration**: bounded_
+**Signature**: `∀ {builder : HeytingLean.Crypto.ZK.R1CSBool.Builder} {stack : HeytingLean.Crypto.BoolLens.Stack} {vars : List HeytingLean.Crypto.ZK.Var}, HeytingLean.Crypto.ZK.R1CSBool.StrongInvariant builder stack vars → HeytingLean.Crypto.ZK.R1CSBool.Bounded builder vars`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States bounded. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+bounded., goal, heytinglean.crypto.zk.r1csbool.stronginvariant.bounded_, matches, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Proof-of-Discovery consensus mechanisms](cell_R7_C0.md)
-- ↗️ **NE**: [Semantic routing in knowledge graphs](cell_R7_C1.md)
-- ➡️ **E**: [Information theory and thermodynamics of computati...](cell_R8_C1.md)
-- ↘️ **SE**: [Protein folding as a search algorithm](cell_R9_C1.md)
-- ⬇️ **S**: [DNA-based logic gates and their computational limi...](cell_R9_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Var [dependency]](cell_R0_C1.md)

@@ -1,17 +1,20 @@
 # Cell [0,0] — ENTRY
-**Grid Position**: Row 0, Column 0
-**Type**: ENTRY
+**FQN**: `HeytingLean.LoF.PrimaryAlgebra`
+**Module**: `HeytingLean.LoF.PrimaryAlgebra`
+**Kind**: `inductive`
+**Centrality**: 0.026679
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 0.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: DNA-based logic gates and their computational limits
+## Topic
+**Declaration**: PrimaryAlgebra
+**Signature**: `Type u → Type u`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+`PrimaryAlgebra α` packages the LoF base assumptions as a frame. The frame requirement ensures finite meets distribute over arbitrary joins, matching the locale interpretation of the primary algebra that underpins the nucleus story.
+
+## Keywords
+as, assumptions, base, heytinglean.lof.primaryalgebra, lof, packages, primaryalgebra, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Protein folding as a search algorithm](cell_R0_C1.md)
-- ↘️ **SE**: [Semantic routing in knowledge graphs](cell_R1_C1.md)
-- ⬇️ **S**: [Proof-of-Discovery consensus mechanisms](cell_R1_C0.md)
+## Navigation (real dependency / similarity edges)
+- ⬇️ **S**: [Model [dependency]](cell_R2_C0.md)
+- ↘️ **SE**: [Reentry [dependency]](cell_R1_C8.md)

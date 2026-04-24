@@ -1,19 +1,20 @@
 # Cell [15,1] — SYNTHESIS
-**Grid Position**: Row 15, Column 1
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.Crypto.Lens.Form.evalL.eq_4`
+**Module**: `HeytingLean.Crypto.Lens.Transport`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 4
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Protein folding as a search algorithm
+## Topic
+**Declaration**: eq_4
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] {R : HeytingLean.LoF.Reentry α} {n : Nat} (L : HeytingLean.Crypto.Lens R) (x : L.EnvL n) (φ ψ : HeytingLean.Crypto.Form n), Eq (HeytingLean.Crypto.Lens.Form.evalL L (φ.and ψ) x) (L.and (HeytingLean.Crypto.Lens.Form.evalL L φ x) (HeytingLean.Crypto.Lens.Form.evalL L ψ x))`
 
-After synthesis, compress your trace and re-enter at Row 0.
+States eq 4. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+4., eq, goal, heytinglean.crypto.lens.form.evall.eq_4, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Information theory and thermodynamics of computati...](cell_R14_C1.md)
-- ↗️ **NE**: [Self-organized criticality in neural networks](cell_R14_C2.md)
-- ➡️ **E**: [Neural organoid computing architectures](cell_R15_C2.md)
-- ⬅️ **W**: [DNA-based logic gates and their computational limi...](cell_R15_C0.md)
-- ↖️ **NW**: [Emergence and complexity in physical systems](cell_R14_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Lens [dependency]](cell_R4_C10.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

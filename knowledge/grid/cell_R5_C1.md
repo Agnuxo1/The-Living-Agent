@@ -1,21 +1,22 @@
 # Cell [5,1] — KNOWLEDGE
-**Grid Position**: Row 5, Column 1
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Visual.Graph.Diagram`
+**Module**: `HeytingLean.Visual.GraphDiagram`
+**Kind**: `inductive`
+**Centrality**: 0.000148
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Information theory and thermodynamics of computation
+## Topic
+**Declaration**: Diagram
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (M : HeytingLean.Bridges.Graph.Model α) → M.Carrier → M.Carrier → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Simple path diagrams in the graph bridge `Graph.Model`.
+
+## Keywords
+bridge, diagrams, graph, heytinglean.visual.graph.diagram, in, path, simple, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Semantic routing in knowledge graphs](cell_R4_C1.md)
-- ↗️ **NE**: [Decentralized AI governance frameworks](cell_R4_C2.md)
-- ➡️ **E**: [Self-organized criticality in neural networks](cell_R5_C2.md)
-- ↘️ **SE**: [Neural organoid computing architectures](cell_R6_C2.md)
-- ⬇️ **S**: [Protein folding as a search algorithm](cell_R6_C1.md)
-- ↙️ **SW**: [DNA-based logic gates and their computational limi...](cell_R6_C0.md)
-- ⬅️ **W**: [Emergence and complexity in physical systems](cell_R5_C0.md)
-- ↖️ **NW**: [Proof-of-Discovery consensus mechanisms](cell_R4_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Model [dependency]](cell_R1_C10.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ⬇️ **S**: [elim [dependency]](cell_R14_C1.md)
+- ↘️ **SE**: [inj [dependency]](cell_R14_C2.md)

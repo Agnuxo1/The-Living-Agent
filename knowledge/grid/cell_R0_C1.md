@@ -1,19 +1,21 @@
 # Cell [0,1] — ENTRY
-**Grid Position**: Row 0, Column 1
-**Type**: ENTRY
+**FQN**: `HeytingLean.Crypto.ZK.Var`
+**Module**: `HeytingLean.Crypto.ZK.R1CS`
+**Kind**: `def`
+**Centrality**: 0.001753
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 1.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Protein folding as a search algorithm
+## Topic
+**Declaration**: Var
+**Signature**: `Type`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+Variables are indexed by natural numbers.
+
+## Keywords
+Nat
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Neural organoid computing architectures](cell_R0_C2.md)
-- ↘️ **SE**: [Decentralized AI governance frameworks](cell_R1_C2.md)
-- ⬇️ **S**: [Semantic routing in knowledge graphs](cell_R1_C1.md)
-- ↙️ **SW**: [Proof-of-Discovery consensus mechanisms](cell_R1_C0.md)
-- ⬅️ **W**: [DNA-based logic gates and their computational limi...](cell_R0_C0.md)
+## Navigation (real dependency / similarity edges)
+- ⬇️ **S**: [linhead_imp [dependency]](cell_R3_C1.md)
+- ↘️ **SE**: [satisfied [dependency]](cell_R2_C2.md)
+- ↙️ **SW**: [boolConstraint [dependency]](cell_R3_C0.md)

@@ -1,19 +1,21 @@
 # Cell [0,12] — ENTRY
-**Grid Position**: Row 0, Column 12
-**Type**: ENTRY
+**FQN**: `HeytingLean.Crypto.BoolLens.Stack`
+**Module**: `HeytingLean.Crypto.BoolLens`
+**Kind**: `def`
+**Centrality**: 0.000378
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 12.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Quantum reservoir computing with spin chains
+## Topic
+**Declaration**: Stack
+**Signature**: `Type`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+Operand stack (head = top) for the boolean VM.
+
+## Keywords
+boolean_algebra, boolean_expression_evaluation, boolean_logic, boolean_program_execution, boolean_values, boolean_virtual_machine, data_structure, operand_stack, programming_language_theory, virtual_machine
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Quantum tunneling in enzyme catalysis](cell_R0_C13.md)
-- ↘️ **SE**: [Neuro-symbolic integration approaches](cell_R1_C13.md)
-- ⬇️ **S**: [Compositional generalization in neural networks](cell_R1_C12.md)
-- ↙️ **SW**: [Embodied cognition and situated AI](cell_R1_C11.md)
-- ⬅️ **W**: [Quantum error correction via surface codes](cell_R0_C11.md)
+## Navigation (real dependency / similarity edges)
+- ⬇️ **S**: [exec [dependency]](cell_R2_C12.md)
+- ↘️ **SE**: [step [dependency]](cell_R2_C13.md)
+- ↙️ **SW**: [traceFrom [dependency]](cell_R2_C8.md)

@@ -1,18 +1,19 @@
 # Cell [8,15] — KNOWLEDGE
-**Grid Position**: Row 8, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.eqConstraint.eq_1`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Synthetic ecosystems for emergent intelligence
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ (lhs rhs : HeytingLean.Crypto.ZK.LinComb), Eq (HeytingLean.Crypto.ZK.R1CSBool.eqConstraint lhs rhs) { A := lhs, B := HeytingLean.Crypto.ZK.LinComb.ofConst 1, C := rhs }`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.zk.r1csbool.eqconstraint.eq_1
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Skill acquisition and procedural knowledge formati...](cell_R7_C15.md)
-- ⬇️ **S**: [Quantum machine learning kernel methods](cell_R9_C15.md)
-- ↙️ **SW**: [Entanglement-assisted classical communication](cell_R9_C14.md)
-- ⬅️ **W**: [Molecular communication and nanonetworks](cell_R8_C14.md)
-- ↖️ **NW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R7_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [eqConstraint [dependency]](cell_R3_C8.md)

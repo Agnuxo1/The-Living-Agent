@@ -1,21 +1,20 @@
 # Cell [7,13] — KNOWLEDGE
-**Grid Position**: Row 7, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Plonk.satisfiedNative_iff_r1cs_of_pairs`
+**Module**: `HeytingLean.Crypto.ZK.PlonkIR`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Neuro-symbolic integration approaches
+## Topic
+**Declaration**: satisfiedNative_iff_r1cs_of_pairs
+**Signature**: `∀ (sys : HeytingLean.Crypto.ZK.Plonk.System) (a : HeytingLean.Crypto.ZK.Var → Rat), (∀ (ij : Prod Nat Nat), List.instMembership.mem (HeytingLean.Crypto.ZK.Plonk.copyPairs sys.copyPermutation) ij → Eq (a ij.fst) (a ij.snd)) → Iff (HeytingLean.Crypto.ZK.Plonk.System.satisfiedNative a sys) (HeytingLean.Crypto.ZK.System.satisfied a sys.toR1CS)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Under an explicit pair-respect hypothesis, native satisfaction reduces to converted R1CS satisfaction.
+
+## Keywords
+copyPairs
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum tunneling in enzyme catalysis](cell_R6_C13.md)
-- ↗️ **NE**: [Entanglement-assisted classical communication](cell_R6_C14.md)
-- ➡️ **E**: [Intrinsic motivation and curiosity-driven explorat...](cell_R7_C14.md)
-- ↘️ **SE**: [Molecular communication and nanonetworks](cell_R8_C14.md)
-- ⬇️ **S**: [DNA data storage and retrieval systems](cell_R8_C13.md)
-- ↙️ **SW**: [Reservoir computing with physical substrates](cell_R8_C12.md)
-- ⬅️ **W**: [Compositional generalization in neural networks](cell_R7_C12.md)
-- ↖️ **NW**: [Quantum reservoir computing with spin chains](cell_R6_C12.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [System [dependency]](cell_R0_C13.md)
+- ↖️ **NW**: [copyPairs [dependency]](cell_R1_C7.md)

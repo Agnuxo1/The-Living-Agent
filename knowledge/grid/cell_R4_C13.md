@@ -1,21 +1,21 @@
 # Cell [4,13] — KNOWLEDGE
-**Grid Position**: Row 4, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Modal.DialParam.base`
+**Module**: `HeytingLean.Logic.ModalDial`
+**Kind**: `def`
+**Centrality**: 0.000265
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Neuro-symbolic integration approaches
+## Topic
+**Declaration**: base
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → HeytingLean.LoF.Reentry α → HeytingLean.Logic.Modal.DialParam α`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.logic.modal.dialparam.base
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum tunneling in enzyme catalysis](cell_R3_C13.md)
-- ↗️ **NE**: [Entanglement-assisted classical communication](cell_R3_C14.md)
-- ➡️ **E**: [Intrinsic motivation and curiosity-driven explorat...](cell_R4_C14.md)
-- ↘️ **SE**: [Molecular communication and nanonetworks](cell_R5_C14.md)
-- ⬇️ **S**: [DNA data storage and retrieval systems](cell_R5_C13.md)
-- ↙️ **SW**: [Reservoir computing with physical substrates](cell_R5_C12.md)
-- ⬅️ **W**: [Compositional generalization in neural networks](cell_R4_C12.md)
-- ↖️ **NW**: [Quantum reservoir computing with spin chains](cell_R3_C12.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [DialParam [dependency]](cell_R1_C11.md)
+- ↘️ **SE**: [stageMvAdd_encode [dependency]](cell_R11_C14.md)
+- ↙️ **SW**: [logicalShadow_stageMvAdd_encode [dependency]](cell_R12_C0.md)

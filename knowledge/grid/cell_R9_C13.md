@@ -1,21 +1,21 @@
 # Cell [9,13] — KNOWLEDGE
-**Grid Position**: Row 9, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Spec.Plonk.Rel_iff_renamed_sigma_of_gateBounds`
+**Module**: `HeytingLean.Crypto.ZK.Spec.Plonk`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Quantum tunneling in enzyme catalysis
+## Topic
+**Declaration**: Rel_iff_renamed_sigma_of_gateBounds
+**Signature**: `∀ (sys : HeytingLean.Crypto.ZK.Plonk.System) (a : HeytingLean.Crypto.ZK.Var → Rat), HeytingLean.Crypto.ZK.System.satisfied a (HeytingLean.Crypto.ZK.Plonk.copyConstraintSystem sys.copyPermutation) → (∀ (g : HeytingLean.Crypto.ZK.Plonk.Gate), List.instMembership.mem sys.gates g → HeytingLean.Crypto.ZK.Plonk.gateBound g sys.copyPermutation.length) → Exists fun σ => Iff (HeytingLean.Crypto.ZK.Spec.Plonk.Rel sys a) (HeytingLean.Crypto.ZK.System.satisfied a (HeytingLean.Crypto.ZK.Rename.system σ sys.toR1CS))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Under copy-satisfaction and suitable gate-bounds, the native relation coincides with the renamed R1CS semantics for some permutation `σ`.
+
+## Keywords
+and, copy-satisfaction, gate-bounds, heytinglean.crypto.zk.spec.plonk.rel_iff_renamed_sigma_of_gatebounds, native, suitable, the, under
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [DNA data storage and retrieval systems](cell_R8_C13.md)
-- ↗️ **NE**: [Molecular communication and nanonetworks](cell_R8_C14.md)
-- ➡️ **E**: [Entanglement-assisted classical communication](cell_R9_C14.md)
-- ↘️ **SE**: [Intrinsic motivation and curiosity-driven explorat...](cell_R10_C14.md)
-- ⬇️ **S**: [Neuro-symbolic integration approaches](cell_R10_C13.md)
-- ↙️ **SW**: [Compositional generalization in neural networks](cell_R10_C12.md)
-- ⬅️ **W**: [Quantum reservoir computing with spin chains](cell_R9_C12.md)
-- ↖️ **NW**: [Reservoir computing with physical substrates](cell_R8_C12.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [System [dependency]](cell_R0_C13.md)
+- ↗️ **NE**: [system [dependency]](cell_R3_C14.md)
+- ↖️ **NW**: [Rel [dependency]](cell_R2_C10.md)

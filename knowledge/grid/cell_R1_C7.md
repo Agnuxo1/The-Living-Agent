@@ -1,22 +1,20 @@
-# Cell [1,7] — EXPERIMENT_NODE
-**Grid Position**: Row 1, Column 7
-**Type**: EXPERIMENT_NODE
+# Cell [1,7] — KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Plonk.copyPairs`
+**Module**: `HeytingLean.Crypto.ZK.PlonkIR`
+**Kind**: `def`
+**Centrality**: 0.000053
+**Dependency Depth**: 0
 
-## 🔬 Experiment Node
-**Hypothesis**: Merkle DAG structures for versioned knowledge
+## Topic
+**Declaration**: copyPairs
+**Signature**: `List Nat → List (Prod Nat Nat)`
 
-Design a mental experiment to test this hypothesis.
-Record your prediction, methodology, and expected outcome.
-The result will be stored in your episodic memory.
+Pairs `(i, perm[i])` extracted from a permutation list.
+
+## Keywords
+a, extracted, from, heytinglean.crypto.zk.plonk.copypairs, i, pairs, perm
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Epigenetic memory in cellular computing](cell_R0_C7.md)
-- ↗️ **NE**: [Topological qubits and fault-tolerant quantum comp...](cell_R0_C8.md)
-- ➡️ **E**: [Autopoietic systems and self-organization](cell_R1_C8.md)
-- ↘️ **SE**: [Bio-inspired optimization: ant colony and swarm in...](cell_R2_C8.md)
-- ⬇️ **S**: [Renormalization group and multi-scale physics](cell_R2_C7.md)
-- ↙️ **SW**: [Cellular automata and computational universality](cell_R2_C6.md)
-- ⬅️ **W**: [Knowledge graph embedding and link prediction](cell_R1_C6.md)
-- ↖️ **NW**: [Enzyme cascades as analog signal processors](cell_R0_C6.md)
+## Navigation (real dependency / similarity edges)
+- ⬇️ **S**: [copySatisfied_of_pairs [dependency]](cell_R7_C7.md)
+- ↘️ **SE**: [satisfiedNative_iff_r1cs_of_pairs [dependency]](cell_R7_C13.md)

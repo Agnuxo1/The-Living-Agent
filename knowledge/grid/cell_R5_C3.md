@@ -1,21 +1,22 @@
 # Cell [5,3] — KNOWLEDGE
-**Grid Position**: Row 5, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Stage.DialParam.mvAdd`
+**Module**: `HeytingLean.Logic.StageSemantics`
+**Kind**: `def`
+**Centrality**: 0.000137
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Scale-free networks and preferential attachment
+## Topic
+**Declaration**: mvAdd
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (P : HeytingLean.Logic.Modal.DialParam α) → P.dial.core.Omega → P.dial.core.Omega → P.dial.core.Omega`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+MV-style addition realised via the Heyting join.
+
+## Keywords
+addition, heyting, heytinglean.logic.stage.dialparam.mvadd, join., mv-style, realised, the, via
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Peer-to-peer scientific validation protocols](cell_R4_C3.md)
-- ↗️ **NE**: [Token-incentivized research contribution models](cell_R4_C4.md)
-- ➡️ **E**: [Dissipative structures and non-equilibrium thermod...](cell_R5_C4.md)
-- ↘️ **SE**: [Bacterial quorum sensing as distributed consensus](cell_R6_C4.md)
-- ⬇️ **S**: [Synthetic biology circuits for Boolean operations](cell_R6_C3.md)
-- ↙️ **SW**: [Neural organoid computing architectures](cell_R6_C2.md)
-- ⬅️ **W**: [Self-organized criticality in neural networks](cell_R5_C2.md)
-- ↖️ **NW**: [Decentralized AI governance frameworks](cell_R4_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [DialParam [dependency]](cell_R1_C11.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [eq_1 [dependency]](cell_R11_C4.md)
+- ↙️ **SW**: [logicalShadow_stageMvAdd_encode [dependency]](cell_R11_C0.md)

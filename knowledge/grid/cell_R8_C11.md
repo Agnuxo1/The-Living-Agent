@@ -1,21 +1,21 @@
 # Cell [8,11] — KNOWLEDGE
-**Grid Position**: Row 8, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.compileTraceToR1CSFromEmpty_matches`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Evolutionary strategies for neural architecture search
+## Topic
+**Declaration**: compileTraceToR1CSFromEmpty_matches
+**Signature**: `∀ {n : Nat} (ρ : HeytingLean.Crypto.BoolLens.Env n) {prog : HeytingLean.Crypto.Program n}, HeytingLean.Crypto.ZK.R1CSBool.Matches (HeytingLean.Crypto.ZK.R1CSBool.compileTraceToR1CSFromEmpty ρ prog).fst (HeytingLean.Crypto.BoolLens.exec ρ prog List.nil) (HeytingLean.Crypto.ZK.R1CSBool.compileTraceToR1CSFromEmpty ρ prog).snd`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.zk.r1csbool.compiletracetor1csfromempty_matches
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Embodied cognition and situated AI](cell_R7_C11.md)
-- ↗️ **NE**: [Compositional generalization in neural networks](cell_R7_C12.md)
-- ➡️ **E**: [Reservoir computing with physical substrates](cell_R8_C12.md)
-- ↘️ **SE**: [Quantum reservoir computing with spin chains](cell_R9_C12.md)
-- ⬇️ **S**: [Quantum error correction via surface codes](cell_R9_C11.md)
-- ↙️ **SW**: [Variational quantum eigensolvers for molecular sim...](cell_R9_C10.md)
-- ⬅️ **W**: [Neuromorphic hardware: memristors and beyond](cell_R8_C10.md)
-- ↖️ **NW**: [Meta-learning and learning-to-learn paradigms](cell_R7_C10.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [Matches [dependency]](cell_R2_C11.md)
+- ↗️ **NE**: [exec [dependency]](cell_R2_C12.md)
+- ↖️ **NW**: [compileTraceToR1CSFromEmpty [dependency]](cell_R3_C10.md)

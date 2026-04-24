@@ -1,21 +1,20 @@
 # Cell [13,5] — KNOWLEDGE
-**Grid Position**: Row 13, Column 5
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Stage.DialParam.expandAtOmega.eq_1`
+**Module**: `HeytingLean.Logic.StageSemantics`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Federated learning across heterogeneous agents
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (n : Nat) (a : R.Omega), Eq (HeytingLean.Logic.Stage.DialParam.expandAtOmega R n a) (HeytingLean.LoF.Reentry.Omega.mk R (Nucleus.instFunLike.coe R.nucleus (HeytingLean.Logic.Modal.DialParam.expandAt R n a.val)) ⋯)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States eq 1. Use when reasoning about nucleus property or rewriting goals that match this pattern.
+
+## Keywords
+1., about, eq, heytinglean.logic.stage.dialparam.expandatomega.eq_1, reasoning, states, use, when
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Slime mold optimization and network design](cell_R12_C5.md)
-- ↗️ **NE**: [Enzyme cascades as analog signal processors](cell_R12_C6.md)
-- ➡️ **E**: [Knowledge graph embedding and link prediction](cell_R13_C6.md)
-- ↘️ **SE**: [Cellular automata and computational universality](cell_R14_C6.md)
-- ⬇️ **S**: [Holographic principle and information bounds](cell_R14_C5.md)
-- ↙️ **SW**: [Dissipative structures and non-equilibrium thermod...](cell_R14_C4.md)
-- ⬅️ **W**: [Token-incentivized research contribution models](cell_R13_C4.md)
-- ↖️ **NW**: [Bacterial quorum sensing as distributed consensus](cell_R12_C4.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [expandAtOmega [dependency]](cell_R5_C10.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

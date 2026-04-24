@@ -1,18 +1,20 @@
 # Cell [3,15] — KNOWLEDGE
-**Grid Position**: Row 3, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Plonk.eqVarConstraint`
+**Module**: `HeytingLean.Crypto.ZK.PlonkIR`
+**Kind**: `def`
+**Centrality**: 0.000035
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Quantum machine learning kernel methods
+## Topic
+**Declaration**: eqVarConstraint
+**Signature**: `HeytingLean.Crypto.ZK.Var → HeytingLean.Crypto.ZK.Var → HeytingLean.Crypto.ZK.Constraint`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Equality constraint between variables `i` and `j`.
+
+## Keywords
+and, between, constraint, equality, heytinglean.crypto.zk.plonk.eqvarconstraint, i, j, variables
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic ecosystems for emergent intelligence](cell_R2_C15.md)
-- ⬇️ **S**: [Skill acquisition and procedural knowledge formati...](cell_R4_C15.md)
-- ↙️ **SW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R4_C14.md)
-- ⬅️ **W**: [Entanglement-assisted classical communication](cell_R3_C14.md)
-- ↖️ **NW**: [Molecular communication and nanonetworks](cell_R2_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [Var [dependency]](cell_R0_C1.md)
+- ↙️ **SW**: [eqVarConstraint_refl_satisfied [dependency]](cell_R7_C9.md)

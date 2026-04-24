@@ -1,21 +1,20 @@
 # Cell [12,6] — KNOWLEDGE
-**Grid Position**: Row 12, Column 6
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Generative.IntNucleusKit.ibirth_min`
+**Module**: `HeytingLean.Generative.IntNucleusKit`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Enzyme cascades as analog signal processors
+## Topic
+**Declaration**: ibirth_min
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.IntReentry α) (a : α) {m : Nat}, Eq (HeytingLean.Generative.IntNucleusKit.ibreathe R (instHAdd.hAdd m 1) a) (HeytingLean.Generative.IntNucleusKit.ibreathe R m a) → instLENat.le (HeytingLean.Generative.IntNucleusKit.ibirth R a) m`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.generative.intnucleuskit.ibirth_min
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Cellular automata and computational universality](cell_R11_C6.md)
-- ↗️ **NE**: [Renormalization group and multi-scale physics](cell_R11_C7.md)
-- ➡️ **E**: [Epigenetic memory in cellular computing](cell_R12_C7.md)
-- ↘️ **SE**: [Merkle DAG structures for versioned knowledge](cell_R13_C7.md)
-- ⬇️ **S**: [Knowledge graph embedding and link prediction](cell_R13_C6.md)
-- ↙️ **SW**: [Federated learning across heterogeneous agents](cell_R13_C5.md)
-- ⬅️ **W**: [Slime mold optimization and network design](cell_R12_C5.md)
-- ↖️ **NW**: [Holographic principle and information bounds](cell_R11_C5.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [IntReentry [dependency]](cell_R1_C13.md)
+- ↖️ **NW**: [ibreathe [dependency]](cell_R6_C3.md)

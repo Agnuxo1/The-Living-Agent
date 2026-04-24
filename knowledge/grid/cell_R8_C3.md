@@ -1,21 +1,20 @@
 # Cell [8,3] — KNOWLEDGE
-**Grid Position**: Row 8, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.applyAnd_invariant`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Scale-free networks and preferential attachment
+## Topic
+**Declaration**: applyAnd_invariant
+**Signature**: `∀ {builder : HeytingLean.Crypto.ZK.R1CSBool.Builder} {x y : Bool} {before : HeytingLean.Crypto.BoolLens.Stack} {vx vy : HeytingLean.Crypto.ZK.Var} {vars : List HeytingLean.Crypto.ZK.Var}, HeytingLean.Crypto.ZK.R1CSBool.Invariant builder (List.cons x (List.cons y before)) (List.cons vx (List.cons vy vars)) → HeytingLean.Crypto.ZK.R1CSBool.Invariant (HeytingLean.Crypto.ZK.R1CSBool.recordBoolean✝ ((builder.fresh (HeytingLean.Crypto.ZK.boolToRat (y.and x))).fst.addConstraint { A := HeytingLean.Crypto.ZK.LinComb.single vx 1, B := HeytingLean.Crypto.ZK.LinComb.single vy 1, C := HeytingLean.Crypto.ZK.LinComb.single (builder.fresh (HeytingLean.Crypto.ZK.boolToRat (y.and x))).snd 1 }) (builder.fresh (HeytingLean.Crypto.ZK.boolToRat (y.and x))).snd) (List.cons (y.and x) before) (List.cons (builder.fresh (HeytingLean.Crypto.ZK.boolToRat (y.and x))).snd vars)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.zk.r1csbool.applyand_invariant
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Peer-to-peer scientific validation protocols](cell_R7_C3.md)
-- ↗️ **NE**: [Token-incentivized research contribution models](cell_R7_C4.md)
-- ➡️ **E**: [Dissipative structures and non-equilibrium thermod...](cell_R8_C4.md)
-- ↘️ **SE**: [Bacterial quorum sensing as distributed consensus](cell_R9_C4.md)
-- ⬇️ **S**: [Synthetic biology circuits for Boolean operations](cell_R9_C3.md)
-- ↙️ **SW**: [Neural organoid computing architectures](cell_R9_C2.md)
-- ⬅️ **W**: [Self-organized criticality in neural networks](cell_R8_C2.md)
-- ↖️ **NW**: [Decentralized AI governance frameworks](cell_R7_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Builder [dependency]](cell_R0_C4.md)
+- ↖️ **NW**: [Var [dependency]](cell_R0_C1.md)

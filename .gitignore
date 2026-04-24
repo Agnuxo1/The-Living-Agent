@@ -1,5 +1,6 @@
 # Python
 venv/
+.venv/
 __pycache__/
 *.pyc
 *.pyo
@@ -15,3 +16,9 @@ dist/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Project runtime artifacts
+.git_status_*
+heyting_artifacts/
+knowledge/grid.bak.*/
+memories/rejected/
