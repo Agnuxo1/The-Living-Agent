@@ -2,4 +2,16 @@
 venv/
 __pycache__/
 *.pyc
+*.pyo
 .env
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tests & tools
+.pytest_cache/
+.coverage
+htmlcov/

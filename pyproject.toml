@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "living-agent"
+version = "1.0.0"
+description = "Autonomous Chess-Grid research agent driven by a local KoboldCPP LLM server."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Francisco Angulo de Lafuente", email = "lareliquia.angulo@gmail.com" },
+]
+keywords = ["agent", "llm", "research", "koboldcpp", "chess-grid", "p2pclaw"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "requests>=2.31,<3",
+    "colorama>=0.4.6,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "build>=1.2",
+    "twine>=5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Agnuxo1/The-Living-Agent"
+Repository = "https://github.com/Agnuxo1/The-Living-Agent"
+Issues = "https://github.com/Agnuxo1/The-Living-Agent/issues"
+
+[project.scripts]
+living-agent = "living_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
