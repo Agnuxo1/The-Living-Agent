@@ -1,21 +1,21 @@
 # Cell [6,1] — KNOWLEDGE
-**Grid Position**: Row 6, Column 1
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Stage.DialParam.effectCompatible`
+**Module**: `HeytingLean.Logic.StageSemantics`
+**Kind**: `def`
+**Centrality**: 0.000078
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Protein folding as a search algorithm
+## Topic
+**Declaration**: effectCompatible
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (P : HeytingLean.Logic.Modal.DialParam α) → P.dial.core.Omega → P.dial.core.Omega → Prop`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Effect-compatibility predicate (disjointness).
+
+## Keywords
+categorical_logic, category_theory, intuitionistic_logic, logic, proof_assistants
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Information theory and thermodynamics of computati...](cell_R5_C1.md)
-- ↗️ **NE**: [Self-organized criticality in neural networks](cell_R5_C2.md)
-- ➡️ **E**: [Neural organoid computing architectures](cell_R6_C2.md)
-- ↘️ **SE**: [Decentralized AI governance frameworks](cell_R7_C2.md)
-- ⬇️ **S**: [Semantic routing in knowledge graphs](cell_R7_C1.md)
-- ↙️ **SW**: [Proof-of-Discovery consensus mechanisms](cell_R7_C0.md)
-- ⬅️ **W**: [DNA-based logic gates and their computational limi...](cell_R6_C0.md)
-- ↖️ **NW**: [Emergence and complexity in physical systems](cell_R5_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [DialParam [dependency]](cell_R1_C11.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [stageEffectCompatible_encode [dependency]](cell_R11_C3.md)

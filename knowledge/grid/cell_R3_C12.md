@@ -1,21 +1,22 @@
 # Cell [3,12] — KNOWLEDGE
-**Grid Position**: Row 3, Column 12
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.Invariant`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `def`
+**Centrality**: 0.000044
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Quantum reservoir computing with spin chains
+## Topic
+**Declaration**: Invariant
+**Signature**: `HeytingLean.Crypto.ZK.R1CSBool.Builder → HeytingLean.Crypto.BoolLens.Stack → List HeytingLean.Crypto.ZK.Var → Prop`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Convenience invariant bundling matches, bounds, and stack length.
+
+## Keywords
+and, bounds, bundling, convenience, heytinglean.crypto.zk.r1csbool.invariant, invariant, matches, stack
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Reservoir computing with physical substrates](cell_R2_C12.md)
-- ↗️ **NE**: [DNA data storage and retrieval systems](cell_R2_C13.md)
-- ➡️ **E**: [Quantum tunneling in enzyme catalysis](cell_R3_C13.md)
-- ↘️ **SE**: [Neuro-symbolic integration approaches](cell_R4_C13.md)
-- ⬇️ **S**: [Compositional generalization in neural networks](cell_R4_C12.md)
-- ↙️ **SW**: [Embodied cognition and situated AI](cell_R4_C11.md)
-- ⬅️ **W**: [Quantum error correction via surface codes](cell_R3_C11.md)
-- ↖️ **NW**: [Evolutionary strategies for neural architecture se...](cell_R2_C11.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [Stack [dependency]](cell_R0_C12.md)
+- ↖️ **NW**: [Var [dependency]](cell_R0_C1.md)
+- ↘️ **SE**: [compile_invariant [dependency]](cell_R8_C14.md)
+- ↙️ **SW**: [applyAnd_invariant [dependency]](cell_R8_C3.md)

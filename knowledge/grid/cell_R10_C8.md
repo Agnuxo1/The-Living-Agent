@@ -1,21 +1,23 @@
 # Cell [10,8] — KNOWLEDGE
-**Grid Position**: Row 10, Column 8
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.identity`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `def`
+**Centrality**: 0.000041
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Autopoietic systems and self-organization
+## Topic
+**Declaration**: identity
+**Signature**: `(α : Type u) → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (R : HeytingLean.LoF.Reentry α) → HeytingLean.Contracts.RoundTrip R α`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+algebraic, assistants, category, function, geometry, identity, intuitionistic, logic, proof, theory, topos, type
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Topological qubits and fault-tolerant quantum comp...](cell_R9_C8.md)
-- ↗️ **NE**: [Quantum coherence in biological photosynthesis](cell_R9_C9.md)
-- ➡️ **E**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R10_C9.md)
-- ↘️ **SE**: [Morphogenetic computing: Turing patterns as progra...](cell_R11_C9.md)
-- ⬇️ **S**: [Bio-inspired optimization: ant colony and swarm in...](cell_R11_C8.md)
-- ↙️ **SW**: [Renormalization group and multi-scale physics](cell_R11_C7.md)
-- ⬅️ **W**: [Merkle DAG structures for versioned knowledge](cell_R10_C7.md)
-- ↖️ **NW**: [Epigenetic memory in cellular computing](cell_R9_C7.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [Reentry [dependency]](cell_R1_C8.md)
+- ↗️ **NE**: [RoundTrip [dependency]](cell_R4_C12.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [identity_shadow [dependency]](cell_R14_C10.md)
+- ↙️ **SW**: [identity_round_verified [dependency]](cell_R15_C5.md)

@@ -1,18 +1,20 @@
 # Cell [1,15] — KNOWLEDGE
-**Grid Position**: Row 1, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Graph.Alexandroff.Model`
+**Module**: `HeytingLean.Bridges.Graph.Alexandroff`
+**Kind**: `inductive`
+**Centrality**: 0.000405
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Skill acquisition and procedural knowledge formation
+## Topic
+**Declaration**: Model
+**Signature**: `structure Model where core : Graph.Model α; openSet : Set α; openUpper …`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Alexandroff refinement of the graph bridge with an explicit open set satisfying upward-closure and stage stability.
+
+## Keywords
+collapseClosed, expandClosed, occamClosed, openSet, openUpper
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum machine learning kernel methods](cell_R0_C15.md)
-- ⬇️ **S**: [Synthetic ecosystems for emergent intelligence](cell_R2_C15.md)
-- ↙️ **SW**: [Molecular communication and nanonetworks](cell_R2_C14.md)
-- ⬅️ **W**: [Intrinsic motivation and curiosity-driven explorat...](cell_R1_C14.md)
-- ↖️ **NW**: [Entanglement-assisted classical communication](cell_R0_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↙️ **SW**: [univ [dependency]](cell_R6_C7.md)

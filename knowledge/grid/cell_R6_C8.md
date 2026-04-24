@@ -1,21 +1,23 @@
 # Cell [6,8] — KNOWLEDGE
-**Grid Position**: Row 6, Column 8
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Dialectic.oscillationOmega`
+**Module**: `HeytingLean.Logic.Dialectic`
+**Kind**: `def`
+**Centrality**: 0.000040
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Topological qubits and fault-tolerant quantum computation
+## Topic
+**Declaration**: oscillationOmega
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (R : HeytingLean.LoF.Reentry α) → R.Omega`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Synthesis specialised to the primordial poles (process/counter-process).
+
+## Keywords
+heytinglean.logic.dialectic.oscillationomega, poles, primordial, process, specialised, synthesis, the, to
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Bio-inspired optimization: ant colony and swarm in...](cell_R5_C8.md)
-- ↗️ **NE**: [Morphogenetic computing: Turing patterns as progra...](cell_R5_C9.md)
-- ➡️ **E**: [Quantum coherence in biological photosynthesis](cell_R6_C9.md)
-- ↘️ **SE**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R7_C9.md)
-- ⬇️ **S**: [Autopoietic systems and self-organization](cell_R7_C8.md)
-- ↙️ **SW**: [Merkle DAG structures for versioned knowledge](cell_R7_C7.md)
-- ⬅️ **W**: [Epigenetic memory in cellular computing](cell_R6_C7.md)
-- ↖️ **NW**: [Renormalization group and multi-scale physics](cell_R5_C7.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [Reentry [dependency]](cell_R1_C8.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ⬇️ **S**: [eq_1 [dependency]](cell_R12_C8.md)
+- ↘️ **SE**: [oscillationOmega_coe [dependency]](cell_R12_C9.md)
+- ↙️ **SW**: [eulerBoundary_le_oscillation [dependency]](cell_R12_C7.md)

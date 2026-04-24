@@ -1,18 +1,20 @@
 # Cell [14,0] — KNOWLEDGE
-**Grid Position**: Row 14, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Visual.Clifford.Diagram.comp.inj`
+**Module**: `HeytingLean.Visual.OperatorDiagram`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Emergence and complexity in physical systems
+## Topic
+**Declaration**: inj
+**Signature**: `∀ {α : Type u} {inst : HeytingLean.LoF.PrimaryAlgebra α} {M : HeytingLean.Bridges.Clifford.Model α} {f g f_1 g_1 : HeytingLean.Visual.Clifford.Diagram M}, Eq (f.comp g) (f_1.comp g_1) → And (Eq f f_1) (Eq g g_1)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States inj. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+goal, heytinglean.visual.clifford.diagram.comp.inj, inj., matches, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Proof-of-Discovery consensus mechanisms](cell_R13_C0.md)
-- ↗️ **NE**: [Semantic routing in knowledge graphs](cell_R13_C1.md)
-- ➡️ **E**: [Information theory and thermodynamics of computati...](cell_R14_C1.md)
-- ↘️ **SE**: [Protein folding as a search algorithm](cell_R15_C1.md)
-- ⬇️ **S**: [DNA-based logic gates and their computational limi...](cell_R15_C0.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↗️ **NE**: [Model [dependency]](cell_R1_C9.md)

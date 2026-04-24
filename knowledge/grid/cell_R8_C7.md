@@ -1,21 +1,19 @@
 # Cell [8,7] — KNOWLEDGE
-**Grid Position**: Row 8, Column 7
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.boolConstraint.eq_1`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Renormalization group and multi-scale physics
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ (v : HeytingLean.Crypto.ZK.Var), Eq (HeytingLean.Crypto.ZK.R1CSBool.boolConstraint v) { A := HeytingLean.Crypto.ZK.LinComb.single v 1, B := { const := -1, terms := List.cons { fst := v, snd := 1 } List.nil }, C := HeytingLean.Crypto.ZK.LinComb.ofConst 0 }`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States eq 1. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+1., eq, goal, heytinglean.crypto.zk.r1csbool.boolconstraint.eq_1, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Merkle DAG structures for versioned knowledge](cell_R7_C7.md)
-- ↗️ **NE**: [Autopoietic systems and self-organization](cell_R7_C8.md)
-- ➡️ **E**: [Bio-inspired optimization: ant colony and swarm in...](cell_R8_C8.md)
-- ↘️ **SE**: [Topological qubits and fault-tolerant quantum comp...](cell_R9_C8.md)
-- ⬇️ **S**: [Epigenetic memory in cellular computing](cell_R9_C7.md)
-- ↙️ **SW**: [Enzyme cascades as analog signal processors](cell_R9_C6.md)
-- ⬅️ **W**: [Cellular automata and computational universality](cell_R8_C6.md)
-- ↖️ **NW**: [Knowledge graph embedding and link prediction](cell_R7_C6.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [boolConstraint [dependency]](cell_R3_C0.md)

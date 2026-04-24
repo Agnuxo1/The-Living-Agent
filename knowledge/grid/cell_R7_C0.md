@@ -1,18 +1,20 @@
 # Cell [7,0] — KNOWLEDGE
-**Grid Position**: Row 7, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Tensor.Intensity.Model.intensityPoint`
+**Module**: `HeytingLean.Bridges.Tensor.Intensity`
+**Kind**: `def`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Proof-of-Discovery consensus mechanisms
+## Topic
+**Declaration**: intensityPoint
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (M : HeytingLean.Bridges.Tensor.Intensity.Model) → HeytingLean.Bridges.Tensor.Point α M.core.dim`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Present the profile as a tensor point over the core model's dimension.
+
+## Keywords
+a, as, heytinglean.bridges.tensor.intensity.model.intensitypoint, point, present, profile, tensor, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [DNA-based logic gates and their computational limi...](cell_R6_C0.md)
-- ↗️ **NE**: [Protein folding as a search algorithm](cell_R6_C1.md)
-- ➡️ **E**: [Semantic routing in knowledge graphs](cell_R7_C1.md)
-- ↘️ **SE**: [Information theory and thermodynamics of computati...](cell_R8_C1.md)
-- ⬇️ **S**: [Emergence and complexity in physical systems](cell_R8_C0.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↗️ **NE**: [Point [dependency]](cell_R1_C3.md)

@@ -1,20 +1,20 @@
-# Cell [10,10] — SKILL_NODE
-**Grid Position**: Row 10, Column 10
-**Type**: SKILL_NODE
+# Cell [10,10] — KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.cliffordPack`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `def`
+**Centrality**: 0.000032
+**Dependency Depth**: 3
 
-## ⚡ Skill Node: `pattern_recognition`
-**Research Context**: Meta-learning and learning-to-learn paradigms
+## Topic
+**Declaration**: cliffordPack
+**Signature**: `(α : Type u) → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (R : HeytingLean.LoF.Reentry α) → optParam HeytingLean.Contracts.Examples.BridgeFlags HeytingLean.Contracts.Examples.BridgeFlags.default → HeytingLean.Contracts.Examples.BridgePack α R`
 
-[ACQUIRED: agent reads this node → adds 'pattern_recognition' to COMPETENCY_MAP]
+Select the Clifford bridge based on feature flags, returning the appropriate pack.
+
+## Keywords
+based, bridge, clifford, feature, heytinglean.contracts.examples.cliffordpack, on, select, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Variational quantum eigensolvers for molecular sim...](cell_R9_C10.md)
-- ↗️ **NE**: [Quantum error correction via surface codes](cell_R9_C11.md)
-- ➡️ **E**: [Embodied cognition and situated AI](cell_R10_C11.md)
-- ↘️ **SE**: [Evolutionary strategies for neural architecture se...](cell_R11_C11.md)
-- ⬇️ **S**: [Neuromorphic hardware: memristors and beyond](cell_R11_C10.md)
-- ↙️ **SW**: [Morphogenetic computing: Turing patterns as progra...](cell_R11_C9.md)
-- ⬅️ **W**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R10_C9.md)
-- ↖️ **NW**: [Quantum coherence in biological photosynthesis](cell_R9_C9.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [BridgePack [dependency]](cell_R5_C5.md)
+- ↙️ **SW**: [eq_1 [dependency]](cell_R14_C7.md)

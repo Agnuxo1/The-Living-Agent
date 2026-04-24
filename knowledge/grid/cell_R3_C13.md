@@ -1,21 +1,20 @@
 # Cell [3,13] — KNOWLEDGE
-**Grid Position**: Row 3, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.BridgeFlags.runtime`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `def`
+**Centrality**: 0.000043
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Quantum tunneling in enzyme catalysis
+## Topic
+**Declaration**: runtime
+**Signature**: `HeytingLean.Contracts.Examples.BridgeFlags`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Runtime bridge flags enabling every enriched carrier documented in `Docs/Semantics.md`.
+
+## Keywords
+bridge, carrier, enabling, enriched, every, flags, heytinglean.contracts.examples.bridgeflags.runtime, runtime
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [DNA data storage and retrieval systems](cell_R2_C13.md)
-- ↗️ **NE**: [Molecular communication and nanonetworks](cell_R2_C14.md)
-- ➡️ **E**: [Entanglement-assisted classical communication](cell_R3_C14.md)
-- ↘️ **SE**: [Intrinsic motivation and curiosity-driven explorat...](cell_R4_C14.md)
-- ⬇️ **S**: [Neuro-symbolic integration approaches](cell_R4_C13.md)
-- ↙️ **SW**: [Compositional generalization in neural networks](cell_R4_C12.md)
-- ⬅️ **W**: [Quantum reservoir computing with spin chains](cell_R3_C12.md)
-- ↖️ **NW**: [Reservoir computing with physical substrates](cell_R2_C12.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [BridgeFlags [dependency]](cell_R0_C6.md)
+- ↙️ **SW**: [eq_1 [dependency]](cell_R7_C1.md)

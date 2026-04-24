@@ -1,21 +1,20 @@
 # Cell [7,4] — KNOWLEDGE
-**Grid Position**: Row 7, Column 4
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.BoolLens.exec_cons`
+**Module**: `HeytingLean.Crypto.BoolLens`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Token-incentivized research contribution models
+## Topic
+**Declaration**: exec_cons
+**Signature**: `∀ {n : Nat} (ρ : HeytingLean.Crypto.BoolLens.Env n) (instr : HeytingLean.Crypto.Instr n) (prog : HeytingLean.Crypto.Program n) (stk : HeytingLean.Crypto.BoolLens.Stack), Eq (HeytingLean.Crypto.BoolLens.exec ρ (List.cons instr prog) stk) (HeytingLean.Crypto.BoolLens.exec ρ prog (HeytingLean.Crypto.BoolLens.step ρ instr stk))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.boollens.exec_cons
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Bacterial quorum sensing as distributed consensus](cell_R6_C4.md)
-- ↗️ **NE**: [Slime mold optimization and network design](cell_R6_C5.md)
-- ➡️ **E**: [Federated learning across heterogeneous agents](cell_R7_C5.md)
-- ↘️ **SE**: [Holographic principle and information bounds](cell_R8_C5.md)
-- ⬇️ **S**: [Dissipative structures and non-equilibrium thermod...](cell_R8_C4.md)
-- ↙️ **SW**: [Scale-free networks and preferential attachment](cell_R8_C3.md)
-- ⬅️ **W**: [Peer-to-peer scientific validation protocols](cell_R7_C3.md)
-- ↖️ **NW**: [Synthetic biology circuits for Boolean operations](cell_R6_C3.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Instr [dependency]](cell_R0_C7.md)
+- ↖️ **NW**: [Program [dependency]](cell_R1_C1.md)

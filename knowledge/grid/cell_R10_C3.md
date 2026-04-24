@@ -1,21 +1,21 @@
 # Cell [10,3] — KNOWLEDGE
-**Grid Position**: Row 10, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Tests.TraceConcurrency.BridgeState`
+**Module**: `HeytingLean.Tests.Compliance`
+**Kind**: `inductive`
+**Centrality**: 0.000137
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Peer-to-peer scientific validation protocols
+## Topic
+**Declaration**: BridgeState
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (R : HeytingLean.LoF.Reentry α) → HeytingLean.Contracts.Examples.BridgeSuite α R → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.tests.traceconcurrency.bridgestate
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic biology circuits for Boolean operations](cell_R9_C3.md)
-- ↗️ **NE**: [Bacterial quorum sensing as distributed consensus](cell_R9_C4.md)
-- ➡️ **E**: [Token-incentivized research contribution models](cell_R10_C4.md)
-- ↘️ **SE**: [Dissipative structures and non-equilibrium thermod...](cell_R11_C4.md)
-- ⬇️ **S**: [Scale-free networks and preferential attachment](cell_R11_C3.md)
-- ↙️ **SW**: [Self-organized criticality in neural networks](cell_R11_C2.md)
-- ⬅️ **W**: [Decentralized AI governance frameworks](cell_R10_C2.md)
-- ↖️ **NW**: [Neural organoid computing architectures](cell_R9_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [BridgeSuite [dependency]](cell_R4_C11.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [bridgeActWord [dependency]](cell_R14_C5.md)

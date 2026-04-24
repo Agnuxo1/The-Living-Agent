@@ -1,21 +1,19 @@
 # Cell [9,3] — KNOWLEDGE
-**Grid Position**: Row 9, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.linhead_imp.eq_1`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Synthetic biology circuits for Boolean operations
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ (vz _vx vy vmul : HeytingLean.Crypto.ZK.Var), Eq (HeytingLean.Crypto.ZK.R1CSBool.linhead_imp vz _vx vy vmul) { const := -1, terms := List.cons { fst := vz, snd := 1 } (List.cons { fst := vy, snd := 1 } (List.cons { fst := vmul, snd := -1 } List.nil)) }`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States eq 1. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+1., eq, goal, heytinglean.crypto.zk.r1csbool.linhead_imp.eq_1, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Scale-free networks and preferential attachment](cell_R8_C3.md)
-- ↗️ **NE**: [Dissipative structures and non-equilibrium thermod...](cell_R8_C4.md)
-- ➡️ **E**: [Bacterial quorum sensing as distributed consensus](cell_R9_C4.md)
-- ↘️ **SE**: [Token-incentivized research contribution models](cell_R10_C4.md)
-- ⬇️ **S**: [Peer-to-peer scientific validation protocols](cell_R10_C3.md)
-- ↙️ **SW**: [Decentralized AI governance frameworks](cell_R10_C2.md)
-- ⬅️ **W**: [Neural organoid computing architectures](cell_R9_C2.md)
-- ↖️ **NW**: [Self-organized criticality in neural networks](cell_R8_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [linhead_imp [dependency]](cell_R3_C1.md)

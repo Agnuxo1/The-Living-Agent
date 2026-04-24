@@ -1,21 +1,21 @@
 # Cell [6,7] — KNOWLEDGE
-**Grid Position**: Row 6, Column 7
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Graph.Alexandroff.Model.univ`
+**Module**: `HeytingLean.Bridges.Graph.Alexandroff`
+**Kind**: `def`
+**Centrality**: 0.000045
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Epigenetic memory in cellular computing
+## Topic
+**Declaration**: univ
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → HeytingLean.Bridges.Graph.Model α → HeytingLean.Bridges.Graph.Alexandroff.Model`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Defines/computes univ. Use to construct or compute the corresponding value in proofs or definitions.
+
+## Keywords
+computes, construct, defines, heytinglean.bridges.graph.alexandroff.model.univ, or, to, univ., use
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Renormalization group and multi-scale physics](cell_R5_C7.md)
-- ↗️ **NE**: [Bio-inspired optimization: ant colony and swarm in...](cell_R5_C8.md)
-- ➡️ **E**: [Topological qubits and fault-tolerant quantum comp...](cell_R6_C8.md)
-- ↘️ **SE**: [Autopoietic systems and self-organization](cell_R7_C8.md)
-- ⬇️ **S**: [Merkle DAG structures for versioned knowledge](cell_R7_C7.md)
-- ↙️ **SW**: [Knowledge graph embedding and link prediction](cell_R7_C6.md)
-- ⬅️ **W**: [Enzyme cascades as analog signal processors](cell_R6_C6.md)
-- ↖️ **NW**: [Cellular automata and computational universality](cell_R5_C6.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Model [dependency]](cell_R1_C10.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [graph_alexandroff_round_verified [dependency]](cell_R13_C10.md)

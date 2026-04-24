@@ -1,18 +1,19 @@
 # Cell [14,15] — KNOWLEDGE
-**Grid Position**: Row 14, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.stageOccam_encode`
+**Module**: `HeytingLean.Contracts.RoundTrip`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 4
 
-## 📚 Research Node
-**Topic**: Synthetic ecosystems for emergent intelligence
+## Topic
+**Declaration**: stageOccam_encode
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) {β : Type v} (C : HeytingLean.Contracts.RoundTrip R β) (a : R.Omega), Eq (HeytingLean.Contracts.stageOccam R C (C.encode a)) (C.encode (HeytingLean.LoF.Reentry.Omega.mk R (HeytingLean.Epistemic.occam R a.val) ⋯))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.contracts.stageoccam_encode
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Skill acquisition and procedural knowledge formati...](cell_R13_C15.md)
-- ⬇️ **S**: [Quantum machine learning kernel methods](cell_R15_C15.md)
-- ↙️ **SW**: [Entanglement-assisted classical communication](cell_R15_C14.md)
-- ⬅️ **W**: [Molecular communication and nanonetworks](cell_R14_C14.md)
-- ↖️ **NW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R13_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [occam [dependency]](cell_R5_C13.md)

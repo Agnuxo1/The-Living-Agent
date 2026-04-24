@@ -1,21 +1,22 @@
 # Cell [5,4] — KNOWLEDGE
-**Grid Position**: Row 5, Column 4
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.LoF.Reentry.Omega.mk`
+**Module**: `HeytingLean.LoF.Nucleus`
+**Kind**: `def`
+**Centrality**: 0.000135
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Dissipative structures and non-equilibrium thermodynamics
+## Topic
+**Declaration**: mk
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (R : HeytingLean.LoF.Reentry α) → (a : α) → Eq (Nucleus.instFunLike.coe R.nucleus a) a → R.Omega`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Build an element of the fixed-point sublocale from an ambient element and a fixpoint proof.
+
+## Keywords
+an, build, element, fixed-point, heytinglean.lof.reentry.omega.mk, of, sublocale, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Token-incentivized research contribution models](cell_R4_C4.md)
-- ↗️ **NE**: [Federated learning across heterogeneous agents](cell_R4_C5.md)
-- ➡️ **E**: [Holographic principle and information bounds](cell_R5_C5.md)
-- ↘️ **SE**: [Slime mold optimization and network design](cell_R6_C5.md)
-- ⬇️ **S**: [Bacterial quorum sensing as distributed consensus](cell_R6_C4.md)
-- ↙️ **SW**: [Synthetic biology circuits for Boolean operations](cell_R6_C3.md)
-- ⬅️ **W**: [Scale-free networks and preferential attachment](cell_R5_C3.md)
-- ↖️ **NW**: [Peer-to-peer scientific validation protocols](cell_R4_C3.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Reentry [dependency]](cell_R1_C8.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [stageOccam_encode [dependency]](cell_R11_C5.md)
+- ↙️ **SW**: [eq_1 [dependency]](cell_R13_C1.md)

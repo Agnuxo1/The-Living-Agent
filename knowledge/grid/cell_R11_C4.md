@@ -1,21 +1,20 @@
 # Cell [11,4] — KNOWLEDGE
-**Grid Position**: Row 11, Column 4
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Clifford.Model.stageMvAdd.eq_1`
+**Module**: `HeytingLean.Bridges.Clifford`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Dissipative structures and non-equilibrium thermodynamics
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (M : HeytingLean.Bridges.Clifford.Model α) (p q : M.Carrier), Eq (M.stageMvAdd p q) (M.encode (HeytingLean.Logic.Stage.DialParam.mvAdd (HeytingLean.Logic.Modal.DialParam.base M.R) (M.decode p) (M.decode q)))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States eq 1. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+1., eq, goal, heytinglean.bridges.clifford.model.stagemvadd.eq_1, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Token-incentivized research contribution models](cell_R10_C4.md)
-- ↗️ **NE**: [Federated learning across heterogeneous agents](cell_R10_C5.md)
-- ➡️ **E**: [Holographic principle and information bounds](cell_R11_C5.md)
-- ↘️ **SE**: [Slime mold optimization and network design](cell_R12_C5.md)
-- ⬇️ **S**: [Bacterial quorum sensing as distributed consensus](cell_R12_C4.md)
-- ↙️ **SW**: [Synthetic biology circuits for Boolean operations](cell_R12_C3.md)
-- ⬅️ **W**: [Scale-free networks and preferential attachment](cell_R11_C3.md)
-- ↖️ **NW**: [Peer-to-peer scientific validation protocols](cell_R10_C3.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Model [dependency]](cell_R1_C9.md)
+- ↖️ **NW**: [mvAdd [dependency]](cell_R5_C3.md)

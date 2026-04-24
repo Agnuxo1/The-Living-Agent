@@ -1,21 +1,21 @@
 # Cell [8,9] — KNOWLEDGE
-**Grid Position**: Row 8, Column 9
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.compileStep_strong`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Morphogenetic computing: Turing patterns as programs
+## Topic
+**Declaration**: compileStep_strong
+**Signature**: `∀ {n : Nat} (ρ : HeytingLean.Crypto.BoolLens.Env n) {instr : HeytingLean.Crypto.Instr n} {before after : HeytingLean.Crypto.BoolLens.Stack} {stackVars : List HeytingLean.Crypto.ZK.Var} {builder : HeytingLean.Crypto.ZK.R1CSBool.Builder}, HeytingLean.Crypto.ZK.R1CSBool.StrongInvariant builder before stackVars → Eq after (HeytingLean.Crypto.BoolLens.step ρ instr before) → HeytingLean.Crypto.ZK.R1CSBool.StrongInvariant (HeytingLean.Crypto.ZK.R1CSBool.compileStep✝ ρ instr before after stackVars builder).fst after (HeytingLean.Crypto.ZK.R1CSBool.compileStep✝¹ ρ instr before after stackVars builder).snd`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.zk.r1csbool.compilestep_strong
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R7_C9.md)
-- ↗️ **NE**: [Meta-learning and learning-to-learn paradigms](cell_R7_C10.md)
-- ➡️ **E**: [Neuromorphic hardware: memristors and beyond](cell_R8_C10.md)
-- ↘️ **SE**: [Variational quantum eigensolvers for molecular sim...](cell_R9_C10.md)
-- ⬇️ **S**: [Quantum coherence in biological photosynthesis](cell_R9_C9.md)
-- ↙️ **SW**: [Topological qubits and fault-tolerant quantum comp...](cell_R9_C8.md)
-- ⬅️ **W**: [Bio-inspired optimization: ant colony and swarm in...](cell_R8_C8.md)
-- ↖️ **NW**: [Autopoietic systems and self-organization](cell_R7_C8.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [Env [dependency]](cell_R0_C9.md)
+- ↗️ **NE**: [Stack [dependency]](cell_R0_C12.md)
+- ↖️ **NW**: [Var [dependency]](cell_R0_C1.md)

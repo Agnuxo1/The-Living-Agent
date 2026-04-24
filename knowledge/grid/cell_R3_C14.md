@@ -1,21 +1,20 @@
 # Cell [3,14] — KNOWLEDGE
-**Grid Position**: Row 3, Column 14
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Rename.system`
+**Module**: `HeytingLean.Crypto.ZK.Rename`
+**Kind**: `def`
+**Centrality**: 0.000036
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Entanglement-assisted classical communication
+## Topic
+**Declaration**: system
+**Signature**: `(HeytingLean.Crypto.ZK.Var → HeytingLean.Crypto.ZK.Var) → HeytingLean.Crypto.ZK.System → HeytingLean.Crypto.ZK.System`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Rename variables in every constraint of a system via `σ`.
+
+## Keywords
+constraints, map
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Molecular communication and nanonetworks](cell_R2_C14.md)
-- ↗️ **NE**: [Synthetic ecosystems for emergent intelligence](cell_R2_C15.md)
-- ➡️ **E**: [Quantum machine learning kernel methods](cell_R3_C15.md)
-- ↘️ **SE**: [Skill acquisition and procedural knowledge formati...](cell_R4_C15.md)
-- ⬇️ **S**: [Intrinsic motivation and curiosity-driven explorat...](cell_R4_C14.md)
-- ↙️ **SW**: [Neuro-symbolic integration approaches](cell_R4_C13.md)
-- ⬅️ **W**: [Quantum tunneling in enzyme catalysis](cell_R3_C13.md)
-- ↖️ **NW**: [DNA data storage and retrieval systems](cell_R2_C13.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [Var [dependency]](cell_R0_C1.md)
+- ↙️ **SW**: [native_iff_renamed_sigma_of_gateBounds [dependency]](cell_R7_C11.md)

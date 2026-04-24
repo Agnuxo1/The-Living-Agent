@@ -1,21 +1,19 @@
 # Cell [9,5] — KNOWLEDGE
-**Grid Position**: Row 9, Column 5
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.linhead_or.eq_1`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Slime mold optimization and network design
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ (vz vx vy vmul : HeytingLean.Crypto.ZK.Var), Eq (HeytingLean.Crypto.ZK.R1CSBool.linhead_or vz vx vy vmul) { const := 0, terms := List.cons { fst := vz, snd := 1 } (List.cons { fst := vmul, snd := 1 } (List.cons { fst := vx, snd := -1 } (List.cons { fst := vy, snd := -1 } List.nil))) }`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States eq 1. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+1., eq, goal, heytinglean.crypto.zk.r1csbool.linhead_or.eq_1, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Holographic principle and information bounds](cell_R8_C5.md)
-- ↗️ **NE**: [Cellular automata and computational universality](cell_R8_C6.md)
-- ➡️ **E**: [Enzyme cascades as analog signal processors](cell_R9_C6.md)
-- ↘️ **SE**: [Knowledge graph embedding and link prediction](cell_R10_C6.md)
-- ⬇️ **S**: [Federated learning across heterogeneous agents](cell_R10_C5.md)
-- ↙️ **SW**: [Token-incentivized research contribution models](cell_R10_C4.md)
-- ⬅️ **W**: [Bacterial quorum sensing as distributed consensus](cell_R9_C4.md)
-- ↖️ **NW**: [Dissipative structures and non-equilibrium thermod...](cell_R8_C4.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [linhead_or [dependency]](cell_R3_C2.md)

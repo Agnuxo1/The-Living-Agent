@@ -1,21 +1,20 @@
 # Cell [9,7] — KNOWLEDGE
-**Grid Position**: Row 9, Column 7
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.matches_fresh_preserve`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Epigenetic memory in cellular computing
+## Topic
+**Declaration**: matches_fresh_preserve
+**Signature**: `∀ {builder : HeytingLean.Crypto.ZK.R1CSBool.Builder} {stack : HeytingLean.Crypto.BoolLens.Stack} {vars : List HeytingLean.Crypto.ZK.Var} {value : Rat}, HeytingLean.Crypto.ZK.R1CSBool.Matches builder stack vars → HeytingLean.Crypto.ZK.R1CSBool.Bounded builder vars → HeytingLean.Crypto.ZK.R1CSBool.Matches (builder.fresh value).fst stack vars`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+cryptography, zero-knowledge proofs
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Renormalization group and multi-scale physics](cell_R8_C7.md)
-- ↗️ **NE**: [Bio-inspired optimization: ant colony and swarm in...](cell_R8_C8.md)
-- ➡️ **E**: [Topological qubits and fault-tolerant quantum comp...](cell_R9_C8.md)
-- ↘️ **SE**: [Autopoietic systems and self-organization](cell_R10_C8.md)
-- ⬇️ **S**: [Merkle DAG structures for versioned knowledge](cell_R10_C7.md)
-- ↙️ **SW**: [Knowledge graph embedding and link prediction](cell_R10_C6.md)
-- ⬅️ **W**: [Enzyme cascades as analog signal processors](cell_R9_C6.md)
-- ↖️ **NW**: [Cellular automata and computational universality](cell_R8_C6.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Bounded [dependency]](cell_R2_C15.md)
+- ↖️ **NW**: [Var [dependency]](cell_R0_C1.md)

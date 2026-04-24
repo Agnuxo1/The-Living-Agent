@@ -1,21 +1,20 @@
 # Cell [4,3] — KNOWLEDGE
-**Grid Position**: Row 4, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.projectorFlags`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `def`
+**Centrality**: 0.000028
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Peer-to-peer scientific validation protocols
+## Topic
+**Declaration**: projectorFlags
+**Signature**: `HeytingLean.Contracts.Examples.BridgeFlags`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Convenience flag enabling the projector carrier.
+
+## Keywords
+carrier., convenience, enabling, flag, heytinglean.contracts.examples.projectorflags, projector, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic biology circuits for Boolean operations](cell_R3_C3.md)
-- ↗️ **NE**: [Bacterial quorum sensing as distributed consensus](cell_R3_C4.md)
-- ➡️ **E**: [Token-incentivized research contribution models](cell_R4_C4.md)
-- ↘️ **SE**: [Dissipative structures and non-equilibrium thermod...](cell_R5_C4.md)
-- ⬇️ **S**: [Scale-free networks and preferential attachment](cell_R5_C3.md)
-- ↙️ **SW**: [Self-organized criticality in neural networks](cell_R5_C2.md)
-- ⬅️ **W**: [Decentralized AI governance frameworks](cell_R4_C2.md)
-- ↖️ **NW**: [Neural organoid computing architectures](cell_R3_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [BridgeFlags [dependency]](cell_R0_C6.md)
+- ⬇️ **S**: [clifford_pack_projector_round_verified [dependency]](cell_R15_C3.md)

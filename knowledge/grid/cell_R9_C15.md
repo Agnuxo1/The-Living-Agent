@@ -1,18 +1,19 @@
 # Cell [9,15] — KNOWLEDGE
-**Grid Position**: Row 9, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.System.satisfied_ext`
+**Module**: `HeytingLean.Crypto.ZK.Support`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Quantum machine learning kernel methods
+## Topic
+**Declaration**: satisfied_ext
+**Signature**: `∀ {sys : HeytingLean.Crypto.ZK.System} {a a' : HeytingLean.Crypto.ZK.Var → Rat} {dom : Finset HeytingLean.Crypto.ZK.Var}, Finset.instHasSubset.Subset sys.support dom → HeytingLean.Crypto.ZK.AgreesOn dom a a' → Iff (HeytingLean.Crypto.ZK.System.satisfied a sys) (HeytingLean.Crypto.ZK.System.satisfied a' sys)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States satisfied ext. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+ext., goal, heytinglean.crypto.zk.system.satisfied_ext, satisfied, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic ecosystems for emergent intelligence](cell_R8_C15.md)
-- ⬇️ **S**: [Skill acquisition and procedural knowledge formati...](cell_R10_C15.md)
-- ↙️ **SW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R10_C14.md)
-- ⬅️ **W**: [Entanglement-assisted classical communication](cell_R9_C14.md)
-- ↖️ **NW**: [Molecular communication and nanonetworks](cell_R8_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [AgreesOn [dependency]](cell_R2_C3.md)

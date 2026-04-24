@@ -1,19 +1,21 @@
 # Cell [0,9] — ENTRY
-**Grid Position**: Row 0, Column 9
-**Type**: ENTRY
+**FQN**: `HeytingLean.Crypto.BoolLens.Env`
+**Module**: `HeytingLean.Crypto.BoolLens`
+**Kind**: `def`
+**Centrality**: 0.000492
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 9.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Quantum coherence in biological photosynthesis
+## Topic
+**Declaration**: Env
+**Signature**: `Nat → Type`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+Boolean environments for formulas over `Fin n`.
+
+## Keywords
+boolean, environments, fin, for, formulas, heytinglean.crypto.boollens.env, n, over
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Variational quantum eigensolvers for molecular sim...](cell_R0_C10.md)
-- ↘️ **SE**: [Meta-learning and learning-to-learn paradigms](cell_R1_C10.md)
-- ⬇️ **S**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R1_C9.md)
-- ↙️ **SW**: [Autopoietic systems and self-organization](cell_R1_C8.md)
-- ⬅️ **W**: [Topological qubits and fault-tolerant quantum comp...](cell_R0_C8.md)
+## Navigation (real dependency / similarity edges)
+- ⬇️ **S**: [eval [dependency]](cell_R2_C9.md)
+- ↘️ **SE**: [exec [dependency]](cell_R2_C12.md)
+- ↙️ **SW**: [traceFrom [dependency]](cell_R2_C8.md)

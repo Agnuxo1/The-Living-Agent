@@ -1,18 +1,19 @@
 # Cell [1,0] — KNOWLEDGE
-**Grid Position**: Row 1, Column 0
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Tensor.Intensity.Profile`
+**Module**: `HeytingLean.Bridges.Tensor.Intensity`
+**Kind**: `inductive`
+**Centrality**: 0.000323
+**Dependency Depth**: 0
 
-## 📚 Research Node
-**Topic**: Proof-of-Discovery consensus mechanisms
+## Topic
+**Declaration**: Profile
+**Signature**: `Type u → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Raw intensity profile: coordinates living over a fixed dimension together with their bounds. The `normalised` field is an abstract predicate (no default) so that concrete instances can record ℓ¹/ℓ²-style constraints without forcing any particular numeric structure at this level.
+
+## Keywords
+a, coordinates, heytinglean.bridges.tensor.intensity.profile, intensity, living, over, profile, raw
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [DNA-based logic gates and their computational limi...](cell_R0_C0.md)
-- ↗️ **NE**: [Protein folding as a search algorithm](cell_R0_C1.md)
-- ➡️ **E**: [Semantic routing in knowledge graphs](cell_R1_C1.md)
-- ↘️ **SE**: [Information theory and thermodynamics of computati...](cell_R2_C1.md)
-- ⬇️ **S**: [Emergence and complexity in physical systems](cell_R2_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↘️ **SE**: [ofPoint [dependency]](cell_R3_C7.md)

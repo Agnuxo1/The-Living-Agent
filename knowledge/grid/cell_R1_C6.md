@@ -1,21 +1,20 @@
 # Cell [1,6] — KNOWLEDGE
-**Grid Position**: Row 1, Column 6
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.Compiled`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `inductive`
+**Centrality**: 0.000144
+**Dependency Depth**: 0
 
-## 📚 Research Node
-**Topic**: Knowledge graph embedding and link prediction
+## Topic
+**Declaration**: Compiled
+**Signature**: `Type`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Result of compiling a Boolean form to R1CS.
+
+## Keywords
+a, boolean, compiling, form, heytinglean.crypto.zk.r1csbool.compiled, of, result, to
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Enzyme cascades as analog signal processors](cell_R0_C6.md)
-- ↗️ **NE**: [Epigenetic memory in cellular computing](cell_R0_C7.md)
-- ➡️ **E**: [Merkle DAG structures for versioned knowledge](cell_R1_C7.md)
-- ↘️ **SE**: [Renormalization group and multi-scale physics](cell_R2_C7.md)
-- ⬇️ **S**: [Cellular automata and computational universality](cell_R2_C6.md)
-- ↙️ **SW**: [Holographic principle and information bounds](cell_R2_C5.md)
-- ⬅️ **W**: [Federated learning across heterogeneous agents](cell_R1_C5.md)
-- ↖️ **NW**: [Slime mold optimization and network design](cell_R0_C5.md)
+## Navigation (real dependency / similarity edges)
+- ↘️ **SE**: [assignment [dependency]](cell_R4_C9.md)
+- ↙️ **SW**: [compile [dependency]](cell_R3_C4.md)

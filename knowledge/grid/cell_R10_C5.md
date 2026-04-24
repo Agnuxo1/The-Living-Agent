@@ -1,21 +1,22 @@
 # Cell [10,5] — KNOWLEDGE
-**Grid Position**: Row 10, Column 5
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.stageOccam`
+**Module**: `HeytingLean.Contracts.RoundTrip`
+**Kind**: `def`
+**Centrality**: 0.000063
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Federated learning across heterogeneous agents
+## Topic
+**Declaration**: stageOccam
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (R : HeytingLean.LoF.Reentry α) → {β : Type v} → HeytingLean.Contracts.RoundTrip R β → β → β`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Recover the Occam reduction of a decoded element through a round trip.
+
+## Keywords
+a, decoded, heytinglean.contracts.stageoccam, occam, of, recover, reduction, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Slime mold optimization and network design](cell_R9_C5.md)
-- ↗️ **NE**: [Enzyme cascades as analog signal processors](cell_R9_C6.md)
-- ➡️ **E**: [Knowledge graph embedding and link prediction](cell_R10_C6.md)
-- ↘️ **SE**: [Cellular automata and computational universality](cell_R11_C6.md)
-- ⬇️ **S**: [Holographic principle and information bounds](cell_R11_C5.md)
-- ↙️ **SW**: [Dissipative structures and non-equilibrium thermod...](cell_R11_C4.md)
-- ⬅️ **W**: [Token-incentivized research contribution models](cell_R10_C4.md)
-- ↖️ **NW**: [Bacterial quorum sensing as distributed consensus](cell_R9_C4.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [RoundTrip [dependency]](cell_R4_C12.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [eq_1 [dependency]](cell_R15_C10.md)
+- ↙️ **SW**: [stageOccam_spec [dependency]](cell_R15_C0.md)

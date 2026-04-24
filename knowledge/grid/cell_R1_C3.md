@@ -1,21 +1,20 @@
 # Cell [1,3] — KNOWLEDGE
-**Grid Position**: Row 1, Column 3
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Tensor.Point`
+**Module**: `HeytingLean.Bridges.Tensor`
+**Kind**: `inductive`
+**Centrality**: 0.000270
+**Dependency Depth**: 0
 
-## 📚 Research Node
-**Topic**: Peer-to-peer scientific validation protocols
+## Topic
+**Declaration**: Point
+**Signature**: `Type u → Nat → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Finite tensor point with `n.succ` coordinates in `α`.
+
+## Keywords
+coordinates, finite, heytinglean.bridges.tensor.point, in, n.succ, point, tensor, with
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic biology circuits for Boolean operations](cell_R0_C3.md)
-- ↗️ **NE**: [Bacterial quorum sensing as distributed consensus](cell_R0_C4.md)
-- ➡️ **E**: [Token-incentivized research contribution models](cell_R1_C4.md)
-- ↘️ **SE**: [Dissipative structures and non-equilibrium thermod...](cell_R2_C4.md)
-- ⬇️ **S**: [Scale-free networks and preferential attachment](cell_R2_C3.md)
-- ↙️ **SW**: [Self-organized criticality in neural networks](cell_R2_C2.md)
-- ⬅️ **W**: [Decentralized AI governance frameworks](cell_R1_C2.md)
-- ↖️ **NW**: [Neural organoid computing architectures](cell_R0_C2.md)
+## Navigation (real dependency / similarity edges)
+- ↘️ **SE**: [ofPoint [dependency]](cell_R3_C7.md)
+- ↙️ **SW**: [intensityPoint [dependency]](cell_R7_C0.md)

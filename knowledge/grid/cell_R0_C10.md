@@ -1,19 +1,20 @@
 # Cell [0,10] — ENTRY
-**Grid Position**: Row 0, Column 10
-**Type**: ENTRY
+**FQN**: `HeytingLean.Bridges.Tensor.Intensity.Bounds`
+**Module**: `HeytingLean.Bridges.Tensor.Intensity`
+**Kind**: `inductive`
+**Centrality**: 0.000439
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 10.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Variational quantum eigensolvers for molecular simulation
+## Topic
+**Declaration**: Bounds
+**Signature**: `Type`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+Norm witnesses for intensity vectors. The bounds are stored for future proofs about collapse and expand operators respecting the intended ℓ¹/ℓ² controls.
+
+## Keywords
+bounds, for, heytinglean.bridges.tensor.intensity.bounds, intensity, norm, the, vectors., witnesses
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Quantum error correction via surface codes](cell_R0_C11.md)
-- ↘️ **SE**: [Embodied cognition and situated AI](cell_R1_C11.md)
-- ⬇️ **S**: [Meta-learning and learning-to-learn paradigms](cell_R1_C10.md)
-- ↙️ **SW**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R1_C9.md)
-- ⬅️ **W**: [Quantum coherence in biological photosynthesis](cell_R0_C9.md)
+## Navigation (real dependency / similarity edges)
+- ↘️ **SE**: [fromOmega [dependency]](cell_R6_C11.md)
+- ↙️ **SW**: [ofPoint [dependency]](cell_R3_C7.md)

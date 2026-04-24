@@ -1,21 +1,20 @@
 # Cell [4,1] — KNOWLEDGE
-**Grid Position**: Row 4, Column 1
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.alexandroffFlags`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `def`
+**Centrality**: 0.000028
+**Dependency Depth**: 1
 
-## 📚 Research Node
-**Topic**: Semantic routing in knowledge graphs
+## Topic
+**Declaration**: alexandroffFlags
+**Signature**: `HeytingLean.Contracts.Examples.BridgeFlags`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Toggle enabling only the Alexandroff graph carrier.
+
+## Keywords
+alexandroff, carrier., enabling, graph, heytinglean.contracts.examples.alexandroffflags, only, the, toggle
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Protein folding as a search algorithm](cell_R3_C1.md)
-- ↗️ **NE**: [Neural organoid computing architectures](cell_R3_C2.md)
-- ➡️ **E**: [Decentralized AI governance frameworks](cell_R4_C2.md)
-- ↘️ **SE**: [Self-organized criticality in neural networks](cell_R5_C2.md)
-- ⬇️ **S**: [Information theory and thermodynamics of computati...](cell_R5_C1.md)
-- ↙️ **SW**: [Emergence and complexity in physical systems](cell_R5_C0.md)
-- ⬅️ **W**: [Proof-of-Discovery consensus mechanisms](cell_R4_C0.md)
-- ↖️ **NW**: [DNA-based logic gates and their computational limi...](cell_R3_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [BridgeFlags [dependency]](cell_R0_C6.md)
+- ↘️ **SE**: [graph_pack_alexandroff_round_verified [dependency]](cell_R15_C4.md)

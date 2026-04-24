@@ -1,21 +1,20 @@
 # Cell [5,9] — KNOWLEDGE
-**Grid Position**: Row 5, Column 9
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Stage.DialParam.collapseAtOmega`
+**Module**: `HeytingLean.Logic.StageSemantics`
+**Kind**: `def`
+**Centrality**: 0.000115
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Morphogenetic computing: Turing patterns as programs
+## Topic
+**Declaration**: collapseAtOmega
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → (R : HeytingLean.LoF.Reentry α) → Nat → R.Omega → R.Omega`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Ladder-level collapse promoted to the Heyting core `Ω_R`.
+
+## Keywords
+collapse, core, heyting, heytinglean.logic.stage.dialparam.collapseatomega, ladder-level, promoted, the, to
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R4_C9.md)
-- ↗️ **NE**: [Meta-learning and learning-to-learn paradigms](cell_R4_C10.md)
-- ➡️ **E**: [Neuromorphic hardware: memristors and beyond](cell_R5_C10.md)
-- ↘️ **SE**: [Variational quantum eigensolvers for molecular sim...](cell_R6_C10.md)
-- ⬇️ **S**: [Quantum coherence in biological photosynthesis](cell_R6_C9.md)
-- ↙️ **SW**: [Topological qubits and fault-tolerant quantum comp...](cell_R6_C8.md)
-- ⬅️ **W**: [Bio-inspired optimization: ant colony and swarm in...](cell_R5_C8.md)
-- ↖️ **NW**: [Autopoietic systems and self-organization](cell_R4_C8.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↙️ **SW**: [effectCollapse_self [dependency]](cell_R13_C3.md)

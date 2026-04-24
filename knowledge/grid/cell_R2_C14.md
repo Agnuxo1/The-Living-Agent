@@ -1,22 +1,20 @@
-# Cell [2,14] — EXPERIMENT_NODE
-**Grid Position**: Row 2, Column 14
-**Type**: EXPERIMENT_NODE
+# Cell [2,14] — KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.SupportOK`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `def`
+**Centrality**: 0.000075
+**Dependency Depth**: 1
 
-## 🔬 Experiment Node
-**Hypothesis**: Molecular communication and nanonetworks
+## Topic
+**Declaration**: SupportOK
+**Signature**: `HeytingLean.Crypto.ZK.R1CSBool.Builder → Prop`
 
-Design a mental experiment to test this hypothesis.
-Record your prediction, methodology, and expected outcome.
-The result will be stored in your episodic memory.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.zk.r1csbool.supportok
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Intrinsic motivation and curiosity-driven explorat...](cell_R1_C14.md)
-- ↗️ **NE**: [Skill acquisition and procedural knowledge formati...](cell_R1_C15.md)
-- ➡️ **E**: [Synthetic ecosystems for emergent intelligence](cell_R2_C15.md)
-- ↘️ **SE**: [Quantum machine learning kernel methods](cell_R3_C15.md)
-- ⬇️ **S**: [Entanglement-assisted classical communication](cell_R3_C14.md)
-- ↙️ **SW**: [Quantum tunneling in enzyme catalysis](cell_R3_C13.md)
-- ⬅️ **W**: [DNA data storage and retrieval systems](cell_R2_C13.md)
-- ↖️ **NW**: [Neuro-symbolic integration approaches](cell_R1_C13.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [Builder [dependency]](cell_R0_C4.md)
+- ↙️ **SW**: [compileTraceToR1CSFromEmpty_supportOK [dependency]](cell_R8_C13.md)

@@ -1,21 +1,19 @@
 # Cell [9,14] — KNOWLEDGE
-**Grid Position**: Row 9, Column 14
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.System.satisfied_cons_cons`
+**Module**: `HeytingLean.Crypto.ZK.Support`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Entanglement-assisted classical communication
+## Topic
+**Declaration**: satisfied_cons_cons
+**Signature**: `∀ {a : HeytingLean.Crypto.ZK.Var → Rat} {c : HeytingLean.Crypto.ZK.Constraint} {sys : HeytingLean.Crypto.ZK.System}, Iff (HeytingLean.Crypto.ZK.System.satisfied a { constraints := List.cons c sys.constraints }) (And (HeytingLean.Crypto.ZK.Constraint.satisfied a c) (HeytingLean.Crypto.ZK.System.satisfied a sys))`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States satisfied cons cons. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+cons, cons., heytinglean.crypto.zk.system.satisfied_cons_cons, satisfied, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Molecular communication and nanonetworks](cell_R8_C14.md)
-- ↗️ **NE**: [Synthetic ecosystems for emergent intelligence](cell_R8_C15.md)
-- ➡️ **E**: [Quantum machine learning kernel methods](cell_R9_C15.md)
-- ↘️ **SE**: [Skill acquisition and procedural knowledge formati...](cell_R10_C15.md)
-- ⬇️ **S**: [Intrinsic motivation and curiosity-driven explorat...](cell_R10_C14.md)
-- ↙️ **SW**: [Neuro-symbolic integration approaches](cell_R10_C13.md)
-- ⬅️ **W**: [Quantum tunneling in enzyme catalysis](cell_R9_C13.md)
-- ↖️ **NW**: [DNA data storage and retrieval systems](cell_R8_C13.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [satisfied [dependency]](cell_R2_C4.md)

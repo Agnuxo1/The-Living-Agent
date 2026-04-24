@@ -1,21 +1,19 @@
 # Cell [7,6] — KNOWLEDGE
-**Grid Position**: Row 7, Column 6
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Constraint.satisfied_ext`
+**Module**: `HeytingLean.Crypto.ZK.Support`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Knowledge graph embedding and link prediction
+## Topic
+**Declaration**: satisfied_ext
+**Signature**: `∀ {c : HeytingLean.Crypto.ZK.Constraint} {a a' : HeytingLean.Crypto.ZK.Var → Rat}, HeytingLean.Crypto.ZK.AgreesOn c.A.support a a' → HeytingLean.Crypto.ZK.AgreesOn c.B.support a a' → HeytingLean.Crypto.ZK.AgreesOn c.C.support a a' → Iff (HeytingLean.Crypto.ZK.Constraint.satisfied a c) (HeytingLean.Crypto.ZK.Constraint.satisfied a' c)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States satisfied ext. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+ext., goal, heytinglean.crypto.zk.constraint.satisfied_ext, satisfied, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Enzyme cascades as analog signal processors](cell_R6_C6.md)
-- ↗️ **NE**: [Epigenetic memory in cellular computing](cell_R6_C7.md)
-- ➡️ **E**: [Merkle DAG structures for versioned knowledge](cell_R7_C7.md)
-- ↘️ **SE**: [Renormalization group and multi-scale physics](cell_R8_C7.md)
-- ⬇️ **S**: [Cellular automata and computational universality](cell_R8_C6.md)
-- ↙️ **SW**: [Holographic principle and information bounds](cell_R8_C5.md)
-- ⬅️ **W**: [Federated learning across heterogeneous agents](cell_R7_C5.md)
-- ↖️ **NW**: [Slime mold optimization and network design](cell_R6_C5.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [AgreesOn [dependency]](cell_R2_C3.md)

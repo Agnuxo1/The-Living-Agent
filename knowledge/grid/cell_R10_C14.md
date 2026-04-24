@@ -1,21 +1,19 @@
 # Cell [10,14] — KNOWLEDGE
-**Grid Position**: Row 10, Column 14
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Assembly.ASpace.intNucleus.eq_1`
+**Module**: `HeytingLean.Bridges.Assembly.AssemblyBirth`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Intrinsic motivation and curiosity-driven exploration
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {α : Type u} (G : HeytingLean.ATheory.ASpace α), Eq (HeytingLean.Bridges.Assembly.ASpace.intNucleus G) { act := HeytingLean.Bridges.Assembly.ASpace.opens G, monotone := ⋯, idempotent := ⋯, apply_le := ⋯, map_inf := ⋯ }`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.bridges.assembly.aspace.intnucleus.eq_1
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Entanglement-assisted classical communication](cell_R9_C14.md)
-- ↗️ **NE**: [Quantum machine learning kernel methods](cell_R9_C15.md)
-- ➡️ **E**: [Skill acquisition and procedural knowledge formati...](cell_R10_C15.md)
-- ↘️ **SE**: [Synthetic ecosystems for emergent intelligence](cell_R11_C15.md)
-- ⬇️ **S**: [Molecular communication and nanonetworks](cell_R11_C14.md)
-- ↙️ **SW**: [DNA data storage and retrieval systems](cell_R11_C13.md)
-- ⬅️ **W**: [Neuro-symbolic integration approaches](cell_R10_C13.md)
-- ↖️ **NW**: [Quantum tunneling in enzyme catalysis](cell_R9_C13.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [intNucleus [dependency]](cell_R6_C10.md)

@@ -1,20 +1,21 @@
-# Cell [4,4] — SKILL_NODE
-**Grid Position**: Row 4, Column 4
-**Type**: SKILL_NODE
+# Cell [4,4] — KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.System.satisfied_cons`
+**Module**: `HeytingLean.Crypto.ZK.Support`
+**Kind**: `def`
+**Centrality**: 0.000028
+**Dependency Depth**: 1
 
-## ⚡ Skill Node: `hypothesis_generator`
-**Research Context**: Token-incentivized research contribution models
+## Topic
+**Declaration**: satisfied_cons
+**Signature**: `(HeytingLean.Crypto.ZK.Var → Rat) → HeytingLean.Crypto.ZK.System → Prop`
 
-[ACQUIRED: agent reads this node → adds 'hypothesis_generator' to COMPETENCY_MAP]
+Canonical wrapper that keeps `System.satisfied` in a stable propositional form.
+
+## Keywords
+a, canonical, heytinglean.crypto.zk.system.satisfied_cons, in, keeps, system.satisfied, that, wrapper
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Bacterial quorum sensing as distributed consensus](cell_R3_C4.md)
-- ↗️ **NE**: [Slime mold optimization and network design](cell_R3_C5.md)
-- ➡️ **E**: [Federated learning across heterogeneous agents](cell_R4_C5.md)
-- ↘️ **SE**: [Holographic principle and information bounds](cell_R5_C5.md)
-- ⬇️ **S**: [Dissipative structures and non-equilibrium thermod...](cell_R5_C4.md)
-- ↙️ **SW**: [Scale-free networks and preferential attachment](cell_R5_C3.md)
-- ⬅️ **W**: [Peer-to-peer scientific validation protocols](cell_R4_C3.md)
-- ↖️ **NW**: [Synthetic biology circuits for Boolean operations](cell_R3_C3.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [System [dependency]](cell_R0_C11.md)
+- ↖️ **NW**: [Var [dependency]](cell_R0_C1.md)
+- ↙️ **SW**: [satisfied_iff_cons [dependency]](cell_R10_C0.md)

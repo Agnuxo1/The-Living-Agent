@@ -1,20 +1,21 @@
-# Cell [5,5] — SKILL_NODE
-**Grid Position**: Row 5, Column 5
-**Type**: SKILL_NODE
+# Cell [5,5] — KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.BridgePack`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `inductive`
+**Centrality**: 0.000131
+**Dependency Depth**: 2
 
-## ⚡ Skill Node: `cross_reference`
-**Research Context**: Holographic principle and information bounds
+## Topic
+**Declaration**: BridgePack
+**Signature**: `(α : Type u) → [inst : HeytingLean.LoF.PrimaryAlgebra α] → HeytingLean.LoF.Reentry α → Type (u + 1)`
 
-[ACQUIRED: agent reads this node → adds 'cross_reference' to COMPETENCY_MAP]
+Bridge execution pack: a carrier together with its round-trip contract.
+
+## Keywords
+a, bridge, carrier, execution, heytinglean.contracts.examples.bridgepack, pack, together, with
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Federated learning across heterogeneous agents](cell_R4_C5.md)
-- ↗️ **NE**: [Knowledge graph embedding and link prediction](cell_R4_C6.md)
-- ➡️ **E**: [Cellular automata and computational universality](cell_R5_C6.md)
-- ↘️ **SE**: [Enzyme cascades as analog signal processors](cell_R6_C6.md)
-- ⬇️ **S**: [Slime mold optimization and network design](cell_R6_C5.md)
-- ↙️ **SW**: [Bacterial quorum sensing as distributed consensus](cell_R6_C4.md)
-- ⬅️ **W**: [Dissipative structures and non-equilibrium thermod...](cell_R5_C4.md)
-- ↖️ **NW**: [Token-incentivized research contribution models](cell_R4_C4.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Reentry [dependency]](cell_R1_C8.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↘️ **SE**: [cliffordPack [dependency]](cell_R10_C10.md)

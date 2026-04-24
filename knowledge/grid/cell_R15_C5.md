@@ -1,19 +1,20 @@
 # Cell [15,5] — SYNTHESIS
-**Grid Position**: Row 15, Column 5
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.Tests.identity_round_verified`
+**Module**: `HeytingLean.Tests.Compliance`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 4
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Slime mold optimization and network design
+## Topic
+**Declaration**: identity_round_verified
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (a : R.Omega), Eq ((HeytingLean.Contracts.Examples.identity α R).decode ((HeytingLean.Contracts.Examples.identity α R).encode a)) a`
 
-After synthesis, compress your trace and re-enter at Row 0.
+Encoding and decoding through the identity contract returns every state unchanged.
+
+## Keywords
+and, contract, decoding, encoding, heytinglean.tests.identity_round_verified, identity, the, through
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Holographic principle and information bounds](cell_R14_C5.md)
-- ↗️ **NE**: [Cellular automata and computational universality](cell_R14_C6.md)
-- ➡️ **E**: [Enzyme cascades as analog signal processors](cell_R15_C6.md)
-- ⬅️ **W**: [Bacterial quorum sensing as distributed consensus](cell_R15_C4.md)
-- ↖️ **NW**: [Dissipative structures and non-equilibrium thermod...](cell_R14_C4.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [identity [dependency]](cell_R10_C8.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

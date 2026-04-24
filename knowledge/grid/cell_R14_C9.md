@@ -1,21 +1,19 @@
 # Cell [14,9] — KNOWLEDGE
-**Grid Position**: Row 14, Column 9
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.identity_round`
+**Module**: `HeytingLean.Contracts.Examples`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 4
 
-## 📚 Research Node
-**Topic**: Morphogenetic computing: Turing patterns as programs
+## Topic
+**Declaration**: identity_round
+**Signature**: `∀ (α : Type u) [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (a : R.Omega), Eq ((HeytingLean.Contracts.Examples.identity α R).decode ((HeytingLean.Contracts.Examples.identity α R).encode a)) a`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.contracts.examples.identity_round
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R13_C9.md)
-- ↗️ **NE**: [Meta-learning and learning-to-learn paradigms](cell_R13_C10.md)
-- ➡️ **E**: [Neuromorphic hardware: memristors and beyond](cell_R14_C10.md)
-- ↘️ **SE**: [Variational quantum eigensolvers for molecular sim...](cell_R15_C10.md)
-- ⬇️ **S**: [Quantum coherence in biological photosynthesis](cell_R15_C9.md)
-- ↙️ **SW**: [Topological qubits and fault-tolerant quantum comp...](cell_R15_C8.md)
-- ⬅️ **W**: [Bio-inspired optimization: ant colony and swarm in...](cell_R14_C8.md)
-- ↖️ **NW**: [Autopoietic systems and self-organization](cell_R13_C8.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [identity [dependency]](cell_R10_C8.md)

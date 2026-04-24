@@ -1,21 +1,20 @@
 # Cell [14,11] — KNOWLEDGE
-**Grid Position**: Row 14, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Contracts.Examples.tensorPack.eq_1`
+**Module**: `HeytingLean.Tests.Compliance`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 4
 
-## 📚 Research Node
-**Topic**: Evolutionary strategies for neural architecture search
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ (α : Type u) [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (flags : HeytingLean.Contracts.Examples.BridgeFlags), Eq (HeytingLean.Contracts.Examples.tensorPack α R flags) (if h : Eq flags.useTensorIntensity Bool.true then let model := HeytingLean.Contracts.Examples.tensorIntensityModel α R; have hR := ⋯; have hcontr := model.contract; { Carrier := model.Carrier, contract := ⋯.mp hcontr } else { Carrier := (HeytingLean.Contracts.Examples.tensor α R 0).Carrier, contract := (HeytingLean.Contracts.Examples.tensor α R 0).contract })`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States eq 1. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+1., eq, goal, heytinglean.contracts.examples.tensorpack.eq_1, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Embodied cognition and situated AI](cell_R13_C11.md)
-- ↗️ **NE**: [Compositional generalization in neural networks](cell_R13_C12.md)
-- ➡️ **E**: [Reservoir computing with physical substrates](cell_R14_C12.md)
-- ↘️ **SE**: [Quantum reservoir computing with spin chains](cell_R15_C12.md)
-- ⬇️ **S**: [Quantum error correction via surface codes](cell_R15_C11.md)
-- ↙️ **SW**: [Variational quantum eigensolvers for molecular sim...](cell_R15_C10.md)
-- ⬅️ **W**: [Neuromorphic hardware: memristors and beyond](cell_R14_C10.md)
-- ↖️ **NW**: [Meta-learning and learning-to-learn paradigms](cell_R13_C10.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [tensorPack [dependency]](cell_R10_C12.md)
+- ↖️ **NW**: [tensor [dependency]](cell_R5_C6.md)

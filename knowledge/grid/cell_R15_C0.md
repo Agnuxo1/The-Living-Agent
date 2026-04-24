@@ -1,17 +1,20 @@
 # Cell [15,0] — SYNTHESIS
-**Grid Position**: Row 15, Column 0
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.Contracts.stageOccam_spec`
+**Module**: `HeytingLean.Contracts.RoundTrip`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 4
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: DNA-based logic gates and their computational limits
+## Topic
+**Declaration**: stageOccam_spec
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) {β : Type v} (C : HeytingLean.Contracts.RoundTrip R β) (b : β), Eq (HeytingLean.Contracts.interiorized R C (HeytingLean.Contracts.stageOccam R C b)) (HeytingLean.Epistemic.occam R (C.decode b).val)`
 
-After synthesis, compress your trace and re-enter at Row 0.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.contracts.stageoccam_spec
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Emergence and complexity in physical systems](cell_R14_C0.md)
-- ↗️ **NE**: [Information theory and thermodynamics of computati...](cell_R14_C1.md)
-- ➡️ **E**: [Protein folding as a search algorithm](cell_R15_C1.md)
+## Navigation (real dependency / similarity edges)
+- ⬆️ **N**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)
+- ↗️ **NE**: [interiorized [dependency]](cell_R10_C6.md)

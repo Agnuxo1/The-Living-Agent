@@ -1,21 +1,19 @@
 # Cell [6,13] — KNOWLEDGE
-**Grid Position**: Row 6, Column 13
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Tensor.Intensity.Model.Carrier.mk.inj`
+**Module**: `HeytingLean.Bridges.Tensor.Intensity`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Quantum tunneling in enzyme catalysis
+## Topic
+**Declaration**: inj
+**Signature**: `∀ {α : Type u} {inst : HeytingLean.LoF.PrimaryAlgebra α} {M : HeytingLean.Bridges.Tensor.Intensity.Model} {profile : HeytingLean.Bridges.Tensor.Intensity.Profile α} {dim_ok : Eq profile.dim M.core.dim} {coords_fixed : ∀ (i : Fin profile.dim.succ), Eq (Nucleus.instFunLike.coe M.core.R.nucleus (profile.coords i)) (profile.coords i)} {profile_1 : HeytingLean.Bridges.Tensor.Intensity.Profile α} {dim_ok_1 : Eq profile_1.dim M.core.dim} {coords_fixed_1 : ∀ (i : Fin profile_1.dim.succ), Eq (Nucleus.instFunLike.coe M.core.R.nucleus (profile_1.coords i)) (profile_1.coords i)}, Eq { profile := profile, dim_ok := dim_ok, coords_fixed := coords_fixed } { profile := profile_1, dim_ok := dim_ok_1, coords_fixed := coords_fixed_1 } → Eq profile profile_1`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.bridges.tensor.intensity.model.carrier.mk.inj
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [DNA data storage and retrieval systems](cell_R5_C13.md)
-- ↗️ **NE**: [Molecular communication and nanonetworks](cell_R5_C14.md)
-- ➡️ **E**: [Entanglement-assisted classical communication](cell_R6_C14.md)
-- ↘️ **SE**: [Intrinsic motivation and curiosity-driven explorat...](cell_R7_C14.md)
-- ⬇️ **S**: [Neuro-symbolic integration approaches](cell_R7_C13.md)
-- ↙️ **SW**: [Compositional generalization in neural networks](cell_R7_C12.md)
-- ⬅️ **W**: [Quantum reservoir computing with spin chains](cell_R6_C12.md)
-- ↖️ **NW**: [Reservoir computing with physical substrates](cell_R5_C12.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

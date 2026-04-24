@@ -1,21 +1,19 @@
 # Cell [7,14] — KNOWLEDGE
-**Grid Position**: Row 7, Column 14
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.Builder.system_recordBoolean`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Intrinsic motivation and curiosity-driven exploration
+## Topic
+**Declaration**: system_recordBoolean
+**Signature**: `∀ (st : HeytingLean.Crypto.ZK.R1CSBool.Builder) (v : HeytingLean.Crypto.ZK.Var), Eq (HeytingLean.Crypto.ZK.R1CSBool.recordBoolean✝ st v).system (have __src := st.system; { constraints := List.cons (HeytingLean.Crypto.ZK.R1CSBool.boolConstraint v) st.system.constraints })`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.zk.r1csbool.builder.system_recordboolean
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Entanglement-assisted classical communication](cell_R6_C14.md)
-- ↗️ **NE**: [Quantum machine learning kernel methods](cell_R6_C15.md)
-- ➡️ **E**: [Skill acquisition and procedural knowledge formati...](cell_R7_C15.md)
-- ↘️ **SE**: [Synthetic ecosystems for emergent intelligence](cell_R8_C15.md)
-- ⬇️ **S**: [Molecular communication and nanonetworks](cell_R8_C14.md)
-- ↙️ **SW**: [DNA data storage and retrieval systems](cell_R8_C13.md)
-- ⬅️ **W**: [Neuro-symbolic integration approaches](cell_R7_C13.md)
-- ↖️ **NW**: [Quantum tunneling in enzyme catalysis](cell_R6_C13.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [Var [dependency]](cell_R0_C1.md)

@@ -1,21 +1,20 @@
 # Cell [13,11] — KNOWLEDGE
-**Grid Position**: Row 13, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Tests.graph_shadow_mv_add`
+**Module**: `HeytingLean.Tests.Compliance`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Embodied cognition and situated AI
+## Topic
+**Declaration**: graph_shadow_mv_add
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (a b : R.Omega), Eq ((HeytingLean.Contracts.Examples.graph α R).logicalShadow ((HeytingLean.Contracts.Examples.graph α R).stageMvAdd ((HeytingLean.Contracts.Examples.graph α R).contract.encode a) ((HeytingLean.Contracts.Examples.graph α R).contract.encode b))) (Nucleus.instFunLike.coe R.nucleus (HeytingLean.Logic.Stage.DialParam.mvAdd (HeytingLean.Logic.Modal.DialParam.base R) a b).val)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States graph shadow mv add. Use when reasoning about nucleus property or rewriting goals that match this pattern.
+
+## Keywords
+add., graph, heytinglean.tests.graph_shadow_mv_add, mv, shadow, states, use, when
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum error correction via surface codes](cell_R12_C11.md)
-- ↗️ **NE**: [Quantum reservoir computing with spin chains](cell_R12_C12.md)
-- ➡️ **E**: [Compositional generalization in neural networks](cell_R13_C12.md)
-- ↘️ **SE**: [Reservoir computing with physical substrates](cell_R14_C12.md)
-- ⬇️ **S**: [Evolutionary strategies for neural architecture se...](cell_R14_C11.md)
-- ↙️ **SW**: [Neuromorphic hardware: memristors and beyond](cell_R14_C10.md)
-- ⬅️ **W**: [Meta-learning and learning-to-learn paradigms](cell_R13_C10.md)
-- ↖️ **NW**: [Variational quantum eigensolvers for molecular sim...](cell_R12_C10.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [base [dependency]](cell_R4_C13.md)
+- ↖️ **NW**: [graph [dependency]](cell_R5_C2.md)

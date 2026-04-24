@@ -1,19 +1,20 @@
 # Cell [15,10] — SYNTHESIS
-**Grid Position**: Row 15, Column 10
-**Type**: SYNTHESIS
+**FQN**: `HeytingLean.Tests.TraceConcurrency.bridgeStep.eq_1`
+**Module**: `HeytingLean.Tests.Compliance`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 5
 
-## 📝 Synthesis Terminal
-You have reached the far edge of the Chess-Grid.
-**ACTION REQUIRED**: Synthesize all accumulated knowledge into a professional scientific paper.
-**Final Topic Integration**: Variational quantum eigensolvers for molecular simulation
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (suite : HeytingLean.Contracts.Examples.BridgeSuite α R) (x : HeytingLean.Tests.TraceConcurrency.BridgeState R suite), Eq (HeytingLean.Tests.TraceConcurrency.bridgeStep R suite HeytingLean.Tests.TraceConcurrency.BridgeOp.tensor x) { tensor := HeytingLean.Contracts.stageOccam R suite.tensor.contract x.tensor, graph := x.graph, clifford := x.clifford }`
 
-After synthesis, compress your trace and re-enter at Row 0.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.tests.traceconcurrency.bridgestep.eq_1
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Neuromorphic hardware: memristors and beyond](cell_R14_C10.md)
-- ↗️ **NE**: [Evolutionary strategies for neural architecture se...](cell_R14_C11.md)
-- ➡️ **E**: [Quantum error correction via surface codes](cell_R15_C11.md)
-- ⬅️ **W**: [Quantum coherence in biological photosynthesis](cell_R15_C9.md)
-- ↖️ **NW**: [Morphogenetic computing: Turing patterns as progra...](cell_R14_C9.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [BridgeSuite [dependency]](cell_R4_C11.md)
+- ↖️ **NW**: [stageOccam [dependency]](cell_R10_C5.md)

@@ -1,21 +1,20 @@
 # Cell [7,12] — KNOWLEDGE
-**Grid Position**: Row 7, Column 12
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Plonk.satisfiedNative_iff_r1cs_of_copySatisfied`
+**Module**: `HeytingLean.Crypto.ZK.PlonkIR`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Compositional generalization in neural networks
+## Topic
+**Declaration**: satisfiedNative_iff_r1cs_of_copySatisfied
+**Signature**: `∀ (sys : HeytingLean.Crypto.ZK.Plonk.System) (a : HeytingLean.Crypto.ZK.Var → Rat), HeytingLean.Crypto.ZK.System.satisfied a (HeytingLean.Crypto.ZK.Plonk.copyConstraintSystem sys.copyPermutation) → Iff (HeytingLean.Crypto.ZK.Plonk.System.satisfiedNative a sys) (HeytingLean.Crypto.ZK.System.satisfied a sys.toR1CS)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Under copy-satisfaction, native semantics reduces to the converted R1CS semantics.
+
+## Keywords
+Under copy-satisfaction, converted R1CS semantics, native semantics
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum reservoir computing with spin chains](cell_R6_C12.md)
-- ↗️ **NE**: [Quantum tunneling in enzyme catalysis](cell_R6_C13.md)
-- ➡️ **E**: [Neuro-symbolic integration approaches](cell_R7_C13.md)
-- ↘️ **SE**: [DNA data storage and retrieval systems](cell_R8_C13.md)
-- ⬇️ **S**: [Reservoir computing with physical substrates](cell_R8_C12.md)
-- ↙️ **SW**: [Evolutionary strategies for neural architecture se...](cell_R8_C11.md)
-- ⬅️ **W**: [Embodied cognition and situated AI](cell_R7_C11.md)
-- ↖️ **NW**: [Quantum error correction via surface codes](cell_R6_C11.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [System [dependency]](cell_R0_C13.md)
+- ↖️ **NW**: [satisfiedNative [dependency]](cell_R3_C9.md)

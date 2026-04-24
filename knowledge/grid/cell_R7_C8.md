@@ -1,21 +1,20 @@
 # Cell [7,8] — KNOWLEDGE
-**Grid Position**: Row 7, Column 8
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Plonk.eqVarConstraint.eq_1`
+**Module**: `HeytingLean.Crypto.ZK.PlonkIR`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Autopoietic systems and self-organization
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ (i j : HeytingLean.Crypto.ZK.Var), Eq (HeytingLean.Crypto.ZK.Plonk.eqVarConstraint i j) { A := HeytingLean.Crypto.ZK.LinComb.single i 1, B := HeytingLean.Crypto.ZK.LinComb.ofConst 1, C := HeytingLean.Crypto.ZK.LinComb.single j 1 }`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.zk.plonk.eqvarconstraint.eq_1
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Topological qubits and fault-tolerant quantum comp...](cell_R6_C8.md)
-- ↗️ **NE**: [Quantum coherence in biological photosynthesis](cell_R6_C9.md)
-- ➡️ **E**: [Cognitive architectures: SOAR vs ACT-R vs S²FSM](cell_R7_C9.md)
-- ↘️ **SE**: [Morphogenetic computing: Turing patterns as progra...](cell_R8_C9.md)
-- ⬇️ **S**: [Bio-inspired optimization: ant colony and swarm in...](cell_R8_C8.md)
-- ↙️ **SW**: [Renormalization group and multi-scale physics](cell_R8_C7.md)
-- ⬅️ **W**: [Merkle DAG structures for versioned knowledge](cell_R7_C7.md)
-- ↖️ **NW**: [Epigenetic memory in cellular computing](cell_R6_C7.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [eqVarConstraint [dependency]](cell_R3_C15.md)
+- ↖️ **NW**: [ofConst [dependency]](cell_R2_C5.md)

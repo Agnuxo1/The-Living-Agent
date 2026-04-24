@@ -1,18 +1,19 @@
 # Cell [6,15] — KNOWLEDGE
-**Grid Position**: Row 6, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Bridges.Tensor.Intensity.Model.Carrier.toPoint`
+**Module**: `HeytingLean.Bridges.Tensor.Intensity`
+**Kind**: `def`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Quantum machine learning kernel methods
+## Topic
+**Declaration**: toPoint
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → {M : HeytingLean.Bridges.Tensor.Intensity.Model} → M.Carrier → HeytingLean.Bridges.Tensor.Point α M.core.dim`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+View the carrier as a point in the core tensor model.
+
+## Keywords
+a, as, carrier, heytinglean.bridges.tensor.intensity.model.carrier.topoint, in, point, the, view
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic ecosystems for emergent intelligence](cell_R5_C15.md)
-- ⬇️ **S**: [Skill acquisition and procedural knowledge formati...](cell_R7_C15.md)
-- ↙️ **SW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R7_C14.md)
-- ⬅️ **W**: [Entanglement-assisted classical communication](cell_R6_C14.md)
-- ↖️ **NW**: [Molecular communication and nanonetworks](cell_R5_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [Point [dependency]](cell_R1_C3.md)

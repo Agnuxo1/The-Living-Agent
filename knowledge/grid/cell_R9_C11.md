@@ -1,21 +1,20 @@
 # Cell [9,11] — KNOWLEDGE
-**Grid Position**: Row 9, Column 11
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.Spec.Plonk.Rel_iff_r1cs_of_copySatisfied`
+**Module**: `HeytingLean.Crypto.ZK.Spec.Plonk`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Quantum error correction via surface codes
+## Topic
+**Declaration**: Rel_iff_r1cs_of_copySatisfied
+**Signature**: `∀ (sys : HeytingLean.Crypto.ZK.Plonk.System) (a : HeytingLean.Crypto.ZK.Var → Rat), HeytingLean.Crypto.ZK.System.satisfied a (HeytingLean.Crypto.ZK.Plonk.copyConstraintSystem sys.copyPermutation) → Iff (HeytingLean.Crypto.ZK.Spec.Plonk.Rel sys a) (HeytingLean.Crypto.ZK.System.satisfied a sys.toR1CS)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+If the copy-constraint system is satisfied, the native relation is equivalent to R1CS satisfaction of the converted system.
+
+## Keywords
+copy-constraint, heytinglean.crypto.zk.spec.plonk.rel_iff_r1cs_of_copysatisfied, if, is, satisfied, system, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Evolutionary strategies for neural architecture se...](cell_R8_C11.md)
-- ↗️ **NE**: [Reservoir computing with physical substrates](cell_R8_C12.md)
-- ➡️ **E**: [Quantum reservoir computing with spin chains](cell_R9_C12.md)
-- ↘️ **SE**: [Compositional generalization in neural networks](cell_R10_C12.md)
-- ⬇️ **S**: [Embodied cognition and situated AI](cell_R10_C11.md)
-- ↙️ **SW**: [Meta-learning and learning-to-learn paradigms](cell_R10_C10.md)
-- ⬅️ **W**: [Variational quantum eigensolvers for molecular sim...](cell_R9_C10.md)
-- ↖️ **NW**: [Neuromorphic hardware: memristors and beyond](cell_R8_C10.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [System [dependency]](cell_R0_C13.md)
+- ↖️ **NW**: [copyConstraintSystem [dependency]](cell_R3_C5.md)

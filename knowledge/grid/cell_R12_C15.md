@@ -1,19 +1,19 @@
-# Cell [12,15] — EXPERIMENT_NODE
-**Grid Position**: Row 12, Column 15
-**Type**: EXPERIMENT_NODE
+# Cell [12,15] — KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Modal.DialParam.expandAt.eq_1`
+**Module**: `HeytingLean.Logic.ModalDial`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 🔬 Experiment Node
-**Hypothesis**: Quantum machine learning kernel methods
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (n : Nat), Eq (HeytingLean.Logic.Modal.DialParam.expandAt R n) (HeytingLean.Logic.Modal.DialParam.ladder R n).expand`
 
-Design a mental experiment to test this hypothesis.
-Record your prediction, methodology, and expected outcome.
-The result will be stored in your episodic memory.
+States eq 1. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+1., eq, goal, heytinglean.logic.modal.dialparam.expandat.eq_1, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Synthetic ecosystems for emergent intelligence](cell_R11_C15.md)
-- ⬇️ **S**: [Skill acquisition and procedural knowledge formati...](cell_R13_C15.md)
-- ↙️ **SW**: [Intrinsic motivation and curiosity-driven explorat...](cell_R13_C14.md)
-- ⬅️ **W**: [Entanglement-assisted classical communication](cell_R12_C14.md)
-- ↖️ **NW**: [Molecular communication and nanonetworks](cell_R11_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [expandAt [dependency]](cell_R5_C12.md)

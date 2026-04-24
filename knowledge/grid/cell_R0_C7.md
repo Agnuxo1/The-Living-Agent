@@ -1,19 +1,20 @@
 # Cell [0,7] — ENTRY
-**Grid Position**: Row 0, Column 7
-**Type**: ENTRY
+**FQN**: `HeytingLean.Crypto.Instr`
+**Module**: `HeytingLean.Crypto.Prog`
+**Kind**: `inductive`
+**Centrality**: 0.000518
+**Dependency Depth**: 0
 
-## 🚀 Entry Point
-Welcome, Agent. You have entered the Chess-Grid at column 7.
-Your mission: traverse the board toward Row 15, accumulating knowledge at every cell.
-**Research Focus**: Epigenetic memory in cellular computing
+## Topic
+**Declaration**: Instr
+**Signature**: `Nat → Type`
 
-Begin by choosing a direction below. Prefer SOUTH (⬇️) or diagonal moves to advance toward the synthesis edge.
+Postfix instructions for the multi-lens VM.
+
+## Keywords
+applyAnd, applyImp, push
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ➡️ **E**: [Topological qubits and fault-tolerant quantum comp...](cell_R0_C8.md)
-- ↘️ **SE**: [Autopoietic systems and self-organization](cell_R1_C8.md)
-- ⬇️ **S**: [Merkle DAG structures for versioned knowledge](cell_R1_C7.md)
-- ↙️ **SW**: [Knowledge graph embedding and link prediction](cell_R1_C6.md)
-- ⬅️ **W**: [Enzyme cascades as analog signal processors](cell_R0_C6.md)
+## Navigation (real dependency / similarity edges)
+- ↘️ **SE**: [step [dependency]](cell_R2_C13.md)
+- ↙️ **SW**: [exec_cons [dependency]](cell_R7_C4.md)

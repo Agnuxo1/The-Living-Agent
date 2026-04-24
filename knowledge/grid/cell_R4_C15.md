@@ -1,18 +1,21 @@
 # Cell [4,15] — KNOWLEDGE
-**Grid Position**: Row 4, Column 15
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Visual.Clifford.Diagram`
+**Module**: `HeytingLean.Visual.OperatorDiagram`
+**Kind**: `inductive`
+**Centrality**: 0.000174
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Skill acquisition and procedural knowledge formation
+## Topic
+**Declaration**: Diagram
+**Signature**: `{α : Type u} → [inst : HeytingLean.LoF.PrimaryAlgebra α] → HeytingLean.Bridges.Clifford.Model α → Type u`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Unary operator diagrams built from Clifford bridge primitives.
+
+## Keywords
+bridge, built, clifford, diagrams, from, heytinglean.visual.clifford.diagram, operator, unary
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum machine learning kernel methods](cell_R3_C15.md)
-- ⬇️ **S**: [Synthetic ecosystems for emergent intelligence](cell_R5_C15.md)
-- ↙️ **SW**: [Molecular communication and nanonetworks](cell_R5_C14.md)
-- ⬅️ **W**: [Intrinsic motivation and curiosity-driven explorat...](cell_R4_C14.md)
-- ↖️ **NW**: [Entanglement-assisted classical communication](cell_R3_C14.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [Model [dependency]](cell_R1_C9.md)
+- ⬇️ **S**: [elim [dependency]](cell_R13_C15.md)
+- ↙️ **SW**: [inj [dependency]](cell_R14_C0.md)

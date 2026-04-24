@@ -1,21 +1,20 @@
 # Cell [13,1] — KNOWLEDGE
-**Grid Position**: Row 13, Column 1
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Logic.Stage.DialParam.collapseAtOmega.eq_1`
+**Module**: `HeytingLean.Logic.StageSemantics`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Semantic routing in knowledge graphs
+## Topic
+**Declaration**: eq_1
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (n : Nat) (a : R.Omega), Eq (HeytingLean.Logic.Stage.DialParam.collapseAtOmega R n a) (HeytingLean.LoF.Reentry.Omega.mk R (HeytingLean.Logic.Modal.DialParam.collapseAt R n a.val) ⋯)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+States eq 1. Use when your goal matches this shape or to rewrite subterms using this result.
+
+## Keywords
+1., eq, goal, heytinglean.logic.stage.dialparam.collapseatomega.eq_1, states, use, when, your
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Protein folding as a search algorithm](cell_R12_C1.md)
-- ↗️ **NE**: [Neural organoid computing architectures](cell_R12_C2.md)
-- ➡️ **E**: [Decentralized AI governance frameworks](cell_R13_C2.md)
-- ↘️ **SE**: [Self-organized criticality in neural networks](cell_R14_C2.md)
-- ⬇️ **S**: [Information theory and thermodynamics of computati...](cell_R14_C1.md)
-- ↙️ **SW**: [Emergence and complexity in physical systems](cell_R14_C0.md)
-- ⬅️ **W**: [Proof-of-Discovery consensus mechanisms](cell_R13_C0.md)
-- ↖️ **NW**: [DNA-based logic gates and their computational limi...](cell_R12_C0.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [collapseAtOmega [dependency]](cell_R5_C9.md)
+- ↖️ **NW**: [PrimaryAlgebra [dependency]](cell_R0_C0.md)

@@ -1,21 +1,19 @@
 # Cell [13,9] — KNOWLEDGE
-**Grid Position**: Row 13, Column 9
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Tests.graph_alexandroff_process_expand`
+**Module**: `HeytingLean.Tests.Compliance`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## 📚 Research Node
-**Topic**: Cognitive architectures: SOAR vs ACT-R vs S²FSM
+## Topic
+**Declaration**: graph_alexandroff_process_expand
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (n : Nat) (x : α), (HeytingLean.Bridges.Graph.Alexandroff.Model.processUpper (HeytingLean.Contracts.Examples.graph α R)).memOpen x → (HeytingLean.Bridges.Graph.Alexandroff.Model.processUpper (HeytingLean.Contracts.Examples.graph α R)).memOpen ((HeytingLean.Contracts.Examples.graph α R).stageExpandAt n x)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+Every expansion step of the Alexandroff process preserves membership in the open region.
+
+## Keywords
+alexandroff, every, expansion, heytinglean.tests.graph_alexandroff_process_expand, of, process, step, the
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum coherence in biological photosynthesis](cell_R12_C9.md)
-- ↗️ **NE**: [Variational quantum eigensolvers for molecular sim...](cell_R12_C10.md)
-- ➡️ **E**: [Meta-learning and learning-to-learn paradigms](cell_R13_C10.md)
-- ↘️ **SE**: [Neuromorphic hardware: memristors and beyond](cell_R14_C10.md)
-- ⬇️ **S**: [Morphogenetic computing: Turing patterns as progra...](cell_R14_C9.md)
-- ↙️ **SW**: [Bio-inspired optimization: ant colony and swarm in...](cell_R14_C8.md)
-- ⬅️ **W**: [Autopoietic systems and self-organization](cell_R13_C8.md)
-- ↖️ **NW**: [Topological qubits and fault-tolerant quantum comp...](cell_R12_C8.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [processUpper [dependency]](cell_R6_C5.md)

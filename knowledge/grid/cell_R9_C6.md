@@ -1,21 +1,20 @@
 # Cell [9,6] — KNOWLEDGE
-**Grid Position**: Row 9, Column 6
-**Type**: KNOWLEDGE
+**FQN**: `HeytingLean.Crypto.ZK.R1CSBool.matches_cons_head`
+**Module**: `HeytingLean.Crypto.ZK.R1CSBool`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 2
 
-## 📚 Research Node
-**Topic**: Enzyme cascades as analog signal processors
+## Topic
+**Declaration**: matches_cons_head
+**Signature**: `∀ {builder : HeytingLean.Crypto.ZK.R1CSBool.Builder} {b : Bool} {stack : HeytingLean.Crypto.BoolLens.Stack} {v : HeytingLean.Crypto.ZK.Var} {vars : List HeytingLean.Crypto.ZK.Var}, HeytingLean.Crypto.ZK.R1CSBool.Matches builder (List.cons b stack) (List.cons v vars) → Eq (HeytingLean.Crypto.ZK.boolToRat b) (builder.assign v)`
 
-Study this topic carefully. Extract key insights that connect to your SOUL's research goal.
-Consider how this knowledge intersects with biological computing and physics.
+No docstring available; inspect the Lean declaration directly.
+
+## Keywords
+heytinglean.crypto.zk.r1csbool.matches_cons_head
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Cellular automata and computational universality](cell_R8_C6.md)
-- ↗️ **NE**: [Renormalization group and multi-scale physics](cell_R8_C7.md)
-- ➡️ **E**: [Epigenetic memory in cellular computing](cell_R9_C7.md)
-- ↘️ **SE**: [Merkle DAG structures for versioned knowledge](cell_R10_C7.md)
-- ⬇️ **S**: [Knowledge graph embedding and link prediction](cell_R10_C6.md)
-- ↙️ **SW**: [Federated learning across heterogeneous agents](cell_R10_C5.md)
-- ⬅️ **W**: [Slime mold optimization and network design](cell_R9_C5.md)
-- ↖️ **NW**: [Holographic principle and information bounds](cell_R8_C5.md)
+## Navigation (real dependency / similarity edges)
+- ↗️ **NE**: [Stack [dependency]](cell_R0_C12.md)
+- ↖️ **NW**: [boolToRat [dependency]](cell_R1_C2.md)

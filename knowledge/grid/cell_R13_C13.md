@@ -1,20 +1,19 @@
-# Cell [13,13] — SKILL_NODE
-**Grid Position**: Row 13, Column 13
-**Type**: SKILL_NODE
+# Cell [13,13] — KNOWLEDGE
+**FQN**: `HeytingLean.Tests.ladder_orthomodular_disjoint`
+**Module**: `HeytingLean.Tests.Compliance`
+**Kind**: `theorem`
+**Centrality**: 0.000023
+**Dependency Depth**: 3
 
-## ⚡ Skill Node: `cross_reference`
-**Research Context**: Neuro-symbolic integration approaches
+## Topic
+**Declaration**: ladder_orthomodular_disjoint
+**Signature**: `∀ {α : Type u} [inst : HeytingLean.LoF.PrimaryAlgebra α] (R : HeytingLean.LoF.Reentry α) (a : (HeytingLean.Logic.Modal.DialParam.ladder R 4).dial.core.Omega), HeytingLean.Logic.Stage.DialParam.effectCompatible (HeytingLean.Logic.Modal.DialParam.ladder R 4) a (HeytingLean.Logic.Stage.DialParam.orthocomplement (HeytingLean.Logic.Modal.DialParam.ladder R 4) a)`
 
-[ACQUIRED: agent reads this node → adds 'cross_reference' to COMPETENCY_MAP]
+Orthomodular-stage exemplar: elements are disjoint from their orthocomplements.
+
+## Keywords
+are, disjoint, elements, exemplar, from, heytinglean.tests.ladder_orthomodular_disjoint, orthomodular-stage, their
 
 ---
-## 🧭 Navigation (Choose Your Direction)
-
-- ⬆️ **N**: [Quantum tunneling in enzyme catalysis](cell_R12_C13.md)
-- ↗️ **NE**: [Entanglement-assisted classical communication](cell_R12_C14.md)
-- ➡️ **E**: [Intrinsic motivation and curiosity-driven explorat...](cell_R13_C14.md)
-- ↘️ **SE**: [Molecular communication and nanonetworks](cell_R14_C14.md)
-- ⬇️ **S**: [DNA data storage and retrieval systems](cell_R14_C13.md)
-- ↙️ **SW**: [Reservoir computing with physical substrates](cell_R14_C12.md)
-- ⬅️ **W**: [Compositional generalization in neural networks](cell_R13_C12.md)
-- ↖️ **NW**: [Quantum reservoir computing with spin chains](cell_R12_C12.md)
+## Navigation (real dependency / similarity edges)
+- ↖️ **NW**: [effectCompatible [dependency]](cell_R6_C1.md)
