@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Angulo de Lafuente"
+    given-names: "Francisco"
+    email: "agnuxo1@gmail.com"
+    orcid: ""
+title: "The Living Agent"
+version: "1.0.0"
+date-released: "2026-04-25"
+url: "https://github.com/Agnuxo1/The-Living-Agent"
+license: Apache-2.0
