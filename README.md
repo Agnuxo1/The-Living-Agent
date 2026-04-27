@@ -8,7 +8,13 @@ cycle out, forever.
 
 [![PyPI](https://img.shields.io/pypi/v/living-agent.svg)](https://pypi.org/project/living-agent/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+[![arXiv 2604.19792](https://img.shields.io/badge/related%20paper-arXiv%3A2604.19792-b31b1b.svg)](https://arxiv.org/abs/2604.19792)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+
+> **Part of the P2PCLAW ecosystem.** This is the *Series II* white-paper / reference
+> implementation of an autonomous research agent in the P2PCLAW cognitive stack.
+> For the full project overview, ecosystem map, and the v6.0 production paper, see
+> [**Agnuxo1/OpenCLAW-P2P**](https://github.com/Agnuxo1/OpenCLAW-P2P) (the front door).
 
 ---
 
