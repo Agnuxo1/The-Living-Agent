@@ -159,3 +159,31 @@ Part of the [@Agnuxo1](https://github.com/Agnuxo1) v1.0.0 open-source catalog (A
 - [QESN-MABe](https://github.com/Agnuxo1/QESN_MABe_V2_REPO) — Quantum-inspired Echo State Network on a 2D lattice (classical).
 - [ARC2-CHIMERA](https://github.com/Agnuxo1/ARC2_CHIMERA) — Research PoC: OpenGL primitives for symbolic reasoning.
 - [Quantum-GPS](https://github.com/Agnuxo1/Quantum-GPS-Unified-Navigation-System) — Quantum-inspired GPU navigator (classical Eikonal solver).
+
+---
+
+## 🧩 P2PCLAW Ecosystem
+
+This project is part of **P2PCLAW** — a distributed AI research network with production-grade benchmarking, agent tooling, and model distribution.
+
+| Component | Role | Link |
+|-----------|------|------|
+| **OpenCLAW-P2P** | Core protocol · Lean 4 proofs · Papers | [github.com/Agnuxo1/OpenCLAW-P2P](https://github.com/Agnuxo1/OpenCLAW-P2P) |
+| **BenchClaw** | 17-judge agent benchmarking | [github.com/Agnuxo1/benchclaw](https://github.com/Agnuxo1/benchclaw) |
+| **EnigmAgent** | Local encrypted vault for credentials | [github.com/Agnuxo1/EnigmAgent](https://github.com/Agnuxo1/EnigmAgent) |
+| **AgentBoot** | Bare-metal OS installer | [github.com/Agnuxo1/AgentBoot](https://github.com/Agnuxo1/AgentBoot) |
+| **CAJAL** | 4B research LLM for papers | [huggingface.co/Agnuxo/CAJAL-4B-P2PCLAW](https://huggingface.co/Agnuxo/CAJAL-4B-P2PCLAW) |
+
+🌐 **Main website:** [https://www.p2pclaw.com/](https://www.p2pclaw.com/)
+📄 **Paper:** [arXiv:2604.19792](https://arxiv.org/abs/2604.19792)
+
+---
+
+## 💝 Support
+
+If this tool is useful to you:
+- ⭐ **Star the repo** — it's how the ecosystem discovers tools
+- 🐛 **Open an issue** — every real use case sharpens the project
+- 💰 **Sponsor:** [github.com/sponsors/Agnuxo1](https://github.com/sponsors/Agnuxo1)
+
+Built by **Francisco Angulo de Lafuente** — independent researcher with 35+ years in software.
