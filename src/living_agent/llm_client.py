@@ -15,6 +15,14 @@ class KoboldClient:
                  max_retries: int = 3,
                  retry_delay: float = 5.0,
                  timeout: float = 120.0):
+        if max_context <= 0:
+            raise ValueError("max_context must be positive")
+        if max_retries < 1:
+            raise ValueError("max_retries must be at least 1")
+        if retry_delay < 0:
+            raise ValueError("retry_delay must be non-negative")
+        if timeout <= 0:
+            raise ValueError("timeout must be positive")
         self.endpoint = endpoint
         self.max_context = max_context
         self.max_retries = max_retries
@@ -46,3 +54,4 @@ class KoboldClient:
                 if attempt < self.max_retries - 1:
                     time.sleep(self.retry_delay)
         raise RuntimeError(f"KoboldCPP request failed after {self.max_retries} attempts: {last_exc}")
+
