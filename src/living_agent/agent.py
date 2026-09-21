@@ -216,7 +216,8 @@ class LivingAgent:
 
         highest = max(state["highest_sns"], sns)
         new_soul = update_soul(
-            soul, cycle=cycle + 1, papers=cycle, highest_sns=highest,
+            soul, cycle=cycle + 1, papers=state["papers"] + 1,
+            highest_sns=highest,
             skills=skills, visited=visited,
         )
         self.save_soul(new_soul)
@@ -265,3 +266,4 @@ class LivingAgent:
             "paper_files": paper_count,
             "episodic_files": episodic_count,
         }
+
