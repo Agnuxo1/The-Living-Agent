@@ -109,6 +109,20 @@ def test_update_soul_roundtrip():
     assert "R0_C0" in st["visited"]
 
 
+@pytest.mark.parametrize(
+    "kwargs",
+    [
+        {"max_context": 0},
+        {"max_retries": 0},
+        {"retry_delay": -1},
+        {"timeout": 0},
+    ],
+)
+def test_client_rejects_invalid_configuration(kwargs):
+    with pytest.raises(ValueError):
+        KoboldClient(**kwargs)
+
+
 def test_calculate_sns_empty_prior_returns_one():
     assert calculate_sns("hello world", []) == 1.0
 
@@ -167,7 +181,9 @@ def test_run_cycle_updates_soul_atomically(fake_server, base_dir):
     # Soul was updated with cycle+1
     new_soul = (base_dir / "soul.md").read_text(encoding="utf-8")
     assert "Current Cycle: 4" in new_soul
+    assert "Total Papers Published: 3" in new_soul
     # Paper artifact written
     assert (base_dir / "memories" / "semantic" / "paper_3.md").exists()
     # Episodic artifact written
     assert (base_dir / "memories" / "episodic" / "cycle_3.md").exists()
+
