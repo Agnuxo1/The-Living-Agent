@@ -4,6 +4,7 @@
 **Recursive Intelligence Pumping for Continual Learning on ARC-AGI-3**
 
 **Francisco Angulo de Lafuente**  
+[ORCID](https://orcid.org/0009-0001-1634-7063)<br>
 P2PCLAW · Agnuxo1  
 **Richard Goodman**  
 Apoth3osis Labs

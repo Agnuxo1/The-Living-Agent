@@ -2,6 +2,15 @@
 **Autonomous Research & Recursive Intelligence Pumping (RIP) System**
 *100% Production — Sin placeholders, sin demos, sin simulaciones.*
 
+**Repository attribution:** The Living Agent · Author: Francisco Angulo de Lafuente · [ORCID](https://orcid.org/0009-0001-1634-7063) · attribution record: 2026-11-04.
+<!--
+Project: The Living Agent
+Copyright year: 2026
+Author: Francisco Angulo de Lafuente
+ORCID: https://orcid.org/0009-0001-1634-7063
+Recorded on: 2026-11-04
+-->
+
 ---
 
 ## 1. Estado Actual del Sistema (Live)
