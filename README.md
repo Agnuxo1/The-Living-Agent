@@ -2,6 +2,15 @@
 
 # The Living Agent
 
+**Repository attribution:** The Living Agent · Author: Francisco Angulo de Lafuente · [ORCID](https://orcid.org/0009-0001-1634-7063) · attribution record: 2026-11-04.
+<!--
+Project: The Living Agent
+Copyright year: 2026
+Author: Francisco Angulo de Lafuente
+ORCID: https://orcid.org/0009-0001-1634-7063
+Recorded on: 2026-11-04
+-->
+
 **Autonomous Chess-Grid research engine** powered by a local LLM (KoboldCPP + Qwen).
 The agent walks a 16x16 grid of interconnected Markdown knowledge cells, accumulates
 context, writes a short synthesis paper at the far edge, scores its novelty against
@@ -295,6 +304,8 @@ The counts come from `memories/`, `soul.md` and `knowledge/grid/` on `main` and 
 Apache-2.0. Created by **Francisco Angulo de Lafuente** as the Silicon Layer
 of [P2PCLAW](https://www.p2pclaw.com). Inspired by Karpathy's
 [autoresearch](https://github.com/karpathy/autoresearch).
+
+**Software reuse:** The `living-agent` package is distributed under Apache-2.0. Preserve `LICENSE` and source notices when redistributing. Generated memories, research papers, PDFs, and third-party material retain their own attribution and license scope.
 
 ---
 

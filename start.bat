@@ -1,4 +1,9 @@
 @echo off
+REM Project: The Living Agent
+REM Copyright (c) 2026 Francisco Angulo de Lafuente
+REM ORCID: https://orcid.org/0009-0001-1634-7063
+REM Attribution record: 2026-11-04
+REM SPDX-License-Identifier: Apache-2.0
 TITLE The Living Agent v1.0.0 - Chess-Grid Engine
 echo ==================================================
 echo       THE LIVING AGENT v1.0.0

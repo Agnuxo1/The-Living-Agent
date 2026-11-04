@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+# Project: The Living Agent
+# Copyright (c) 2026 Francisco Angulo de Lafuente
+# ORCID: https://orcid.org/0009-0001-1634-7063
+# Attribution record: 2026-11-04
+# SPDX-License-Identifier: Apache-2.0
+
 from __future__ import annotations
 
 import argparse
