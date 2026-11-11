@@ -31,6 +31,10 @@ cycle out, forever.
 
 **Contents** — [Prerequisites](#prerequisites) · [Install](#install) · [Quickstart (3 commands)](#quickstart-3-commands) · [How the Chess-Grid works](#how-the-chess-grid-works) · [Background](#background) · [Python API](#python-api) · [Honest limitations](#honest-limitations) · [Development](#development) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Future work](#future-work) · [Observations and limitations](#observations-and-limitations) · [License & credits](#license--credits) · [Related projects](#related-projects) · [🧩 P2PCLAW Ecosystem](#-p2pclaw-ecosystem) · [💝 Support](#-support) · [Bibliography](#bibliography)
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> Reusable Markdown knowledge cells and persistent memory provide an inspectable way to carry context between local research cycles instead of reconstructing it from scratch. The grid and saved state also make agent-design experiments easier to reproduce and teach. The benefit is workflow organization; lexical novelty scores do not verify discoveries, and generated output remains limited as described in <a href="#honest-limitations">the documented limitations</a>.</sub>
+<!-- impact-note:end -->
+
 ## Prerequisites
 
 <p align="center"><img src="docs/readme/02-stack.gif" alt="The package, its HTTP client, a local KoboldCPP server and GGUF weights connected left to right" width="100%"><br><sub>Fig. 1 — What talks to what, with the request defaults from the code. Schematic.</sub></p>
